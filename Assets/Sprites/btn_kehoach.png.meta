@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      btn_kehoach_0: -5541036911490373134
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5493dc2d47fc2aa4f9aaafb6fb6e784e, type: 3}
   m_Name: Mini_1
   m_EditorClassIdentifier: 
-  name: 
+  name: "Chu\u1EA9n b\u1ECB"
   boardWidth: 3
   boardHeight: 3
   cellSize: 2.33
@@ -402,3 +402,5 @@ MonoBehaviour:
     position: {x: 2, y: -4, z: 0}
     spriteVisual: {fileID: 7859155590173068871, guid: 3580ca3972967664e85ac002af9e142d, type: 3}
     colorVisual: {r: 1, g: 1, b: 1, a: 1}
+  backgroundSprite: {fileID: 0}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}

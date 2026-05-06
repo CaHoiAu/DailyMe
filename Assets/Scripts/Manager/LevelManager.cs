@@ -1,60 +1,34 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    public LevelData levelData;
-    //public MiniLevelManager miniLVManager;
+    public LevelData[] allLevels;
+    public LevelData levelData { get; private set; }
     public GridMiniGameManager gridMNGameManager;
     public DressUpGameManager dressUpMNGameManager;
     public ConstraintManager constraintManager;
-    //public DragObject[] allObjects;
 
     [Header("Level flow settings")]
     private bool isLevelComplete = false;
-
-    //[Header("Optional - Multi Level")]
-    //[SerializeField] private LevelData[] levels;
-    //[SerializeField] private int currentLevelIndex = 0;
     private int currentMiniLVLIndex = 0;
     private BaseMiniGameManager currentManager;
 
+    private int currentLevelIndex = 0;
+    public static LevelManager Instance { get; private set; }
+
+    void Awake()
+    {
+        if (Instance == null) Instance = this;
+        else
+            Destroy(gameObject);
+        currentLevelIndex = PlayerPrefs.GetInt("CurrentLevelIndex", 0);
+        currentLevelIndex = Mathf.Clamp(currentLevelIndex, 0, allLevels.Length - 1);
+    }
     void Start()
     {
+        levelData = allLevels[currentLevelIndex];
         LoadMiniLevel();
     }
-    //public void OnObjectPlaced()
-    //{
-    //    if(!isLevelComplete)
-    //        CheckLevelComplete();
-    //}
-    //public bool AreAllObjectsPlaced()
-    //{
-    //    foreach (var obj in allObjects)
-    //    {
-    //        if (obj.GetCurrentSlotId() == null)
-    //            return false;
-    //    }
-    //    return true;
-    //}
-    //public void CheckLevelComplete()
-    //{
-    //    if (AreAllObjectsPlaced())
-    //    {
-    //        if (constraintManager.CheckAllConstraints(allObjects))
-    //        {
-    //            isLevelComplete = true;
-    //            Debug.Log("Level Complete!");
-    //        }
-    //        else
-    //        {
-    //            Debug.Log("Level Incomplete: Constraints not satisfied.");
-    //        }
-    //    }
-    //    else
-    //    {
-    //        Debug.Log("Level Incomplete: Not all objects placed.");
-    //    }
-    //}
     void LoadMiniLevel()
     {
         MiniGameEntry miniLevel = levelData.miniGames[currentMiniLVLIndex];
@@ -78,23 +52,6 @@ public class LevelManager : MonoBehaviour
             currentManager.LoadMiniGame(miniLevel.miniGameData);
         }
     }
-    //void ResetLevel()
-    //{
-    //    Debug.Log("Resetting level...");
-    //    isLevelComplete = false;
-    //    //Clear toan bo slot
-    //    Slot[] allSlots = FindObjectsOfType<Slot>();
-    //    foreach (var slot in allSlots)
-    //    {
-    //        slot.ClearSlot();
-    //    }
-    //    //Reset toan bo object
-    //    foreach (var obj in allObjects)
-    //    {
-    //        obj.ReturnToStartPosition();
-    //    }
-    //    Debug.Log("Level reset complete.");
-    //}
     public void NextMiniGame()
     {
         currentMiniLVLIndex++;
@@ -102,11 +59,11 @@ public class LevelManager : MonoBehaviour
         if (currentMiniLVLIndex >= levelData.miniGames.Length)
         {
             Debug.Log("Level Complete!");
+            CompleteCurrentLevel();
             return;
         }
         LoadMiniLevel();
     }
-
     public void ResetCurrentMiniGame()
     {
         if (currentManager != null)
@@ -120,5 +77,63 @@ public class LevelManager : MonoBehaviour
             gridMNGameManager.gameObject.SetActive(false);
         if(dressUpMNGameManager != null)
             dressUpMNGameManager.gameObject.SetActive(false);
+    }
+    public DayState GetDayState(int day)
+    {
+        int dayIndex = GetLevelIndexForDay(day);
+        if (dayIndex == -1)
+            return DayState.Empty; // No level for this day
+        if (dayIndex < currentLevelIndex)
+            return DayState.Played;
+        if (dayIndex == currentLevelIndex)
+            return DayState.Current;
+        if (dayIndex > currentLevelIndex)
+            return DayState.NotPlayed;
+        return DayState.NotPlayed; // Default case (should not reach here)
+    }
+
+    private int GetLevelIndexForDay(int day)
+    {
+        for (int i = 0; i < allLevels.Length; i++)
+        {
+            if (allLevels[i].dayNumber == day)
+                return i;
+        }
+        return -1; // Not found
+    }
+    public string GetCurrentDayOfWeek()
+    {
+        return DayOfWeekToVietnamese(allLevels[currentLevelIndex].dayOfWeek);
+    }
+    private string DayOfWeekToVietnamese(System.DayOfWeek dayOfWeek)
+    {
+        switch (dayOfWeek)
+        {
+            case System.DayOfWeek.Monday: return "THỨ 2";
+            case System.DayOfWeek.Tuesday: return "THỨ 3";
+            case System.DayOfWeek.Wednesday: return "THỨ 4";
+            case System.DayOfWeek.Thursday: return "THỨ 5";
+            case System.DayOfWeek.Friday: return "THỨ 6";
+            case System.DayOfWeek.Saturday: return "THỨ 7";
+            case System.DayOfWeek.Sunday: return "CHỦ NHẬT";
+            default: return "";
+        }
+    }
+
+    //Khi nguoi choi hoan thanh toan bo level (ngay)
+    public void CompleteCurrentLevel()
+    {
+        if (currentLevelIndex < allLevels.Length - 1)
+        {
+            currentLevelIndex++;
+            PlayerPrefs.SetInt("CurrentLevelIndex", currentLevelIndex);
+            PlayerPrefs.Save();
+            levelData = allLevels[currentLevelIndex];
+            currentMiniLVLIndex = 0;
+        }
+        else
+        {
+            Debug.Log("All levels completed! No more levels to load.");
+        }
     }
 }

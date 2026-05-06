@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      btn_tinnhan_0: -7000371360199561471
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

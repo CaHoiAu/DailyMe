@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1289d43ced3fc6642ac4cd8894672651, type: 3}
   m_Name: Level_1
   m_EditorClassIdentifier: 
+  dayNumber: 1
+  dayOfWeek: 1
   miniGames:
   - miniLevelType: 0
     miniGameData: {fileID: 11400000, guid: fd7358daeba4fb44ea527712315e5c95, type: 2}

@@ -181,8 +181,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 55
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -318,6 +318,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   taskNameText: {fileID: 2603402271744215723}
   highlightFrame: {fileID: 5486717598792907496}
+  background: {fileID: 8370880852353008327}
+  normalColor: {r: 0.25882354, g: 0.039215688, b: 0.039215688, a: 1}
+  highlightColor: {r: 0.85490197, g: 0.25882354, b: 0.25882354, a: 1}
 --- !u!1 &8370880852353008327
 GameObject:
   m_ObjectHideFlags: 0

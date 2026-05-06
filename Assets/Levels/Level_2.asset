@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1289d43ced3fc6642ac4cd8894672651, type: 3}
+  m_Name: Level_2
+  m_EditorClassIdentifier: 
+  dayNumber: 2
+  dayOfWeek: 2
+  miniGames:
+  - miniLevelType: 0
+    miniGameData: {fileID: 11400000, guid: fd7358daeba4fb44ea527712315e5c95, type: 2}
+  - miniLevelType: 0
+    miniGameData: {fileID: 11400000, guid: 2ba5417d5840ad248ab7cd44d2f40f30, type: 2}
+  - miniLevelType: 1
+    miniGameData: {fileID: 11400000, guid: 38a185949aa1d1a40b83b00d6f96784a, type: 2}

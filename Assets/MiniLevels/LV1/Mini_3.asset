@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5493dc2d47fc2aa4f9aaafb6fb6e784e, type: 3}
   m_Name: Mini_3
   m_EditorClassIdentifier: 
-  name: 
+  name: "H\u1ECDc"
   boardWidth: 4
   boardHeight: 2
   cellSize: 1.6
@@ -267,3 +267,5 @@ MonoBehaviour:
   dropTargets: []
   useLandingZones: 0
   landingZones: []
+  backgroundSprite: {fileID: 0}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}

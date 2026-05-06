@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 635b6929749ba4d4b843aba02658afc2, type: 3}
   m_Name: Mini_2
   m_EditorClassIdentifier: 
-  miniLevelName: 
+  name: "Thay \u0111\u1ED3"
   miniLevelType: 1
   objects:
   - objectId: outfit1
@@ -28,5 +28,6 @@ MonoBehaviour:
     width: 0
     height: 0
   slots: []
+  constraints: []
   boardPrefab: {fileID: 5293771268688201708, guid: 465a9548e00cd5945aeec27c89aedac9, type: 3}
   boardPosition: {x: 0, y: 0, z: 0}
