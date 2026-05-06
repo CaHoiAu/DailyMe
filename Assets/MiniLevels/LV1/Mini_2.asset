@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 635b6929749ba4d4b843aba02658afc2, type: 3}
+  m_Name: Mini_2
+  m_EditorClassIdentifier: 
+  miniLevelName: 
+  miniLevelType: 1
+  objects:
+  - objectId: outfit1
+    objectType: 
+    prefab: {fileID: 2446670682795111257, guid: 72e0fdc5801f1a34f91264f71a9d0db4, type: 3}
+    startPosition: {x: -4, y: -1, z: 0}
+    width: 0
+    height: 0
+  - objectId: outfit2
+    objectType: 
+    prefab: {fileID: 5415881445493261230, guid: 417c2c5089aea8d419d541f785411628, type: 3}
+    startPosition: {x: 6, y: -1, z: 0}
+    width: 0
+    height: 0
+  slots: []
+  boardPrefab: {fileID: 5293771268688201708, guid: 465a9548e00cd5945aeec27c89aedac9, type: 3}
+  boardPosition: {x: 0, y: 0, z: 0}
