@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 265982504750309161}
   - component: {fileID: 4511018773968655661}
   - component: {fileID: 2998412934642886560}
+  - component: {fileID: 8390814582044051216}
   m_Layer: 5
   m_Name: Contact
   m_TagString: Untagged
@@ -121,6 +122,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!222 &8390814582044051216
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143692116231224727}
+  m_CullTransparentMesh: 1
 --- !u!1 &4313939690345578698
 GameObject:
   m_ObjectHideFlags: 0

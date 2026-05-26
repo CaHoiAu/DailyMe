@@ -8,6 +8,9 @@ public class GridObjectData
     public GridObjectState[] states;
     public Vector3 startWorldPosition;
     public int currentLayer = 0;
+    public Vector3 scale = Vector3.one;
+
+    public bool requiresPlacement = true; //whether this object needs to be placed on the grid
 
     [Header("Drop Effect")]
     public float dropDuration = 2f; //how long the drop effect lasts

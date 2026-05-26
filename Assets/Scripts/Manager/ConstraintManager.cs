@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ConstraintManager : MonoBehaviour
 {
+    private Dictionary<string, PlacementValue> currentAssignment = new Dictionary<string, PlacementValue>();
     public List<ICSPConstraint> constraints = new List<ICSPConstraint>();
     private void Awake()
     {
@@ -52,17 +53,17 @@ public class ConstraintManager : MonoBehaviour
         }
         return true;
     }
-    private Dictionary<string, PlacementValue> BuildAssignement(GridDragObject[] objects)
+    public Dictionary<string, PlacementValue> BuildAssignement(GridDragObject[] objects)
     {
         Dictionary<string, PlacementValue> assignment = new Dictionary<string, PlacementValue>();
         foreach (var obj in objects)
         {
-            if (obj == null || !obj.isPlaced) continue;
+            if (obj == null) continue;
 
             int layer = obj.GetComponent<ILayerProvider>()?.GetLayer() ?? 0;
             assignment[obj.objectId] = new PlacementValue(
-                obj.currentGridPosition.x,
-                obj.currentGridPosition.y,
+                obj.isPlaced ? obj.currentGridPosition.x : -1,
+                obj.isPlaced ? obj.currentGridPosition.y : -1,
                 obj.currentRotationIndex,
                 obj.currentStateIndex,
                 layer
@@ -72,7 +73,7 @@ public class ConstraintManager : MonoBehaviour
     }
     public List<string> GetViolatedConstraints()
     {
-        Dictionary<string, PlacementValue> assignment = new Dictionary<string, PlacementValue>();
+        var assignment = BuildAssignement(FindObjectsOfType<GridDragObject>());
         List<string> violated = new List<string>();
         foreach (var constraint in constraints)
         {
@@ -84,13 +85,13 @@ public class ConstraintManager : MonoBehaviour
         return violated;
     }
     
-    public void AddLayerOverlapConstraint(Dictionary<string, Vector2Int[]> objectShapes)
+    public void AddLayerOverlapConstraint(Dictionary<string, GridObjectState[]> objectShapes)
     {
         var layerConstraint = new CSPGridLayerOverlapConstraint(objectShapes);
         constraints.Add(layerConstraint);
     }
     
-    public void ReplaceNonoOverlapWithLayerOverlap(Dictionary<string, Vector2Int[]> objectShapes)
+    public void ReplaceNonoOverlapWithLayerOverlap(Dictionary<string, GridObjectState[]> objectShapes)
     {
         constraints.RemoveAll(c => c is CSPNonOverlapConstraint);
         AddLayerOverlapConstraint(objectShapes);

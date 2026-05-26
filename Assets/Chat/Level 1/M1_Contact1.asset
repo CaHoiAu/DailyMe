@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b39311fbfb4ea4698e105ca3d46e2d, type: 3}
+  m_Name: M1_Contact1
+  m_EditorClassIdentifier: 
+  messages:
+  - "Ring ring!!! B\u1EA1n \u0111\xE3 l\u1EA1c v\xE0o th\xE2n x\xE1c c\u1EE7a c\xF4
+    b\xE9 c\u1EA5p 3 n\xE0y - C\xE1 H\u1ED3i \xC2u. \u0110\u1EC3 \"tho\xE1t kh\u1ECFi\"
+    \u0111i\u1EC1u n\xE0y, b\u1EA1n c\u1EA7n ph\u1EA3i l\xE0m nh\u1EEFng nhi\u1EC7m
+    v\u1EE5 h\u1EB1ng ng\xE0y m\xE0 h\u1EC7 th\u1ED1ng - l\xE0 t\xF4i hihi \u0111\xE3
+    \u0111\u1EB7t ra."
+  - "Oke, v\u1EDBi nhi\u1EC7m v\u1EE5 \u0111\u1EA7u ti\xEAn l\xE0 \u0111\xE1nh th\u1EE9c
+    C\xE1 h\u1ED3i d\u1EADy, nay l\xE0 kh\u1EA3i gi\u1EA3ng cu\u1ED1i c\u1EA5p \u0111\xF3
+    tr\u1EDDi!!!"
+  - "H\xE3y th\u1EED click v\xE0o \u0111\u1ED3 v\u1EADt \u0111\u1EC3 \"bi\u1EBFn
+    h\xF3a\" \u0111\u1ED3 v\u1EADt nhen!"
+  - "Ngo\xE0i t\xF4i ra c\xF2n c\xF3 c\xE1c nh\xE2n v\u1EADt kh\xE1c \u0111\u1EC3
+    h\u01B0\u1EDBng d\u1EABn c\xE1ch b\u1EA1n x\u1EBFp nh\u1EEFng \u0111\u1ED3 v\u1EADt
+    v\xE0o v\u1ECB tr\xED h\u1EE3p l\xFD n\u1EEFa \u0111\xF3 nghen! Tho\xE1t m\xE9t-xen-g\u01A1
+    c\u1EE7a t\xF4i ra l\xE0 th\u1EA5y n\xE8!"
+  conditions:
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 0
+    excludeFromUnlock: []
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 0
+    excludeFromUnlock: []
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 0
+    excludeFromUnlock: []
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 0
+    excludeFromUnlock: []
+    isLevelBreak: 0
+    levelBreakNote: 
+  miniLevelData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}

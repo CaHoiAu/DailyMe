@@ -15,11 +15,16 @@ public class ChatManager : MonoBehaviour
 
     public string[] contactNames;
     public Sprite[] contactImages;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    private PhonePanelManager phonePanelManager; // ✅ Reference để lock/unlock tabs
+
     void Start()
     {
         ShowContactList();
+        // ✅ Tìm PhonePanelManager
+        phonePanelManager = FindObjectOfType<PhonePanelManager>();
     }
+
     public void ShowContactList()
     {
         contactListPanel.SetActive(true);
@@ -28,7 +33,12 @@ public class ChatManager : MonoBehaviour
             panel.SetActive(false);
         }
         headerDetail.SetActive(false);
+
+        // ✅ Mở khóa tabs khi quay lại danh sách
+        if (phonePanelManager != null)
+            phonePanelManager.UnlockAllTabs();
     }
+
     public void OpenContact(int index)
     {
         ChatSequence chatSequence = chatDetails[index].GetComponentInChildren<ChatSequence>(true);
@@ -44,7 +54,15 @@ public class ChatManager : MonoBehaviour
         headerImage.sprite = contactImages[index];
 
         chatButtonController.SetActiveChat(chatSequence);
+
+        // ✅ Khóa tất cả tabs khi mở chat
+        if (phonePanelManager != null)
+            phonePanelManager.LockAllTabs();
+
+        var highlight = FindObjectOfType<UIHighlights>();
+        highlight?.StopHighlight();
     }
+
     public void BackFromDetail()
     {
         ShowContactList();

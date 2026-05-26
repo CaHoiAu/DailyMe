@@ -12,114 +12,176 @@ public class LevelCSPVerifier : MonoBehaviour
     public GridBoardManager boardManager;
     public GridDragObject[] dragObjects;
 
+    //runtime sau mỗi lần player thẻ obj
+    public bool VerifyCurrentPlacement()
+    {
+        var assignment = new Dictionary<string, PlacementValue>();
+        var constraints = BuildGridConstraints(BuidGridVariables());
+
+        var failed = new List<string>();
+        foreach (var constraint in constraints)
+        {
+            if (!constraint.IsSatisfied(assignment))
+            {
+                failed.Add(constraint.GetType().Name);
+            }
+        }
+        if(failed.Count == 0)
+        {
+            Debug.Log("✅ Current placement satisfies all constraints!");
+        }
+        foreach (var f in failed)
+            Debug.LogError($"❌ Violated constraint: {f}");
+        return false;
+    }
+
+    public Dictionary<string, PlacementValue> BuildAssignmentFromGameplay()
+    {
+        var assignment = new Dictionary<string, PlacementValue>();
+        foreach (var obj in dragObjects)
+        {
+            if (obj == null || !obj.isPlaced) continue;
+            assignment[obj.objectId] = new PlacementValue(
+                obj.currentGridPosition.x,
+                obj.currentGridPosition.y,
+                obj.currentRotationIndex,
+                obj.currentStateIndex,
+                obj.GetLayer()
+            );
+        }
+        return assignment;
+    }
+
     [ContextMenu("Verify CSP Solution")]
     public void VerifyGridCSPSolution()
     {
-        Debug.Log("=== PRE-FLIGHT CHECKS ===");
-
-        // Check 1: Shape validity
-        foreach (var obj in dragObjects)
+        if (miniLevelData == null)
         {
-            GridObjectState state = obj.GetCurrentState();
-            if (state == null)
-            {
-                Debug.LogError($"❌ {obj.objectId}: No current state!");
-                continue;
-            }
-
-            // Check for negative coordinates
-            bool hasNegative = false;
-            foreach (var cell in state.cells)
-            {
-                if (cell.x < 0 || cell.y < 0)
-                {
-                    hasNegative = true;
-                    break;
-                }
-            }
-            Debug.Log($"{obj.objectId}: cells={state.cells.Length}, hasNegative={hasNegative}, allowRotate={state.allowRotate}");
-        }
-
-        // Check 2: Board dimensions
-        Debug.Log($"Board: {miniLevelData.boardWidth}x{miniLevelData.boardHeight} = {miniLevelData.boardWidth * miniLevelData.boardHeight} cells");
-
-        // Check 3: Total object cells
-        int totalCells = 0;
-        foreach (var obj in dragObjects)
-        {
-            GridObjectState state = obj.GetCurrentState();
-            if (state != null) totalCells += state.cells.Length;
-        }
-        Debug.Log($"Total object cells: {totalCells}");
-
-        // Check 4: Domain sizes
-        List<CSPVariables> vars = BuidGridVariables();
-        foreach (var v in vars)
-        {
-            Debug.Log($"{v.objectId}: domain size = {v.domain.Count}");
-            if (v.domain.Count == 0)
-            {
-                Debug.LogError($"❌ {v.objectId} HAS EMPTY DOMAIN!");
-            }
-        }
-
-        if (miniLevelData == null || boardManager == null)
-        {
-            Debug.LogError("Please assign miniLevelData and boardManager in the inspector.");
+            Debug.LogError("❌ Assign miniLevelData trước!");
             return;
         }
 
-        if (dragObjects == null || dragObjects.Length == 0)
+        // ✅ Luôn tạo mới từ miniLevelData — không cần assign thủ công
+        dragObjects = CreateGridDragObjectsFromData(miniLevelData);
+
+        if (dragObjects.Length == 0)
         {
-            dragObjects = CreateGridDragObjectsFromData(miniLevelData);
-            if (dragObjects.Length == 0)
+            Debug.LogError("❌ Không có objects trong miniLevelData!");
+            return;
+        }
+        try
+        {
+            Debug.Log("=== PRE-FLIGHT CHECKS ===");
+
+            // Check 1: Shape validity
+            foreach (var obj in dragObjects)
             {
-                Debug.LogError("No GridDragObject found in scene. Please assign them in the inspector.");
+                GridObjectState state = obj.GetCurrentState();
+                if (state == null)
+                {
+                    Debug.LogError($"❌ {obj.objectId}: No current state!");
+                    continue;
+                }
+
+                // Check for negative coordinates
+                bool hasNegative = false;
+                foreach (var cell in state.cells)
+                {
+                    if (cell.x < 0 || cell.y < 0)
+                    {
+                        hasNegative = true;
+                        break;
+                    }
+                }
+                Debug.Log($"{obj.objectId}: cells={state.cells.Length}, hasNegative={hasNegative}, allowRotate={state.allowRotate}");
+            }
+
+            // Check 2: Board dimensions
+            Debug.Log($"Board: {miniLevelData.boardWidth}x{miniLevelData.boardHeight} = {miniLevelData.boardWidth * miniLevelData.boardHeight} cells");
+
+            // Check 3: Total object cells
+            int totalCells = 0;
+            foreach (var obj in dragObjects)
+            {
+                GridObjectState state = obj.GetCurrentState();
+                if (state != null) totalCells += state.cells.Length;
+            }
+            Debug.Log($"Total object cells: {totalCells}");
+
+            // Check 4: Domain sizes
+            List<CSPVariables> vars = BuidGridVariables();
+            foreach (var v in vars)
+            {
+                Debug.Log($"{v.objectId}: domain size = {v.domain.Count}");
+                if (v.domain.Count == 0)
+                {
+                    Debug.LogError($"❌ {v.objectId} HAS EMPTY DOMAIN!");
+                }
+            }
+
+            if (miniLevelData == null || boardManager == null)
+            {
+                Debug.LogError("Please assign miniLevelData and boardManager in the inspector.");
                 return;
             }
-            Debug.Log($"Auto-created {dragObjects.Length} GridDragObject(s) from GridMiniLevelData.");
-        }
 
-        // ✅ QUAN TRỌNG: Sync với game objects để lấy đúng current state
-        SyncDragObjectsFromGameplay();
-
-        // Debug: Print variables
-        DebugPrintVariables();
-
-        List<CSPVariables> variables = BuidGridVariables();
-        List<ICSPConstraint> constraints = BuildGridConstraints(variables);
-
-        // Debug: Print constraints
-        DebugPrintConstraints(constraints);
-
-        CSPSolver solver = new CSPSolver(variables, constraints);
-        List<Dictionary<string, PlacementValue>> solutions = solver.SolveUpTo(2);
-
-        Debug.Log("==== Grid Level Validation ====");
-        Debug.Log($"Board Size: {miniLevelData.boardWidth}x{miniLevelData.boardHeight}");
-        Debug.Log($"Number of objects: {dragObjects.Length}");
-        Debug.Log($"Total domain size: {variables.Sum(v => v.domain.Count)}");
-        Debug.Log($"Number of constraints: {constraints.Count}");
-        Debug.Log($"Number of solutions found: {solutions.Count}");
-
-        if (solutions.Count == 0)
-        {
-            Debug.LogError("❌ Level impossible - No valid solution found");
-            DebugWhyNoSolution(variables, constraints);
-        }
-        else if (solutions.Count == 1)
-        {
-            Debug.Log("✅ Level valid: unique solution");
-            PrintGridSolution(solutions[0]);
-        }
-        else
-        {
-            Debug.Log("⚠️ Level has multiple solutions - Consider adding more constraints to make it unique");
-            for (int i = 0; i < solutions.Count; i++)
+            if (dragObjects == null || dragObjects.Length == 0)
             {
-                Debug.Log($"--- Solution {i + 1} ---");
-                PrintGridSolution(solutions[i]);
+                dragObjects = CreateGridDragObjectsFromData(miniLevelData);
+                if (dragObjects.Length == 0)
+                {
+                    Debug.LogError("No GridDragObject found in scene. Please assign them in the inspector.");
+                    return;
+                }
+                Debug.Log($"Auto-created {dragObjects.Length} GridDragObject(s) from GridMiniLevelData.");
             }
+
+            // ✅ QUAN TRỌNG: Sync với game objects để lấy đúng current state
+            SyncDragObjectsFromGameplay();
+
+            // Debug: Print variables
+            DebugPrintVariables();
+
+            List<CSPVariables> variables = BuidGridVariables();
+            List<ICSPConstraint> constraints = BuildGridConstraints(variables);
+
+            // Debug: Print constraints
+            DebugPrintConstraints(constraints);
+
+            CSPSolver solver = new CSPSolver(variables, constraints);
+            List<Dictionary<string, PlacementValue>> solutions = solver.SolveUpTo(4);
+
+            Debug.Log("==== Grid Level Validation ====");
+            Debug.Log($"Board Size: {miniLevelData.boardWidth}x{miniLevelData.boardHeight}");
+            Debug.Log($"Number of objects: {dragObjects.Length}");
+            Debug.Log($"Total domain size: {variables.Sum(v => v.domain.Count)}");
+            Debug.Log($"Number of constraints: {constraints.Count}");
+            Debug.Log($"Number of solutions found: {solutions.Count}");
+
+            if (solutions.Count == 0)
+            {
+                Debug.LogError("❌ Level impossible - No valid solution found");
+                DebugWhyNoSolution(variables, constraints);
+            }
+            else if (solutions.Count == 1)
+            {
+                Debug.Log("✅ Level valid: unique solution");
+                PrintGridSolution(solutions[0]);
+            }
+            else
+            {
+                Debug.Log("⚠️ Level has multiple solutions - Consider adding more constraints to make it unique");
+                for (int i = 0; i < solutions.Count; i++)
+                {
+                    Debug.Log($"--- Solution {i + 1} ---");
+                    PrintGridSolution(solutions[i]);
+                }
+            }
+        }
+        finally
+        {
+            // ✅ Cleanup temp objects sau khi verify xong
+            CleanupTempObjects();
         }
     }
 
@@ -349,60 +411,73 @@ public class LevelCSPVerifier : MonoBehaviour
         }
     }
 
+    // Thay thế hoàn toàn CreateGridDragObjectsFromData
     private GridDragObject[] CreateGridDragObjectsFromData(GridMiniLevelData data)
     {
-        if (data.objects == null || data.objects.Length == 0)
+        if (data == null || data.objects == null || data.objects.Length == 0)
         {
-            Debug.LogWarning("GridMiniLevelData has no objects defined.");
+            Debug.LogError("❌ miniLevelData không có objects!");
             return new GridDragObject[0];
         }
 
-        List<GridDragObject> objects = new List<GridDragObject>();
+        var result = new List<GridDragObject>();
 
         foreach (var objData in data.objects)
         {
-            if (objData.prefab == null)
-            {
-                Debug.LogWarning($"GridObjectData '{objData.objectId}' has no prefab assigned.");
-                continue;
-            }
+            if (objData == null) continue;
 
-            GameObject objInstance = Instantiate(objData.prefab);
-            GridDragObject dragObj = objInstance.GetComponent<GridDragObject>();
+            // ✅ Tạo GameObject tạm, không spawn vào scene thật
+            GameObject tempObj = new GameObject($"[CSP_Temp] {objData.objectId}");
+            tempObj.hideFlags = HideFlags.HideAndDontSave; // ẩn khỏi hierarchy
 
-            if (dragObj == null)
-            {
-                Debug.LogWarning($"Prefab '{objData.prefab.name}' does not have GridDragObject component.");
-                Destroy(objInstance);
-                continue;
-            }
+            // Thêm SpriteRenderer và Collider2D vì GridDragObject RequireComponent
+            tempObj.AddComponent<SpriteRenderer>();
+            tempObj.AddComponent<BoxCollider2D>();
 
-            dragObj.objectId = objData.objectId;
+            GridDragObject drag = tempObj.AddComponent<GridDragObject>();
+            drag.objectId = objData.objectId;
 
+            // ✅ Copy toàn bộ states từ data
             if (objData.states != null && objData.states.Length > 0)
             {
-                dragObj.states = new GridObjectState[objData.states.Length];
+                drag.states = new GridObjectState[objData.states.Length];
                 for (int i = 0; i < objData.states.Length; i++)
                 {
-                    dragObj.states[i] = new GridObjectState
+                    drag.states[i] = new GridObjectState
                     {
+                        stateId = objData.states[i].stateId,
                         stateName = objData.states[i].stateName,
                         sprite = objData.states[i].sprite,
                         cells = objData.states[i].cells,
-                        allowRotate = objData.states[i].allowRotate
+                        allowRotate = objData.states[i].allowRotate,
+                        isContainer = objData.states[i].isContainer,
+                        containedObjectIds = objData.states[i].containedObjectIds,
+                        containedObjectDisplays = objData.states[i].containedObjectDisplays
                     };
                 }
             }
 
-            dragObj.currentStateIndex = 0;
-            dragObj.currentRotationIndex = 0;
+            drag.currentStateIndex = 0;
+            drag.currentRotationIndex = 0;
 
-            objects.Add(dragObj);
+            result.Add(drag);
         }
 
-        return objects.ToArray();
+        Debug.Log($"✅ Created {result.Count} virtual objects from miniLevelData");
+        return result.ToArray();
     }
 
+    // ✅ Cleanup temp objects sau khi verify xong
+    private void CleanupTempObjects()
+    {
+        if (dragObjects == null) return;
+        foreach (var obj in dragObjects)
+        {
+            if (obj != null && obj.gameObject.name.StartsWith("[CSP_Temp]"))
+                DestroyImmediate(obj.gameObject);
+        }
+        dragObjects = null;
+    }
     private List<CSPVariables> BuidGridVariables()
     {
         List<CSPVariables> variables = new List<CSPVariables>();
@@ -410,102 +485,79 @@ public class LevelCSPVerifier : MonoBehaviour
         {
             if (obj == null || obj.states == null || obj.states.Length == 0)
                 continue;
-
-            // ✅ CHECK FIRST before using
-            GridObjectState currentState = obj.GetCurrentState();
-            if (currentState == null || currentState.cells == null || currentState.cells.Length == 0)
+            var objData = GetObjectData(obj.objectId);
+            if (objData != null && !objData.requiresPlacement)
                 continue;
 
-            CSPVariables variable = new CSPVariables(obj.objectId);
+            var variable = new CSPVariables(obj.objectId);
 
-            Vector2Int[] baseShape = currentState.cells;
-            int maxRotation = currentState.allowRotate ? 4 : 1;
-
-            // ✅ Generate all valid placements
-            for (int x = 0; x < miniLevelData.boardWidth; x++)
+            for (int stateIndex = 0; stateIndex < obj.states.Length; stateIndex++)
             {
-                for (int y = 0; y < miniLevelData.boardHeight; y++)
+                GridObjectState state = obj.states[stateIndex];
+                if (state == null || state.cells == null || state.cells.Length == 0)
+                    continue;
+                int rotationCount = state.allowRotate ? 4 : 1;
+                for (int x = 0; x < miniLevelData.boardWidth; x++)
                 {
-                    for (int r = 0; r < maxRotation; r++)
+                    for (int y = 0; y < miniLevelData.boardHeight; y++)
                     {
-                        // ✅ Rotate THEN translate
-                        Vector2Int[] rotatedShape = ShapeUtils.RotateShape(baseShape, r);
-                        Vector2Int[] translatedShape = ShapeUtils.TranslateCells(rotatedShape, x, y);
-
-                        // ✅ Check if all cells are within board bounds
-                        bool fits = true;
-                        foreach (var cell in translatedShape)
+                        for (int rot = 0; rot < rotationCount; rot++)
                         {
-                            if (cell.x < 0 || cell.x >= miniLevelData.boardWidth ||
-                                cell.y < 0 || cell.y >= miniLevelData.boardHeight)
+                            var rotatedShape = ShapeUtils.RotateShape(state.cells, rot);
+                            var translatedShape = ShapeUtils.TranslateCells(rotatedShape, x, y);
+
+                            bool fits = translatedShape.All(cell =>
+                                cell.x >= 0 && cell.x < miniLevelData.boardWidth &&
+                                cell.y >= 0 && cell.y < miniLevelData.boardHeight);
+                            if (fits)
                             {
-                                fits = false;
-                                break;
+                                var layer = obj.GetComponent<GridDragObject>()?.GetLayer() ?? 0;
+                                variable.domain.Add(new PlacementValue(x, y, rot, stateIndex, layer));
                             }
-                        }
-                        int layer = obj.GetComponent<ILayerProvider>()?.GetLayer() ?? 0;
-
-                        if (fits)
-                        {
-                            variable.domain.Add(new PlacementValue(x, y, r, obj.currentStateIndex, layer));
                         }
                     }
                 }
             }
-
-            if (variable.domain.Count == 0)
-            {
-                Debug.LogWarning($"⚠️ Object '{obj.objectId}' has NO valid placements! Shape might be too large or invalid.");
-            }
-
             variables.Add(variable);
         }
         return variables;
     }
 
+    private GridObjectData GetObjectData(string objectId)
+    {
+        if (miniLevelData?.objects == null) return null;
+        foreach (var obj in miniLevelData.objects)
+            if (obj.objectId == objectId) return obj;
+        return null;
+    }
+
     private List<ICSPConstraint> BuildGridConstraints(List<CSPVariables> variables)
     {
         List<ICSPConstraint> constraints = new List<ICSPConstraint>();
-
         var allObjectIds = variables.Select(v => v.objectId).ToList();
+
+        var allStatesDict = new Dictionary<string, GridObjectState[]>();
+        foreach (GridDragObject obj in dragObjects)
+        {
+            if (obj != null && obj.states != null)
+            {
+                allStatesDict[obj.objectId] = obj.states;
+            }
+        }
 
         // ✅ Boundary constraints
         foreach (GridDragObject obj in dragObjects)
         {
             if (obj == null || obj.states == null || obj.states.Length == 0)
                 continue;
-
-            GridObjectState currentState = obj.GetCurrentState();
-            if (currentState != null && currentState.cells != null && currentState.cells.Length > 0)
-            {
-                var boundaryConstraint = new CSPBoundaryContraint(
-                    obj.objectId,
-                    currentState.cells,
-                    miniLevelData.boardWidth,
-                    miniLevelData.boardHeight
-                );
-                constraints.Add(boundaryConstraint);
-            }
+            constraints.Add(new CSPBoundaryContraint(
+                obj.objectId, obj.states, miniLevelData.boardWidth, miniLevelData.boardHeight));
         }
 
         // ✅ Non-overlap constraint
         if (miniLevelData.useNonOverlap)
         {
-            var shapesDict = new Dictionary<string, Vector2Int[]>();
-            foreach (GridDragObject obj in dragObjects)
-            {
-                if (obj == null) continue;
-                GridObjectState currentState = obj.GetCurrentState();
-                if (currentState != null && currentState.cells != null)
-                {
-                    shapesDict[obj.objectId] = currentState.cells;
-                }
-            }
-            if (shapesDict.Count > 0)
-            {
-                var nonOverlapConstraint = new CSPNonOverlapConstraint(shapesDict);
-                constraints.Add(nonOverlapConstraint);
-            }
+            constraints.Add(new CSPNonOverlapConstraint(allStatesDict));
         }
 
         // ✅ Use all objects constraint
@@ -518,25 +570,7 @@ public class LevelCSPVerifier : MonoBehaviour
         // ✅ Full coverage constraint
         if (miniLevelData.useFullCoverage)
         {
-            var shapesDict = new Dictionary<string, Vector2Int[]>();
-            foreach (GridDragObject obj in dragObjects)
-            {
-                if (obj == null) continue;
-                GridObjectState currentState = obj.GetCurrentState();
-                if (currentState != null && currentState.cells != null)
-                {
-                    shapesDict[obj.objectId] = currentState.cells;
-                }
-            }
-            if (shapesDict.Count > 0)
-            {
-                var fullCoverageConstraint = new CSPFullCoverageConstraint(
-                    shapesDict,
-                    miniLevelData.boardWidth,
-                    miniLevelData.boardHeight
-                );
-                constraints.Add(fullCoverageConstraint);
-            }
+            constraints.Add(new CSPFullCoverageConstraint(allStatesDict,miniLevelData.boardWidth, miniLevelData.boardHeight));
         }
 
         // ✅ Exact slots constraint
@@ -552,6 +586,58 @@ public class LevelCSPVerifier : MonoBehaviour
             }
         }
 
+        //✅ adjacent constraint
+        if (miniLevelData.adjacentConstraints != null)
+        {
+            foreach (var pair in miniLevelData.adjacentConstraints)
+            {
+                var adjacentConstraint = new CSPAdjacentConstraint(pair.objIdA, pair.objIdB, allStatesDict);
+                constraints.Add(adjacentConstraint);
+            }
+        }
+
+        //✅ require state constraint
+        if (miniLevelData.requireStateConstraints != null)
+        {
+            foreach (var req in miniLevelData.requireStateConstraints)
+            {
+                var requireStateConstraint = new CSPRequireState(req.objectId, req.requiredStateIndex);
+                constraints.Add(requireStateConstraint);
+            }
+        }
+
+        //✅ relative postion constraint
+        if (miniLevelData.relativePositionConstraints != null)
+        {
+            foreach (var rel in miniLevelData.relativePositionConstraints)
+            {
+                var relativePositionConstraint = new CSPRelativeDir(rel.objectIdA, rel.objectIdB, rel.direction);
+                constraints.Add(relativePositionConstraint);
+            }
+        }
+
+        //✅ below adjacent constraint
+        if (miniLevelData.belowAdjacentConstraints != null)
+            foreach (var c in miniLevelData.belowAdjacentConstraints)
+                constraints.Add(new CSPAdjacentToBottomConstraint(
+                    c.objectIdA, c.objectIdB, allStatesDict));
+
+        //✅ require state only constraint
+        foreach (var objData in miniLevelData.objects)
+        {
+            if (objData.requiresPlacement) { continue; }
+
+            if (miniLevelData.requireStateConstraints == null) { continue; }
+            foreach (var c in miniLevelData.requireStateConstraints)
+            {
+                if (c.objectId == objData.objectId)
+                {
+                    var requireStateOnlyConstraint = new CSPRequireStateOnlyConstraint(
+                        c.objectId, c.requiredStateIndex, dragObjects);
+                    constraints.Add(requireStateOnlyConstraint);
+                }
+            }
+        }
         return constraints;
     }
 

@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 97d72f87979765a47874f7969513921b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6956109792069749484
+    second: mattroi_0
+  - first:
+      213: -3937691615473465681
+    second: mattroi_1
+  - first:
+      213: -6495402040069124713
+    second: mattroi_2
+  - first:
+      213: -3073754364483413522
+    second: mattroi_3
+  - first:
+      213: 5660323358619090031
+    second: mattroi_4
+  - first:
+      213: -1599605740732555941
+    second: mattroi_5
+  - first:
+      213: 389820592175434211
+    second: mattroi_6
+  - first:
+      213: -3834246147414779901
+    second: mattroi_7
+  - first:
+      213: -4437203731900536811
+    second: mattroi_8
+  - first:
+      213: -1734947326056316268
+    second: mattroi_9
+  - first:
+      213: -1658551669852286594
+    second: mattroi_10
+  - first:
+      213: 1621730479199575938
+    second: mattroi_11
+  - first:
+      213: 114829913677494153
+    second: mattroi_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mattroi_0
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1434
+        width: 256
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea0fe63001198060800000000000000
+      internalID: 6956109792069749484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mattroi_1
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1562
+        width: 240
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa68ba8a6528a59c0800000000000000
+      internalID: -3937691615473465681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mattroi_2
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1536
+        width: 250
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d05583242bbd5a0800000000000000
+      internalID: -6495402040069124713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mattroi_3
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1358
+        width: 290
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9d822e0b4d755d0800000000000000
+      internalID: -3073754364483413522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mattroi_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1052
+        width: 314
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c3650ea128d8e40800000000000000
+      internalID: 5660323358619090031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mattroi_5
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 374
+        width: 1181
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5dd5facd0f0dc9e0800000000000000
+      internalID: -1599605740732555941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mattroi_6
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1052
+        width: 316
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9cfb263cbe86500800000000000000
+      internalID: 389820592175434211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mattroi_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 622
+        width: 311
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3089ee191750acac0800000000000000
+      internalID: -3834246147414779901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mattroi_8
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 648
+        width: 316
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518e70417b2eb62c0800000000000000
+      internalID: -4437203731900536811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mattroi_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 228
+        width: 283
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492466e599a3ce7e0800000000000000
+      internalID: -1734947326056316268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mattroi_10
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 0
+        width: 235
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71d2dc2b04abf8e0800000000000000
+      internalID: -1658551669852286594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mattroi_11
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 34
+        width: 224
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f5d1e474b818610800000000000000
+      internalID: 1621730479199575938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mattroi_12
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 240
+        width: 303
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987f556b235f79100800000000000000
+      internalID: 114829913677494153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mattroi_0: 6956109792069749484
+      mattroi_1: -3937691615473465681
+      mattroi_10: -1658551669852286594
+      mattroi_11: 1621730479199575938
+      mattroi_12: 114829913677494153
+      mattroi_2: -6495402040069124713
+      mattroi_3: -3073754364483413522
+      mattroi_4: 5660323358619090031
+      mattroi_5: -1599605740732555941
+      mattroi_6: 389820592175434211
+      mattroi_7: -3834246147414779901
+      mattroi_8: -4437203731900536811
+      mattroi_9: -1734947326056316268
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

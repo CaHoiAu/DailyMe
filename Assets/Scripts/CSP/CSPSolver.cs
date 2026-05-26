@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 public class CSPSolver
 {
@@ -69,34 +70,19 @@ public class CSPSolver
     {
         foreach (ICSPConstraint constraint in constraints)
         {
-            // ✅ Skip constraints that require unassigned variables
-            foreach (var varId in constraint.variables)
-            {
-                if (!assignment.ContainsKey(varId))
-                {
-                    // Can't evaluate this constraint yet
-                    continue; // Skip this constraint for now
-                }
-            }
-
-            // ✅ Only evaluate if all required variables are assigned
-            bool allVarsAssigned = true;
-            foreach (var varId in constraint.variables)
-            {
-                if (!assignment.ContainsKey(varId))
-                {
-                    allVarsAssigned = false;
-                    break;
-                }
-            }
-
-            if (allVarsAssigned)
+            if (constraint.variables.Count == 0)
             {
                 if (!constraint.IsSatisfied(assignment))
                     return false;
+                continue;
+            }
+            bool allVarsAssigned = constraint.variables.All(varId => assignment.ContainsKey(varId));
+
+            if (allVarsAssigned && !constraint.IsSatisfied(assignment))
+            {
+                return false;
             }
         }
-
         return true;
     }
 

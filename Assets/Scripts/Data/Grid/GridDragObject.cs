@@ -16,6 +16,7 @@ public class ContainedObjectDisplay
 [System.Serializable]
 public class GridObjectState
 {
+    public int stateId;
     public string stateName;
     public Sprite sprite;
     public Vector2Int[] cells;
@@ -75,30 +76,10 @@ public class GridDragObject : MonoBehaviour
     private AnimationCurve dropAnimationCurve;
     private Coroutine dropCoroutine;
 
-    //private void Start()
-    //{
-    //    RegisterHomePositions();
-    //    UpdateContainedObjectsDisplayInternal();
-    //}
+    public GridObjectData objectData;
 
-    //private void Awake()
-    //{
-    //    cam = Camera.main;
-    //    spriteRenderer = GetComponent<SpriteRenderer>();
-    //    objectCollider = GetComponent<Collider2D>();
-    //    startWorldPosition = transform.position;
-
-    //    SetUpContainmentDisplay();
-    //    ApplyCurrentVisual();
-    //    InitializeContainedObjectsFromChildren();
-    //}
-
-    // ❌ XÓA hàm Awake() và Start() đi
-    // private void Start() { } 
-    // private void Awake() { }
-
-    // ✅ Bất cứ hàm Setup nào, chuyển hết vào đây:
-
+    private bool isTopObject = false;
+    public bool isLocked = false;
     public void ResetToDefaultState()
     {
         currentStateIndex = 0;
@@ -211,30 +192,6 @@ public class GridDragObject : MonoBehaviour
         }
     }
 
-    private void InitializeContainedObjectsFromChildren()
-    {
-        // ✅ Copy children loop to allow unparenting them while iterating
-        //List<Transform> children = new List<Transform>();
-        //foreach (Transform child in transform)
-        //{
-        //    if (child.name != "ContainmentDisplay") children.Add(child);
-        //}
-
-        //foreach (Transform child in children)
-        //{
-        //    GridDragObject childObj = child.GetComponent<GridDragObject>();
-        //    if (childObj != null)
-        //    {
-        //        containedObjects.Add(childObj);
-        //        childObj.isContainedObject = true;
-        //        childObj.currentContainer = this;
-
-        //        // ✅ Unparent so it doesn't move when the container moves
-        //        child.SetParent(null, true);
-        //    }
-        //}
-    }
-
     private void SetUpContainmentDisplay()
     {
         Transform existingDisplay = transform.Find("ContainmentDisplay");
@@ -258,7 +215,7 @@ public class GridDragObject : MonoBehaviour
         if (states == null || states.Length == 0) return null;
         return states[currentStateIndex];
     }
-
+    public int CurrentStateId => GetCurrentState()?.stateId ?? -1;
     public Vector2Int[] GetCurrentShape()
     {
         GridObjectState currentState = GetCurrentState();
@@ -344,6 +301,9 @@ public class GridDragObject : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (isLocked) return;
+        if (!IsTopObjectAtMousePosition()) return;
+        isTopObject = true;
         Vector3 mouseWorldPos = GetMouseWorldPosition();
         mouseDownPositon = mouseWorldPos;
         offset = transform.position - mouseWorldPos;
@@ -362,6 +322,8 @@ public class GridDragObject : MonoBehaviour
 
     private void OnMouseDrag()
     {
+        if (isLocked) return;
+        if (!isTopObject) return;
         Vector3 mouseWorldPos = GetMouseWorldPosition();
         if (!hasDragged)
         {
@@ -393,6 +355,9 @@ public class GridDragObject : MonoBehaviour
 
     private void OnMouseUp()
     {
+        if (isLocked) return;
+        if (!isTopObject) return;
+        isTopObject = false;
         if (!hasDragged)
         {
             NextState();
@@ -442,28 +407,19 @@ public class GridDragObject : MonoBehaviour
         currentGridPosition = gridPos;
         Vector2Int[] shape = GetCurrentShape();
 
-        Vector2 shapeCenter = GetShapeCenter(shape);
-        Vector3 worldPos = gridPuzzleManager.boardManager.GridToWorld(gridPos);
-        transform.position = worldPos + new Vector3(
-            shapeCenter.x * gridPuzzleManager.boardManager.cellSize,
-            shapeCenter.y * gridPuzzleManager.boardManager.cellSize,
-            0f);
-        isPlaced = true;
-
-        if (gridPuzzleManager.miniLevelData != null && gridPuzzleManager.miniLevelData.useLandingZones)
+        // ✅ Tính tâm của toàn bộ cells trong world space
+        Vector3 worldCenter = Vector3.zero;
+        foreach (var cell in shape)
         {
-            foreach (var zone in gridPuzzleManager.miniLevelData.landingZones)
-            {
-                Vector2Int zoneGridPos = gridPuzzleManager.boardManager.WorldToGrid(zone.position);
-                if (gridPos == zoneGridPos)
-                {
-                    if (zone.zoneId == objectId)
-                    {
-                        Debug.Log($"[{objectId}] ✅ Matches its own landing zone '{zone.zoneId}'");
-                    }
-                }
-            }
+            Vector3 cellWorld = gridPuzzleManager.boardManager.GridToWorld(
+                new Vector2Int(gridPos.x + cell.x, gridPos.y + cell.y)
+            );
+            worldCenter += cellWorld;
         }
+        worldCenter /= shape.Length;
+
+        transform.position = worldCenter;
+        isPlaced = true;
     }
 
     public Vector2 GetShapeCenter(Vector2Int[] cells)
@@ -662,5 +618,37 @@ public class GridDragObject : MonoBehaviour
         {
             RemoveContainedObject(obj);
         }
+    }
+
+    private bool IsTopObjectAtMousePosition()
+    {
+        // ✅ Dùng ScreenToWorldPoint đúng cách cho 2D
+        Vector3 mouseScreen = Input.mousePosition;
+        mouseScreen.z = -cam.transform.position.z;
+        Vector2 mousePos = cam.ScreenToWorldPoint(mouseScreen);
+
+        RaycastHit2D[] hits = Physics2D.RaycastAll(mousePos, Vector2.zero);
+
+        if (hits.Length == 0) return false;
+
+        Collider2D topCollider = null;
+        int highestOrder = int.MinValue;
+        int highestInstanceId = int.MinValue;
+
+        foreach (var hit in hits)
+        {
+            var sr = hit.collider.GetComponent<SpriteRenderer>();
+            if (sr == null) continue;
+
+            if (sr.sortingOrder > highestOrder ||
+               (sr.sortingOrder == highestOrder && hit.collider.GetInstanceID() > highestInstanceId))
+            {
+                highestOrder = sr.sortingOrder;
+                highestInstanceId = hit.collider.GetInstanceID();
+                topCollider = hit.collider;
+            }
+        }
+
+        return topCollider != null && topCollider == objectCollider;
     }
 }

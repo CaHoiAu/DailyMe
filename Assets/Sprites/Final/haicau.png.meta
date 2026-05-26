@@ -1,0 +1,4095 @@
+fileFormatVersion: 2
+guid: 6e1de505b36883e4f9d5d396c257e2c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7181108338002977503
+    second: haicau_0
+  - first:
+      213: 4492323648391173166
+    second: haicau_1
+  - first:
+      213: 5197906114241690827
+    second: haicau_2
+  - first:
+      213: 2937088155703125392
+    second: haicau_3
+  - first:
+      213: -9125775287624148143
+    second: haicau_4
+  - first:
+      213: -4210660672990145616
+    second: haicau_5
+  - first:
+      213: -179676979028030033
+    second: haicau_6
+  - first:
+      213: 4084290642575333642
+    second: haicau_7
+  - first:
+      213: -8184017971082526081
+    second: haicau_8
+  - first:
+      213: 673306509601192841
+    second: haicau_9
+  - first:
+      213: -3893460261910828899
+    second: haicau_10
+  - first:
+      213: 8501613779192445124
+    second: haicau_11
+  - first:
+      213: -3263041956779949412
+    second: haicau_12
+  - first:
+      213: -2678646638998439303
+    second: haicau_13
+  - first:
+      213: 4476017055488198655
+    second: haicau_14
+  - first:
+      213: -8446110355118633972
+    second: haicau_15
+  - first:
+      213: -3778991531901975508
+    second: haicau_16
+  - first:
+      213: -8100299809427599126
+    second: haicau_17
+  - first:
+      213: 7690793704822320226
+    second: haicau_18
+  - first:
+      213: 9168642581480826641
+    second: haicau_19
+  - first:
+      213: 4641473839292593450
+    second: haicau_20
+  - first:
+      213: -6222094918408687509
+    second: haicau_21
+  - first:
+      213: 2025403563610422565
+    second: haicau_22
+  - first:
+      213: 4842032488616006906
+    second: haicau_23
+  - first:
+      213: 3561885787005655231
+    second: haicau_24
+  - first:
+      213: 274700743143720834
+    second: haicau_25
+  - first:
+      213: -8263614705226665156
+    second: haicau_26
+  - first:
+      213: -4269112450641817570
+    second: haicau_27
+  - first:
+      213: 3967658581122123238
+    second: haicau_28
+  - first:
+      213: 3011149942806773962
+    second: haicau_29
+  - first:
+      213: -1702719076325676061
+    second: haicau_30
+  - first:
+      213: -8453969555827549580
+    second: haicau_31
+  - first:
+      213: -172798793347196956
+    second: haicau_32
+  - first:
+      213: 4317734400811889571
+    second: haicau_33
+  - first:
+      213: 3351450476405167811
+    second: haicau_34
+  - first:
+      213: -4297151892546232610
+    second: haicau_35
+  - first:
+      213: -3424701012476977099
+    second: haicau_36
+  - first:
+      213: 4860506691109581840
+    second: haicau_37
+  - first:
+      213: -3740975685867452773
+    second: haicau_38
+  - first:
+      213: -6511380007950578523
+    second: haicau_39
+  - first:
+      213: -4302794741488613945
+    second: haicau_40
+  - first:
+      213: -4556994941794310653
+    second: haicau_41
+  - first:
+      213: -7168427471195400303
+    second: haicau_42
+  - first:
+      213: 7370352603377434829
+    second: haicau_43
+  - first:
+      213: -98736373041023429
+    second: haicau_44
+  - first:
+      213: 1860903111546825260
+    second: haicau_45
+  - first:
+      213: -3951544150789572394
+    second: haicau_46
+  - first:
+      213: -6197000121548902248
+    second: haicau_47
+  - first:
+      213: -3125489931452279241
+    second: haicau_48
+  - first:
+      213: 5483457246833655670
+    second: haicau_49
+  - first:
+      213: -3308573543779677582
+    second: haicau_50
+  - first:
+      213: 9010806710866687521
+    second: haicau_51
+  - first:
+      213: 8959438546863973645
+    second: haicau_52
+  - first:
+      213: -2093139238769536278
+    second: haicau_53
+  - first:
+      213: 5024546137822189205
+    second: haicau_54
+  - first:
+      213: 6483530990100670694
+    second: haicau_55
+  - first:
+      213: 1538911936938723319
+    second: haicau_56
+  - first:
+      213: 7525910122266932343
+    second: haicau_57
+  - first:
+      213: -7634100417430681730
+    second: haicau_58
+  - first:
+      213: -6983841650192708162
+    second: haicau_59
+  - first:
+      213: -2420976400146149321
+    second: haicau_60
+  - first:
+      213: -9029192252902758436
+    second: haicau_61
+  - first:
+      213: -5798725086805299996
+    second: haicau_62
+  - first:
+      213: -7292971581173196235
+    second: haicau_63
+  - first:
+      213: -5800817794166059518
+    second: haicau_64
+  - first:
+      213: 1898311866745877072
+    second: haicau_65
+  - first:
+      213: -8239958519536678058
+    second: haicau_66
+  - first:
+      213: 3745792322932682738
+    second: haicau_67
+  - first:
+      213: -3422871581823993852
+    second: haicau_68
+  - first:
+      213: -6384993257548272543
+    second: haicau_69
+  - first:
+      213: -1334746624851169181
+    second: haicau_70
+  - first:
+      213: -5350369002154842040
+    second: haicau_71
+  - first:
+      213: -6569115377868861132
+    second: haicau_72
+  - first:
+      213: 2990955262719439246
+    second: haicau_73
+  - first:
+      213: 2787612346545860830
+    second: haicau_74
+  - first:
+      213: 4423994505729847362
+    second: haicau_75
+  - first:
+      213: 8301693754884584814
+    second: haicau_76
+  - first:
+      213: -9176836017882315312
+    second: haicau_77
+  - first:
+      213: 6816422778127765212
+    second: haicau_78
+  - first:
+      213: -1906932815429730485
+    second: haicau_79
+  - first:
+      213: -7591834040002841103
+    second: haicau_80
+  - first:
+      213: -6388662148243723228
+    second: haicau_81
+  - first:
+      213: -7257261157604889677
+    second: haicau_82
+  - first:
+      213: 998005534105717970
+    second: haicau_83
+  - first:
+      213: 124236070331231354
+    second: haicau_84
+  - first:
+      213: 7383779890063734571
+    second: haicau_85
+  - first:
+      213: 8571844184776153113
+    second: haicau_86
+  - first:
+      213: 4464753816312019616
+    second: haicau_87
+  - first:
+      213: 8809902165756089147
+    second: haicau_88
+  - first:
+      213: -8406119525024316595
+    second: haicau_89
+  - first:
+      213: 7938534223401633828
+    second: haicau_90
+  - first:
+      213: 5878491612404001736
+    second: haicau_91
+  - first:
+      213: 2394747390047373183
+    second: haicau_92
+  - first:
+      213: 6635897249981223633
+    second: haicau_93
+  - first:
+      213: -7165018626717507956
+    second: haicau_94
+  - first:
+      213: 4239616404238647603
+    second: haicau_95
+  - first:
+      213: -5001130866943115365
+    second: haicau_96
+  - first:
+      213: 4565848750199307873
+    second: haicau_97
+  - first:
+      213: -7002555711135682850
+    second: haicau_98
+  - first:
+      213: -4560359837594222129
+    second: haicau_99
+  - first:
+      213: -7310736650950412968
+    second: haicau_100
+  - first:
+      213: 5215032720213181411
+    second: haicau_101
+  - first:
+      213: -8977444857859128640
+    second: haicau_102
+  - first:
+      213: -7528891601068218984
+    second: haicau_103
+  - first:
+      213: -5377821311852810591
+    second: haicau_104
+  - first:
+      213: 6248913673216258768
+    second: haicau_105
+  - first:
+      213: -5341444663002765426
+    second: haicau_106
+  - first:
+      213: 601647421614142107
+    second: haicau_107
+  - first:
+      213: 6475716415933340628
+    second: haicau_108
+  - first:
+      213: 2101398677333754710
+    second: haicau_109
+  - first:
+      213: -6734926069781226748
+    second: haicau_110
+  - first:
+      213: -6031284027110521601
+    second: haicau_111
+  - first:
+      213: 7207077901441242785
+    second: haicau_112
+  - first:
+      213: -5604215002260666736
+    second: haicau_113
+  - first:
+      213: 7053773523510352166
+    second: haicau_114
+  - first:
+      213: 1286405246799717232
+    second: haicau_115
+  - first:
+      213: -6478495464783188514
+    second: haicau_116
+  - first:
+      213: 4619131013827387835
+    second: haicau_117
+  - first:
+      213: -2080906212130609358
+    second: haicau_118
+  - first:
+      213: -5152053925645925047
+    second: haicau_119
+  - first:
+      213: 7994036091376341234
+    second: haicau_120
+  - first:
+      213: -8323369583612170415
+    second: haicau_121
+  - first:
+      213: 3530645613145386071
+    second: haicau_122
+  - first:
+      213: -2477821318241580374
+    second: haicau_123
+  - first:
+      213: 3500683973033826838
+    second: haicau_124
+  - first:
+      213: 7248341070905242991
+    second: haicau_125
+  - first:
+      213: 7187972704170221522
+    second: haicau_126
+  - first:
+      213: -3554048098309878548
+    second: haicau_127
+  - first:
+      213: -1976641093008036948
+    second: haicau_128
+  - first:
+      213: -7107075187803424555
+    second: haicau_129
+  - first:
+      213: -4609241543293213237
+    second: haicau_130
+  - first:
+      213: 9081143201328071421
+    second: haicau_131
+  - first:
+      213: -4864482349374627437
+    second: haicau_132
+  - first:
+      213: -6818506774885860826
+    second: haicau_133
+  - first:
+      213: -4229620538819368036
+    second: haicau_134
+  - first:
+      213: 3427871214631095910
+    second: haicau_135
+  - first:
+      213: -8793680201450591946
+    second: haicau_136
+  - first:
+      213: -2270732791878853492
+    second: haicau_137
+  - first:
+      213: -6176460030835483162
+    second: haicau_138
+  - first:
+      213: 4653838817624219351
+    second: haicau_139
+  - first:
+      213: 2732792954814322284
+    second: haicau_140
+  - first:
+      213: -3345166494506793840
+    second: haicau_141
+  - first:
+      213: 8745007848127284074
+    second: haicau_142
+  - first:
+      213: -2939825574660194980
+    second: haicau_143
+  - first:
+      213: 5925249809489032386
+    second: haicau_144
+  - first:
+      213: -6477859186992767522
+    second: haicau_145
+  - first:
+      213: -3105967847554461919
+    second: haicau_146
+  - first:
+      213: -8203614368852702004
+    second: haicau_147
+  - first:
+      213: 2826213200040819396
+    second: haicau_148
+  - first:
+      213: -3990121275963780054
+    second: haicau_149
+  - first:
+      213: -9133430284898986909
+    second: haicau_150
+  - first:
+      213: 4283277952141243496
+    second: haicau_151
+  - first:
+      213: 5048262296185181686
+    second: haicau_152
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: haicau_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2113
+        height: 2243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2634c7cfb68a360800000000000000
+      internalID: 7181108338002977503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_1
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1018
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24517e8e80f75e30800000000000000
+      internalID: 4492323648391173166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_2
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 991
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccf43b321ca22840800000000000000
+      internalID: 5197906114241690827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_3
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 972
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09521b2cd12a2c820800000000000000
+      internalID: 2937088155703125392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_4
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 952
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bdf11f9bbba5180800000000000000
+      internalID: -9125775287624148143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_5
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 934
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b317bc4d6ab095c0800000000000000
+      internalID: -4210660672990145616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_6
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 926
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad08b25db8a18df0800000000000000
+      internalID: -179676979028030033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_7
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 914
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09972e23b05ea830800000000000000
+      internalID: 4084290642575333642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_8
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 903
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72863e14078c6e80800000000000000
+      internalID: -8184017971082526081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_9
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 890
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bbcb104b0185900800000000000000
+      internalID: 673306509601192841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_10
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 887
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98a4bd2586a7f9c0800000000000000
+      internalID: -3893460261910828899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_11
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 875
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8f45e40bccbf570800000000000000
+      internalID: 8501613779192445124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_12
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 880
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c928feee0a857b2d0800000000000000
+      internalID: -3263041956779949412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_13
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 859
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a34bbe21983dad0800000000000000
+      internalID: -2678646638998439303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_14
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 861
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7c6f80cc10e1e30800000000000000
+      internalID: 4476017055488198655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_15
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 848
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cc765a16369ca80800000000000000
+      internalID: -8446110355118633972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_16
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 844
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2406c349335e8bc0800000000000000
+      internalID: -3778991531901975508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_17
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 844
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae057e49d34f59f80800000000000000
+      internalID: -8100299809427599126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_18
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 828
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26caeb080203bba60800000000000000
+      internalID: 7690793704822320226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_19
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 821
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1176fada9df8d3f70800000000000000
+      internalID: 9168642581480826641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_20
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 825
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25bd418dd3d96040800000000000000
+      internalID: 4641473839292593450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_21
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 804
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60bc7543ada6a9a0800000000000000
+      internalID: -6222094918408687509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_22
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 812
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d3fcf5fcdab1c10800000000000000
+      internalID: 2025403563610422565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_23
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 790
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af49bdae4ea523340800000000000000
+      internalID: 4842032488616006906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_24
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 796
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb81cf8604c5e6130800000000000000
+      internalID: 3561885787005655231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_25
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 798
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2870e96dedeefc300800000000000000
+      internalID: 274700743143720834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_26
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 777
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c333546453eb15d80800000000000000
+      internalID: -8263614705226665156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_27
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 775
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e101c4948d011c4c0800000000000000
+      internalID: -4269112450641817570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_28
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 779
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e580dd3574ff0730800000000000000
+      internalID: 3967658581122123238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_29
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 760
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac08f625be0c9c920800000000000000
+      internalID: 3011149942806773962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_30
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 768
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eba35f750abe58e0800000000000000
+      internalID: -1702719076325676061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_31
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 752
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a9ee2ea777daa80800000000000000
+      internalID: -8453969555827549580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_32
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 754
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e79ce8b9681a9df0800000000000000
+      internalID: -172798793347196956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_33
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 750
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a370eaaf8cabeb30800000000000000
+      internalID: 4317734400811889571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_34
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 740
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c69178937eb28e20800000000000000
+      internalID: 3351450476405167811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_35
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 743
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede52eafe137d54c0800000000000000
+      internalID: -4297151892546232610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_36
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 739
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530a361f2940970d0800000000000000
+      internalID: -3424701012476977099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_37
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 733
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014feff551df37340800000000000000
+      internalID: 4860506691109581840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_38
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 725
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b964f7a2f62651cc0800000000000000
+      internalID: -3740975685867452773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_39
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 718
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac868ca16ee2a5a0800000000000000
+      internalID: -6511380007950578523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_40
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 722
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c50724daf66944c0800000000000000
+      internalID: -4302794741488613945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_41
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 718
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30629139e3d42c0c0800000000000000
+      internalID: -4556994941794310653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_42
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 702
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1971f35e131a48c90800000000000000
+      internalID: -7168427471195400303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_43
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 708
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc000b994a0c84660800000000000000
+      internalID: 7370352603377434829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_44
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 701
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36ba76bac731aef0800000000000000
+      internalID: -98736373041023429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_45
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 703
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2aea2d358143d910800000000000000
+      internalID: 1860903111546825260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_46
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 699
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d83ae1f78b4929c0800000000000000
+      internalID: -3951544150789572394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_47
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 685
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890760af835dff9a0800000000000000
+      internalID: -6197000121548902248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_48
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 690
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7361ab6877700a4d0800000000000000
+      internalID: -3125489931452279241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_49
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 691
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fbf8a3057291c40800000000000000
+      internalID: 5483457246833655670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_50
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 675
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ac1c934e59512d0800000000000000
+      internalID: -3308573543779677582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_51
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 672
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1263ae456f0dc0d70800000000000000
+      internalID: 9010806710866687521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_52
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 673
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05e4c4a3e1565c70800000000000000
+      internalID: 8959438546863973645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_53
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 677
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2d5b7c3fca3f2e0800000000000000
+      internalID: -2093139238769536278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_54
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 677
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596d3765716cab540800000000000000
+      internalID: 5024546137822189205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_55
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 681
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8ef2395112af950800000000000000
+      internalID: 6483530990100670694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_56
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 659
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f747ddc0405b5510800000000000000
+      internalID: 1538911936938723319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_57
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 662
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774bc39d167617860800000000000000
+      internalID: 7525910122266932343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_58
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 659
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7702671e1a3e0690800000000000000
+      internalID: -7634100417430681730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_59
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 662
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd8fa86509641f90800000000000000
+      internalID: -6983841650192708162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_60
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 665
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7305fab7ac6f66ed0800000000000000
+      internalID: -2420976400146149321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_61
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 649
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7a5051c7dd1b280800000000000000
+      internalID: -9029192252902758436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_62
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 656
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ece2daa14ac68fa0800000000000000
+      internalID: -5798725086805299996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_63
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 647
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a172b9cf82aca90800000000000000
+      internalID: -7292971581173196235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_64
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 637
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e87f343fa5f7fa0800000000000000
+      internalID: -5800817794166059518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_65
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 621
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052fb4ac598285a10800000000000000
+      internalID: 1898311866745877072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_66
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 630
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b00173269c5ad80800000000000000
+      internalID: -8239958519536678058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_67
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 632
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffa9ca854abbf330800000000000000
+      internalID: 3745792322932682738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_68
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 632
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408f9957e648f70d0800000000000000
+      internalID: -3422871581823993852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_69
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 633
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c229e1672f367a0800000000000000
+      internalID: -6384993257548272543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_70
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 629
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360389834070a7de0800000000000000
+      internalID: -1334746624851169181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_71
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 610
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848ac417dbbafb5b0800000000000000
+      internalID: -5350369002154842040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_72
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 609
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43112955e50d5d4a0800000000000000
+      internalID: -6569115377868861132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_73
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 613
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e813a75f6f1028920800000000000000
+      internalID: 2990955262719439246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_74
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 610
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0fb57e8a69fa620800000000000000
+      internalID: 2787612346545860830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_75
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 614
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240be4a409f256d30800000000000000
+      internalID: 4423994505729847362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_76
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 608
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6579fd5c7a853370800000000000000
+      internalID: 8301693754884584814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_77
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 587
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d54d10434455a080800000000000000
+      internalID: -9176836017882315312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_78
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 591
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdecf29d66cc89e50800000000000000
+      internalID: 6816422778127765212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_79
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 594
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f76cd25b63985e0800000000000000
+      internalID: -1906932815429730485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_80
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 583
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f579e3f92364a690800000000000000
+      internalID: -7591834040002841103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_81
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 577
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ce2ffef99e657a0800000000000000
+      internalID: -6388662148243723228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_82
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 568
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb68b28d67094b90800000000000000
+      internalID: -7257261157604889677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_83
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 569
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcce30eeb0a9dd00800000000000000
+      internalID: 998005534105717970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_84
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 573
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c22683c0069b100800000000000000
+      internalID: 124236070331231354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_85
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 572
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27fbe660b4787660800000000000000
+      internalID: 7383779890063734571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_86
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 571
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9189497dede45f670800000000000000
+      internalID: 8571844184776153113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_87
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 549
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aaf8dec0fdf5fd30800000000000000
+      internalID: 4464753816312019616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_88
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 558
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3316d7c75f034a70800000000000000
+      internalID: 8809902165756089147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_89
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 549
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43437b54d6775b80800000000000000
+      internalID: -8406119525024316595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_90
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 558
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428c227e0d65b2e60800000000000000
+      internalID: 7938534223401633828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_91
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 554
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb2474d9f8949150800000000000000
+      internalID: 5878491612404001736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_92
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 555
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f774196301adb3120800000000000000
+      internalID: 2394747390047373183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_93
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 539
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d25f1fe361771c50800000000000000
+      internalID: 6635897249981223633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_94
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 539
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e1279558db09c90800000000000000
+      internalID: -7165018626717507956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_95
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 546
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331409e38a426da30800000000000000
+      internalID: 4239616404238647603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_96
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 529
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f3d9049f9689ab0800000000000000
+      internalID: -5001130866943115365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_97
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 528
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e7ac55f372d5f30800000000000000
+      internalID: 4565848750199307873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_98
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 531
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edeefdd8eace1de90800000000000000
+      internalID: -7002555711135682850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_99
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 531
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc10d38b3e856b0c0800000000000000
+      internalID: -4560359837594222129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_100
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 531
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855fba9ffbb0b8a90800000000000000
+      internalID: -7310736650950412968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_101
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 532
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3885ce0a48f5840800000000000000
+      internalID: 5215032720213181411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_102
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 519
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c246a06775b96380800000000000000
+      internalID: -8977444857859128640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_103
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 518
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89528e58af0048790800000000000000
+      internalID: -7528891601068218984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_104
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 515
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aeec7182042e55b0800000000000000
+      internalID: -5377821311852810591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_105
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 503
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2f22ca0e998b650800000000000000
+      internalID: 6248913673216258768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_106
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 510
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87605211606fd5b0800000000000000
+      internalID: -5341444663002765426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_107
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 501
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92375d642b795800800000000000000
+      internalID: 601647421614142107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_108
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 508
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db5fdd35cd5ed950800000000000000
+      internalID: 6475716415933340628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_109
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 506
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65344fd96faa92d10800000000000000
+      internalID: 2101398677333754710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_110
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 493
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b1c263c6cb882a0800000000000000
+      internalID: -6734926069781226748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_111
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 499
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff40798e1239c4ca0800000000000000
+      internalID: -6031284027110521601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_112
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 491
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a619f7aa2fa40460800000000000000
+      internalID: 7207077901441242785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_113
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 484
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0968659d524d932b0800000000000000
+      internalID: -5604215002260666736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_114
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 475
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629d3eaa5a904e160800000000000000
+      internalID: 7053773523510352166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_115
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 485
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07322bc91ca3ad110800000000000000
+      internalID: 1286405246799717232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_116
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 486
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd6e9603b2c716a0800000000000000
+      internalID: -6478495464783188514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_117
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 470
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1eb221f237a1040800000000000000
+      internalID: 4619131013827387835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_118
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 469
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2372d0f33d22f13e0800000000000000
+      internalID: -2080906212130609358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_119
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 455
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945c73a504a3088b0800000000000000
+      internalID: -5152053925645925047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_120
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 450
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0932c887580fe60800000000000000
+      internalID: 7994036091376341234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_121
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 455
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f618a76737d7c80800000000000000
+      internalID: -8323369583612170415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_122
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 434
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c625f9a7f5ff030800000000000000
+      internalID: 3530645613145386071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_123
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 424
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa025d93a20d9dd0800000000000000
+      internalID: -2477821318241580374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_124
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 434
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a959ba68de49030800000000000000
+      internalID: 3500683973033826838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_125
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 424
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f657e26fcc7479460800000000000000
+      internalID: 7248341070905242991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_126
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 416
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df1547471fc0c360800000000000000
+      internalID: 7187972704170221522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_127
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 418
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec4691b51c7daec0800000000000000
+      internalID: -3554048098309878548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_128
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 404
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabe0da066f8194e0800000000000000
+      internalID: -1976641093008036948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_129
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 395
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8fbf685c89e5d90800000000000000
+      internalID: -7107075187803424555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_130
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 404
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5e808bc3fa800c0800000000000000
+      internalID: -4609241543293213237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_131
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 384
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df20d9da0a3b60e70800000000000000
+      internalID: 9081143201328071421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_132
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 379
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3912e5d8313ed7cb0800000000000000
+      internalID: -4864482349374627437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_133
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 385
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a7558d63ccf51a0800000000000000
+      internalID: -6818506774885860826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_134
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 359
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ba9f8878e5d45c0800000000000000
+      internalID: -4229620538819368036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_135
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 354
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e8fd345be329f20800000000000000
+      internalID: 3427871214631095910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_136
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 358
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639e62c927296f580800000000000000
+      internalID: -8793680201450591946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_137
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 336
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cda308e8cbc70e0800000000000000
+      internalID: -2270732791878853492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_138
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 336
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed17a4835ec84aa0800000000000000
+      internalID: -6176460030835483162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_139
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 320
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de5a6e5fb1c59040800000000000000
+      internalID: 4653838817624219351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_140
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 305
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66d564a6b4dce520800000000000000
+      internalID: 2732792954814322284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_141
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 295
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0944264fbc49391d0800000000000000
+      internalID: -3345166494506793840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_142
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 36
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6341a90e428c5970800000000000000
+      internalID: 8745007848127284074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_143
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 36
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d35c83734a337d0800000000000000
+      internalID: -2939825574660194980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_144
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 36
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c47b04fe47ba3250800000000000000
+      internalID: 5925249809489032386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_145
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 33
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd9b4ef3650a16a0800000000000000
+      internalID: -6477859186992767522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_146
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 25
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f4bb2e2b265e4d0800000000000000
+      internalID: -3105967847554461919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_147
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 28
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc8e363238e62e80800000000000000
+      internalID: -8203614368852702004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_148
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 23
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4caf3f77ee9b83720800000000000000
+      internalID: 2826213200040819396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_149
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 27
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24537f07dd30a8c0800000000000000
+      internalID: -3990121275963780054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_150
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 21
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3641dcffb898f3180800000000000000
+      internalID: -9133430284898986909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_151
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 15
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86434ab8a92417b30800000000000000
+      internalID: 4283277952141243496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicau_152
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 11
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f59d11cfc70f0640800000000000000
+      internalID: 5048262296185181686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8eb2dcd0afd67d34c916ff5963a65e70
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      haicau_0: 7181108338002977503
+      haicau_1: 4492323648391173166
+      haicau_10: -3893460261910828899
+      haicau_100: -7310736650950412968
+      haicau_101: 5215032720213181411
+      haicau_102: -8977444857859128640
+      haicau_103: -7528891601068218984
+      haicau_104: -5377821311852810591
+      haicau_105: 6248913673216258768
+      haicau_106: -5341444663002765426
+      haicau_107: 601647421614142107
+      haicau_108: 6475716415933340628
+      haicau_109: 2101398677333754710
+      haicau_11: 8501613779192445124
+      haicau_110: -6734926069781226748
+      haicau_111: -6031284027110521601
+      haicau_112: 7207077901441242785
+      haicau_113: -5604215002260666736
+      haicau_114: 7053773523510352166
+      haicau_115: 1286405246799717232
+      haicau_116: -6478495464783188514
+      haicau_117: 4619131013827387835
+      haicau_118: -2080906212130609358
+      haicau_119: -5152053925645925047
+      haicau_12: -3263041956779949412
+      haicau_120: 7994036091376341234
+      haicau_121: -8323369583612170415
+      haicau_122: 3530645613145386071
+      haicau_123: -2477821318241580374
+      haicau_124: 3500683973033826838
+      haicau_125: 7248341070905242991
+      haicau_126: 7187972704170221522
+      haicau_127: -3554048098309878548
+      haicau_128: -1976641093008036948
+      haicau_129: -7107075187803424555
+      haicau_13: -2678646638998439303
+      haicau_130: -4609241543293213237
+      haicau_131: 9081143201328071421
+      haicau_132: -4864482349374627437
+      haicau_133: -6818506774885860826
+      haicau_134: -4229620538819368036
+      haicau_135: 3427871214631095910
+      haicau_136: -8793680201450591946
+      haicau_137: -2270732791878853492
+      haicau_138: -6176460030835483162
+      haicau_139: 4653838817624219351
+      haicau_14: 4476017055488198655
+      haicau_140: 2732792954814322284
+      haicau_141: -3345166494506793840
+      haicau_142: 8745007848127284074
+      haicau_143: -2939825574660194980
+      haicau_144: 5925249809489032386
+      haicau_145: -6477859186992767522
+      haicau_146: -3105967847554461919
+      haicau_147: -8203614368852702004
+      haicau_148: 2826213200040819396
+      haicau_149: -3990121275963780054
+      haicau_15: -8446110355118633972
+      haicau_150: -9133430284898986909
+      haicau_151: 4283277952141243496
+      haicau_152: 5048262296185181686
+      haicau_16: -3778991531901975508
+      haicau_17: -8100299809427599126
+      haicau_18: 7690793704822320226
+      haicau_19: 9168642581480826641
+      haicau_2: 5197906114241690827
+      haicau_20: 4641473839292593450
+      haicau_21: -6222094918408687509
+      haicau_22: 2025403563610422565
+      haicau_23: 4842032488616006906
+      haicau_24: 3561885787005655231
+      haicau_25: 274700743143720834
+      haicau_26: -8263614705226665156
+      haicau_27: -4269112450641817570
+      haicau_28: 3967658581122123238
+      haicau_29: 3011149942806773962
+      haicau_3: 2937088155703125392
+      haicau_30: -1702719076325676061
+      haicau_31: -8453969555827549580
+      haicau_32: -172798793347196956
+      haicau_33: 4317734400811889571
+      haicau_34: 3351450476405167811
+      haicau_35: -4297151892546232610
+      haicau_36: -3424701012476977099
+      haicau_37: 4860506691109581840
+      haicau_38: -3740975685867452773
+      haicau_39: -6511380007950578523
+      haicau_4: -9125775287624148143
+      haicau_40: -4302794741488613945
+      haicau_41: -4556994941794310653
+      haicau_42: -7168427471195400303
+      haicau_43: 7370352603377434829
+      haicau_44: -98736373041023429
+      haicau_45: 1860903111546825260
+      haicau_46: -3951544150789572394
+      haicau_47: -6197000121548902248
+      haicau_48: -3125489931452279241
+      haicau_49: 5483457246833655670
+      haicau_5: -4210660672990145616
+      haicau_50: -3308573543779677582
+      haicau_51: 9010806710866687521
+      haicau_52: 8959438546863973645
+      haicau_53: -2093139238769536278
+      haicau_54: 5024546137822189205
+      haicau_55: 6483530990100670694
+      haicau_56: 1538911936938723319
+      haicau_57: 7525910122266932343
+      haicau_58: -7634100417430681730
+      haicau_59: -6983841650192708162
+      haicau_6: -179676979028030033
+      haicau_60: -2420976400146149321
+      haicau_61: -9029192252902758436
+      haicau_62: -5798725086805299996
+      haicau_63: -7292971581173196235
+      haicau_64: -5800817794166059518
+      haicau_65: 1898311866745877072
+      haicau_66: -8239958519536678058
+      haicau_67: 3745792322932682738
+      haicau_68: -3422871581823993852
+      haicau_69: -6384993257548272543
+      haicau_7: 4084290642575333642
+      haicau_70: -1334746624851169181
+      haicau_71: -5350369002154842040
+      haicau_72: -6569115377868861132
+      haicau_73: 2990955262719439246
+      haicau_74: 2787612346545860830
+      haicau_75: 4423994505729847362
+      haicau_76: 8301693754884584814
+      haicau_77: -9176836017882315312
+      haicau_78: 6816422778127765212
+      haicau_79: -1906932815429730485
+      haicau_8: -8184017971082526081
+      haicau_80: -7591834040002841103
+      haicau_81: -6388662148243723228
+      haicau_82: -7257261157604889677
+      haicau_83: 998005534105717970
+      haicau_84: 124236070331231354
+      haicau_85: 7383779890063734571
+      haicau_86: 8571844184776153113
+      haicau_87: 4464753816312019616
+      haicau_88: 8809902165756089147
+      haicau_89: -8406119525024316595
+      haicau_9: 673306509601192841
+      haicau_90: 7938534223401633828
+      haicau_91: 5878491612404001736
+      haicau_92: 2394747390047373183
+      haicau_93: 6635897249981223633
+      haicau_94: -7165018626717507956
+      haicau_95: 4239616404238647603
+      haicau_96: -5001130866943115365
+      haicau_97: 4565848750199307873
+      haicau_98: -7002555711135682850
+      haicau_99: -4560359837594222129
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

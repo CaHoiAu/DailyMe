@@ -1,0 +1,1 @@
+public enum ConditionOperator { AND, OR }

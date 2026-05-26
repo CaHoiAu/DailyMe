@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b39311fbfb4ea4698e105ca3d46e2d, type: 3}
+  m_Name: M1_Contact2
+  m_EditorClassIdentifier: 
+  messages:
+  - "M\u1EB7t tr\u1EDDi c\xF2n ch\u01B0a l\xEAn ch\u1EAFc ch\u01B0a tr\u1EC5 \u0111\xE2u...\U0001F4A4\U0001F4A4"
+  - "M\u1EB7t tr\u1EDDi l\xEAn r\u1ED3i, ph\u1EA3i t\u1EAFt \u0111\xE8n ti\u1EBFt
+    ki\u1EC7m \u0111i\u1EC7n th\xF4i..."
+  - "H\xF4m qua ng\u1EE7 ngon qu\xE1 gi\u01B0\u1EDDng nh\u01B0 b\xE3i chi\u1EBFn
+    tr\u01B0\u1EDDng lu\xF4n... Gi\xFAp m\xECnh x\u1EBFp l\u1EA1i v\u1EDBi nha hehe"
+  - "B\u1EA1n g\u1EA5u to nh\u1EA5t \u0111\u1EC3 ch\u1ED7 n\xE0o m\xE0 d\u1EF1a v\xE0o
+    \u0111\u01B0\u1EE3c \u1EA5y"
+  - "G\u1ED1i th\xEC ph\u1EA3i \u0111\u1EB7t \u1EDF gi\u1EEFa n\xE8."
+  - "Con c\u1EE7a b\u1EA1n g\u1EA5u ph\u1EA3i \u1EDF c\xF9ng v\u1EDBi b\u1EA1n g\u1EA5u
+    l\u1EDBn n\xE8."
+  - "H\u1EA3i c\u1EA9u l\xE0 chi\u1EBFn binh th\xEC n\u1EB1m ngo\xE0i c\xF9ng \u0111\u1EC3
+    b\u1EA3o v\u1EC7 m\xECnh ch\u1EE9!"
+  - "Ch\u0103n x\u1EBFp l\u1EA1i g\u1ECDn g\xE0ng k\u1EBBo b\u1ECB m\u1EB9 la..."
+  conditions:
+  - objectId: bautroi
+    requiredStateId: 1
+    messageIndex: 0
+    excludeFromUnlock:
+    - teddynho
+    - teddylon
+    - goi2
+    - haicau
+    - denngu
+    - chan
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: denngu
+    requiredStateId: 1
+    messageIndex: 1
+    excludeFromUnlock:
+    - bautroi
+    - teddynho
+    - teddylon
+    - goi2
+    - haicau
+    - chan
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: -1
+    messageIndex: 2
+    excludeFromUnlock:
+    - bautroi
+    - denngu
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: teddylon
+    requiredStateId: 1
+    messageIndex: 3
+    excludeFromUnlock:
+    - bautroi
+    - denngu
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: -1
+    messageIndex: 4
+    excludeFromUnlock:
+    - bautroi
+    - denngu
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: -1
+    messageIndex: 5
+    excludeFromUnlock:
+    - bautroi
+    - denngu
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: haicau
+    requiredStateId: 0
+    messageIndex: 6
+    excludeFromUnlock:
+    - bautroi
+    - denngu
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: chan
+    requiredStateId: 1
+    messageIndex: 7
+    excludeFromUnlock:
+    - bautroi
+    - denngu
+    isLevelBreak: 1
+    levelBreakNote: /////
+  miniLevelData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}

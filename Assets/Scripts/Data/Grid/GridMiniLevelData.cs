@@ -13,7 +13,33 @@ public class LandingZoneData
     public Sprite spriteVisual;
     public Color colorVisual = Color.white;
 }
+[System.Serializable]
+public class AdjacentConstraintData
+{
+    public string objIdA;
+    public string objIdB;
+}
+[System.Serializable]
+public class RequireStateConstraintData
+{
+    public string objectId;
+    public int requiredStateIndex; // index trong states[], không phải stateId
+}
 
+[System.Serializable]
+public class RelativePositionConstraintData
+{
+    public string objectIdA;
+    public RelativeDirection direction;
+    public string objectIdB;
+}
+
+[System.Serializable]
+public class BelowAdjacentConstraintData
+{
+    public string objectIdA; // A là object to
+    public string objectIdB; // B phải nằm bên dưới A
+}
 [CreateAssetMenu(fileName = "GridMiniLevelData", menuName = "Level/Grid Mini Level Data")]
 public class GridMiniLevelData : BaseMiniLevelData
 {
@@ -26,7 +52,7 @@ public class GridMiniLevelData : BaseMiniLevelData
     [Header("Objects")]
     public GridObjectData[] objects;
 
-    [Header("Constraints")]
+    [Header("Partial Constraints")]
     public bool useBoundary = true;
     public bool useNonOverlap = true;
     public bool useFullCoverage = true;
@@ -34,6 +60,12 @@ public class GridMiniLevelData : BaseMiniLevelData
     public bool useExactSlots = false;
     public bool useLayerOverlap = false;
     public SlotAssignment[] exactSlotAssignments = new SlotAssignment[0];
+
+    [Header("Relational Constraints")]
+    public AdjacentConstraintData[] adjacentConstraints = new AdjacentConstraintData[0];
+    public RequireStateConstraintData[] requireStateConstraints = new RequireStateConstraintData[0];
+    public RelativePositionConstraintData[] relativePositionConstraints = new RelativePositionConstraintData[0];
+    public BelowAdjacentConstraintData[] belowAdjacentConstraints;
 
     [Header("Drop targets")]
     public bool useDropTargets = false;
@@ -46,6 +78,8 @@ public class GridMiniLevelData : BaseMiniLevelData
     [Header("Background")]
     public Sprite backgroundSprite;
     public Color backgroundColor = Color.white;
+    public Vector3 backgroundScale = Vector3.one;
+    public Vector3 backgroundPosition = Vector3.zero;
 }
 [System.Serializable]
 public class SlotAssignment

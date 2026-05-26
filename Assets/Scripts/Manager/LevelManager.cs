@@ -16,6 +16,10 @@ public class LevelManager : MonoBehaviour
     private int currentLevelIndex = 0;
     public static LevelManager Instance { get; private set; }
 
+    [Header("Chat")]
+    public ChatSequence[] chatSequences; // assign Detailed/Detailed2
+    public LevelChatData[] levelChatDatas; // 1 per level
+
     void Awake()
     {
         if (Instance == null) Instance = this;
@@ -51,6 +55,32 @@ public class LevelManager : MonoBehaviour
         {
             currentManager.LoadMiniGame(miniLevel.miniGameData);
         }
+        // ✅ Load chat sequences cho mini level này
+        LoadChatSequences(miniLevel.contactSequences);
+
+        // ✅ Reset VerifyButtonController
+        FindObjectOfType<VerifyButtonController>()?.ResetAll();
+        // ✅ Reset VerifyButtonController
+        var verifyController = FindObjectOfType<VerifyButtonController>();
+        verifyController?.ResetAll();
+    }
+    private void LoadChatSequences(ChatSequenceData[] sequenceDatas)
+    {
+        if (sequenceDatas == null || chatSequences == null) return;
+
+        for (int i = 0; i < chatSequences.Length; i++)
+        {
+            if (i < sequenceDatas.Length && sequenceDatas[i] != null)
+            {
+                chatSequences[i].LoadData(sequenceDatas[i]);
+                Debug.Log($"[LevelManager] Loaded chat sequence {i}");
+            }
+            else
+            {
+                // Không có data → reset chat trống
+                chatSequences[i].ResetChat();
+            }
+        }
     }
     public void NextMiniGame()
     {
@@ -63,6 +93,12 @@ public class LevelManager : MonoBehaviour
             return;
         }
         LoadMiniLevel();
+        foreach (var seq in chatSequences)
+            seq.ResumeFromLevelBreak();
+
+        // Reset verify button
+        var verifyController = FindObjectOfType<VerifyButtonController>();
+        verifyController?.ResetAll();
     }
     public void ResetCurrentMiniGame()
     {

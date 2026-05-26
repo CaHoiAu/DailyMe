@@ -9,7 +9,10 @@ public class GridPuzzleManager : MonoBehaviour
     public Transform puzzleContainer;
     public Transform landingZonesContainer;
     public LevelManager levelManager;
+
+    [Header("CSP")]
     public ConstraintManager constraintManager;
+    public LevelCSPVerifier levelCSPVerifier;
 
     private GridDragObject[] objects;
     private bool puzzleCompleted = false;
@@ -52,6 +55,7 @@ public class GridPuzzleManager : MonoBehaviour
         miniLevelData = data;
 
         boardManager.SetUp(data);
+        SpawnBackground(data);
         SpawnLandingZones(data);
         SpawnObjects(data);
 
@@ -77,10 +81,17 @@ public class GridPuzzleManager : MonoBehaviour
         {
             SetUpLayerConstraints();
         }
-
+        SetupCSP();
         Debug.Log("=== PUZZLE LOADED COMPLETE ===");
     }
+    private void SetupCSP()
+    {
+        if (levelCSPVerifier == null) return;
 
+        levelCSPVerifier.miniLevelData = miniLevelData;
+        levelCSPVerifier.boardManager = boardManager;
+        levelCSPVerifier.SetDragObjects(objects);
+    }
     private void InitializeContainedObjects(GridMiniLevelData data)
     {
         Debug.Log("=== Initializing Contained Objects ===");
@@ -142,22 +153,18 @@ public class GridPuzzleManager : MonoBehaviour
     }
     private void SetUpLayerConstraints()
     {
-        var shapeDict = new Dictionary<string, Vector2Int[]>();
+        var stateDicts = new Dictionary<string, GridObjectState[]>();
         foreach (var obj in objects){
-            if (obj == null) continue;
-            GridObjectState state = obj.GetCurrentState();
-            if (state != null && state.cells != null)
-            {
-                shapeDict[obj.objectId] = state.cells;
-            }
+            if (obj != null && obj.states != null)
+                stateDicts[obj.objectId] = obj.states;
         }
-        if (shapeDict.Count > 0)
+        if (stateDicts.Count > 0)
         {
-            constraintManager.ReplaceNonoOverlapWithLayerOverlap(shapeDict);
-             Debug.Log("Layer overlap constraints set up with " + shapeDict.Count + " objects");
+            var layerConstraint = new CSPGridLayerOverlapConstraint(stateDicts);
+            constraintManager.constraints.RemoveAll(c => c is CSPGridLayerOverlapConstraint);
+            constraintManager.constraints.Add(layerConstraint);
         }
     }
-
     private void ClearPuzzle()
     {
         // ✅ THÊM: Reset tất cả currentContainer references trước khi xóa
@@ -183,13 +190,35 @@ public class GridPuzzleManager : MonoBehaviour
             }
         }
     }
+    private void SpawnBackground(GridMiniLevelData data)
+    {
+        // ✅ Check if background sprite should be spawned
+        if (data.backgroundSprite == null)
+        {
+            Debug.Log("Background sprite is not set");
+            return;
+        }
 
+        // ✅ Create background GameObject
+        GameObject background = new GameObject("Background");
+        background.transform.SetParent(transform);
+        background.transform.position = data.backgroundPosition;
+        background.transform.localScale = data.backgroundScale;
+        background.transform.localRotation = Quaternion.identity;
+
+        // ✅ Add SpriteRenderer component
+        SpriteRenderer spriteRenderer = background.AddComponent<SpriteRenderer>();
+        spriteRenderer.sprite = data.backgroundSprite;
+        spriteRenderer.color = data.backgroundColor;
+        spriteRenderer.sortingOrder = -1; // ✅ Background should be behind everything
+
+        Debug.Log($"Background sprite spawned at position: {data.backgroundPosition} with scale: {data.backgroundScale}");
+    }
     private void SpawnLandingZones(GridMiniLevelData data)
     {
         // ✅ Check if landing zones should be spawned
         if (!data.useLandingZones || data.landingZones == null || data.landingZones.Length == 0)
         {
-            Debug.Log("Landing zones are disabled or empty");
             return;
         }
 
@@ -283,7 +312,7 @@ public class GridPuzzleManager : MonoBehaviour
             GameObject obj = Instantiate(objData.prefab, puzzleContainer);
             obj.transform.position = objData.startWorldPosition;
             obj.transform.rotation = Quaternion.identity;
-            obj.transform.localScale = Vector3.one;
+            obj.transform.localScale = objData.scale;
 
             GridDragObject drag = obj.GetComponent<GridDragObject>();
             if (drag == null)
@@ -309,6 +338,7 @@ public class GridPuzzleManager : MonoBehaviour
                 {
                     drag.states[i] = new GridObjectState
                     {
+                        stateId = objData.states[i].stateId,
                         stateName = objData.states[i].stateName,
                         sprite = objData.states[i].sprite,
                         cells = objData.states[i].cells,
@@ -388,7 +418,18 @@ public class GridPuzzleManager : MonoBehaviour
             }
         }
 
-        if (miniLevelData.useNonOverlap)
+        // ✅ CHECK LAYER OVERLAP TRƯỚC để tránh CheckNonOverlap block layers khác
+        if (miniLevelData.useLayerOverlap)
+        {
+            bool layerOverlap = GridConstraintChecker.CheckLayerOverlap(obj, gridPos, objects);
+            if (!layerOverlap)
+            {
+                Debug.Log("Layer overlap constraint failed!");
+                return false;
+            }
+        }
+        // ✅ Nếu useLayerOverlap = false, thì dùng CheckNonOverlap
+        else if (miniLevelData.useNonOverlap)
         {
             bool noOverlap = GridConstraintChecker.CheckNonOverlap(obj, gridPos, objects);
             if (!noOverlap)
@@ -409,15 +450,12 @@ public class GridPuzzleManager : MonoBehaviour
             }
         }
 
-        if (miniLevelData.useLayerOverlap)
-        {
-            bool layerOverlap = GridConstraintChecker.CheckLayerOverlap(obj, gridPos, objects);
-            if (!layerOverlap)
-            {
-                Debug.Log("Layer overlap constraint failed!");
-                return false;
-            }
-        }
+        // 🔍 DEBUG: In ra các cells bị chiếm
+        Vector2Int[] occupiedCells = obj.GetOccupiedCellsAt(gridPos);
+        string cellsDebug = string.Join(", ", System.Array.ConvertAll(occupiedCells, c => $"({c.x},{c.y})"));
+        Debug.Log($"[{obj.objectId}] ✅ Placing at grid position {gridPos}");
+        Debug.Log($"[{obj.objectId}] 📍 Occupied cells ({occupiedCells.Length}): {cellsDebug}");
+
         obj.SnapToGrid(gridPos);
         return true;
     }
@@ -430,19 +468,30 @@ public class GridPuzzleManager : MonoBehaviour
 
     public void OnObjectChanged()
     {
+        //if (puzzleCompleted) return;
+
+        //if (CheckAllConstraints())
+        //{
+        //    if (miniLevelData.useLandingZones && levelCSPVerifier != null)
+        //    {
+        //        levelCSPVerifier = GetComponent<LevelCSPVerifier>();
+        //        if (!levelCSPVerifier.VerifyPlayerPlacement()) 
+        //        {
+        //            return;
+        //        }
+        //    }
+        //    Debug.Log("✅ Puzzle Complete!");
+        //    puzzleCompleted = true;
+        //    StartCoroutine(PlayAllDropEffects());
+        //}
     }
     private Vector3 GetDropTargetPosition(GridDragObject obj)
     {
         // Get the grid position where the object was placed
         Vector3 gridWorldPos = boardManager.GridToWorld(obj.currentGridPosition);
 
-        // Account for shape center offset (same as SnapToGrid)
-        Vector2Int[] shape = obj.GetCurrentShape();
-        Vector2 shapeCenter = obj.GetShapeCenter(shape);
-        Vector3 gridCenterPos = gridWorldPos + new Vector3(
-            shapeCenter.x * boardManager.cellSize,
-            shapeCenter.y * boardManager.cellSize,
-            0f);
+        // ✅ GridToWorld đã trả về tâm cell, không cần cộng shape center thêm
+        Vector3 gridCenterPos = gridWorldPos;
 
         // ✅ Use custom drop targets if enabled - only customize Y position
         if (miniLevelData.useDropTargets && miniLevelData.dropTargets != null)
@@ -479,6 +528,8 @@ public class GridPuzzleManager : MonoBehaviour
         if (placedObjects.Count == 0)
         {
             Debug.LogWarning("No placed objects found for drop effect");
+            if (levelManager != null)
+                levelManager.NextMiniGame();
             yield break;
         }
         //wait for the longest drop effect to finish
@@ -490,81 +541,168 @@ public class GridPuzzleManager : MonoBehaviour
     }
     public bool CheckAllConstraints()
     {
+        Debug.Log("=== CheckAllConstraints ===");
+
+        // ── Spatial Constraints ──────────────────────────────────────
         if (miniLevelData.useBoundary)
         {
             foreach (var obj in objects)
             {
                 if (obj == null || !obj.isPlaced) continue;
-                if (!GridConstraintChecker.CheckBoundary(boardManager, obj, obj.currentGridPosition))
-                    return false;
+                bool pass = GridConstraintChecker.CheckBoundary(boardManager, obj, obj.currentGridPosition);
+                Debug.Log($"Boundary [{obj.objectId}]: {(pass ? "✅" : "❌")}");
+                if (!pass) return false;
             }
         }
+
         if (miniLevelData.useNonOverlap)
         {
             foreach (var obj in objects)
             {
                 if (obj == null || !obj.isPlaced) continue;
-                if (!GridConstraintChecker.CheckNonOverlap(obj, obj.currentGridPosition, objects))
-                    return false;
+                bool pass = GridConstraintChecker.CheckNonOverlap(obj, obj.currentGridPosition, objects);
+                Debug.Log($"NonOverlap [{obj.objectId}]: {(pass ? "✅" : "❌")}");
+                if (!pass) return false;
             }
         }
+
+        if (miniLevelData.useAllObjects)
+        {
+            bool pass = GridConstraintChecker.CheckUseAllObjects(objects);
+            Debug.Log($"UseAllObjects: {(pass ? "✅" : "❌")}");
+            if (!pass) return false;
+        }
+
+        if (miniLevelData.useFullCoverage)
+        {
+            bool pass = GridConstraintChecker.CheckFullCoverage(boardManager, objects);
+            Debug.Log($"FullCoverage: {(pass ? "✅" : "❌")}");
+            if (!pass) return false;
+        }
+
         if (miniLevelData.useExactSlots)
         {
             foreach (var obj in objects)
             {
                 if (obj == null || !obj.isPlaced) continue;
-                if (!GridConstraintChecker.CheckExactSlots(obj, obj.currentGridPosition, objects, miniLevelData.exactSlotAssignments))
-                    return false;
+                bool pass = GridConstraintChecker.CheckExactSlots(obj, obj.currentGridPosition, objects, miniLevelData.exactSlotAssignments);
+                Debug.Log($"ExactSlot [{obj.objectId}]: {(pass ? "✅" : "❌")}");
+                if (!pass) return false;
             }
         }
-        if (miniLevelData.useAllObjects)
+
+        if (miniLevelData.useLayerOverlap)
         {
-            if (!GridConstraintChecker.CheckUseAllObjects(objects))
-                return false;
+            foreach (var obj in objects)
+            {
+                if (obj == null || !obj.isPlaced) continue;
+                bool pass = GridConstraintChecker.CheckLayerOverlap(obj, obj.currentGridPosition, objects);
+                Debug.Log($"LayerOverlap [{obj.objectId}]: {(pass ? "✅" : "❌")}");
+                if (!pass) return false;
+            }
         }
-        if (miniLevelData.useFullCoverage)
+
+        // ── Relational Constraints ───────────────────────────────────
+        var assignment = constraintManager.BuildAssignement(objects);
+        var statesDict = BuildStatesDict();
+
+        if (miniLevelData.requireStateConstraints != null)
         {
-            if (!GridConstraintChecker.CheckFullCoverage(boardManager, objects))
-                return false;
+            foreach (var c in miniLevelData.requireStateConstraints)
+            {
+                var constraint = new CSPRequireState(c.objectId, c.requiredStateIndex);
+                bool pass = constraint.IsSatisfied(assignment);
+                Debug.Log($"RequireState [{c.objectId}] state={c.requiredStateIndex}: {(pass ? "✅" : "❌")}");
+                if (!pass) return false;
+            }
         }
+
+        if (miniLevelData.adjacentConstraints != null)
+        {
+            foreach (var c in miniLevelData.adjacentConstraints)
+            {
+                var constraint = new CSPAdjacentConstraint(c.objIdA, c.objIdB, statesDict);
+                bool pass = constraint.IsSatisfied(assignment);
+                Debug.Log($"Adjacent [{c.objIdA}] & [{c.objIdB}]: {(pass ? "✅" : "❌")}");
+                if (!pass) return false;
+            }
+        }
+
+        if (miniLevelData.relativePositionConstraints != null)
+        {
+            foreach (var c in miniLevelData.relativePositionConstraints)
+            {
+                var constraint = new CSPRelativeDir(c.objectIdA, c.objectIdB, c.direction);
+                bool pass = constraint.IsSatisfied(assignment);
+                Debug.Log($"RelativePos [{c.objectIdA}] {c.direction} [{c.objectIdB}]: {(pass ? "✅" : "❌")}");
+                if (!pass) return false;
+            }
+        }
+
+        if (miniLevelData.belowAdjacentConstraints != null)
+        {
+            foreach (var c in miniLevelData.belowAdjacentConstraints)
+            {
+                var constraint = new CSPAdjacentToBottomConstraint(c.objectIdA, c.objectIdB, statesDict);
+                bool pass = constraint.IsSatisfied(assignment);
+                Debug.Log($"BelowAdjacent [{c.objectIdA}] & [{c.objectIdB}]: {(pass ? "✅" : "❌")}");
+                if (!pass) return false;
+            }
+        }
+
+        // ── State Only Constraints ───────────────────────────────────
+        foreach (var objData in miniLevelData.objects)
+        {
+            if (objData.requiresPlacement) continue;
+            if (miniLevelData.requireStateConstraints == null) continue;
+
+            foreach (var c in miniLevelData.requireStateConstraints)
+            {
+                if (c.objectId != objData.objectId) continue;
+                var obj = System.Array.Find(objects, o => o.objectId == c.objectId);
+                if (obj == null) continue;
+
+                bool pass = obj.currentStateIndex == c.requiredStateIndex;
+                Debug.Log($"StateOnly [{c.objectId}] state={c.requiredStateIndex}: {(pass ? "✅" : "❌")}");
+                if (!pass) return false;
+            }
+        }
+
+        Debug.Log("✅ All constraints satisfied!");
         return true;
+    }
+    private Dictionary<string, GridObjectState[]> BuildStatesDict()
+    {
+        var dict = new Dictionary<string, GridObjectState[]>();
+        foreach (var obj in objects)
+            if (obj != null && obj.states != null)
+                dict[obj.objectId] = obj.states;
+        return dict;
     }
     public void OnCheckConstraintsButtonClicked()
     {
-        if (puzzleCompleted)
-        {
-            Debug.Log("Puzzle already completed, no need to check constraints.");
-            return;
-        }
+        if (puzzleCompleted) return;
 
         Debug.Log("=== Checking All Constraints ===");
 
         if (!CheckAllConstraints())
         {
-            Debug.LogError("❌ Constraints not satisfied. Keep trying!");
+            Debug.Log("❌ Chưa thỏa mãn các constraint. Thử lại!");
             return;
         }
 
-        Debug.Log("✅ All gameplay constraints satisfied");
-
-        // ✅ Check landing zones if enabled
-        LevelCSPVerifier verifier = GetComponent<LevelCSPVerifier>();
-        if (verifier != null && miniLevelData.useLandingZones)
+        // ✅ Check landing zones nếu có
+        if (miniLevelData.useLandingZones && levelCSPVerifier != null)
         {
-            Debug.Log("=== Checking Landing Zone Requirements ===");
-
-            // ✅ IMPORTANT: Pass actual placed objects to verifier
-            verifier.SetDragObjects(objects);  // ← Pass the real objects array
-
-            if (!verifier.VerifyPlayerPlacement())
+            levelCSPVerifier.SetDragObjects(objects);
+            if (!levelCSPVerifier.VerifyPlayerPlacement())
             {
-                Debug.LogError("❌ Landing zone requirements NOT met. Resetting minigame...");
-                ResetMiniGame();
+                Debug.Log("❌ Landing zones chưa đúng!");
                 return;
             }
         }
 
-        Debug.Log("✅ All constraints and landing zones satisfied! Puzzle completed.");
+        Debug.Log("✅ All constraints satisfied! Puzzle Complete!");
         puzzleCompleted = true;
         StartCoroutine(PlayAllDropEffects());
     }
