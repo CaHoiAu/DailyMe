@@ -17,6 +17,7 @@ public class GridPuzzleManager : MonoBehaviour
     private GridDragObject[] objects;
     private bool puzzleCompleted = false;
     private List<GridDragObject> spawnedObjects = new List<GridDragObject>();
+    private GameObject spawnedBackground;
 
     [Header("Drop Effect")]
     public float dropEffectDuration = 2f;
@@ -189,6 +190,11 @@ public class GridPuzzleManager : MonoBehaviour
                 Destroy(child.gameObject);
             }
         }
+        if (spawnedBackground != null)
+        {
+            Destroy(spawnedBackground);
+            spawnedBackground = null;
+        }
     }
     private void SpawnBackground(GridMiniLevelData data)
     {
@@ -200,7 +206,8 @@ public class GridPuzzleManager : MonoBehaviour
         }
 
         // ✅ Create background GameObject
-        GameObject background = new GameObject("Background");
+        spawnedBackground = new GameObject("Background");
+        GameObject background = spawnedBackground; 
         background.transform.SetParent(transform);
         background.transform.position = data.backgroundPosition;
         background.transform.localScale = data.backgroundScale;

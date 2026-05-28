@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: -487874563
   m_SortingLayer: 3
   m_SortingOrder: 1
-  m_Sprite: {fileID: 5211931647502139497, guid: a1fcf70653eb17e4fbf6ba4877966c1b, type: 3}
+  m_Sprite: {fileID: -8942117458661244898, guid: ebdd6ffd170f79346942b658eababb78, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -127,7 +127,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.88, y: 2.04}
+    oldSize: {x: 10.15, y: 8.56}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -149,7 +149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectId: compass
   states:
-  - stateName: 
+  - stateId: 0
+    stateName: 
     sprite: {fileID: 5211931647502139497, guid: a1fcf70653eb17e4fbf6ba4877966c1b, type: 3}
     cells:
     - {x: 0, y: 0}
@@ -157,7 +158,8 @@ MonoBehaviour:
     isContainer: 0
     containedObjectIds: []
     containedObjectDisplays: []
-  - stateName: 
+  - stateId: 0
+    stateName: 
     sprite: {fileID: 5211931647502139497, guid: c8189cb15f4d9424cbcb81a77f66190b, type: 3}
     cells:
     - {x: 0, y: 0}
@@ -171,4 +173,44 @@ MonoBehaviour:
   currentRotationIndex: 0
   currentGridPosition: {x: 0, y: 0}
   currentLayer: 0
+  isContainedObject: 0
+  currentContainer: {fileID: 0}
+  hasHomeDisplayPosition: 0
+  homeDisplayWorldPosition: {x: 0, y: 0, z: 0}
+  homeDisplayScale: {x: 1, y: 1, z: 1}
   gridPuzzleManager: {fileID: 0}
+  objectData:
+    objectId: 
+    prefab: {fileID: 0}
+    states: []
+    startWorldPosition: {x: 0, y: 0, z: 0}
+    currentLayer: 0
+    scale: {x: 1, y: 1, z: 1}
+    requiresPlacement: 1
+    dropDuration: 2
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  isLocked: 0

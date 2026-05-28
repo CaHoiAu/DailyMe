@@ -18,9 +18,16 @@ public class GridBoardManager : MonoBehaviour
         origin = data.boardOrigin;
         boardWidth = data.boardWidth;
         cellSize = data.cellSize;
+        ClearGrid();
 
         if (showGrid)
             DrawGridWithLine();
+    }
+    public void ClearGrid()
+    {
+        Transform existing = transform.Find("GridLines");
+        if (existing != null)
+            Destroy(existing.gameObject);
     }
     private void DrawGridWithLine()
     {

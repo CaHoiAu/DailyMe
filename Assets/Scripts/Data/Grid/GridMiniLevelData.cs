@@ -10,6 +10,7 @@ public class LandingZoneData
     public string[] objectId;
     public GameObject prefab;
     public Vector3 position;
+    public Vector3 scale = Vector3.one;
     public Sprite spriteVisual;
     public Color colorVisual = Color.white;
 }

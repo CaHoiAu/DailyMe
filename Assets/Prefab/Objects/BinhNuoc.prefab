@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: -487874563
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5216094766760963717, guid: 832235d84f090d3418db77d2731b6d36, type: 3}
+  m_Sprite: {fileID: -5216094766760963717, guid: 16c30882f1b21104f8aa2112cf318cea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -127,7 +127,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.3, y: 3.19}
+    oldSize: {x: 13.341439, y: 31.369997}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -149,21 +149,70 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectId: 
   states:
-  - stateName: binhnuoc
+  - stateId: 0
+    stateName: binhnuoc
     sprite: {fileID: -5216094766760963717, guid: 832235d84f090d3418db77d2731b6d36, type: 3}
     cells:
     - {x: 0, y: 0}
     - {x: 0, y: 1}
     allowRotate: 0
-  - stateName: 
+    isContainer: 0
+    containedObjectIds: []
+    containedObjectDisplays: []
+  - stateId: 0
+    stateName: 
     sprite: {fileID: -5216094766760963717, guid: 0200c14e078c5254582b5375d2aac9a0, type: 3}
     cells:
     - {x: 0, y: 0}
     - {x: 1, y: 0}
     allowRotate: 0
+    isContainer: 0
+    containedObjectIds: []
+    containedObjectDisplays: []
   currentStateIndex: 0
   startWorldPosition: {x: 9, y: 0, z: 0}
   isPlaced: 0
   currentRotationIndex: 0
   currentGridPosition: {x: 0, y: 0}
+  currentLayer: 0
+  isContainedObject: 0
+  currentContainer: {fileID: 0}
+  hasHomeDisplayPosition: 0
+  homeDisplayWorldPosition: {x: 0, y: 0, z: 0}
+  homeDisplayScale: {x: 1, y: 1, z: 1}
   gridPuzzleManager: {fileID: 0}
+  objectData:
+    objectId: 
+    prefab: {fileID: 0}
+    states: []
+    startWorldPosition: {x: 0, y: 0, z: 0}
+    currentLayer: 0
+    scale: {x: 1, y: 1, z: 1}
+    requiresPlacement: 1
+    dropDuration: 2
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  isLocked: 0

@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: -487874563
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6921591033224271437, guid: d203241ff09a4cf49b7e91ac295df0fc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 75d42713b2c564742abaa8e70656bb1b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -127,7 +127,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.81, y: 2.69}
+    oldSize: {x: 22.529999, y: 31.050766}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -149,19 +149,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectId: van
   states:
-  - stateName: 
+  - stateId: 0
+    stateName: 
     sprite: {fileID: -6921591033224271437, guid: d203241ff09a4cf49b7e91ac295df0fc, type: 3}
     cells:
     - {x: 0, y: 0}
     - {x: 0, y: 1}
     allowRotate: 0
-  - stateName: 
+    isContainer: 0
+    containedObjectIds: []
+    containedObjectDisplays: []
+  - stateId: 0
+    stateName: 
     sprite: {fileID: -6921591033224271437, guid: ebd7447670f79f64c82a182ce965f354, type: 3}
     cells:
     - {x: 0, y: 0}
     - {x: 1, y: 0}
     allowRotate: 0
-  - stateName: 
+    isContainer: 0
+    containedObjectIds: []
+    containedObjectDisplays: []
+  - stateId: 0
+    stateName: 
     sprite: {fileID: 7716982319736487695, guid: b8c61e4845be7e6418b36e274889c805, type: 3}
     cells:
     - {x: 0, y: 0}
@@ -169,9 +178,53 @@ MonoBehaviour:
     - {x: 1, y: 0}
     - {x: 1, y: 1}
     allowRotate: 0
+    isContainer: 0
+    containedObjectIds: []
+    containedObjectDisplays: []
   currentStateIndex: 0
   startWorldPosition: {x: 0, y: 0, z: 0}
   isPlaced: 0
   currentRotationIndex: 0
   currentGridPosition: {x: 0, y: 0}
+  currentLayer: 0
+  isContainedObject: 0
+  currentContainer: {fileID: 0}
+  hasHomeDisplayPosition: 0
+  homeDisplayWorldPosition: {x: 0, y: 0, z: 0}
+  homeDisplayScale: {x: 1, y: 1, z: 1}
   gridPuzzleManager: {fileID: 0}
+  objectData:
+    objectId: 
+    prefab: {fileID: 0}
+    states: []
+    startWorldPosition: {x: 0, y: 0, z: 0}
+    currentLayer: 0
+    scale: {x: 1, y: 1, z: 1}
+    requiresPlacement: 1
+    dropDuration: 2
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  isLocked: 0
