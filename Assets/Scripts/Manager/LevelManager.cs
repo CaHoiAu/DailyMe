@@ -16,6 +16,9 @@ public class LevelManager : MonoBehaviour
     private int currentLevelIndex = 0;
     public static LevelManager Instance { get; private set; }
 
+    [Header("Task Timeline")]
+    public TaskTimelineManager taskTimelineManager;
+
     [Header("Chat")]
     public ChatSequence[] chatSequences; // assign Detailed/Detailed2
     public LevelChatData[] levelChatDatas; // 1 per level
@@ -31,6 +34,7 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         levelData = allLevels[currentLevelIndex];
+        taskTimelineManager?.Initialize(levelData);
         LoadMiniLevel();
     }
     void LoadMiniLevel()
@@ -55,6 +59,7 @@ public class LevelManager : MonoBehaviour
         {
             currentManager.LoadMiniGame(miniLevel.miniGameData);
         }
+        taskTimelineManager?.MoveNext();
         // ✅ Load chat sequences cho mini level này
         LoadChatSequences(miniLevel.contactSequences);
 

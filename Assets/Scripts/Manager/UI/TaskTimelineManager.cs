@@ -1,34 +1,49 @@
-using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class TaskTimelineManager : MonoBehaviour
 {
-    public List<TaskRow> taskRows = new List<TaskRow>();
-    public List<BaseMiniLevelData> miniLevelDatas = new List<BaseMiniLevelData>();
-    private BaseMiniGameManager miniGameManager;
+    [Header("Task Row Setup")]
+    public GameObject taskRowPrefab;
+    public GameObject taskRowPrefab2;
+    public Transform taskContainer;
 
+    private List<TaskRow> taskRows = new List<TaskRow>();
     private int currentIndex = -1;
 
-    private void Start()
+    public void Initialize(LevelData levelData)
     {
-        for (int i = 0; i < taskRows.Count && i < miniLevelDatas.Count; i++)
+        foreach (var row in taskRows)
+            if (row != null) Destroy(row.gameObject);
+        taskRows.Clear();
+        currentIndex = -1;
+
+        if (taskRowPrefab == null || taskContainer == null) return;
+
+        for (int i = 0; i < levelData.miniGames.Length; i++)
         {
-            taskRows[i].Bind(miniLevelDatas[i]);
+            BaseMiniLevelData data = levelData.miniGames[i].miniGameData as BaseMiniLevelData;
+            if (data == null) continue;
+
+            bool useSecond = taskRowPrefab2 != null && i % 2 == 1;
+            GameObject prefab = useSecond ? taskRowPrefab2 : taskRowPrefab;
+
+            GameObject rowObj = Instantiate(prefab, taskContainer); TaskRow row = rowObj.GetComponent<TaskRow>();
+            if (row == null) continue;
+
+            row.Bind(data);
+            taskRows.Add(row);
         }
-        MoveNext();
     }
+
     public void MoveNext()
     {
-        if (currentIndex >= 0)
-        {
+        if (currentIndex >= 0 && currentIndex < taskRows.Count)
             taskRows[currentIndex].SetHighlight(false);
-        }
+
         currentIndex++;
+
         if (currentIndex < taskRows.Count)
-        {
             taskRows[currentIndex].SetHighlight(true);
-            miniGameManager.LoadMiniGame(taskRows[currentIndex].GetData());
-        }
     }
 }

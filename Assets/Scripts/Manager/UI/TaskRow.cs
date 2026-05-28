@@ -20,8 +20,11 @@ public class TaskRow : MonoBehaviour
     public void Bind(BaseMiniLevelData miniLevelData)
     {
         data = miniLevelData;
-        taskNameText.text = data.name;
-        originalText = data.name;
+        string displayName = !string.IsNullOrEmpty(data.name)
+            ? data.name
+            : ((UnityEngine.Object)data).name;
+        taskNameText.text = displayName;
+        originalText = displayName;
 
         SetHighlight(false);
     }
