@@ -46,4 +46,4 @@ MonoBehaviour:
     prefab: {fileID: 5415881445493261230, guid: c0d67a9e48affea47b4c717c356c97c2, type: 3}
   characterPrefab: {fileID: 5293771268688201708, guid: 465a9548e00cd5945aeec27c89aedac9, type: 3}
   characterPosition: {x: 2.74, y: 0, z: 0}
-  initialSprite: {fileID: -5703570139116527780, guid: 42e44bec7eddb304d9fa959fc91d5367, type: 3}
+  initialSprite: {fileID: 8341470818913770053, guid: 597d175fdc3d76948b22c13bff7fb279, type: 3}

@@ -5,24 +5,29 @@ public class RackSnapController : MonoBehaviour
 {
     public Transform centerMarker;
     public EquipmentManager equipmentManager;
+    [Tooltip("The transform that drag moves (usually RackDragController's transform). Leave null to use this transform.")]
+    public Transform rackMoveTarget;
 
     public float snapSpeed = 8f;
     private bool isSnapping = false;
 
-    public void SnapToNearestItem()
+    public void SnapToNearestItem(bool equip = true)
     {
         if (isSnapping) return;
 
         ClothingItemData nearestItem = FindNearestItem();
         if (nearestItem != null)
         {
-            StartCoroutine(SmoothSnap(nearestItem.transform));
+            StartCoroutine(SmoothSnap(nearestItem.transform, equip));
         }
     }
     ClothingItemData FindNearestItem()
     {
-        ClothingItemData[] items = GetComponentsInChildren<ClothingItemData>();
+        Transform searchRoot = transform.root;
+        ClothingItemData[] items = searchRoot.GetComponentsInChildren<ClothingItemData>();
 
+        if (items.Length == 0)
+            Debug.LogWarning("[RackSnapController] No ClothingItemData found under root: " + searchRoot.name);
         ClothingItemData nearestItem = null;
         float minDistance = Mathf.Infinity;
 
@@ -37,24 +42,33 @@ public class RackSnapController : MonoBehaviour
         }
         return nearestItem;
     }
-    IEnumerator SmoothSnap(Transform targetItem)
+    IEnumerator SmoothSnap(Transform targetItem, bool equip = true)
     {
         isSnapping = true;
-        float offsetX = centerMarker.position.x - targetItem.position.x;
-        Vector3 targetRackPosition = transform.position + new Vector3(offsetX, 0, 0);
+        Transform moveTarget = rackMoveTarget != null ? rackMoveTarget : transform;
 
-        while (Vector3.Distance(transform.position, targetRackPosition) > 0.01f)
+        float offsetX = centerMarker.position.x - targetItem.position.x;
+        Vector3 targetRackPosition = moveTarget.position + new Vector3(offsetX, 0, 0);
+
+        Debug.Log($"[RackSnapController] Snapping to: {targetItem.name}, offsetX: {offsetX:F2}, equip: {equip}");
+
+        while (Vector3.Distance(moveTarget.position, targetRackPosition) > 0.01f)
         {
-            transform.position = Vector3.Lerp(transform.position, targetRackPosition, Time.deltaTime * snapSpeed);
+            moveTarget.position = Vector3.Lerp(moveTarget.position, targetRackPosition, Time.deltaTime * snapSpeed);
             yield return null;
         }
 
-        transform.position = targetRackPosition;
+        moveTarget.position = targetRackPosition;
 
-        ClothingItemData itemData = targetItem.GetComponent<ClothingItemData>();
-        if(equipmentManager != null && itemData != null)
+        if (equip)
         {
-            equipmentManager.Equip(itemData);
+            ClothingItemData itemData = targetItem.GetComponent<ClothingItemData>();
+            if (equipmentManager == null)
+                Debug.LogError("[RackSnapController] equipmentManager is NULL — forgot to wire in DressUpGameManager.SpawnRackSystem?");
+            else if (itemData == null)
+                Debug.LogError("[RackSnapController] ClothingItemData not found on snapped item: " + targetItem.name);
+            else
+                equipmentManager.Equip(itemData);
         }
         isSnapping = false;
     }

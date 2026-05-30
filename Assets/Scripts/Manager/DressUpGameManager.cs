@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Rendering.VirtualTexturing;
+using static Unity.VisualScripting.Member;
 
 public class DressUpGameManager : BaseMiniGameManager
 {
@@ -31,6 +33,8 @@ public class DressUpGameManager : BaseMiniGameManager
         SpawnCharacter();
         SpawnRackSystem();
         SpawnRackItems();
+        ResolveAndWireEquipmentManager();
+
         equipmentManager?.SetInitialSprite(levelData.initialSprite);
         Debug.Log("[DressUpGameManager] Loaded: " + levelData.name);
     }
@@ -44,6 +48,8 @@ public class DressUpGameManager : BaseMiniGameManager
         SpawnCharacter();
         SpawnRackSystem();
         SpawnRackItems();
+        ResolveAndWireEquipmentManager();
+
         equipmentManager?.SetInitialSprite(levelData.initialSprite);
     }
 
@@ -81,7 +87,30 @@ public class DressUpGameManager : BaseMiniGameManager
         if (equipmentManager == null)
             equipmentManager = spawnedCharacter.GetComponentInChildren<EquipmentManager>();
     }
+    // Called after all spawning — resolves EM from any source then wires every snap controller
+    private void ResolveAndWireEquipmentManager()
+    {
+        if (equipmentManager == null)
+            equipmentManager = GetComponentInChildren<EquipmentManager>();
 
+        if (equipmentManager == null)
+        {
+            Debug.LogError("[DressUpGameManager] EquipmentManager not found! Assign it in the Inspector or add it to the character prefab.");
+            return;
+        }
+
+        foreach (var snap in GetComponentsInChildren<RackSnapController>())
+        {
+            snap.equipmentManager = equipmentManager;
+            if (snap.rackMoveTarget == null)
+            {
+                RackDragController drag = snap.GetComponentInParent<RackDragController>();
+                if (drag == null) drag = snap.GetComponentInChildren<RackDragController>();
+                if (drag != null) snap.rackMoveTarget = drag.transform;
+            }
+        }
+        Debug.Log("[DressUpGameManager] EquipmentManager wired to all RackSnapControllers ✓");
+    }
     private void SpawnBackground()
     {
         if (levelData.backgroundSprite == null) return;
@@ -101,13 +130,13 @@ public class DressUpGameManager : BaseMiniGameManager
         spawnedRackSystem.transform.position = levelData.rackPosition;
 
         // Find rack components from spawned prefab
-        rackContainer = spawnedRackSystem.GetComponentInChildren<RackDragController>()?.transform.Find("RackContainer")
-                        ?? spawnedRackSystem.transform;
+        RackDragController dragController = spawnedRackSystem.GetComponentInChildren<RackDragController>();
+        rackContainer = dragController?.transform.Find("RackContainer") ?? spawnedRackSystem.transform;
         rackSnapController = spawnedRackSystem.GetComponentInChildren<RackSnapController>();
 
         // Wire EquipmentManager into snap controller
-        if (rackSnapController != null)
-            rackSnapController.equipmentManager = equipmentManager;
+        if (rackSnapController == null)
+            Debug.LogError("[DressUpGameManager] RackSnapController not found in rack prefab!");
     }
 
     private void SpawnRackItems()
@@ -128,7 +157,7 @@ public class DressUpGameManager : BaseMiniGameManager
             }
             spawnedItems.Add(obj);
         }
-        rackSnapController?.SnapToNearestItem();
+        rackSnapController?.SnapToNearestItem(equip: false);
     }
 
     private void ClearAll()
