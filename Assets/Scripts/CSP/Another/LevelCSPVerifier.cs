@@ -199,6 +199,7 @@ public class LevelCSPVerifier : MonoBehaviour
         Dictionary<string, LandingZoneData> objectToZone = new Dictionary<string, LandingZoneData>();
         foreach (var zone in miniLevelData.landingZones)
         {
+            if (zone.isVisualOnly) continue;
             if (zone.objectId != null && zone.objectId.Length > 0)
             {
                 foreach (var objId in zone.objectId)
@@ -252,6 +253,7 @@ public class LevelCSPVerifier : MonoBehaviour
         // ✅ Step 3: Check no wrong objects placed in landing zones (only check X)
         foreach (var zone in miniLevelData.landingZones)
         {
+            if (zone.isVisualOnly) continue;
             Vector2Int zoneGridPos = boardManager.WorldToGrid(zone.position);
             int zoneX = zoneGridPos.x;
 
@@ -259,6 +261,8 @@ public class LevelCSPVerifier : MonoBehaviour
             foreach (var obj in dragObjects)
             {
                 if (obj == null || !obj.isPlaced) continue;
+
+                if (!objectToZone.ContainsKey(obj.objectId)) continue; // no zone requirement — can go anywhere
 
                 if (obj.currentGridPosition.x == zoneX)  // ✅ Only check X
                 {

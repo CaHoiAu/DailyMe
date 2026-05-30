@@ -45,6 +45,9 @@ public class GridDragObject : MonoBehaviour
     public Vector2Int currentGridPosition;
     public int currentLayer = 0; // For potential layering in constraints
 
+    [Header("Inspect")]
+    public Sprite inspectSprite;
+
     [Header("Containment")]
     private List<GridDragObject> containedObjects = new List<GridDragObject>();
     private Transform containmentDisplayParent;
@@ -360,10 +363,15 @@ public class GridDragObject : MonoBehaviour
         isTopObject = false;
         if (!hasDragged)
         {
-            NextState();
-            if (gridPuzzleManager != null)
+            if (inspectSprite != null && InspectPopupManager.Instance != null)
             {
-                gridPuzzleManager.OnObjectChanged();
+                InspectPopupManager.Instance.Show(inspectSprite);
+            }
+            else
+            {
+                NextState();
+                if (gridPuzzleManager != null)
+                    gridPuzzleManager.OnObjectChanged();
             }
             return;
         }

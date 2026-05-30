@@ -19,6 +19,8 @@ public class VerifyButtonController : MonoBehaviour
     // Gọi từ onAllMessagesShown của từng ChatSequence
     public void OnSequenceCompleted(ChatSequence sequence)
     {
+        if (completedSequences.Contains(sequence)) return;
+
         completedSequences.Add(sequence);
         Debug.Log($"[VerifyButton] {completedSequences.Count}/{chatSequences.Count} sequences completed");
 

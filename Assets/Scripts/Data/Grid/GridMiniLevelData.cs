@@ -13,6 +13,8 @@ public class LandingZoneData
     public Vector3 scale = Vector3.one;
     public Sprite spriteVisual;
     public Color colorVisual = Color.white;
+    public int sortingOrder = 0;
+    public bool isVisualOnly = false;
 }
 [System.Serializable]
 public class AdjacentConstraintData

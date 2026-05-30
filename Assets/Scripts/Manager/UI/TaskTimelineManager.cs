@@ -23,7 +23,6 @@ public class TaskTimelineManager : MonoBehaviour
         for (int i = 0; i < levelData.miniGames.Length; i++)
         {
             BaseMiniLevelData data = levelData.miniGames[i].miniGameData as BaseMiniLevelData;
-            if (data == null) continue;
 
             bool useSecond = taskRowPrefab2 != null && i % 2 == 1;
             GameObject prefab = useSecond ? taskRowPrefab2 : taskRowPrefab;

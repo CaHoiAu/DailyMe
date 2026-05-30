@@ -63,11 +63,7 @@ public class LevelManager : MonoBehaviour
         // ✅ Load chat sequences cho mini level này
         LoadChatSequences(miniLevel.contactSequences);
 
-        // ✅ Reset VerifyButtonController
         FindObjectOfType<VerifyButtonController>()?.ResetAll();
-        // ✅ Reset VerifyButtonController
-        var verifyController = FindObjectOfType<VerifyButtonController>();
-        verifyController?.ResetAll();
     }
     private void LoadChatSequences(ChatSequenceData[] sequenceDatas)
     {
@@ -100,10 +96,6 @@ public class LevelManager : MonoBehaviour
         LoadMiniLevel();
         foreach (var seq in chatSequences)
             seq.ResumeFromLevelBreak();
-
-        // Reset verify button
-        var verifyController = FindObjectOfType<VerifyButtonController>();
-        verifyController?.ResetAll();
     }
     public void ResetCurrentMiniGame()
     {

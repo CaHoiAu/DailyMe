@@ -9,25 +9,41 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 635b6929749ba4d4b843aba02658afc2, type: 3}
+  m_Script: {fileID: 11500000, guid: 17ca0037072d6da428d34a460346a837, type: 3}
   m_Name: Mini_3
   m_EditorClassIdentifier: 
   name: "Thay \u0111\u1ED3"
-  miniLevelType: 1
-  objects:
-  - objectId: outfit1
-    objectType: 
+  backgroundSprite: {fileID: 0}
+  backgroundPosition: {x: 0, y: 0, z: 0}
+  backgroundScale: {x: 1, y: 1, z: 1}
+  rackSystemPrefab: {fileID: 5376902392088040639, guid: 2d68fab1f8fda16479327ab52c8c354a, type: 3}
+  rackPosition: {x: 2.74, y: -0.64, z: 0}
+  itemSpacing: 8
+  rackItems:
+  - itemId: aodai
+    clothingSprite: {fileID: 21300000, guid: 10c8dee3e7e0487489c9695e6c39f75e, type: 3}
+    isCorrect: 1
     prefab: {fileID: 2446670682795111257, guid: 72e0fdc5801f1a34f91264f71a9d0db4, type: 3}
-    startPosition: {x: -4, y: -1, z: 0}
-    width: 0
-    height: 0
-  - objectId: outfit2
-    objectType: 
+  - itemId: aoquanchoi1
+    clothingSprite: {fileID: 21300000, guid: 08cd1688b6356bf4cae1e1ec6408cceb, type: 3}
+    isCorrect: 0
     prefab: {fileID: 5415881445493261230, guid: 417c2c5089aea8d419d541f785411628, type: 3}
-    startPosition: {x: 6, y: -1, z: 0}
-    width: 0
-    height: 0
-  slots: []
-  constraints: []
-  boardPrefab: {fileID: 5293771268688201708, guid: 465a9548e00cd5945aeec27c89aedac9, type: 3}
-  boardPosition: {x: 0, y: 0, z: 0}
+  - itemId: dongphuc
+    clothingSprite: {fileID: 21300000, guid: ee031384e895fe6439ea6d6bbebc8257, type: 3}
+    isCorrect: 0
+    prefab: {fileID: 5415881445493261230, guid: 1d38be73b812c504280fec3bbfac6f11, type: 3}
+  - itemId: theduc
+    clothingSprite: {fileID: 21300000, guid: 7786bff692ef2f74eb6aa44324a3bf9d, type: 3}
+    isCorrect: 0
+    prefab: {fileID: 5415881445493261230, guid: 93fac2d484627dc4ba76f606b109642f, type: 3}
+  - itemId: aoquandichoi2
+    clothingSprite: {fileID: 21300000, guid: aba7f527239f75546bd958644085896c, type: 3}
+    isCorrect: 0
+    prefab: {fileID: 5415881445493261230, guid: 2201e31471d61dc49ab15cd762284ba7, type: 3}
+  - itemId: aoquanbasic
+    clothingSprite: {fileID: -5703570139116527780, guid: 42e44bec7eddb304d9fa959fc91d5367, type: 3}
+    isCorrect: 0
+    prefab: {fileID: 5415881445493261230, guid: c0d67a9e48affea47b4c717c356c97c2, type: 3}
+  characterPrefab: {fileID: 5293771268688201708, guid: 465a9548e00cd5945aeec27c89aedac9, type: 3}
+  characterPosition: {x: 2.74, y: 0, z: 0}
+  initialSprite: {fileID: -5703570139116527780, guid: 42e44bec7eddb304d9fa959fc91d5367, type: 3}

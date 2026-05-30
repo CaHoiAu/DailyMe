@@ -181,17 +181,20 @@ public class GridPuzzleManager : MonoBehaviour
         spawnedObjects.Clear();
         foreach (Transform child in puzzleContainer)
         {
+            child.gameObject.SetActive(false);
             Destroy(child.gameObject);
         }
         if (landingZonesContainer != null)
         {
             foreach (Transform child in landingZonesContainer)
             {
+                child.gameObject.SetActive(false);
                 Destroy(child.gameObject);
             }
         }
         if (spawnedBackground != null)
         {
+            spawnedBackground.SetActive(false);
             Destroy(spawnedBackground);
             spawnedBackground = null;
         }
@@ -207,8 +210,8 @@ public class GridPuzzleManager : MonoBehaviour
 
         // ✅ Create background GameObject
         spawnedBackground = new GameObject("Background");
-        GameObject background = spawnedBackground; 
-        background.transform.SetParent(transform);
+        GameObject background = spawnedBackground;
+        background.transform.SetParent(puzzleContainer != null ? puzzleContainer.parent : transform);
         background.transform.position = data.backgroundPosition;
         background.transform.localScale = data.backgroundScale;
         background.transform.localRotation = Quaternion.identity;
@@ -232,7 +235,7 @@ public class GridPuzzleManager : MonoBehaviour
         if (landingZonesContainer == null)
         {
             GameObject containerObj = new GameObject("LandingZones");
-            containerObj.transform.parent = transform;
+            containerObj.transform.SetParent(puzzleContainer != null ? puzzleContainer.parent : transform);
             landingZonesContainer = containerObj.transform;
         }
 
@@ -246,8 +249,11 @@ public class GridPuzzleManager : MonoBehaviour
 
             GameObject zone = Instantiate(zoneData.prefab, landingZonesContainer);
             zone.transform.position = zoneData.position;
-            zone.transform.localScale = Vector3.one; // ✅ Reset scale
+            zone.transform.localScale = zoneData.scale != Vector3.zero ? zoneData.scale : Vector3.one;
             zone.name = $"LandingZone_{zoneData.zoneId}";
+
+            SpriteRenderer zoneSR = zone.GetComponent<SpriteRenderer>();
+            if (zoneSR != null) zoneSR.sortingOrder = zoneData.sortingOrder;
 
             LandingZone landingZoneComponent = zone.GetComponent<LandingZone>();
             if (landingZoneComponent != null)

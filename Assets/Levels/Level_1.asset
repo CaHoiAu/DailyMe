@@ -15,6 +15,10 @@ MonoBehaviour:
   dayNumber: 1
   dayOfWeek: 1
   miniGames:
+  - miniLevelType: 1
+    miniGameData: {fileID: 11400000, guid: 087dfe3bc3e1d9c498d469aa588b0c19, type: 2}
+    contactSequences:
+    - {fileID: 11400000, guid: adc8d2f25cddfa145925514b5a5235dc, type: 2}
   - miniLevelType: 0
     miniGameData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}
     contactSequences:
@@ -25,6 +29,18 @@ MonoBehaviour:
     contactSequences:
     - {fileID: 11400000, guid: 2f51f5a23ced9ab4fba9dc45a9c9c062, type: 2}
     - {fileID: 11400000, guid: 4c1c964eb791f70408011ce905353293, type: 2}
-  - miniLevelType: 1
-    miniGameData: {fileID: 11400000, guid: 38a185949aa1d1a40b83b00d6f96784a, type: 2}
+  - miniLevelType: 0
+    miniGameData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}
+    contactSequences: []
+  - miniLevelType: 0
+    miniGameData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}
+    contactSequences: []
+  - miniLevelType: 0
+    miniGameData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}
+    contactSequences: []
+  - miniLevelType: 0
+    miniGameData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}
+    contactSequences: []
+  - miniLevelType: 0
+    miniGameData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}
     contactSequences: []

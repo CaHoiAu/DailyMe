@@ -1,0 +1,6591 @@
+fileFormatVersion: 2
+guid: 87132584afe147545821ec3211961580
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -796342272424365074
+    second: tkb_0
+  - first:
+      213: 7516424480274339066
+    second: tkb_1
+  - first:
+      213: 435017144290556507
+    second: tkb_2
+  - first:
+      213: 3651913692706908268
+    second: tkb_3
+  - first:
+      213: -6480284018608059255
+    second: tkb_4
+  - first:
+      213: 6404594229738636701
+    second: tkb_5
+  - first:
+      213: -1421522121753642480
+    second: tkb_6
+  - first:
+      213: -1654775796216893357
+    second: tkb_7
+  - first:
+      213: -8228682618836667891
+    second: tkb_8
+  - first:
+      213: 5748157777454572723
+    second: tkb_9
+  - first:
+      213: 3219846588678663293
+    second: tkb_10
+  - first:
+      213: -5872919174588065698
+    second: tkb_11
+  - first:
+      213: 3829398807832746068
+    second: tkb_12
+  - first:
+      213: -2127429518279108904
+    second: tkb_13
+  - first:
+      213: -8863019418635817894
+    second: tkb_14
+  - first:
+      213: -751215208065866912
+    second: tkb_15
+  - first:
+      213: 1524047894678236046
+    second: tkb_16
+  - first:
+      213: 5437281141545183439
+    second: tkb_17
+  - first:
+      213: 36147044927389976
+    second: tkb_18
+  - first:
+      213: 7944984169401528593
+    second: tkb_19
+  - first:
+      213: -2794809867816494816
+    second: tkb_20
+  - first:
+      213: 8832252868992281963
+    second: tkb_21
+  - first:
+      213: 4787693148246575415
+    second: tkb_22
+  - first:
+      213: -5424546421687633909
+    second: tkb_23
+  - first:
+      213: -289441083331419123
+    second: tkb_24
+  - first:
+      213: 6926954647277105967
+    second: tkb_25
+  - first:
+      213: 3820401776115428280
+    second: tkb_26
+  - first:
+      213: -4451520236637853929
+    second: tkb_27
+  - first:
+      213: 6693388457364790416
+    second: tkb_28
+  - first:
+      213: 8749448194694217762
+    second: tkb_29
+  - first:
+      213: -3212305886124426806
+    second: tkb_30
+  - first:
+      213: -9077236726766679680
+    second: tkb_31
+  - first:
+      213: 6651121822434467759
+    second: tkb_32
+  - first:
+      213: 4521926666678606100
+    second: tkb_33
+  - first:
+      213: -2222664154671422937
+    second: tkb_34
+  - first:
+      213: -5899496667998006700
+    second: tkb_35
+  - first:
+      213: -3885598020028857005
+    second: tkb_36
+  - first:
+      213: -6997068617807138445
+    second: tkb_37
+  - first:
+      213: 6916636875498614129
+    second: tkb_38
+  - first:
+      213: -1825695358327196373
+    second: tkb_39
+  - first:
+      213: 5659185011812206391
+    second: tkb_40
+  - first:
+      213: -2409781791860519300
+    second: tkb_41
+  - first:
+      213: -2712715659788743597
+    second: tkb_42
+  - first:
+      213: -947549680958997201
+    second: tkb_43
+  - first:
+      213: -304432294079091689
+    second: tkb_44
+  - first:
+      213: 6028718370893376714
+    second: tkb_45
+  - first:
+      213: 1423102369351248262
+    second: tkb_46
+  - first:
+      213: 2539806557789026651
+    second: tkb_47
+  - first:
+      213: 3799580185454221761
+    second: tkb_48
+  - first:
+      213: 8636559899859234631
+    second: tkb_49
+  - first:
+      213: -8431291965166596606
+    second: tkb_50
+  - first:
+      213: 4238685494782250356
+    second: tkb_51
+  - first:
+      213: 6542432217373466072
+    second: tkb_52
+  - first:
+      213: 8566432356992197007
+    second: tkb_53
+  - first:
+      213: 5964941978491305369
+    second: tkb_54
+  - first:
+      213: -3565719924633043588
+    second: tkb_55
+  - first:
+      213: -1207094460582156992
+    second: tkb_56
+  - first:
+      213: 1486614517376539268
+    second: tkb_57
+  - first:
+      213: -8911029339894628693
+    second: tkb_58
+  - first:
+      213: 7406616298641687683
+    second: tkb_59
+  - first:
+      213: 4879707259260143026
+    second: tkb_60
+  - first:
+      213: 6600810928944762834
+    second: tkb_61
+  - first:
+      213: 4105398684428522820
+    second: tkb_62
+  - first:
+      213: 6802838979527766836
+    second: tkb_63
+  - first:
+      213: -1239174451068441823
+    second: tkb_64
+  - first:
+      213: -1600590618379723575
+    second: tkb_65
+  - first:
+      213: 911860697929823079
+    second: tkb_66
+  - first:
+      213: 2263815121711025783
+    second: tkb_67
+  - first:
+      213: 8712198326049342533
+    second: tkb_68
+  - first:
+      213: 253333561224801371
+    second: tkb_69
+  - first:
+      213: -5086354819550156495
+    second: tkb_70
+  - first:
+      213: 8309338607399957122
+    second: tkb_71
+  - first:
+      213: -841088594734186887
+    second: tkb_72
+  - first:
+      213: 3290482969929719705
+    second: tkb_73
+  - first:
+      213: 4488651061116362161
+    second: tkb_74
+  - first:
+      213: 6694443678983097970
+    second: tkb_75
+  - first:
+      213: -1775206279992755783
+    second: tkb_76
+  - first:
+      213: -2734437069959469111
+    second: tkb_77
+  - first:
+      213: 5156696108026307822
+    second: tkb_78
+  - first:
+      213: 489219441240038237
+    second: tkb_79
+  - first:
+      213: 4688588659013537671
+    second: tkb_80
+  - first:
+      213: -634663209917143439
+    second: tkb_81
+  - first:
+      213: -4906101621439427085
+    second: tkb_82
+  - first:
+      213: 2508382348346209483
+    second: tkb_83
+  - first:
+      213: -4497039740538195527
+    second: tkb_84
+  - first:
+      213: 2522101440762976320
+    second: tkb_85
+  - first:
+      213: 8514982495558950037
+    second: tkb_86
+  - first:
+      213: -2110997798352746057
+    second: tkb_87
+  - first:
+      213: -834233744269536812
+    second: tkb_88
+  - first:
+      213: 1839863645006740057
+    second: tkb_89
+  - first:
+      213: 1227161625551649239
+    second: tkb_90
+  - first:
+      213: 2205035943454127886
+    second: tkb_91
+  - first:
+      213: -3247734989187335769
+    second: tkb_92
+  - first:
+      213: -3405244124582555190
+    second: tkb_93
+  - first:
+      213: 7631876189845418620
+    second: tkb_94
+  - first:
+      213: -4127783888393797629
+    second: tkb_95
+  - first:
+      213: -3411736372288596250
+    second: tkb_96
+  - first:
+      213: 8374578551421163296
+    second: tkb_97
+  - first:
+      213: -5466973452911093352
+    second: tkb_98
+  - first:
+      213: -8862357090433584419
+    second: tkb_99
+  - first:
+      213: -3919648945012212540
+    second: tkb_100
+  - first:
+      213: 3571025582334064853
+    second: tkb_101
+  - first:
+      213: -2789661486887800682
+    second: tkb_102
+  - first:
+      213: 4893059226186154234
+    second: tkb_103
+  - first:
+      213: 5841859688738462659
+    second: tkb_104
+  - first:
+      213: 7649618115143710571
+    second: tkb_105
+  - first:
+      213: 682205957611353399
+    second: tkb_106
+  - first:
+      213: -7107001999066539868
+    second: tkb_107
+  - first:
+      213: -2685507557874140452
+    second: tkb_108
+  - first:
+      213: -5620254446230074702
+    second: tkb_109
+  - first:
+      213: 3989863120324669127
+    second: tkb_110
+  - first:
+      213: 2542577081373953670
+    second: tkb_111
+  - first:
+      213: 628421263870035439
+    second: tkb_112
+  - first:
+      213: -4480125879977145383
+    second: tkb_113
+  - first:
+      213: -5117805047608694996
+    second: tkb_114
+  - first:
+      213: 1033665573306079395
+    second: tkb_115
+  - first:
+      213: 2544257353921320002
+    second: tkb_116
+  - first:
+      213: 1198683983488449870
+    second: tkb_117
+  - first:
+      213: -5698277413304950259
+    second: tkb_118
+  - first:
+      213: 2975854057747733080
+    second: tkb_119
+  - first:
+      213: 6932216101691829751
+    second: tkb_120
+  - first:
+      213: 6701603282650936371
+    second: tkb_121
+  - first:
+      213: -138032458513804140
+    second: tkb_122
+  - first:
+      213: -9038755726765432075
+    second: tkb_123
+  - first:
+      213: 3937994480147009846
+    second: tkb_124
+  - first:
+      213: 643040393424290727
+    second: tkb_125
+  - first:
+      213: -5781364169185289279
+    second: tkb_126
+  - first:
+      213: -1404110573291047184
+    second: tkb_127
+  - first:
+      213: -6058667421555802481
+    second: tkb_128
+  - first:
+      213: 3658306201108400434
+    second: tkb_129
+  - first:
+      213: 4885071178062414580
+    second: tkb_130
+  - first:
+      213: -7606560727683708474
+    second: tkb_131
+  - first:
+      213: -7297311308387266886
+    second: tkb_132
+  - first:
+      213: 4629596312366338312
+    second: tkb_133
+  - first:
+      213: 8670465229027237354
+    second: tkb_134
+  - first:
+      213: 1630030995798533137
+    second: tkb_135
+  - first:
+      213: 4764761273742219006
+    second: tkb_136
+  - first:
+      213: -6188919652207394964
+    second: tkb_137
+  - first:
+      213: -2751605158310963525
+    second: tkb_138
+  - first:
+      213: 5071537366565830895
+    second: tkb_139
+  - first:
+      213: -8972142369265726945
+    second: tkb_140
+  - first:
+      213: 6227214555830730136
+    second: tkb_141
+  - first:
+      213: -5458062343798898800
+    second: tkb_142
+  - first:
+      213: 539101730213825537
+    second: tkb_143
+  - first:
+      213: -1524060015569506904
+    second: tkb_144
+  - first:
+      213: 5001563498587398714
+    second: tkb_145
+  - first:
+      213: 6686672005190293898
+    second: tkb_146
+  - first:
+      213: 4471271990853374299
+    second: tkb_147
+  - first:
+      213: 6114423241513116667
+    second: tkb_148
+  - first:
+      213: -5374184610042941036
+    second: tkb_149
+  - first:
+      213: 7870108406238019131
+    second: tkb_150
+  - first:
+      213: 1824654934672724867
+    second: tkb_151
+  - first:
+      213: -364834564255129
+    second: tkb_152
+  - first:
+      213: 2328675988945714519
+    second: tkb_153
+  - first:
+      213: -422104431560218749
+    second: tkb_154
+  - first:
+      213: -8979980873736677478
+    second: tkb_155
+  - first:
+      213: -2541513564555998620
+    second: tkb_156
+  - first:
+      213: 3883832577616525886
+    second: tkb_157
+  - first:
+      213: -3666783383710154338
+    second: tkb_158
+  - first:
+      213: 106044466828405564
+    second: tkb_159
+  - first:
+      213: -5044684510626513649
+    second: tkb_160
+  - first:
+      213: -7754079978590890081
+    second: tkb_161
+  - first:
+      213: 2880697117552252153
+    second: tkb_162
+  - first:
+      213: 8582377574882573049
+    second: tkb_163
+  - first:
+      213: 1615935976890610908
+    second: tkb_164
+  - first:
+      213: 6676154726312367854
+    second: tkb_165
+  - first:
+      213: 5989396670652268987
+    second: tkb_166
+  - first:
+      213: -4738007115295100660
+    second: tkb_167
+  - first:
+      213: 1793871535921361284
+    second: tkb_168
+  - first:
+      213: -368890467642103705
+    second: tkb_169
+  - first:
+      213: 8054352969780803674
+    second: tkb_170
+  - first:
+      213: 8884049156306701403
+    second: tkb_171
+  - first:
+      213: 5564940565918797628
+    second: tkb_172
+  - first:
+      213: -549992580606227865
+    second: tkb_173
+  - first:
+      213: -8591951961024360992
+    second: tkb_174
+  - first:
+      213: 3170325657626365420
+    second: tkb_175
+  - first:
+      213: 3536344508180955413
+    second: tkb_176
+  - first:
+      213: 2369911165981997704
+    second: tkb_177
+  - first:
+      213: -8496082310097062766
+    second: tkb_178
+  - first:
+      213: -4168166487900772059
+    second: tkb_179
+  - first:
+      213: 8031396030995322949
+    second: tkb_180
+  - first:
+      213: 8966818937809481569
+    second: tkb_181
+  - first:
+      213: 997651088410344424
+    second: tkb_182
+  - first:
+      213: -7011288063003086578
+    second: tkb_183
+  - first:
+      213: -5258287003485474986
+    second: tkb_184
+  - first:
+      213: -1659723846665875356
+    second: tkb_185
+  - first:
+      213: 926943971411824640
+    second: tkb_186
+  - first:
+      213: 3798252961602335841
+    second: tkb_187
+  - first:
+      213: -3965730390639262432
+    second: tkb_188
+  - first:
+      213: 7697584367906773746
+    second: tkb_189
+  - first:
+      213: 4723218483040038779
+    second: tkb_190
+  - first:
+      213: 5578342648239052883
+    second: tkb_191
+  - first:
+      213: 2842124715774813035
+    second: tkb_192
+  - first:
+      213: -3965644914244475483
+    second: tkb_193
+  - first:
+      213: -3609578727930714768
+    second: tkb_194
+  - first:
+      213: 2827611083452455629
+    second: tkb_195
+  - first:
+      213: -8942323332573576951
+    second: tkb_196
+  - first:
+      213: -1605389343860921352
+    second: tkb_197
+  - first:
+      213: 7341864602018568153
+    second: tkb_198
+  - first:
+      213: 7830403956315419765
+    second: tkb_199
+  - first:
+      213: 8157353562730719237
+    second: tkb_200
+  - first:
+      213: 8950301622472734795
+    second: tkb_201
+  - first:
+      213: -3819198706336713454
+    second: tkb_202
+  - first:
+      213: 7302904364811108833
+    second: tkb_203
+  - first:
+      213: -6552636710024521532
+    second: tkb_204
+  - first:
+      213: -7016918151102053443
+    second: tkb_205
+  - first:
+      213: -5475947874031283647
+    second: tkb_206
+  - first:
+      213: -728111184611645461
+    second: tkb_207
+  - first:
+      213: -8089454222756246987
+    second: tkb_208
+  - first:
+      213: 4452459752311499827
+    second: tkb_209
+  - first:
+      213: 166397467980691332
+    second: tkb_210
+  - first:
+      213: 3644614108269226489
+    second: tkb_211
+  - first:
+      213: -6375987270806416202
+    second: tkb_212
+  - first:
+      213: 942622741788693914
+    second: tkb_213
+  - first:
+      213: 9111109584743180431
+    second: tkb_214
+  - first:
+      213: -2801092322668824583
+    second: tkb_215
+  - first:
+      213: -6945256614976652743
+    second: tkb_216
+  - first:
+      213: 5339762203890041421
+    second: tkb_217
+  - first:
+      213: 5442616391761671722
+    second: tkb_218
+  - first:
+      213: -7455794792928701380
+    second: tkb_219
+  - first:
+      213: 2994912125237896380
+    second: tkb_220
+  - first:
+      213: -1420024383560578205
+    second: tkb_221
+  - first:
+      213: 2451121166201505715
+    second: tkb_222
+  - first:
+      213: -1282797284867883612
+    second: tkb_223
+  - first:
+      213: 5412403910254658108
+    second: tkb_224
+  - first:
+      213: 3584082045957009655
+    second: tkb_225
+  - first:
+      213: 5840184662995678489
+    second: tkb_226
+  - first:
+      213: -7117469237822946599
+    second: tkb_227
+  - first:
+      213: 3793049186035816082
+    second: tkb_228
+  - first:
+      213: 7626789688663275655
+    second: tkb_229
+  - first:
+      213: 8041140731414034944
+    second: tkb_230
+  - first:
+      213: -8680199793922053580
+    second: tkb_231
+  - first:
+      213: 2492436953239587528
+    second: tkb_232
+  - first:
+      213: -1992082448221206902
+    second: tkb_233
+  - first:
+      213: -5497256215901876310
+    second: tkb_234
+  - first:
+      213: 154267874292523592
+    second: tkb_235
+  - first:
+      213: -44358970914095833
+    second: tkb_236
+  - first:
+      213: -2807361522717299763
+    second: tkb_237
+  - first:
+      213: 1827770753391718339
+    second: tkb_238
+  - first:
+      213: -810616775071569411
+    second: tkb_239
+  - first:
+      213: -41816864347914362
+    second: tkb_240
+  - first:
+      213: 3542556459647342650
+    second: tkb_241
+  - first:
+      213: -5577735992057252440
+    second: tkb_242
+  - first:
+      213: 5410209945187283720
+    second: tkb_243
+  - first:
+      213: 6852883312865089111
+    second: tkb_244
+  - first:
+      213: -1942068295508109887
+    second: tkb_245
+  - first:
+      213: 7597112909426675735
+    second: tkb_246
+  - first:
+      213: 6910409609485028655
+    second: tkb_247
+  - first:
+      213: -135306619292354001
+    second: tkb_248
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tkb_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4571
+        height: 2920
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3b4842ce2d2f4f0800000000000000
+      internalID: -796342272424365074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_1
+      rect:
+        serializedVersion: 2
+        x: 4497
+        y: 2637
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af45dc7bd34bf4860800000000000000
+      internalID: 7516424480274339066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_2
+      rect:
+        serializedVersion: 2
+        x: 4478
+        y: 2623
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ab4a4b9cd790600800000000000000
+      internalID: 435017144290556507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_3
+      rect:
+        serializedVersion: 2
+        x: 4471
+        y: 2600
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c682e24a7243ea230800000000000000
+      internalID: 3651913692706908268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_4
+      rect:
+        serializedVersion: 2
+        x: 4498
+        y: 2599
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cc933e4086116a0800000000000000
+      internalID: -6480284018608059255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_5
+      rect:
+        serializedVersion: 2
+        x: 4486
+        y: 2568
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95861ad480b1e850800000000000000
+      internalID: 6404594229738636701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_6
+      rect:
+        serializedVersion: 2
+        x: 4509
+        y: 2563
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ab38c692db54ce0800000000000000
+      internalID: -1421522121753642480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_7
+      rect:
+        serializedVersion: 2
+        x: 4528
+        y: 2572
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350f3934e2e0909e0800000000000000
+      internalID: -1654775796216893357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_8
+      rect:
+        serializedVersion: 2
+        x: 4481
+        y: 2561
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d023fce61c8ddcd80800000000000000
+      internalID: -8228682618836667891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_9
+      rect:
+        serializedVersion: 2
+        x: 4482
+        y: 2534
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b424162b0f85cf40800000000000000
+      internalID: 5748157777454572723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_10
+      rect:
+        serializedVersion: 2
+        x: 4495
+        y: 2539
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ce175b9613fac20800000000000000
+      internalID: 3219846588678663293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_11
+      rect:
+        serializedVersion: 2
+        x: 4514
+        y: 2534
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58191470233f7ea0800000000000000
+      internalID: -5872919174588065698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_12
+      rect:
+        serializedVersion: 2
+        x: 4537
+        y: 2541
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458dc2c3de1c42530800000000000000
+      internalID: 3829398807832746068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_13
+      rect:
+        serializedVersion: 2
+        x: 4473
+        y: 2508
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d61b4eef1ad972e0800000000000000
+      internalID: -2127429518279108904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_14
+      rect:
+        serializedVersion: 2
+        x: 4498
+        y: 2512
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ca2da0cca300580800000000000000
+      internalID: -8863019418635817894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_15
+      rect:
+        serializedVersion: 2
+        x: 4528
+        y: 2515
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063ec559fb52395f0800000000000000
+      internalID: -751215208065866912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_16
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 2489
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b6af64c71862510800000000000000
+      internalID: 1524047894678236046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_17
+      rect:
+        serializedVersion: 2
+        x: 4492
+        y: 2492
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc82bb9e36a157b40800000000000000
+      internalID: 5437281141545183439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_18
+      rect:
+        serializedVersion: 2
+        x: 4509
+        y: 2491
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811c39cbb8b608000800000000000000
+      internalID: 36147044927389976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_19
+      rect:
+        serializedVersion: 2
+        x: 4523
+        y: 2489
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111b74bf101424e60800000000000000
+      internalID: 7944984169401528593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_20
+      rect:
+        serializedVersion: 2
+        x: 4554
+        y: 2494
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0299a069b37d639d0800000000000000
+      internalID: -2794809867816494816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_21
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 2478
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6da5b66037729a70800000000000000
+      internalID: 8832252868992281963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_22
+      rect:
+        serializedVersion: 2
+        x: 4498
+        y: 2470
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7390fc25d8d417240800000000000000
+      internalID: 4787693148246575415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_23
+      rect:
+        serializedVersion: 2
+        x: 4539
+        y: 2466
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0831bb15c328b4b0800000000000000
+      internalID: -5424546421687633909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_24
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 2450
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0460a44ed2bbfbf0800000000000000
+      internalID: -289441083331419123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_25
+      rect:
+        serializedVersion: 2
+        x: 4518
+        y: 2459
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2371361d8c712060800000000000000
+      internalID: 6926954647277105967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_26
+      rect:
+        serializedVersion: 2
+        x: 4505
+        y: 2445
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bba1ac8c2bc40530800000000000000
+      internalID: 3820401776115428280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_27
+      rect:
+        serializedVersion: 2
+        x: 4525
+        y: 2441
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717ecb01ee50932c0800000000000000
+      internalID: -4451520236637853929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_28
+      rect:
+        serializedVersion: 2
+        x: 4547
+        y: 2437
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c9de0c651b3ec50800000000000000
+      internalID: 6693388457364790416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_29
+      rect:
+        serializedVersion: 2
+        x: 4489
+        y: 2432
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2208e69c6c84c6970800000000000000
+      internalID: 8749448194694217762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_30
+      rect:
+        serializedVersion: 2
+        x: 4473
+        y: 2420
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac938abe0d89b63d0800000000000000
+      internalID: -3212305886124426806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_31
+      rect:
+        serializedVersion: 2
+        x: 4497
+        y: 2415
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08941fe4a4d270280800000000000000
+      internalID: -9077236726766679680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_32
+      rect:
+        serializedVersion: 2
+        x: 4515
+        y: 2418
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf1e00fe088d4c50800000000000000
+      internalID: 6651121822434467759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_33
+      rect:
+        serializedVersion: 2
+        x: 4528
+        y: 2413
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4199ebb585c11ce30800000000000000
+      internalID: 4521926666678606100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_34
+      rect:
+        serializedVersion: 2
+        x: 4474
+        y: 2408
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722e0dd3ab28721e0800000000000000
+      internalID: -2222664154671422937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_35
+      rect:
+        serializedVersion: 2
+        x: 4507
+        y: 2404
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452d06e8907c02ea0800000000000000
+      internalID: -5899496667998006700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_36
+      rect:
+        serializedVersion: 2
+        x: 4485
+        y: 2389
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35508340035931ac0800000000000000
+      internalID: -3885598020028857005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_37
+      rect:
+        serializedVersion: 2
+        x: 4517
+        y: 2396
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37172960a2b65ee90800000000000000
+      internalID: -6997068617807138445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_38
+      rect:
+        serializedVersion: 2
+        x: 4493
+        y: 2371
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d6674a794dcff50800000000000000
+      internalID: 6916636875498614129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_39
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 2367
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25f3da9eb3d9a6e0800000000000000
+      internalID: -1825695358327196373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_40
+      rect:
+        serializedVersion: 2
+        x: 4474
+        y: 2343
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737084bd8c6798e40800000000000000
+      internalID: 5659185011812206391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_41
+      rect:
+        serializedVersion: 2
+        x: 4489
+        y: 2351
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e03f55a3cbe8ed0800000000000000
+      internalID: -2409781791860519300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_42
+      rect:
+        serializedVersion: 2
+        x: 4501
+        y: 2344
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c07a1ea7f7a5ad0800000000000000
+      internalID: -2712715659788743597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_43
+      rect:
+        serializedVersion: 2
+        x: 4478
+        y: 2323
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d7763e590a9d2f0800000000000000
+      internalID: -947549680958997201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_44
+      rect:
+        serializedVersion: 2
+        x: 3438
+        y: 222
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c2245017076cbf0800000000000000
+      internalID: -304432294079091689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_45
+      rect:
+        serializedVersion: 2
+        x: 3513
+        y: 221
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acca8f3ba6f4aa350800000000000000
+      internalID: 6028718370893376714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_46
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 221
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689a234a010efb310800000000000000
+      internalID: 1423102369351248262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_47
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 224
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59f83b9b943f3320800000000000000
+      internalID: 2539806557789026651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_48
+      rect:
+        serializedVersion: 2
+        x: 3596
+        y: 219
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c99c913c02dab430800000000000000
+      internalID: 3799580185454221761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_49
+      rect:
+        serializedVersion: 2
+        x: 3623
+        y: 218
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f2e7078793bd770800000000000000
+      internalID: 8636559899859234631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_50
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 224
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ec3aae0a80efa80800000000000000
+      internalID: -8431291965166596606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_51
+      rect:
+        serializedVersion: 2
+        x: 3680
+        y: 221
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dc81ffff5d2da30800000000000000
+      internalID: 4238685494782250356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_52
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 216
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dddd9b30736bca50800000000000000
+      internalID: 6542432217373466072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_53
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 222
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81aeee77d412e670800000000000000
+      internalID: 8566432356992197007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_54
+      rect:
+        serializedVersion: 2
+        x: 3749
+        y: 220
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d3ac5302bb7c250800000000000000
+      internalID: 5964941978491305369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_55
+      rect:
+        serializedVersion: 2
+        x: 3771
+        y: 222
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7df6bbde94048ec0800000000000000
+      internalID: -3565719924633043588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_56
+      rect:
+        serializedVersion: 2
+        x: 3787
+        y: 223
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045a8aacbf98f3fe0800000000000000
+      internalID: -1207094460582156992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_57
+      rect:
+        serializedVersion: 2
+        x: 3811
+        y: 217
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ada22f60481a410800000000000000
+      internalID: 1486614517376539268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_58
+      rect:
+        serializedVersion: 2
+        x: 3822
+        y: 219
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae3f7c270aa55480800000000000000
+      internalID: -8911029339894628693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_59
+      rect:
+        serializedVersion: 2
+        x: 3831
+        y: 216
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384082c184699c660800000000000000
+      internalID: 7406616298641687683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_60
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 221
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5881406e338b340800000000000000
+      internalID: 4879707259260143026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_61
+      rect:
+        serializedVersion: 2
+        x: 3862
+        y: 224
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfc449319aca9b50800000000000000
+      internalID: 6600810928944762834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_62
+      rect:
+        serializedVersion: 2
+        x: 3871
+        y: 214
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445d7b62a5e49f830800000000000000
+      internalID: 4105398684428522820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_63
+      rect:
+        serializedVersion: 2
+        x: 3879
+        y: 227
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433fee6420a886e50800000000000000
+      internalID: 6802838979527766836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_64
+      rect:
+        serializedVersion: 2
+        x: 3889
+        y: 211
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b6355f6619dcee0800000000000000
+      internalID: -1239174451068441823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_65
+      rect:
+        serializedVersion: 2
+        x: 3902
+        y: 221
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc57a8105f89c9e0800000000000000
+      internalID: -1600590618379723575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_66
+      rect:
+        serializedVersion: 2
+        x: 3934
+        y: 212
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7633fb8397497ac00800000000000000
+      internalID: 911860697929823079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_67
+      rect:
+        serializedVersion: 2
+        x: 3945
+        y: 221
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e4eb6ebdfaa6f10800000000000000
+      internalID: 2263815121711025783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_68
+      rect:
+        serializedVersion: 2
+        x: 3961
+        y: 225
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5448ce4e732f7e870800000000000000
+      internalID: 8712198326049342533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_69
+      rect:
+        serializedVersion: 2
+        x: 3983
+        y: 211
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c2d7e1885048300800000000000000
+      internalID: 253333561224801371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_70
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 211
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139ed138d33a969b0800000000000000
+      internalID: -5086354819550156495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_71
+      rect:
+        serializedVersion: 2
+        x: 4007
+        y: 217
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282738c4073b05370800000000000000
+      internalID: 8309338607399957122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_72
+      rect:
+        serializedVersion: 2
+        x: 4016
+        y: 221
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e7c3e116ad354f0800000000000000
+      internalID: -841088594734186887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_73
+      rect:
+        serializedVersion: 2
+        x: 4028
+        y: 223
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f1222d3d42aad20800000000000000
+      internalID: 3290482969929719705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_74
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 223
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd5582bb54ea4e30800000000000000
+      internalID: 4488651061116362161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_75
+      rect:
+        serializedVersion: 2
+        x: 4068
+        y: 223
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e85aeae0177ec50800000000000000
+      internalID: 6694443678983097970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_76
+      rect:
+        serializedVersion: 2
+        x: 4082
+        y: 222
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b93df53b433d57e0800000000000000
+      internalID: -1775206279992755783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_77
+      rect:
+        serializedVersion: 2
+        x: 4095
+        y: 212
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7e768f8f35d0ad0800000000000000
+      internalID: -2734437069959469111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_78
+      rect:
+        serializedVersion: 2
+        x: 4106
+        y: 217
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee42c85f9c3409740800000000000000
+      internalID: 5156696108026307822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_79
+      rect:
+        serializedVersion: 2
+        x: 4115
+        y: 218
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bd3546d7e0ac600800000000000000
+      internalID: 489219441240038237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_80
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 225
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f4d6e4b86311140800000000000000
+      internalID: 4688588659013537671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_81
+      rect:
+        serializedVersion: 2
+        x: 4153
+        y: 212
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17621e45c293137f0800000000000000
+      internalID: -634663209917143439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_82
+      rect:
+        serializedVersion: 2
+        x: 4167
+        y: 223
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd8226a1960aebb0800000000000000
+      internalID: -4906101621439427085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_83
+      rect:
+        serializedVersion: 2
+        x: 4208
+        y: 225
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc43902b4709fc220800000000000000
+      internalID: 2508382348346209483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_84
+      rect:
+        serializedVersion: 2
+        x: 3426
+        y: 214
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1f76cae2e4791c0800000000000000
+      internalID: -4497039740538195527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_85
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 217
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0489d20d5ed400320800000000000000
+      internalID: 2522101440762976320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_86
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 218
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cd574277b4b2670800000000000000
+      internalID: 8514982495558950037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_87
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 210
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b98d8bdfaa34b2e0800000000000000
+      internalID: -2110997798352746057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_88
+      rect:
+        serializedVersion: 2
+        x: 3539
+        y: 213
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d19b2d54d43c64f0800000000000000
+      internalID: -834233744269536812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_89
+      rect:
+        serializedVersion: 2
+        x: 3550
+        y: 214
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a38c3bc32888910800000000000000
+      internalID: 1839863645006740057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_90
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 218
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d93ff42ff0c70110800000000000000
+      internalID: 1227161625551649239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_91
+      rect:
+        serializedVersion: 2
+        x: 3608
+        y: 210
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e073d8ef18cd99e10800000000000000
+      internalID: 2205035943454127886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_92
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 213
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9b1ec0c3abde2d0800000000000000
+      internalID: -3247734989187335769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_93
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 217
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac155cca2842eb0d0800000000000000
+      internalID: -3405244124582555190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_94
+      rect:
+        serializedVersion: 2
+        x: 3669
+        y: 217
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c727f7195fed9e960800000000000000
+      internalID: 7631876189845418620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_95
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 218
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30005b66c6a27b6c0800000000000000
+      internalID: -4127783888393797629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_96
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 210
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6557678d317a0d0800000000000000
+      internalID: -3411736372288596250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_97
+      rect:
+        serializedVersion: 2
+        x: 3767
+        y: 211
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027501572da783470800000000000000
+      internalID: 8374578551421163296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_98
+      rect:
+        serializedVersion: 2
+        x: 3785
+        y: 213
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8995ebe1c986124b0800000000000000
+      internalID: -5466973452911093352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_99
+      rect:
+        serializedVersion: 2
+        x: 3848
+        y: 206
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2ba085e25920580800000000000000
+      internalID: -8862357090433584419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_100
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 206
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ccff4c3d0c9a99c0800000000000000
+      internalID: -3919648945012212540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_101
+      rect:
+        serializedVersion: 2
+        x: 3910
+        y: 208
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8bad6d8d4de8130800000000000000
+      internalID: 3571025582334064853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_102
+      rect:
+        serializedVersion: 2
+        x: 3954
+        y: 209
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690f67e68a12949d0800000000000000
+      internalID: -2789661486887800682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_103
+      rect:
+        serializedVersion: 2
+        x: 3973
+        y: 215
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af006c11173a7e340800000000000000
+      internalID: 4893059226186154234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_104
+      rect:
+        serializedVersion: 2
+        x: 3991
+        y: 210
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb1ee67f64721150800000000000000
+      internalID: 5841859688738462659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_105
+      rect:
+        serializedVersion: 2
+        x: 4031
+        y: 204
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67b8847527e82a60800000000000000
+      internalID: 7649618115143710571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_106
+      rect:
+        serializedVersion: 2
+        x: 4053
+        y: 210
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735741734bea77900800000000000000
+      internalID: 682205957611353399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_107
+      rect:
+        serializedVersion: 2
+        x: 4069
+        y: 214
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8d5ab165bde5d90800000000000000
+      internalID: -7107001999066539868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_108
+      rect:
+        serializedVersion: 2
+        x: 4137
+        y: 212
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdaf843ca192bbad0800000000000000
+      internalID: -2685507557874140452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_109
+      rect:
+        serializedVersion: 2
+        x: 4193
+        y: 206
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba8529cb58d002b0800000000000000
+      internalID: -5620254446230074702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_110
+      rect:
+        serializedVersion: 2
+        x: 4246
+        y: 213
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce22656e57de5730800000000000000
+      internalID: 3989863120324669127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_111
+      rect:
+        serializedVersion: 2
+        x: 4277
+        y: 216
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e0855626c094320800000000000000
+      internalID: 2542577081373953670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_112
+      rect:
+        serializedVersion: 2
+        x: 3472
+        y: 210
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5864a5fc998b800800000000000000
+      internalID: 628421263870035439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_113
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 205
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db8de6bf3563d1c0800000000000000
+      internalID: -4480125879977145383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_114
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 203
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27259bac67e9f8b0800000000000000
+      internalID: -5117805047608694996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_115
+      rect:
+        serializedVersion: 2
+        x: 3692
+        y: 211
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a89571cc51585e00800000000000000
+      internalID: 1033665573306079395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_116
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 204
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244d7a555940f4320800000000000000
+      internalID: 2544257353921320002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_117
+      rect:
+        serializedVersion: 2
+        x: 3799
+        y: 211
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d77c96bb492a010800000000000000
+      internalID: 1198683983488449870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_118
+      rect:
+        serializedVersion: 2
+        x: 3807
+        y: 210
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02a35422e6abe0b0800000000000000
+      internalID: -5698277413304950259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_119
+      rect:
+        serializedVersion: 2
+        x: 3817
+        y: 205
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a557faf7b5c4920800000000000000
+      internalID: 2975854057747733080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_120
+      rect:
+        serializedVersion: 2
+        x: 3832
+        y: 203
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fda597e0dd243060800000000000000
+      internalID: 6932216101691829751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_121
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 201
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3343000dda0e00d50800000000000000
+      internalID: 6701603282650936371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_122
+      rect:
+        serializedVersion: 2
+        x: 3887
+        y: 204
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4949fc6d53c951ef0800000000000000
+      internalID: -138032458513804140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_123
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 198
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f26e9e4e83ef8280800000000000000
+      internalID: -9038755726765432075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_124
+      rect:
+        serializedVersion: 2
+        x: 3967
+        y: 207
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6319c948d1196a630800000000000000
+      internalID: 3937994480147009846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_125
+      rect:
+        serializedVersion: 2
+        x: 4016
+        y: 204
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a34842b4d98ce800800000000000000
+      internalID: 643040393424290727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_126
+      rect:
+        serializedVersion: 2
+        x: 4092
+        y: 204
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb1a8a4be774cfa0800000000000000
+      internalID: -5781364169185289279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_127
+      rect:
+        serializedVersion: 2
+        x: 4104
+        y: 202
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6fd957fd8938ce0800000000000000
+      internalID: -1404110573291047184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_128
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 204
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e3fed841a4beba0800000000000000
+      internalID: -6058667421555802481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_129
+      rect:
+        serializedVersion: 2
+        x: 4173
+        y: 205
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239ccac7b1ae4c230800000000000000
+      internalID: 3658306201108400434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_130
+      rect:
+        serializedVersion: 2
+        x: 4219
+        y: 204
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2c8eeaa524bc340800000000000000
+      internalID: 4885071178062414580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_131
+      rect:
+        serializedVersion: 2
+        x: 4254
+        y: 202
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9c9f7c151107690800000000000000
+      internalID: -7606560727683708474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_132
+      rect:
+        serializedVersion: 2
+        x: 3442
+        y: 202
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abec220270ebaba90800000000000000
+      internalID: -7297311308387266886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_133
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 200
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801dd044151af3040800000000000000
+      internalID: 4629596312366338312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_134
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 201
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed5b8d003ea35870800000000000000
+      internalID: 8670465229027237354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_135
+      rect:
+        serializedVersion: 2
+        x: 3596
+        y: 198
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114a27ded880f9610800000000000000
+      internalID: 1630030995798533137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_136
+      rect:
+        serializedVersion: 2
+        x: 3658
+        y: 201
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef651f83225df1240800000000000000
+      internalID: 4764761273742219006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_137
+      rect:
+        serializedVersion: 2
+        x: 3680
+        y: 198
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f7ebadd5a8c1aa0800000000000000
+      internalID: -6188919652207394964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_138
+      rect:
+        serializedVersion: 2
+        x: 3702
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb61eb8efa550d9d0800000000000000
+      internalID: -2751605158310963525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_139
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 202
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0c64f5d58b16640800000000000000
+      internalID: 5071537366565830895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_140
+      rect:
+        serializedVersion: 2
+        x: 3767
+        y: 197
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a4fa53d0c8c7380800000000000000
+      internalID: -8972142369265726945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_141
+      rect:
+        serializedVersion: 2
+        x: 3784
+        y: 202
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89dbe6435a28b6650800000000000000
+      internalID: 6227214555830730136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_142
+      rect:
+        serializedVersion: 2
+        x: 3807
+        y: 199
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f3ee367311144b0800000000000000
+      internalID: -5458062343798898800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_143
+      rect:
+        serializedVersion: 2
+        x: 3905
+        y: 198
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c8137da264b7700800000000000000
+      internalID: 539101730213825537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_144
+      rect:
+        serializedVersion: 2
+        x: 3959
+        y: 197
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad6a9b9d7379dae0800000000000000
+      internalID: -1524060015569506904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_145
+      rect:
+        serializedVersion: 2
+        x: 4007
+        y: 197
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32acd6a08f196540800000000000000
+      internalID: 5001563498587398714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_146
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 198
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a899aeed2c4dbcc50800000000000000
+      internalID: 6686672005190293898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_147
+      rect:
+        serializedVersion: 2
+        x: 4069
+        y: 203
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5118f49f262d0e30800000000000000
+      internalID: 4471271990853374299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_148
+      rect:
+        serializedVersion: 2
+        x: 4084
+        y: 204
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf328c4ea8bcad450800000000000000
+      internalID: 6114423241513116667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_149
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 192
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491f401229f0b65b0800000000000000
+      internalID: -5374184610042941036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_150
+      rect:
+        serializedVersion: 2
+        x: 3482
+        y: 193
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ef1a9d5ed383d60800000000000000
+      internalID: 7870108406238019131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_151
+      rect:
+        serializedVersion: 2
+        x: 3550
+        y: 187
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383d4d2eef9725910800000000000000
+      internalID: 1824654934672724867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_152
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 194
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76255655f24befff0800000000000000
+      internalID: -364834564255129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_153
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 195
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d371e597e115020800000000000000
+      internalID: 2328675988945714519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_154
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 193
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3872cb28142642af0800000000000000
+      internalID: -422104431560218749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_155
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 194
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a979f1b29f2b06380800000000000000
+      internalID: -8979980873736677478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_156
+      rect:
+        serializedVersion: 2
+        x: 3838
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a8dc8e0eababcd0800000000000000
+      internalID: -2541513564555998620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_157
+      rect:
+        serializedVersion: 2
+        x: 3874
+        y: 187
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a3ce3e62526e530800000000000000
+      internalID: 3883832577616525886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_158
+      rect:
+        serializedVersion: 2
+        x: 3902
+        y: 189
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91c6a1a0f7fc1dc0800000000000000
+      internalID: -3666783383710154338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_159
+      rect:
+        serializedVersion: 2
+        x: 3927
+        y: 190
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3be3b771eeb87100800000000000000
+      internalID: 106044466828405564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_160
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 193
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0df03c5a2eadf9b0800000000000000
+      internalID: -5044684510626513649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_161
+      rect:
+        serializedVersion: 2
+        x: 3986
+        y: 196
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f971f14a759f36490800000000000000
+      internalID: -7754079978590890081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_162
+      rect:
+        serializedVersion: 2
+        x: 4019
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4913d04ca4af720800000000000000
+      internalID: 2880697117552252153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_163
+      rect:
+        serializedVersion: 2
+        x: 4070
+        y: 192
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa7727deeaba1770800000000000000
+      internalID: 8582377574882573049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_164
+      rect:
+        serializedVersion: 2
+        x: 4095
+        y: 194
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4b65a9535fc6610800000000000000
+      internalID: 1615935976890610908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_165
+      rect:
+        serializedVersion: 2
+        x: 4106
+        y: 191
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6d46f0a5776ac50800000000000000
+      internalID: 6676154726312367854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_166
+      rect:
+        serializedVersion: 2
+        x: 4131
+        y: 194
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1c22de98c9e1350800000000000000
+      internalID: 5989396670652268987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_167
+      rect:
+        serializedVersion: 2
+        x: 4148
+        y: 194
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01ff85b1a73f3eb0800000000000000
+      internalID: -4738007115295100660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_168
+      rect:
+        serializedVersion: 2
+        x: 4184
+        y: 187
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481f64758ac15e810800000000000000
+      internalID: 1793871535921361284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_169
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 187
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7682a2bf21071eaf0800000000000000
+      internalID: -368890467642103705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_170
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58b56b2a5fc6cf60800000000000000
+      internalID: 8054352969780803674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_171
+      rect:
+        serializedVersion: 2
+        x: 3606
+        y: 182
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c05c053ab7a4b70800000000000000
+      internalID: 8884049156306701403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_172
+      rect:
+        serializedVersion: 2
+        x: 3630
+        y: 185
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f40cbd5f3aa3d40800000000000000
+      internalID: 5564940565918797628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_173
+      rect:
+        serializedVersion: 2
+        x: 3646
+        y: 188
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a8dd379a80e58f0800000000000000
+      internalID: -549992580606227865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_174
+      rect:
+        serializedVersion: 2
+        x: 3673
+        y: 181
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed0ceba63143c880800000000000000
+      internalID: -8591951961024360992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_175
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 185
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced402573624ffb20800000000000000
+      internalID: 3170325657626365420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_176
+      rect:
+        serializedVersion: 2
+        x: 3760
+        y: 182
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5118785089e931130800000000000000
+      internalID: 3536344508180955413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_177
+      rect:
+        serializedVersion: 2
+        x: 3788
+        y: 185
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ab69d26ad93e020800000000000000
+      internalID: 2369911165981997704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_178
+      rect:
+        serializedVersion: 2
+        x: 3807
+        y: 186
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2943f24372ad71a80800000000000000
+      internalID: -8496082310097062766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_179
+      rect:
+        serializedVersion: 2
+        x: 3851
+        y: 186
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529acf3c9a2b726c0800000000000000
+      internalID: -4168166487900772059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_180
+      rect:
+        serializedVersion: 2
+        x: 3887
+        y: 180
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54855f55320457f60800000000000000
+      internalID: 8031396030995322949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_181
+      rect:
+        serializedVersion: 2
+        x: 3914
+        y: 184
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f2161d05a807c70800000000000000
+      internalID: 8966818937809481569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_182
+      rect:
+        serializedVersion: 2
+        x: 3972
+        y: 188
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ebfa7e016e58dd00800000000000000
+      internalID: 997651088410344424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_183
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 185
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01b3c277a6e2be90800000000000000
+      internalID: -7011288063003086578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_184
+      rect:
+        serializedVersion: 2
+        x: 4034
+        y: 186
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fe13674dfc607b0800000000000000
+      internalID: -5258287003485474986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_185
+      rect:
+        serializedVersion: 2
+        x: 4053
+        y: 184
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4605c3e74f977f8e0800000000000000
+      internalID: -1659723846665875356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_186
+      rect:
+        serializedVersion: 2
+        x: 4074
+        y: 184
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00011be71aa2ddc00800000000000000
+      internalID: 926943971411824640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_187
+      rect:
+        serializedVersion: 2
+        x: 4098
+        y: 181
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164f16fc1fa16b430800000000000000
+      internalID: 3798252961602335841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_188
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 181
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025c9f69835e6f8c0800000000000000
+      internalID: -3965730390639262432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_189
+      rect:
+        serializedVersion: 2
+        x: 4153
+        y: 180
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fadea5f23053da60800000000000000
+      internalID: 7697584367906773746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_190
+      rect:
+        serializedVersion: 2
+        x: 4209
+        y: 182
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f29268f2e3c8140800000000000000
+      internalID: 4723218483040038779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_191
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 180
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35853bf45114a6d40800000000000000
+      internalID: 5578342648239052883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_192
+      rect:
+        serializedVersion: 2
+        x: 3582
+        y: 181
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63ad1bee51417720800000000000000
+      internalID: 2842124715774813035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_193
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 173
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5af1d16f237f8c0800000000000000
+      internalID: -3965644914244475483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_194
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 177
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07522e4754338edc0800000000000000
+      internalID: -3609578727930714768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_195
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 180
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca14209c41bd3720800000000000000
+      internalID: 2827611083452455629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_196
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 174
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901c347be4c76e380800000000000000
+      internalID: -8942323332573576951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_197
+      rect:
+        serializedVersion: 2
+        x: 3815
+        y: 178
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbe8f0c5e288b9e0800000000000000
+      internalID: -1605389343860921352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_198
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 180
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7d458e4fa83e560800000000000000
+      internalID: 7341864602018568153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_199
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 175
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5747ef739ee2bac60800000000000000
+      internalID: 7830403956315419765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_200
+      rect:
+        serializedVersion: 2
+        x: 3962
+        y: 174
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508e4d588ddb43170800000000000000
+      internalID: 8157353562730719237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_201
+      rect:
+        serializedVersion: 2
+        x: 3986
+        y: 174
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48f618a7ebd53c70800000000000000
+      internalID: 8950301622472734795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_202
+      rect:
+        serializedVersion: 2
+        x: 4018
+        y: 177
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2153b26f20b7ffac0800000000000000
+      internalID: -3819198706336713454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_203
+      rect:
+        serializedVersion: 2
+        x: 4078
+        y: 177
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1473dc3d0295560800000000000000
+      internalID: 7302904364811108833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_204
+      rect:
+        serializedVersion: 2
+        x: 4109
+        y: 175
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8ddcc21ab5015a0800000000000000
+      internalID: -6552636710024521532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_205
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 175
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db342996e16ee9e90800000000000000
+      internalID: -7016918151102053443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_206
+      rect:
+        serializedVersion: 2
+        x: 3628
+        y: 171
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1425fcfdb668104b0800000000000000
+      internalID: -5475947874031283647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_207
+      rect:
+        serializedVersion: 2
+        x: 3682
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7eb3c3cba35e5f0800000000000000
+      internalID: -728111184611645461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_208
+      rect:
+        serializedVersion: 2
+        x: 3747
+        y: 173
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a84d18e3c7cbf80800000000000000
+      internalID: -8089454222756246987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_209
+      rect:
+        serializedVersion: 2
+        x: 3796
+        y: 164
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c2049fd805acd30800000000000000
+      internalID: 4452459752311499827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_210
+      rect:
+        serializedVersion: 2
+        x: 3814
+        y: 166
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48773829d992f4200800000000000000
+      internalID: 166397467980691332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_211
+      rect:
+        serializedVersion: 2
+        x: 3836
+        y: 172
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9a3c2b835449230800000000000000
+      internalID: 3644614108269226489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_212
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 170
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4db2fcb51f387a0800000000000000
+      internalID: -6375987270806416202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_213
+      rect:
+        serializedVersion: 2
+        x: 3875
+        y: 167
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a951581b36ed41d00800000000000000
+      internalID: 942622741788693914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_214
+      rect:
+        serializedVersion: 2
+        x: 3899
+        y: 165
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88264405e9217e70800000000000000
+      internalID: 9111109584743180431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_215
+      rect:
+        serializedVersion: 2
+        x: 4048
+        y: 168
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f730449f558029d0800000000000000
+      internalID: -2801092322668824583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_216
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 162
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a726ef7ed7d9f90800000000000000
+      internalID: -6945256614976652743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_217
+      rect:
+        serializedVersion: 2
+        x: 3716
+        y: 165
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d424ce3ee65aa1a40800000000000000
+      internalID: 5339762203890041421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_218
+      rect:
+        serializedVersion: 2
+        x: 3928
+        y: 160
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a263ca7a5ce088b40800000000000000
+      internalID: 5442616391761671722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_219
+      rect:
+        serializedVersion: 2
+        x: 3956
+        y: 162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3417496322b78890800000000000000
+      internalID: -7455794792928701380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_220
+      rect:
+        serializedVersion: 2
+        x: 3968
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4a05ec5b0109920800000000000000
+      internalID: 2994912125237896380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_221
+      rect:
+        serializedVersion: 2
+        x: 3998
+        y: 165
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b8a75c85f0b4ce0800000000000000
+      internalID: -1420024383560578205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_222
+      rect:
+        serializedVersion: 2
+        x: 4017
+        y: 163
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7c1ecc6b1240220800000000000000
+      internalID: 2451121166201505715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_223
+      rect:
+        serializedVersion: 2
+        x: 4066
+        y: 164
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad3d9c7aa6923ee0800000000000000
+      internalID: -1282797284867883612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_224
+      rect:
+        serializedVersion: 2
+        x: 4090
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c320aa32ea8bc1b40800000000000000
+      internalID: 5412403910254658108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_225
+      rect:
+        serializedVersion: 2
+        x: 4110
+        y: 164
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f07f1ba1a73db130800000000000000
+      internalID: 3584082045957009655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_226
+      rect:
+        serializedVersion: 2
+        x: 4174
+        y: 164
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915ba8422018c0150800000000000000
+      internalID: 5840184662995678489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_227
+      rect:
+        serializedVersion: 2
+        x: 3698
+        y: 155
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d20bcb207ba93d90800000000000000
+      internalID: -7117469237822946599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_228
+      rect:
+        serializedVersion: 2
+        x: 3758
+        y: 157
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296df35632e93a430800000000000000
+      internalID: 3793049186035816082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_229
+      rect:
+        serializedVersion: 2
+        x: 3829
+        y: 153
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788f26930dcc7d960800000000000000
+      internalID: 7626789688663275655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_230
+      rect:
+        serializedVersion: 2
+        x: 3887
+        y: 152
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00abbd434eed79f60800000000000000
+      internalID: 8041140731414034944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_231
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 156
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a6bdfe64cb98780800000000000000
+      internalID: -8680199793922053580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_232
+      rect:
+        serializedVersion: 2
+        x: 3986
+        y: 155
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca07e6143ae69220800000000000000
+      internalID: 2492436953239587528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_233
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 158
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a860c7e5193ba54e0800000000000000
+      internalID: -1992082448221206902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_234
+      rect:
+        serializedVersion: 2
+        x: 4131
+        y: 155
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf4cdbe892d5b3b0800000000000000
+      internalID: -5497256215901876310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_235
+      rect:
+        serializedVersion: 2
+        x: 4151
+        y: 154
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842e57770d1142200800000000000000
+      internalID: 154267874292523592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_236
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 150
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d301040c7626ff0800000000000000
+      internalID: -44358970914095833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_237
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 145
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbe552b19f3a09d0800000000000000
+      internalID: -2807361522717299763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_238
+      rect:
+        serializedVersion: 2
+        x: 3844
+        y: 147
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfe2c6f0db8d5910800000000000000
+      internalID: 1827770753391718339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_239
+      rect:
+        serializedVersion: 2
+        x: 3862
+        y: 149
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9e2e0865c10c4f0800000000000000
+      internalID: -810616775071569411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_240
+      rect:
+        serializedVersion: 2
+        x: 3953
+        y: 149
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ffbee88cf6b6ff0800000000000000
+      internalID: -41816864347914362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_241
+      rect:
+        serializedVersion: 2
+        x: 3967
+        y: 145
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a389b0ea450b92130800000000000000
+      internalID: 3542556459647342650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_242
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 146
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a53486daa6e792b0800000000000000
+      internalID: -5577735992057252440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_243
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 144
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8037c27d74de41b40800000000000000
+      internalID: 5410209945187283720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_244
+      rect:
+        serializedVersion: 2
+        x: 3911
+        y: 143
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756968e90155a1f50800000000000000
+      internalID: 6852883312865089111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_245
+      rect:
+        serializedVersion: 2
+        x: 4114
+        y: 142
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5d0bcbc236c05e0800000000000000
+      internalID: -1942068295508109887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_246
+      rect:
+        serializedVersion: 2
+        x: 3933
+        y: 135
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71059ec90fd5e6960800000000000000
+      internalID: 7597112909426675735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_247
+      rect:
+        serializedVersion: 2
+        x: 3987
+        y: 133
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d0dc94de4b6ef50800000000000000
+      internalID: 6910409609485028655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tkb_248
+      rect:
+        serializedVersion: 2
+        x: 4022
+        y: 133
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2af15db85b4f1ef0800000000000000
+      internalID: -135306619292354001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7843dcd6b2b04a74d883eb90e980df3c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tkb_0: -796342272424365074
+      tkb_1: 7516424480274339066
+      tkb_10: 3219846588678663293
+      tkb_100: -3919648945012212540
+      tkb_101: 3571025582334064853
+      tkb_102: -2789661486887800682
+      tkb_103: 4893059226186154234
+      tkb_104: 5841859688738462659
+      tkb_105: 7649618115143710571
+      tkb_106: 682205957611353399
+      tkb_107: -7107001999066539868
+      tkb_108: -2685507557874140452
+      tkb_109: -5620254446230074702
+      tkb_11: -5872919174588065698
+      tkb_110: 3989863120324669127
+      tkb_111: 2542577081373953670
+      tkb_112: 628421263870035439
+      tkb_113: -4480125879977145383
+      tkb_114: -5117805047608694996
+      tkb_115: 1033665573306079395
+      tkb_116: 2544257353921320002
+      tkb_117: 1198683983488449870
+      tkb_118: -5698277413304950259
+      tkb_119: 2975854057747733080
+      tkb_12: 3829398807832746068
+      tkb_120: 6932216101691829751
+      tkb_121: 6701603282650936371
+      tkb_122: -138032458513804140
+      tkb_123: -9038755726765432075
+      tkb_124: 3937994480147009846
+      tkb_125: 643040393424290727
+      tkb_126: -5781364169185289279
+      tkb_127: -1404110573291047184
+      tkb_128: -6058667421555802481
+      tkb_129: 3658306201108400434
+      tkb_13: -2127429518279108904
+      tkb_130: 4885071178062414580
+      tkb_131: -7606560727683708474
+      tkb_132: -7297311308387266886
+      tkb_133: 4629596312366338312
+      tkb_134: 8670465229027237354
+      tkb_135: 1630030995798533137
+      tkb_136: 4764761273742219006
+      tkb_137: -6188919652207394964
+      tkb_138: -2751605158310963525
+      tkb_139: 5071537366565830895
+      tkb_14: -8863019418635817894
+      tkb_140: -8972142369265726945
+      tkb_141: 6227214555830730136
+      tkb_142: -5458062343798898800
+      tkb_143: 539101730213825537
+      tkb_144: -1524060015569506904
+      tkb_145: 5001563498587398714
+      tkb_146: 6686672005190293898
+      tkb_147: 4471271990853374299
+      tkb_148: 6114423241513116667
+      tkb_149: -5374184610042941036
+      tkb_15: -751215208065866912
+      tkb_150: 7870108406238019131
+      tkb_151: 1824654934672724867
+      tkb_152: -364834564255129
+      tkb_153: 2328675988945714519
+      tkb_154: -422104431560218749
+      tkb_155: -8979980873736677478
+      tkb_156: -2541513564555998620
+      tkb_157: 3883832577616525886
+      tkb_158: -3666783383710154338
+      tkb_159: 106044466828405564
+      tkb_16: 1524047894678236046
+      tkb_160: -5044684510626513649
+      tkb_161: -7754079978590890081
+      tkb_162: 2880697117552252153
+      tkb_163: 8582377574882573049
+      tkb_164: 1615935976890610908
+      tkb_165: 6676154726312367854
+      tkb_166: 5989396670652268987
+      tkb_167: -4738007115295100660
+      tkb_168: 1793871535921361284
+      tkb_169: -368890467642103705
+      tkb_17: 5437281141545183439
+      tkb_170: 8054352969780803674
+      tkb_171: 8884049156306701403
+      tkb_172: 5564940565918797628
+      tkb_173: -549992580606227865
+      tkb_174: -8591951961024360992
+      tkb_175: 3170325657626365420
+      tkb_176: 3536344508180955413
+      tkb_177: 2369911165981997704
+      tkb_178: -8496082310097062766
+      tkb_179: -4168166487900772059
+      tkb_18: 36147044927389976
+      tkb_180: 8031396030995322949
+      tkb_181: 8966818937809481569
+      tkb_182: 997651088410344424
+      tkb_183: -7011288063003086578
+      tkb_184: -5258287003485474986
+      tkb_185: -1659723846665875356
+      tkb_186: 926943971411824640
+      tkb_187: 3798252961602335841
+      tkb_188: -3965730390639262432
+      tkb_189: 7697584367906773746
+      tkb_19: 7944984169401528593
+      tkb_190: 4723218483040038779
+      tkb_191: 5578342648239052883
+      tkb_192: 2842124715774813035
+      tkb_193: -3965644914244475483
+      tkb_194: -3609578727930714768
+      tkb_195: 2827611083452455629
+      tkb_196: -8942323332573576951
+      tkb_197: -1605389343860921352
+      tkb_198: 7341864602018568153
+      tkb_199: 7830403956315419765
+      tkb_2: 435017144290556507
+      tkb_20: -2794809867816494816
+      tkb_200: 8157353562730719237
+      tkb_201: 8950301622472734795
+      tkb_202: -3819198706336713454
+      tkb_203: 7302904364811108833
+      tkb_204: -6552636710024521532
+      tkb_205: -7016918151102053443
+      tkb_206: -5475947874031283647
+      tkb_207: -728111184611645461
+      tkb_208: -8089454222756246987
+      tkb_209: 4452459752311499827
+      tkb_21: 8832252868992281963
+      tkb_210: 166397467980691332
+      tkb_211: 3644614108269226489
+      tkb_212: -6375987270806416202
+      tkb_213: 942622741788693914
+      tkb_214: 9111109584743180431
+      tkb_215: -2801092322668824583
+      tkb_216: -6945256614976652743
+      tkb_217: 5339762203890041421
+      tkb_218: 5442616391761671722
+      tkb_219: -7455794792928701380
+      tkb_22: 4787693148246575415
+      tkb_220: 2994912125237896380
+      tkb_221: -1420024383560578205
+      tkb_222: 2451121166201505715
+      tkb_223: -1282797284867883612
+      tkb_224: 5412403910254658108
+      tkb_225: 3584082045957009655
+      tkb_226: 5840184662995678489
+      tkb_227: -7117469237822946599
+      tkb_228: 3793049186035816082
+      tkb_229: 7626789688663275655
+      tkb_23: -5424546421687633909
+      tkb_230: 8041140731414034944
+      tkb_231: -8680199793922053580
+      tkb_232: 2492436953239587528
+      tkb_233: -1992082448221206902
+      tkb_234: -5497256215901876310
+      tkb_235: 154267874292523592
+      tkb_236: -44358970914095833
+      tkb_237: -2807361522717299763
+      tkb_238: 1827770753391718339
+      tkb_239: -810616775071569411
+      tkb_24: -289441083331419123
+      tkb_240: -41816864347914362
+      tkb_241: 3542556459647342650
+      tkb_242: -5577735992057252440
+      tkb_243: 5410209945187283720
+      tkb_244: 6852883312865089111
+      tkb_245: -1942068295508109887
+      tkb_246: 7597112909426675735
+      tkb_247: 6910409609485028655
+      tkb_248: -135306619292354001
+      tkb_25: 6926954647277105967
+      tkb_26: 3820401776115428280
+      tkb_27: -4451520236637853929
+      tkb_28: 6693388457364790416
+      tkb_29: 8749448194694217762
+      tkb_3: 3651913692706908268
+      tkb_30: -3212305886124426806
+      tkb_31: -9077236726766679680
+      tkb_32: 6651121822434467759
+      tkb_33: 4521926666678606100
+      tkb_34: -2222664154671422937
+      tkb_35: -5899496667998006700
+      tkb_36: -3885598020028857005
+      tkb_37: -6997068617807138445
+      tkb_38: 6916636875498614129
+      tkb_39: -1825695358327196373
+      tkb_4: -6480284018608059255
+      tkb_40: 5659185011812206391
+      tkb_41: -2409781791860519300
+      tkb_42: -2712715659788743597
+      tkb_43: -947549680958997201
+      tkb_44: -304432294079091689
+      tkb_45: 6028718370893376714
+      tkb_46: 1423102369351248262
+      tkb_47: 2539806557789026651
+      tkb_48: 3799580185454221761
+      tkb_49: 8636559899859234631
+      tkb_5: 6404594229738636701
+      tkb_50: -8431291965166596606
+      tkb_51: 4238685494782250356
+      tkb_52: 6542432217373466072
+      tkb_53: 8566432356992197007
+      tkb_54: 5964941978491305369
+      tkb_55: -3565719924633043588
+      tkb_56: -1207094460582156992
+      tkb_57: 1486614517376539268
+      tkb_58: -8911029339894628693
+      tkb_59: 7406616298641687683
+      tkb_6: -1421522121753642480
+      tkb_60: 4879707259260143026
+      tkb_61: 6600810928944762834
+      tkb_62: 4105398684428522820
+      tkb_63: 6802838979527766836
+      tkb_64: -1239174451068441823
+      tkb_65: -1600590618379723575
+      tkb_66: 911860697929823079
+      tkb_67: 2263815121711025783
+      tkb_68: 8712198326049342533
+      tkb_69: 253333561224801371
+      tkb_7: -1654775796216893357
+      tkb_70: -5086354819550156495
+      tkb_71: 8309338607399957122
+      tkb_72: -841088594734186887
+      tkb_73: 3290482969929719705
+      tkb_74: 4488651061116362161
+      tkb_75: 6694443678983097970
+      tkb_76: -1775206279992755783
+      tkb_77: -2734437069959469111
+      tkb_78: 5156696108026307822
+      tkb_79: 489219441240038237
+      tkb_8: -8228682618836667891
+      tkb_80: 4688588659013537671
+      tkb_81: -634663209917143439
+      tkb_82: -4906101621439427085
+      tkb_83: 2508382348346209483
+      tkb_84: -4497039740538195527
+      tkb_85: 2522101440762976320
+      tkb_86: 8514982495558950037
+      tkb_87: -2110997798352746057
+      tkb_88: -834233744269536812
+      tkb_89: 1839863645006740057
+      tkb_9: 5748157777454572723
+      tkb_90: 1227161625551649239
+      tkb_91: 2205035943454127886
+      tkb_92: -3247734989187335769
+      tkb_93: -3405244124582555190
+      tkb_94: 7631876189845418620
+      tkb_95: -4127783888393797629
+      tkb_96: -3411736372288596250
+      tkb_97: 8374578551421163296
+      tkb_98: -5466973452911093352
+      tkb_99: -8862357090433584419
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

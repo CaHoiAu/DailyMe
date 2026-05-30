@@ -27,29 +27,5 @@ MonoBehaviour:
     h\u01B0\u1EDBng d\u1EABn c\xE1ch b\u1EA1n x\u1EBFp nh\u1EEFng \u0111\u1ED3 v\u1EADt
     v\xE0o v\u1ECB tr\xED h\u1EE3p l\xFD n\u1EEFa \u0111\xF3 nghen! Tho\xE1t m\xE9t-xen-g\u01A1
     c\u1EE7a t\xF4i ra l\xE0 th\u1EA5y n\xE8!"
-  conditions:
-  - objectId: 
-    requiredStateId: 0
-    messageIndex: 0
-    excludeFromUnlock: []
-    isLevelBreak: 0
-    levelBreakNote: 
-  - objectId: 
-    requiredStateId: 0
-    messageIndex: 0
-    excludeFromUnlock: []
-    isLevelBreak: 0
-    levelBreakNote: 
-  - objectId: 
-    requiredStateId: 0
-    messageIndex: 0
-    excludeFromUnlock: []
-    isLevelBreak: 0
-    levelBreakNote: 
-  - objectId: 
-    requiredStateId: 0
-    messageIndex: 0
-    excludeFromUnlock: []
-    isLevelBreak: 0
-    levelBreakNote: 
+  conditions: []
   miniLevelData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}

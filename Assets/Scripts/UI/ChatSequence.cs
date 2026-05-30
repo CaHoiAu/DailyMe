@@ -20,7 +20,7 @@ public class ChatSequence : MonoBehaviour
     // -1 ở requiredStateId = không cần condition
 
     [Header("Level Data Reference")]
-    public GridMiniLevelData miniLevelData;
+    public BaseMiniLevelData miniLevelData;
 
     private int currentMessageIndex = 0;
     private bool waitingForCondition = false;
@@ -41,9 +41,9 @@ public class ChatSequence : MonoBehaviour
     //public OnBoardingHighLight onBoardingHighLight;
     private List<string> GetAllObjectIds()
     {
-        if (miniLevelData == null) return new List<string>();
-        List<string> objectIds = new List<string>();
-        foreach (var objData in miniLevelData.objects)
+        GridMiniLevelData gridData = miniLevelData as GridMiniLevelData;
+        if (gridData == null) return new List<string>(); List<string> objectIds = new List<string>();
+        foreach (var objData in gridData.objects)
         {
             if (!string.IsNullOrEmpty(objData.objectId))
                 objectIds.Add(objData.objectId);
@@ -126,6 +126,14 @@ public class ChatSequence : MonoBehaviour
         cachedObjects = FindObjectsByType<GridDragObject>(FindObjectsSortMode.None);
 
         Debug.Log($"[ChatSequence] Resuming from message {currentMessageIndex}");
+
+        // Auto-complete if no messages remain (e.g. mini level has no chat)
+        if (messages == null || messages.Count == 0 || currentMessageIndex >= messages.Count)
+        {
+            allMessagesShown = true;
+            onAllMessageShown?.Invoke();
+            NotifyCompleted();
+        }
     }
     public void NotifyCompleted()
     {
@@ -164,7 +172,20 @@ public class ChatSequence : MonoBehaviour
         {
             Debug.Log("[Update] ✅✅✅ Condition MET → ready!");
             waitingForCondition = false;
-            onReadyForNext?.Invoke();
+            if (currentMessageIndex >= messages.Count)
+            {
+                // No more messages — complete immediately without requiring another tap
+                if (!allMessagesShown)
+                {
+                    allMessagesShown = true;
+                    onAllMessageShown?.Invoke();
+                    NotifyCompleted();
+                }
+            }
+            else
+            {
+                onReadyForNext?.Invoke();
+            }
         }
     }
 

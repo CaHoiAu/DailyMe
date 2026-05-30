@@ -85,8 +85,11 @@ public class MiniLevelEditor : EditorWindow
                 data.scale = zone.transform.localScale;
                 data.spriteVisual = zone.zoneSprite;
                 data.colorVisual = zone.zoneColor;
+                SpriteRenderer sr = zone.GetComponent<SpriteRenderer>();
+                if (sr != null) data.sortingOrder = sr.sortingOrder;
                 // objectId[] is a relational config — preserve existing or leave empty for manual setup
                 data.objectId = GetExistingZoneObjectIds(zone.zoneId);
+                data.isVisualOnly = GetExistingZoneIsVisualOnly(zone.zoneId);
                 zoneList.Add(data);
             }
             miniLevelData.landingZones = zoneList.ToArray();
@@ -110,5 +113,15 @@ public class MiniLevelEditor : EditorWindow
                 return existing.objectId ?? new string[0];
         }
         return new string[0];
+    }
+    private bool GetExistingZoneIsVisualOnly(string zoneId)
+    {
+        if (miniLevelData.landingZones == null) return false;
+        foreach (var existing in miniLevelData.landingZones)
+        {
+            if (existing.zoneId == zoneId)
+                return existing.isVisualOnly;
+        }
+        return false;
     }
 }

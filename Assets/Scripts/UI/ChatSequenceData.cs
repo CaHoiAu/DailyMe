@@ -6,5 +6,5 @@ public class ChatSequenceData : ScriptableObject
 {
     [TextArea] public List<string> messages;
     public List<ObjectStateCondition> conditions;
-    public GridMiniLevelData miniLevelData;
+    public BaseMiniLevelData miniLevelData;
 }

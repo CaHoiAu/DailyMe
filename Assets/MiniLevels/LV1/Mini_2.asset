@@ -34,7 +34,7 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.06856169, y: 0.06856169, z: 0.06856169}
     requiresPlacement: 1
-    dropDuration: 2
+    dropDuration: 1
     dropHeight: 2
     dropCurve:
       serializedVersion: 2
@@ -76,7 +76,7 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.07471035, y: 0.07471035, z: 0.07471035}
     requiresPlacement: 1
-    dropDuration: 2
+    dropDuration: 1
     dropHeight: 2
     dropCurve:
       serializedVersion: 2
@@ -118,7 +118,7 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.06999614, y: 0.06999614, z: 0.06999613}
     requiresPlacement: 1
-    dropDuration: 2
+    dropDuration: 1
     dropHeight: 2
     dropCurve:
       serializedVersion: 2
@@ -160,7 +160,7 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.09544374, y: 0.09544374, z: 0.09544374}
     requiresPlacement: 1
-    dropDuration: 2
+    dropDuration: 1
     dropHeight: 2
     dropCurve:
       serializedVersion: 2
@@ -200,11 +200,11 @@ MonoBehaviour:
       isContainer: 0
       containedObjectIds: []
       containedObjectDisplays: []
-    startWorldPosition: {x: 7.21, y: -2.13, z: 0}
+    startWorldPosition: {x: 7.44, y: -2.49, z: 0}
     currentLayer: 0
-    scale: {x: 0.07670075, y: 0.07670075, z: 0.07670075}
+    scale: {x: 0.07008914, y: 0.07008914, z: 0.07008914}
     requiresPlacement: 1
-    dropDuration: 2
+    dropDuration: 1
     dropHeight: 2
     dropCurve:
       serializedVersion: 2
@@ -242,11 +242,11 @@ MonoBehaviour:
       isContainer: 0
       containedObjectIds: []
       containedObjectDisplays: []
-    startWorldPosition: {x: -2.1287978, y: -3.588781, z: 1.0872638}
+    startWorldPosition: {x: -1.5114, y: -3.9394, z: 1.0872638}
     currentLayer: 0
-    scale: {x: 0.07984957, y: 0.07984957, z: 0.07984956}
+    scale: {x: 0.046215516, y: 0.046215516, z: 0.04621551}
     requiresPlacement: 1
-    dropDuration: 2
+    dropDuration: 1
     dropHeight: 2
     dropCurve:
       serializedVersion: 2
@@ -284,11 +284,53 @@ MonoBehaviour:
       isContainer: 0
       containedObjectIds: []
       containedObjectDisplays: []
-    startWorldPosition: {x: 6.051202, y: -1.908781, z: 1.2602171}
+    startWorldPosition: {x: 5.98, y: -2.41, z: 1.2602171}
     currentLayer: 0
-    scale: {x: 0.08513421, y: 0.08513421, z: 0.08513421}
+    scale: {x: 0.05951948, y: 0.05951948, z: 0.05951948}
     requiresPlacement: 1
-    dropDuration: 2
+    dropDuration: 1
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: tkb
+    prefab: {fileID: 6048981880002860135, guid: bb27d5009fc85664a8c06d8be3275b3e, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 21300000, guid: 87132584afe147545821ec3211961580, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 7.113, y: 3.563, z: 0}
+    currentLayer: 0
+    scale: {x: 0.07032366, y: 0.07032366, z: 0.07032366}
+    requiresPlacement: 0
+    dropDuration: 1
     dropHeight: 2
     dropCurve:
       serializedVersion: 2
@@ -317,7 +359,7 @@ MonoBehaviour:
   useBoundary: 1
   useNonOverlap: 1
   useFullCoverage: 0
-  useAllObjects: 1
+  useAllObjects: 0
   useExactSlots: 0
   useLayerOverlap: 0
   exactSlotAssignments: []
@@ -370,43 +412,74 @@ MonoBehaviour:
   useDropTargets: 1
   dropTargets:
   - objectId: toan
-    dropTargetPosition: -3.08
+    dropTargetPosition: -2.87
   - objectId: van
-    dropTargetPosition: -3.08
+    dropTargetPosition: -2.87
   - objectId: vatly
-    dropTargetPosition: -3.08
+    dropTargetPosition: -2.87
   - objectId: compass
-    dropTargetPosition: -3.61
+    dropTargetPosition: -2.65
   - objectId: thuocke
-    dropTargetPosition: -3.61
+    dropTargetPosition: -2.65
   - objectId: maytinhcasio
-    dropTargetPosition: -3.61
+    dropTargetPosition: -2.65
   - objectId: binhnuoc
-    dropTargetPosition: -4
+    dropTargetPosition: -2.74
   useLandingZones: 1
   landingZones:
-  - zoneId: 
-    objectId: []
+  - zoneId: vobinhnuoc
+    objectId:
+    - binhnuoc
     prefab: {fileID: 3354308684381599923, guid: 0a77f472a103a924b8803cd7056d54ad, type: 3}
-    position: {x: 2.68, y: -2.22, z: 1.0976319}
-    scale: {x: 0.07658819, y: 0.07658819, z: 0.07658819}
-    spriteVisual: {fileID: -3325653621151780474, guid: 43455560c2e88d642890ede3e200839f, type: 3}
-    colorVisual: {r: 1, g: 1, b: 1, a: 0}
-  - zoneId: 
-    objectId: []
-    prefab: {fileID: 3354308684381599923, guid: 0a77f472a103a924b8803cd7056d54ad, type: 3}
-    position: {x: 4.97, y: -3.1200001, z: 0}
+    position: {x: 4.7, y: -3.12, z: 0}
     scale: {x: 0.07096381, y: 0.07096381, z: 0.07096381}
     spriteVisual: {fileID: 9206055702975899430, guid: efd4bfbe5ce423c4fb78f9d8cb29feec, type: 3}
-    colorVisual: {r: 1, g: 1, b: 1, a: 0}
-  - zoneId: 
+    colorVisual: {r: 1, g: 1, b: 1, a: 1}
+    sortingOrder: 1
+    isVisualOnly: 0
+  - zoneId: balomo
+    objectId:
+    - toan
+    - van
+    - vatly
+    prefab: {fileID: 3354308684381599923, guid: 0a77f472a103a924b8803cd7056d54ad, type: 3}
+    position: {x: 2.59, y: -2.22, z: 0}
+    scale: {x: 0.07658819, y: 0.07658819, z: 0.07658819}
+    spriteVisual: {fileID: -3325653621151780474, guid: 43455560c2e88d642890ede3e200839f, type: 3}
+    colorVisual: {r: 1, g: 1, b: 1, a: 1}
+    sortingOrder: -1
+    isVisualOnly: 0
+  - zoneId: balomo1
     objectId: []
+    prefab: {fileID: 3354308684381599923, guid: 0a77f472a103a924b8803cd7056d54ad, type: 3}
+    position: {x: 2.55, y: -3.11, z: 0}
+    scale: {x: 0.07658819, y: 0.07658819, z: 0.07658819}
+    spriteVisual: {fileID: 21300000, guid: 41a996f41728af547a1a94d516ac3ac0, type: 3}
+    colorVisual: {r: 1, g: 1, b: 1, a: 1}
+    sortingOrder: 2
+    isVisualOnly: 1
+  - zoneId: hopbutmo
+    objectId:
+    - compass
+    - thuocke
+    - maytinhcasio
     prefab: {fileID: 3354308684381599923, guid: 0a77f472a103a924b8803cd7056d54ad, type: 3}
     position: {x: 0.23000002, y: -2.77, z: 0}
     scale: {x: 0.0829372, y: 0.0829372, z: 0.0829372}
-    spriteVisual: {fileID: 9206055702975899430, guid: efd4bfbe5ce423c4fb78f9d8cb29feec, type: 3}
-    colorVisual: {r: 1, g: 1, b: 1, a: 0}
-  backgroundSprite: {fileID: 5280532939351762957, guid: 4db9e7d8ee6c1074b918d38eaef6c8c8, type: 3}
+    spriteVisual: {fileID: 7812124001770133602, guid: cc426829c7e6c5948a686882e5983f3b, type: 3}
+    colorVisual: {r: 1, g: 1, b: 1, a: 1}
+    sortingOrder: 0
+    isVisualOnly: 0
+  - zoneId: hopbutmo1
+    objectId: []
+    prefab: {fileID: 3354308684381599923, guid: 0a77f472a103a924b8803cd7056d54ad, type: 3}
+    position: {x: 0.236, y: -2.831, z: 0}
+    scale: {x: 0.0829372, y: 0.0829372, z: 0.0829372}
+    spriteVisual: {fileID: 2246910840728626751, guid: 3c20d3547d8291749aed1c7fc4d1e6e4, type: 3}
+    colorVisual: {r: 1, g: 1, b: 1, a: 1}
+    sortingOrder: 3
+    isVisualOnly: 1
+  backgroundSprite: {fileID: -6674854144122220092, guid: 9410a19a1bdc1e647b0a9adef78bd594, type: 3}
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
   backgroundScale: {x: 0.07879645, y: 0.07879645, z: 0.07879645}
   backgroundPosition: {x: 0, y: 0, z: 0}

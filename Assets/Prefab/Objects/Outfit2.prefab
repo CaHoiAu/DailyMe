@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 5415881445493261230}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.88, y: -1.23, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -0.64, z: 0}
+  m_LocalScale: {x: 0.2303, y: 0.2303, z: 0.2303}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: body_0
-  clothingSprite: {fileID: -5329753224350290083, guid: cbd6fc5192bb4a847873d6afa843a9a6, type: 3}
+  clothingSprite: {fileID: 6443632814938481623, guid: edb9c44f5b09a0b43a0c0f77f8ae58db, type: 3}
 --- !u!212 &7578998733785369979
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -91,8 +91,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 2220832304146928003, guid: 54eeb2b2a4512bc4aa7b78a631189491, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 08cd1688b6356bf4cae1e1ec6408cceb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -141,11 +141,11 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.15, y: 5.67}
+    oldSize: {x: 8.97, y: 18.59}
     newSize: {x: 1.9, y: 5.61}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.9, y: 5.61}
+  m_Size: {x: 8.97, y: 18.59}
   m_EdgeRadius: 0
