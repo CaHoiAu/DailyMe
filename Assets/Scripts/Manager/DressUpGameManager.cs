@@ -9,6 +9,8 @@ public class DressUpGameManager : BaseMiniGameManager
     [Header("References")]
     public EquipmentManager equipmentManager;
     public LevelManager levelManager;
+    [Tooltip("Fixed point in the scene marking the center display slot — must NOT be inside RackSystem")]
+    public Transform centerMarker;
 
     private DressUpMiniLevelData levelData;
     private List<GameObject> spawnedItems = new List<GameObject>();
@@ -34,6 +36,7 @@ public class DressUpGameManager : BaseMiniGameManager
         SpawnRackSystem();
         SpawnRackItems();
         ResolveAndWireEquipmentManager();
+        rackSnapController?.SnapToNearestItem(equip: false);
 
         equipmentManager?.SetInitialSprite(levelData.initialSprite);
         Debug.Log("[DressUpGameManager] Loaded: " + levelData.name);
@@ -49,6 +52,7 @@ public class DressUpGameManager : BaseMiniGameManager
         SpawnRackSystem();
         SpawnRackItems();
         ResolveAndWireEquipmentManager();
+        rackSnapController?.SnapToNearestItem(equip: false);
 
         equipmentManager?.SetInitialSprite(levelData.initialSprite);
     }
@@ -91,21 +95,24 @@ public class DressUpGameManager : BaseMiniGameManager
     private void ResolveAndWireEquipmentManager()
     {
         if (equipmentManager == null)
-            equipmentManager = GetComponentInChildren<EquipmentManager>();
+            equipmentManager = FindObjectOfType<EquipmentManager>();
 
         if (equipmentManager == null)
         {
-            Debug.LogError("[DressUpGameManager] EquipmentManager not found! Assign it in the Inspector or add it to the character prefab.");
+            Debug.LogError("[DressUpGameManager] EquipmentManager not found anywhere in scene!");
             return;
         }
 
-        foreach (var snap in GetComponentsInChildren<RackSnapController>())
+        foreach (var snap in FindObjectsByType<RackSnapController>(FindObjectsSortMode.None))
         {
             snap.equipmentManager = equipmentManager;
+            if (centerMarker != null)
+                snap.centerMarker = centerMarker;
             if (snap.rackMoveTarget == null)
             {
-                RackDragController drag = snap.GetComponentInParent<RackDragController>();
-                if (drag == null) drag = snap.GetComponentInChildren<RackDragController>();
+                RackDragController drag = snap.GetComponent<RackDragController>()
+                                       ?? snap.GetComponentInParent<RackDragController>()
+                                       ?? snap.GetComponentInChildren<RackDragController>();
                 if (drag != null) snap.rackMoveTarget = drag.transform;
             }
         }
@@ -157,7 +164,6 @@ public class DressUpGameManager : BaseMiniGameManager
             }
             spawnedItems.Add(obj);
         }
-        rackSnapController?.SnapToNearestItem(equip: false);
     }
 
     private void ClearAll()
