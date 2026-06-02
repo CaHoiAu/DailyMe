@@ -15,6 +15,7 @@ public class DressUpGameManager : BaseMiniGameManager
     private DressUpMiniLevelData levelData;
     private List<GameObject> spawnedItems = new List<GameObject>();
     private GameObject spawnedBackground;
+    private GameObject spawnedForeground;
     private GameObject spawnedRackSystem;
     private GameObject spawnedCharacter;
     private Transform rackContainer;
@@ -35,6 +36,7 @@ public class DressUpGameManager : BaseMiniGameManager
         SpawnCharacter();
         SpawnRackSystem();
         SpawnRackItems();
+        SpawnForeground();
         ResolveAndWireEquipmentManager();
         rackSnapController?.SnapToNearestItem(equip: false);
 
@@ -51,6 +53,7 @@ public class DressUpGameManager : BaseMiniGameManager
         SpawnCharacter();
         SpawnRackSystem();
         SpawnRackItems();
+        SpawnForeground();
         ResolveAndWireEquipmentManager();
         rackSnapController?.SnapToNearestItem(equip: false);
 
@@ -127,7 +130,19 @@ public class DressUpGameManager : BaseMiniGameManager
         spawnedBackground.transform.localScale = levelData.backgroundScale;
         SpriteRenderer sr = spawnedBackground.AddComponent<SpriteRenderer>();
         sr.sprite = levelData.backgroundSprite;
-        sr.sortingOrder = -1;
+        sr.sortingOrder = levelData.backgroundSortingOrder;
+    }
+
+    private void SpawnForeground()
+    {
+        if (levelData.foregroundSprite == null) return;
+        spawnedForeground = new GameObject("DressUp_Foreground");
+        spawnedForeground.transform.SetParent(transform);
+        spawnedForeground.transform.position = levelData.foregroundPosition;
+        spawnedForeground.transform.localScale = levelData.foregroundScale;
+        SpriteRenderer sr = spawnedForeground.AddComponent<SpriteRenderer>();
+        sr.sprite = levelData.foregroundSprite;
+        sr.sortingOrder = levelData.foregroundSortingOrder;
     }
 
     private void SpawnRackSystem()
@@ -174,6 +189,7 @@ public class DressUpGameManager : BaseMiniGameManager
 
         if (spawnedRackSystem != null) { Destroy(spawnedRackSystem); spawnedRackSystem = null; }
         if (spawnedBackground != null) { Destroy(spawnedBackground); spawnedBackground = null; }
+        if (spawnedForeground != null) { Destroy(spawnedForeground); spawnedForeground = null; }
         if (spawnedCharacter != null) { Destroy(spawnedCharacter); spawnedCharacter = null; }
 
         rackContainer = null;

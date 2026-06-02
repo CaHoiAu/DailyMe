@@ -16,6 +16,13 @@ public class DressUpMiniLevelData : BaseMiniLevelData
     public Sprite backgroundSprite;
     public Vector3 backgroundPosition;
     public Vector3 backgroundScale = Vector3.one;
+    public int backgroundSortingOrder = -1;
+
+    [Header("Foreground (overlays rack)")]
+    public Sprite foregroundSprite;
+    public Vector3 foregroundPosition;
+    public Vector3 foregroundScale = Vector3.one;
+    public int foregroundSortingOrder = 2;
 
     [Header("Rack System")]
     public GameObject rackSystemPrefab; // contains RackDragController, rackContainer, centerMark

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3ce6865cf4619d04ba7cc1dd6ea1f834
+guid: aebc392cb2697bb44b2a0eb07dca5706
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4168715253570474807
-    second: outfit_0
+      213: -7371639964916937990
+    second: thaydo2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: outfit_0
+      name: thaydo2_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 9
-        width: 190
-        height: 561
+        x: 0
+        y: 0
+        width: 22678
+        height: 12756
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 73312d2bf604ad930800000000000000
-      internalID: 4168715253570474807
+      spriteID: afa8d0f228ca2b990800000000000000
+      internalID: -7371639964916937990
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      outfit_0: 4168715253570474807
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

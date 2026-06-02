@@ -16,6 +16,11 @@ MonoBehaviour:
   backgroundSprite: {fileID: 21300000, guid: 50b8e032dfe5b6b47aba626610da205f, type: 3}
   backgroundPosition: {x: 0, y: 0, z: 0}
   backgroundScale: {x: 0.07882275, y: 0.07882275, z: 0.07882275}
+  backgroundSortingOrder: -1
+  foregroundSprite: {fileID: 21300000, guid: 2391f8d477aace24f8a218200e91f3ab, type: 3}
+  foregroundPosition: {x: 0, y: 0, z: 0}
+  foregroundScale: {x: 0.07882275, y: 0.07882275, z: 0.07882275}
+  foregroundSortingOrder: 2
   rackSystemPrefab: {fileID: 5376902392088040639, guid: 2d68fab1f8fda16479327ab52c8c354a, type: 3}
   rackPosition: {x: 2.74, y: -0.64, z: 0}
   itemSpacing: 5
