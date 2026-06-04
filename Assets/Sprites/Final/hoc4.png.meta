@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 74000c5f824b27c4aac1e2b85e994fd0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7362987098266815276
+    second: hoc4_0
+  - first:
+      213: -6811116748953267865
+    second: hoc4_1
+  - first:
+      213: 3441244588596647773
+    second: hoc4_2
+  - first:
+      213: -6768838882809707361
+    second: hoc4_3
+  - first:
+      213: -7406002367047640444
+    second: hoc4_4
+  - first:
+      213: 1017701690821458991
+    second: hoc4_5
+  - first:
+      213: 1522570719776176997
+    second: hoc4_6
+  - first:
+      213: -733716926840728264
+    second: hoc4_7
+  - first:
+      213: 8735917767479613022
+    second: hoc4_8
+  - first:
+      213: -8446512425635305023
+    second: hoc4_9
+  - first:
+      213: -7971365486410288704
+    second: hoc4_10
+  - first:
+      213: -6350705919661350037
+    second: hoc4_11
+  - first:
+      213: 957013830285264137
+    second: hoc4_12
+  - first:
+      213: 803033067085154877
+    second: hoc4_13
+  - first:
+      213: -466369544372743952
+    second: hoc4_14
+  - first:
+      213: -6448292499238886958
+    second: hoc4_15
+  - first:
+      213: 4712813828033109
+    second: hoc4_16
+  - first:
+      213: 8458305491179113184
+    second: hoc4_17
+  - first:
+      213: -6838685772842060577
+    second: hoc4_18
+  - first:
+      213: -1537889459911245576
+    second: hoc4_19
+  - first:
+      213: -8942089979958825889
+    second: hoc4_20
+  - first:
+      213: -1954599240439199864
+    second: hoc4_21
+  - first:
+      213: 5909848633727811651
+    second: hoc4_22
+  - first:
+      213: 1022947612079513942
+    second: hoc4_23
+  - first:
+      213: -6715926754702954030
+    second: hoc4_24
+  - first:
+      213: -1664897632830999518
+    second: hoc4_25
+  - first:
+      213: 7510755907762233900
+    second: hoc4_26
+  - first:
+      213: -3374572878165328433
+    second: hoc4_27
+  - first:
+      213: -1035670987086376062
+    second: hoc4_28
+  - first:
+      213: 1548188745591647793
+    second: hoc4_29
+  - first:
+      213: 2046982171433305900
+    second: hoc4_30
+  - first:
+      213: -3908735733000809345
+    second: hoc4_31
+  - first:
+      213: 3422480426634847911
+    second: hoc4_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hoc4_0
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1932
+        width: 1590
+        height: 3030
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b4afd41c59e2660800000000000000
+      internalID: 7362987098266815276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_1
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 4952
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7615de6576d0a71a0800000000000000
+      internalID: -6811116748953267865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_2
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 1932
+        width: 1582
+        height: 3026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57d98888b1c1cf20800000000000000
+      internalID: 3441244588596647773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_3
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 4472
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94864026e04012a0800000000000000
+      internalID: -6768838882809707361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_4
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 4423
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a5c6af518983990800000000000000
+      internalID: -7406002367047640444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_5
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 4414
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c3ab8bb4a9f1e00800000000000000
+      internalID: 1017701690821458991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_6
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 4397
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b7ba1b002412510800000000000000
+      internalID: 1522570719776176997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_7
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 4379
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83597f9a75051d5f0800000000000000
+      internalID: -733716926840728264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_8
+      rect:
+        serializedVersion: 2
+        x: 4833
+        y: 3866
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5655a5bce63c3970800000000000000
+      internalID: 8735917767479613022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_9
+      rect:
+        serializedVersion: 2
+        x: 4820
+        y: 3854
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9a51f43b5f7ca80800000000000000
+      internalID: -8446512425635305023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_10
+      rect:
+        serializedVersion: 2
+        x: 4829
+        y: 3851
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1b4bff255006190800000000000000
+      internalID: -7971365486410288704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_11
+      rect:
+        serializedVersion: 2
+        x: 4821
+        y: 3840
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b636d911d92cdd7a0800000000000000
+      internalID: -6350705919661350037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_12
+      rect:
+        serializedVersion: 2
+        x: 4829
+        y: 3836
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9050a47120ff74d00800000000000000
+      internalID: 957013830285264137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_13
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 3821
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ac082e152f42b00800000000000000
+      internalID: 803033067085154877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_14
+      rect:
+        serializedVersion: 2
+        x: 4827
+        y: 3814
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f01a9dce5f1789f0800000000000000
+      internalID: -466369544372743952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_15
+      rect:
+        serializedVersion: 2
+        x: 4829
+        y: 3826
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1ec0fe2201386a0800000000000000
+      internalID: -6448292499238886958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_16
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 3810
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55acc1a774eb01000800000000000000
+      internalID: 4712813828033109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_17
+      rect:
+        serializedVersion: 2
+        x: 4821
+        y: 3808
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea877bb700f16570800000000000000
+      internalID: 8458305491179113184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_18
+      rect:
+        serializedVersion: 2
+        x: 4828
+        y: 3802
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd43b33c58b1811a0800000000000000
+      internalID: -6838685772842060577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_19
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 3796
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f04c2e2fa158aae0800000000000000
+      internalID: -1537889459911245576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_20
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 3795
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c69fa5a8057e380800000000000000
+      internalID: -8942089979958825889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_21
+      rect:
+        serializedVersion: 2
+        x: 4825
+        y: 3796
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8878f53c85edfd4e0800000000000000
+      internalID: -1954599240439199864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_22
+      rect:
+        serializedVersion: 2
+        x: 4817
+        y: 3785
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3408ca94500040250800000000000000
+      internalID: 5909848633727811651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_23
+      rect:
+        serializedVersion: 2
+        x: 4828
+        y: 3789
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65165d1fe6d323e00800000000000000
+      internalID: 1022947612079513942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_24
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 3771
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d17368f23c3cc2a0800000000000000
+      internalID: -6715926754702954030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_25
+      rect:
+        serializedVersion: 2
+        x: 4824
+        y: 3776
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22438b78c6815e8e0800000000000000
+      internalID: -1664897632830999518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_26
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 3770
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22a5d454b09b3860800000000000000
+      internalID: 7510755907762233900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_27
+      rect:
+        serializedVersion: 2
+        x: 4824
+        y: 3769
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdb948b8db1b21d0800000000000000
+      internalID: -3374572878165328433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_28
+      rect:
+        serializedVersion: 2
+        x: 4821
+        y: 3750
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283d98679be80a1f0800000000000000
+      internalID: -1035670987086376062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_29
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 3760
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e6f3226754c7510800000000000000
+      internalID: 1548188745591647793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_30
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 3751
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2707d58077586c10800000000000000
+      internalID: 2046982171433305900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_31
+      rect:
+        serializedVersion: 2
+        x: 4823
+        y: 3742
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f745c996f8161c9c0800000000000000
+      internalID: -3908735733000809345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hoc4_32
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 3731
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a62c40a0d71f7f20800000000000000
+      internalID: 3422480426634847911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hoc4_0: 7362987098266815276
+      hoc4_1: -6811116748953267865
+      hoc4_10: -7971365486410288704
+      hoc4_11: -6350705919661350037
+      hoc4_12: 957013830285264137
+      hoc4_13: 803033067085154877
+      hoc4_14: -466369544372743952
+      hoc4_15: -6448292499238886958
+      hoc4_16: 4712813828033109
+      hoc4_17: 8458305491179113184
+      hoc4_18: -6838685772842060577
+      hoc4_19: -1537889459911245576
+      hoc4_2: 3441244588596647773
+      hoc4_20: -8942089979958825889
+      hoc4_21: -1954599240439199864
+      hoc4_22: 5909848633727811651
+      hoc4_23: 1022947612079513942
+      hoc4_24: -6715926754702954030
+      hoc4_25: -1664897632830999518
+      hoc4_26: 7510755907762233900
+      hoc4_27: -3374572878165328433
+      hoc4_28: -1035670987086376062
+      hoc4_29: 1548188745591647793
+      hoc4_3: -6768838882809707361
+      hoc4_30: 2046982171433305900
+      hoc4_31: -3908735733000809345
+      hoc4_32: 3422480426634847911
+      hoc4_4: -7406002367047640444
+      hoc4_5: 1017701690821458991
+      hoc4_6: 1522570719776176997
+      hoc4_7: -733716926840728264
+      hoc4_8: 8735917767479613022
+      hoc4_9: -8446512425635305023
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

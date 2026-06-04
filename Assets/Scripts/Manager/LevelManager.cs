@@ -97,6 +97,11 @@ public class LevelManager : MonoBehaviour
         foreach (var seq in chatSequences)
             seq.ResumeFromLevelBreak();
     }
+    public void OnVerifyClicked()
+    {
+        currentManager?.OnVerifyButtonClicked();
+    }
+
     public void ResetCurrentMiniGame()
     {
         if (currentManager != null)

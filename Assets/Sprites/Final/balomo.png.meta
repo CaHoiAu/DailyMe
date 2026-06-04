@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      balomo_0: -3325653621151780474
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

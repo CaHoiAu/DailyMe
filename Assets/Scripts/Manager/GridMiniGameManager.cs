@@ -69,9 +69,14 @@ public class GridMiniGameManager : BaseMiniGameManager
         return miniGameCompleted;
     }
 
-    /// <summary>
-    /// Called by GridPuzzleManager when the puzzle is completed
-    /// </summary>
+    public override void OnVerifyButtonClicked()
+    {
+        if (puzzleManager != null)
+            puzzleManager.OnCheckConstraintsButtonClicked();
+        else
+            Debug.LogError("[GridMiniGameManager] puzzleManager is null.");
+    }
+
     public void OnPuzzleCompleted()
     {
         miniGameCompleted = true;

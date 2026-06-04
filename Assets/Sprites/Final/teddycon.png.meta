@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      teddycon_0: 2983688320119581174
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

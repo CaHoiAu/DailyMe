@@ -1,0 +1,341 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5493dc2d47fc2aa4f9aaafb6fb6e784e, type: 3}
+  m_Name: Mini_5
+  m_EditorClassIdentifier: 
+  name: "H\u1ECDc h\u1ECDc h\u1ECDc"
+  boardWidth: 3
+  boardHeight: 2
+  cellSize: 1.92
+  boardOrigin: {x: 2.49, y: -4.07, z: 0}
+  objects:
+  - objectId: dodunghoctap
+    prefab: {fileID: 6048981880002860135, guid: d4eb61c7cb46a3f409fbe005a08433aa, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 21300000, guid: 67aaefb091c661a458b7748352005dc1, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 2.37, y: -2.76, z: 0}
+    currentLayer: 0
+    scale: {x: 0.08301929, y: 0.08301929, z: 0.08301929}
+    requiresPlacement: 1
+    dropDuration: 2
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: hopbut
+    prefab: {fileID: 6048981880002860135, guid: 9946c8f93e8fdbd469182826e221c664, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: -4151474865054268472, guid: 70a0e7de247e7b14ab874ed436769481, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    - stateId: 1
+      stateName: 
+      sprite: {fileID: 7543074463158216615, guid: 9395a61c54738294283c3a3cc74b81ef, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 1
+      containedObjectIds:
+      - dodunghoctap
+      containedObjectDisplays:
+      - objectId: "\u0111ounghoctap"
+        positionOffset: {x: 2.37, y: -2.76, z: 0}
+        scale: 0.08301929
+        sortingOrderOffset: 1
+    startWorldPosition: {x: 1.71, y: -3.23, z: 0.1729532}
+    currentLayer: 0
+    scale: {x: 0.08409973, y: 0.094149604, z: 0.106583215}
+    requiresPlacement: 1
+    dropDuration: 2
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: votoan
+    prefab: {fileID: 6048981880002860135, guid: fb11af3d0d900934c89acca59573f64b, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: -1186522444565164330, guid: 4570550fc5e355641a5bb6dfd162fbc2, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    - stateId: 1
+      stateName: 
+      sprite: {fileID: 21300000, guid: ac4424b84218bd54d80b796ffc629ea1, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      - {x: 1, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 2.3, y: -0.94, z: 0.1729532}
+    currentLayer: 0
+    scale: {x: 0.07232248, y: 0.07232248, z: 0.07232248}
+    requiresPlacement: 1
+    dropDuration: 2
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: toan
+    prefab: {fileID: 6048981880002860135, guid: 47fe40f95e547804aaf938b4d676462b, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: -5000936094123058326, guid: 7a6fc88743eb78546b90e8e673e8d812, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    - stateId: 1
+      stateName: 
+      sprite: {fileID: 21300000, guid: 55229644735f1924db640ed63b4fe2df, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      - {x: 1, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 2.09, y: -0.77, z: 0.013665758}
+    currentLayer: 0
+    scale: {x: 0.07140759, y: 0.07140759, z: 0.07140759}
+    requiresPlacement: 1
+    dropDuration: 2
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: tay
+    prefab: {fileID: 6048981880002860135, guid: 38f8584d3f1610443b5739aec034c86c, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 21300000, guid: a066e3ce096fefd43b8c7f0310261d58, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 4.39, y: -4.63, z: 0}
+    currentLayer: 0
+    scale: {x: 0.06893634, y: 0.06893634, z: 0.06893634}
+    requiresPlacement: 0
+    dropDuration: 2
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: thay
+    prefab: {fileID: 6048981880002860135, guid: 2cee62bc9511bda45b813bcfff259c6f, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 8753899583852171470, guid: eecaf4fb6fffb8b49ac1699b0bf34583, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 8.6939, y: 2.02, z: 0}
+    currentLayer: 0
+    scale: {x: 0.08270759, y: 0.08270759, z: 0.08270759}
+    requiresPlacement: 0
+    dropDuration: 2
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  useBoundary: 1
+  useNonOverlap: 1
+  useFullCoverage: 0
+  useAllObjects: 0
+  useExactSlots: 0
+  useLayerOverlap: 0
+  exactSlotAssignments: []
+  adjacentConstraints: []
+  requireStateConstraints:
+  - objectId: toan
+    requiredStateIndex: 1
+  - objectId: votoan
+    requiredStateIndex: 1
+  relativePositionConstraints:
+  - objectIdA: toan
+    direction: 0
+    objectIdB: votoan
+  - objectIdA: hopbut
+    direction: 3
+    objectIdB: toan
+  - objectIdA: dodunghoctap
+    direction: 3
+    objectIdB: votoan
+  - objectIdA: hopbut
+    direction: 0
+    objectIdB: dodunghoctap
+  belowAdjacentConstraints: []
+  useDropTargets: 0
+  dropTargets: []
+  useLandingZones: 0
+  landingZones: []
+  backgroundSprite: {fileID: 21300000, guid: 74000c5f824b27c4aac1e2b85e994fd0, type: 3}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  backgroundScale: {x: 0.0790142, y: 0.0790142, z: 0.0790142}
+  backgroundPosition: {x: 0, y: 0, z: 0}

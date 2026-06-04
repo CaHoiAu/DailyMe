@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: a066e3ce096fefd43b8c7f0310261d58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 482486571060486392
+    second: tay_0
+  - first:
+      213: 4285258989590440394
+    second: tay_1
+  - first:
+      213: -3659934177296471158
+    second: tay_2
+  - first:
+      213: 554248758060820469
+    second: tay_3
+  - first:
+      213: -782194363168280965
+    second: tay_4
+  - first:
+      213: 7987325698517567069
+    second: tay_5
+  - first:
+      213: -2388442565511992428
+    second: tay_6
+  - first:
+      213: 6004092128041900849
+    second: tay_7
+  - first:
+      213: -7284865721268931200
+    second: tay_8
+  - first:
+      213: 2595208307205967742
+    second: tay_9
+  - first:
+      213: -7429763678711774447
+    second: tay_10
+  - first:
+      213: -3725943360593127557
+    second: tay_11
+  - first:
+      213: -5510775411159519022
+    second: tay_12
+  - first:
+      213: 8966561850750782297
+    second: tay_13
+  - first:
+      213: -7568184611465242392
+    second: tay_14
+  - first:
+      213: -8218838467997659735
+    second: tay_15
+  - first:
+      213: -1386368775332840583
+    second: tay_16
+  - first:
+      213: 3340702362278198324
+    second: tay_17
+  - first:
+      213: -2894186160864464159
+    second: tay_18
+  - first:
+      213: 6459731668826956498
+    second: tay_19
+  - first:
+      213: 7052581227328034514
+    second: tay_20
+  - first:
+      213: 8360930567877251961
+    second: tay_21
+  - first:
+      213: -8649398797679100355
+    second: tay_22
+  - first:
+      213: -1796514207896757659
+    second: tay_23
+  - first:
+      213: 1509872536896879338
+    second: tay_24
+  - first:
+      213: 3199346912534228981
+    second: tay_25
+  - first:
+      213: -4949929818768977636
+    second: tay_26
+  - first:
+      213: -6787826271985816800
+    second: tay_27
+  - first:
+      213: -7493857504527840396
+    second: tay_28
+  - first:
+      213: -1191982106516050576
+    second: tay_29
+  - first:
+      213: 4276157981744080829
+    second: tay_30
+  - first:
+      213: 3578075677939651529
+    second: tay_31
+  - first:
+      213: 5963952365410449696
+    second: tay_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 1771, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tay_0
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1932
+        width: 1590
+        height: 3030
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0e4f4eaf222b600800000000000000
+      internalID: 482486571060486392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_1
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 4952
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac96615c85c487b30800000000000000
+      internalID: 4285258989590440394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_2
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 1932
+        width: 1582
+        height: 3026
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8baee4c14d453dc0800000000000000
+      internalID: -3659934177296471158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_3
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 4472
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7aa651f4611b700800000000000000
+      internalID: 554248758060820469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_4
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 4423
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7eaa06fe561525f0800000000000000
+      internalID: -782194363168280965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_5
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 4414
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d560d75776ea8de60800000000000000
+      internalID: 7987325698517567069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_6
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 4397
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b2c34242c8aded0800000000000000
+      internalID: -2388442565511992428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_7
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 4379
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b18aabaf1d25350800000000000000
+      internalID: 6004092128041900849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_8
+      rect:
+        serializedVersion: 2
+        x: 4833
+        y: 3866
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085785f2935f6ea90800000000000000
+      internalID: -7284865721268931200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_9
+      rect:
+        serializedVersion: 2
+        x: 4820
+        y: 3854
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f87259438040420800000000000000
+      internalID: 2595208307205967742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_10
+      rect:
+        serializedVersion: 2
+        x: 4829
+        y: 3851
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113094d7c4d24e890800000000000000
+      internalID: -7429763678711774447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_11
+      rect:
+        serializedVersion: 2
+        x: 4821
+        y: 3840
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b771f92214aca4cc0800000000000000
+      internalID: -3725943360593127557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_12
+      rect:
+        serializedVersion: 2
+        x: 4829
+        y: 3836
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d031ecf5fac583b0800000000000000
+      internalID: -5510775411159519022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_13
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 3821
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bc1921f70af6c70800000000000000
+      internalID: 8966561850750782297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_14
+      rect:
+        serializedVersion: 2
+        x: 4827
+        y: 3814
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8590f913868f690800000000000000
+      internalID: -7568184611465242392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_15
+      rect:
+        serializedVersion: 2
+        x: 4829
+        y: 3826
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad0fa865f1d0fd80800000000000000
+      internalID: -8218838467997659735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_16
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 3810
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bb792b1f0a2cce0800000000000000
+      internalID: -1386368775332840583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_17
+      rect:
+        serializedVersion: 2
+        x: 4821
+        y: 3808
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c76e3491f8c5e20800000000000000
+      internalID: 3340702362278198324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_18
+      rect:
+        serializedVersion: 2
+        x: 4828
+        y: 3802
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e272df4509c5d7d0800000000000000
+      internalID: -2894186160864464159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_19
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 3796
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2a5c84ab395a950800000000000000
+      internalID: 6459731668826956498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_20
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 3795
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6d974924dcfd160800000000000000
+      internalID: 7052581227328034514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_21
+      rect:
+        serializedVersion: 2
+        x: 4825
+        y: 3796
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973570aad0ef70470800000000000000
+      internalID: 8360930567877251961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_22
+      rect:
+        serializedVersion: 2
+        x: 4817
+        y: 3785
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e75a7be9927f780800000000000000
+      internalID: -8649398797679100355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_23
+      rect:
+        serializedVersion: 2
+        x: 4828
+        y: 3789
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a1f54a8df7117e0800000000000000
+      internalID: -1796514207896757659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_24
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 3771
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea3bd9921524f410800000000000000
+      internalID: 1509872536896879338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_25
+      rect:
+        serializedVersion: 2
+        x: 4824
+        y: 3776
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff68dae01d566c20800000000000000
+      internalID: 3199346912534228981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_26
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 3770
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1159214e015e4bb0800000000000000
+      internalID: -4949929818768977636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_27
+      rect:
+        serializedVersion: 2
+        x: 4824
+        y: 3769
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ba83518fbccc1a0800000000000000
+      internalID: -6787826271985816800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_28
+      rect:
+        serializedVersion: 2
+        x: 4821
+        y: 3750
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b0935cd48700890800000000000000
+      internalID: -7493857504527840396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_29
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 3760
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d2d7ae69a357fe0800000000000000
+      internalID: -1191982106516050576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_30
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 3751
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7ae414707f75b30800000000000000
+      internalID: 4276157981744080829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_31
+      rect:
+        serializedVersion: 2
+        x: 4823
+        y: 3742
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3de032fd0e7a130800000000000000
+      internalID: 3578075677939651529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tay_32
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 3731
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029f3a5f31734c250800000000000000
+      internalID: 5963952365410449696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tay_0: 482486571060486392
+      tay_1: 4285258989590440394
+      tay_10: -7429763678711774447
+      tay_11: -3725943360593127557
+      tay_12: -5510775411159519022
+      tay_13: 8966561850750782297
+      tay_14: -7568184611465242392
+      tay_15: -8218838467997659735
+      tay_16: -1386368775332840583
+      tay_17: 3340702362278198324
+      tay_18: -2894186160864464159
+      tay_19: 6459731668826956498
+      tay_2: -3659934177296471158
+      tay_20: 7052581227328034514
+      tay_21: 8360930567877251961
+      tay_22: -8649398797679100355
+      tay_23: -1796514207896757659
+      tay_24: 1509872536896879338
+      tay_25: 3199346912534228981
+      tay_26: -4949929818768977636
+      tay_27: -6787826271985816800
+      tay_28: -7493857504527840396
+      tay_29: -1191982106516050576
+      tay_3: 554248758060820469
+      tay_30: 4276157981744080829
+      tay_31: 3578075677939651529
+      tay_32: 5963952365410449696
+      tay_4: -782194363168280965
+      tay_5: 7987325698517567069
+      tay_6: -2388442565511992428
+      tay_7: 6004092128041900849
+      tay_8: -7284865721268931200
+      tay_9: 2595208307205967742
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

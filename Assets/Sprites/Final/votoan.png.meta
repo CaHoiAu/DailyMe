@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: ac4424b84218bd54d80b796ffc629ea1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7891019594595149085
+    second: votoan_0
+  - first:
+      213: -2800444125721920097
+    second: votoan_1
+  - first:
+      213: 1855017654293998632
+    second: votoan_2
+  - first:
+      213: -4348571280776002363
+    second: votoan_3
+  - first:
+      213: -3495546819535628138
+    second: votoan_4
+  - first:
+      213: -723254274305408323
+    second: votoan_5
+  - first:
+      213: 5348489186977295412
+    second: votoan_6
+  - first:
+      213: -2783977869066622775
+    second: votoan_7
+  - first:
+      213: 1907044088391060339
+    second: votoan_8
+  - first:
+      213: -2295739277143905440
+    second: votoan_9
+  - first:
+      213: 8958711314923142094
+    second: votoan_10
+  - first:
+      213: 6653182132634381212
+    second: votoan_11
+  - first:
+      213: -1262326983654568606
+    second: votoan_12
+  - first:
+      213: 2760299684365834390
+    second: votoan_13
+  - first:
+      213: -5798116061021005878
+    second: votoan_14
+  - first:
+      213: 1458044232003927029
+    second: votoan_15
+  - first:
+      213: -4135629817024569237
+    second: votoan_16
+  - first:
+      213: -3482402156573656411
+    second: votoan_17
+  - first:
+      213: -5772550706243515043
+    second: votoan_18
+  - first:
+      213: -6646921536245882377
+    second: votoan_19
+  - first:
+      213: -6496667714264986310
+    second: votoan_20
+  - first:
+      213: -2770751899034315770
+    second: votoan_21
+  - first:
+      213: 197739908362041597
+    second: votoan_22
+  - first:
+      213: 6943791084142387178
+    second: votoan_23
+  - first:
+      213: -6125834894317736188
+    second: votoan_24
+  - first:
+      213: 2877418321844787921
+    second: votoan_25
+  - first:
+      213: -1465075704996370314
+    second: votoan_26
+  - first:
+      213: -3760788204532931080
+    second: votoan_27
+  - first:
+      213: -4994722064104461027
+    second: votoan_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: votoan_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 3343
+        height: 2576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea5284bc777d7290800000000000000
+      internalID: -7891019594595149085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_1
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 1250
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9df301b7e2d229d0800000000000000
+      internalID: -2800444125721920097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_2
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 1149
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ca5407ab85eb910800000000000000
+      internalID: 1855017654293998632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_3
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 1047
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c481e8b575c6a3c0800000000000000
+      internalID: -4348571280776002363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_4
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 947
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69815d510b25d7fc0800000000000000
+      internalID: -3495546819535628138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_5
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 845
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db24eb9c11c76f5f0800000000000000
+      internalID: -723254274305408323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_6
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 744
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43caccaf396a93a40800000000000000
+      internalID: 5348489186977295412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_7
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 642
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c82cb3d0e25d59d0800000000000000
+      internalID: -2783977869066622775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_8
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 542
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37bce839e7e277a10800000000000000
+      internalID: 1907044088391060339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_9
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 422
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bece07a45e320e0800000000000000
+      internalID: -2295739277143905440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_10
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 358
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb3443c97cb35c70800000000000000
+      internalID: 8958711314923142094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_11
+      rect:
+        serializedVersion: 2
+        x: 3320
+        y: 333
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9be5a946e9d45c50800000000000000
+      internalID: 6653182132634381212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_12
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 256
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d01e4eb405b7ee0800000000000000
+      internalID: -1262326983654568606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_13
+      rect:
+        serializedVersion: 2
+        x: 3321
+        y: 231
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6989f3030fd8e4620800000000000000
+      internalID: 2760299684365834390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_14
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 237
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac71b588924f88fa0800000000000000
+      internalID: -5798116061021005878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_15
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 156
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbb66301830c3410800000000000000
+      internalID: 1458044232003927029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_16
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 130
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60acb9c79a4b96c0800000000000000
+      internalID: -4135629817024569237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_17
+      rect:
+        serializedVersion: 2
+        x: 3334
+        y: 137
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa7f5c60b50cafc0800000000000000
+      internalID: -3482402156573656411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_18
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 123
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5dcc6a87b7c3efa0800000000000000
+      internalID: -5772550706243515043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_19
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 112
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1ab26641461c3a0800000000000000
+      internalID: -6646921536245882377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_20
+      rect:
+        serializedVersion: 2
+        x: 3335
+        y: 58
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d8c7b722337d5a0800000000000000
+      internalID: -6496667714264986310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_21
+      rect:
+        serializedVersion: 2
+        x: 3243
+        y: 24
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6041251f3df4c89d0800000000000000
+      internalID: -2770751899034315770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_22
+      rect:
+        serializedVersion: 2
+        x: 3251
+        y: 22
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df876d326638eb200800000000000000
+      internalID: 197739908362041597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_23
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 21
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aefd4d4833d4d5060800000000000000
+      internalID: 6943791084142387178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_24
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 29
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40faf73ae99acfaa0800000000000000
+      internalID: -6125834894317736188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_25
+      rect:
+        serializedVersion: 2
+        x: 3156
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da52cfe7b4aee720800000000000000
+      internalID: 2877418321844787921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_26
+      rect:
+        serializedVersion: 2
+        x: 3259
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678e2aa98610babe0800000000000000
+      internalID: -1465075704996370314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_27
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 18
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5e551bd0ffecbc0800000000000000
+      internalID: -3760788204532931080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votoan_28
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d6f31febe2faab0800000000000000
+      internalID: -4994722064104461027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      votoan_0: -7891019594595149085
+      votoan_1: -2800444125721920097
+      votoan_10: 8958711314923142094
+      votoan_11: 6653182132634381212
+      votoan_12: -1262326983654568606
+      votoan_13: 2760299684365834390
+      votoan_14: -5798116061021005878
+      votoan_15: 1458044232003927029
+      votoan_16: -4135629817024569237
+      votoan_17: -3482402156573656411
+      votoan_18: -5772550706243515043
+      votoan_19: -6646921536245882377
+      votoan_2: 1855017654293998632
+      votoan_20: -6496667714264986310
+      votoan_21: -2770751899034315770
+      votoan_22: 197739908362041597
+      votoan_23: 6943791084142387178
+      votoan_24: -6125834894317736188
+      votoan_25: 2877418321844787921
+      votoan_26: -1465075704996370314
+      votoan_27: -3760788204532931080
+      votoan_28: -4994722064104461027
+      votoan_3: -4348571280776002363
+      votoan_4: -3495546819535628138
+      votoan_5: -723254274305408323
+      votoan_6: 5348489186977295412
+      votoan_7: -2783977869066622775
+      votoan_8: 1907044088391060339
+      votoan_9: -2295739277143905440
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

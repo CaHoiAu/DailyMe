@@ -30,7 +30,7 @@ MonoBehaviour:
       isContainer: 0
       containedObjectIds: []
       containedObjectDisplays: []
-    startWorldPosition: {x: -2.22, y: -2.3, z: 0}
+    startWorldPosition: {x: -3.1, y: -2.3, z: 0}
     currentLayer: 0
     scale: {x: 0.06856169, y: 0.06856169, z: 0.06856169}
     requiresPlacement: 1
@@ -72,7 +72,7 @@ MonoBehaviour:
       isContainer: 0
       containedObjectIds: []
       containedObjectDisplays: []
-    startWorldPosition: {x: -2.34, y: -1.45, z: 0}
+    startWorldPosition: {x: -2.02, y: -1.25, z: 0}
     currentLayer: 0
     scale: {x: 0.07471035, y: 0.07471035, z: 0.07471035}
     requiresPlacement: 1
@@ -114,7 +114,7 @@ MonoBehaviour:
       isContainer: 0
       containedObjectIds: []
       containedObjectDisplays: []
-    startWorldPosition: {x: -1.9, y: -1.52, z: 0}
+    startWorldPosition: {x: -1.51, y: -2.89, z: 0}
     currentLayer: 0
     scale: {x: 0.06999614, y: 0.06999614, z: 0.06999613}
     requiresPlacement: 1

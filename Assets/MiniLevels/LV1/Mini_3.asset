@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ca0037072d6da428d34a460346a837, type: 3}
   m_Name: Mini_3
   m_EditorClassIdentifier: 
-  name: "Thay \u0111\u1ED3"
+  name: OOTD
   backgroundSprite: {fileID: 21300000, guid: 50b8e032dfe5b6b47aba626610da205f, type: 3}
   backgroundPosition: {x: 0, y: 0, z: 0}
   backgroundScale: {x: 0.07882275, y: 0.07882275, z: 0.07882275}
@@ -22,8 +22,8 @@ MonoBehaviour:
   foregroundScale: {x: 0.07882275, y: 0.07882275, z: 0.07882275}
   foregroundSortingOrder: 2
   rackSystemPrefab: {fileID: 5376902392088040639, guid: 2d68fab1f8fda16479327ab52c8c354a, type: 3}
-  rackPosition: {x: 2.74, y: -0.64, z: 0}
-  itemSpacing: 5
+  rackPosition: {x: 0, y: -1.43, z: 0}
+  itemSpacing: 7
   rackItems:
   - itemId: aodai
     clothingSprite: {fileID: -5436282181216960231, guid: 6badb2687fefeb04b9abe8ec9ba0c76c, type: 3}
@@ -50,5 +50,5 @@ MonoBehaviour:
     isCorrect: 0
     prefab: {fileID: 5415881445493261230, guid: c0d67a9e48affea47b4c717c356c97c2, type: 3}
   characterPrefab: {fileID: 5293771268688201708, guid: 465a9548e00cd5945aeec27c89aedac9, type: 3}
-  characterPosition: {x: 2.74, y: 0, z: 0}
+  characterPosition: {x: 3.23, y: -0.49, z: 0}
   initialSprite: {fileID: 8341470818913770053, guid: 597d175fdc3d76948b22c13bff7fb279, type: 3}

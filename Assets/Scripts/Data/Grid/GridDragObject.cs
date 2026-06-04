@@ -641,18 +641,20 @@ public class GridDragObject : MonoBehaviour
 
         Collider2D topCollider = null;
         int highestOrder = int.MinValue;
-        int highestInstanceId = int.MinValue;
+        int highestSiblingIndex = int.MinValue;
 
         foreach (var hit in hits)
         {
             var sr = hit.collider.GetComponent<SpriteRenderer>();
             if (sr == null) continue;
 
+            int siblingIndex = hit.collider.transform.GetSiblingIndex();
+
             if (sr.sortingOrder > highestOrder ||
-               (sr.sortingOrder == highestOrder && hit.collider.GetInstanceID() > highestInstanceId))
+               (sr.sortingOrder == highestOrder && siblingIndex > highestSiblingIndex))
             {
                 highestOrder = sr.sortingOrder;
-                highestInstanceId = hit.collider.GetInstanceID();
+                highestSiblingIndex = siblingIndex;
                 topCollider = hit.collider;
             }
         }

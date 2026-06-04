@@ -72,7 +72,7 @@ public class DressUpGameManager : BaseMiniGameManager
         return false;
     }
 
-    public void OnCheckConstraintsButtonClicked()
+    public override void OnVerifyButtonClicked()
     {
         if (isCompleted) return;
         if (!IsMiniGameCompleted())
