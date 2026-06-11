@@ -1,0 +1,7891 @@
+fileFormatVersion: 2
+guid: 787d3ea773234a447bf4358ff18806de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6473379884045465844
+    second: rau_0
+  - first:
+      213: -8629586948718469047
+    second: rau_1
+  - first:
+      213: 4800327829733699152
+    second: rau_2
+  - first:
+      213: -5524543208546936566
+    second: rau_3
+  - first:
+      213: 8276796199594483360
+    second: rau_4
+  - first:
+      213: 6424514253002499522
+    second: rau_5
+  - first:
+      213: -2721450707160387622
+    second: rau_6
+  - first:
+      213: -3134603882128651678
+    second: rau_7
+  - first:
+      213: -6067660362814759690
+    second: rau_8
+  - first:
+      213: -7145739441632962511
+    second: rau_9
+  - first:
+      213: -1849258911710190892
+    second: rau_10
+  - first:
+      213: 2793109065464414293
+    second: rau_11
+  - first:
+      213: 6162023604493412446
+    second: rau_12
+  - first:
+      213: 5057315545714155702
+    second: rau_13
+  - first:
+      213: 7680701753028258317
+    second: rau_14
+  - first:
+      213: 603150957757267877
+    second: rau_15
+  - first:
+      213: 5788602424898514525
+    second: rau_16
+  - first:
+      213: 3572468734195667672
+    second: rau_17
+  - first:
+      213: 2528722652352107048
+    second: rau_18
+  - first:
+      213: 5231200191832481298
+    second: rau_19
+  - first:
+      213: 2850958809460120566
+    second: rau_20
+  - first:
+      213: -6997401799929549923
+    second: rau_21
+  - first:
+      213: 4834207554114480823
+    second: rau_22
+  - first:
+      213: -3347660519840592245
+    second: rau_23
+  - first:
+      213: 5273527854443437770
+    second: rau_24
+  - first:
+      213: -8475565508350009124
+    second: rau_25
+  - first:
+      213: 167913553866979975
+    second: rau_26
+  - first:
+      213: -491591022187614239
+    second: rau_27
+  - first:
+      213: -953300755490209861
+    second: rau_28
+  - first:
+      213: 7781450004027516613
+    second: rau_29
+  - first:
+      213: 6909976915089735519
+    second: rau_30
+  - first:
+      213: 4692823042769768282
+    second: rau_31
+  - first:
+      213: -350424986915699275
+    second: rau_32
+  - first:
+      213: -207164032672839737
+    second: rau_33
+  - first:
+      213: -4378535939250011293
+    second: rau_34
+  - first:
+      213: 5674117053456791479
+    second: rau_35
+  - first:
+      213: -8634170402403509954
+    second: rau_36
+  - first:
+      213: 2350765494652939175
+    second: rau_37
+  - first:
+      213: -512452638805932186
+    second: rau_38
+  - first:
+      213: -1356347939700447476
+    second: rau_39
+  - first:
+      213: 907365481573748018
+    second: rau_40
+  - first:
+      213: 6706926301247790508
+    second: rau_41
+  - first:
+      213: -6769407736805247436
+    second: rau_42
+  - first:
+      213: -6049480689851612195
+    second: rau_43
+  - first:
+      213: -2034536547845652839
+    second: rau_44
+  - first:
+      213: 8853566780417039973
+    second: rau_45
+  - first:
+      213: -8011301283680834444
+    second: rau_46
+  - first:
+      213: 5027123227817298562
+    second: rau_47
+  - first:
+      213: 811109010952989650
+    second: rau_48
+  - first:
+      213: 5382349749721164555
+    second: rau_49
+  - first:
+      213: 7549382644535231172
+    second: rau_50
+  - first:
+      213: -7647253715766270163
+    second: rau_51
+  - first:
+      213: -6118378410052887176
+    second: rau_52
+  - first:
+      213: 6308707593068853857
+    second: rau_53
+  - first:
+      213: 8566511765114889353
+    second: rau_54
+  - first:
+      213: 6429729413635945241
+    second: rau_55
+  - first:
+      213: -5498563694617925571
+    second: rau_56
+  - first:
+      213: -2493354356423087858
+    second: rau_57
+  - first:
+      213: -5689810277064569148
+    second: rau_58
+  - first:
+      213: -6027080773070297526
+    second: rau_59
+  - first:
+      213: -5341496555147641503
+    second: rau_60
+  - first:
+      213: 524440481746804161
+    second: rau_61
+  - first:
+      213: -271251483759458577
+    second: rau_62
+  - first:
+      213: -7766547863025245487
+    second: rau_63
+  - first:
+      213: -4640529787088704933
+    second: rau_64
+  - first:
+      213: -4213089821779333014
+    second: rau_65
+  - first:
+      213: -3397938884379074709
+    second: rau_66
+  - first:
+      213: -6770715535218576999
+    second: rau_67
+  - first:
+      213: -9015218767395398930
+    second: rau_68
+  - first:
+      213: 6786958677251368244
+    second: rau_69
+  - first:
+      213: -2647348409746484771
+    second: rau_70
+  - first:
+      213: -2650246719839675772
+    second: rau_71
+  - first:
+      213: 5487456735678917458
+    second: rau_72
+  - first:
+      213: 7869678101930796256
+    second: rau_73
+  - first:
+      213: -297994204069855276
+    second: rau_74
+  - first:
+      213: -2155927594500655883
+    second: rau_75
+  - first:
+      213: -1780640316433190478
+    second: rau_76
+  - first:
+      213: -6244059448395313130
+    second: rau_77
+  - first:
+      213: -5498203751814901846
+    second: rau_78
+  - first:
+      213: -8856787209212656480
+    second: rau_79
+  - first:
+      213: -2285783958216305456
+    second: rau_80
+  - first:
+      213: -1498130486123379563
+    second: rau_81
+  - first:
+      213: -8837808074921579677
+    second: rau_82
+  - first:
+      213: 8507048761958601371
+    second: rau_83
+  - first:
+      213: 8358421186672232121
+    second: rau_84
+  - first:
+      213: 4289155221866983024
+    second: rau_85
+  - first:
+      213: -2347069377013835084
+    second: rau_86
+  - first:
+      213: -106476642835227118
+    second: rau_87
+  - first:
+      213: -4451284395550380262
+    second: rau_88
+  - first:
+      213: -7932569652424832053
+    second: rau_89
+  - first:
+      213: -3113223775712105558
+    second: rau_90
+  - first:
+      213: 7394227570780221951
+    second: rau_91
+  - first:
+      213: 6333964783203104939
+    second: rau_92
+  - first:
+      213: -7201442387127775974
+    second: rau_93
+  - first:
+      213: 3140702365743800910
+    second: rau_94
+  - first:
+      213: 1487332825030680301
+    second: rau_95
+  - first:
+      213: 4004108916522934011
+    second: rau_96
+  - first:
+      213: -8888102425470879405
+    second: rau_97
+  - first:
+      213: 6455237038188960113
+    second: rau_98
+  - first:
+      213: -2162973348374328300
+    second: rau_99
+  - first:
+      213: -7296035443396515125
+    second: rau_100
+  - first:
+      213: -3356240866705085777
+    second: rau_101
+  - first:
+      213: 690197115196892963
+    second: rau_102
+  - first:
+      213: -479472185968018083
+    second: rau_103
+  - first:
+      213: 7397546230507614167
+    second: rau_104
+  - first:
+      213: -7585820263536933851
+    second: rau_105
+  - first:
+      213: 8318187041666310103
+    second: rau_106
+  - first:
+      213: -3599394813359491397
+    second: rau_107
+  - first:
+      213: -3066477352942525246
+    second: rau_108
+  - first:
+      213: 4761280486140920232
+    second: rau_109
+  - first:
+      213: 8902077898067759470
+    second: rau_110
+  - first:
+      213: 1888548166387324641
+    second: rau_111
+  - first:
+      213: 8011273035528781019
+    second: rau_112
+  - first:
+      213: -1810409674656720775
+    second: rau_113
+  - first:
+      213: -8085201390374528547
+    second: rau_114
+  - first:
+      213: 2593488091975775901
+    second: rau_115
+  - first:
+      213: -5039588804948989580
+    second: rau_116
+  - first:
+      213: 5620418531091886511
+    second: rau_117
+  - first:
+      213: -4161672288811565405
+    second: rau_118
+  - first:
+      213: -3436035039640665849
+    second: rau_119
+  - first:
+      213: 6415993639933785628
+    second: rau_120
+  - first:
+      213: 4095725720346950989
+    second: rau_121
+  - first:
+      213: 4359110196130546353
+    second: rau_122
+  - first:
+      213: 2378361318106941110
+    second: rau_123
+  - first:
+      213: -5568021366935082520
+    second: rau_124
+  - first:
+      213: -816184964657793795
+    second: rau_125
+  - first:
+      213: 7259209977963227333
+    second: rau_126
+  - first:
+      213: -4260720695862371531
+    second: rau_127
+  - first:
+      213: -8129948184461017053
+    second: rau_128
+  - first:
+      213: -2621357752392189977
+    second: rau_129
+  - first:
+      213: 5299091815275180139
+    second: rau_130
+  - first:
+      213: 7917077799951516991
+    second: rau_131
+  - first:
+      213: -4527585690039248166
+    second: rau_132
+  - first:
+      213: 7691058517150123117
+    second: rau_133
+  - first:
+      213: 6196850755127787821
+    second: rau_134
+  - first:
+      213: 6693911836572067464
+    second: rau_135
+  - first:
+      213: 2685425367850586010
+    second: rau_136
+  - first:
+      213: -161234690999474241
+    second: rau_137
+  - first:
+      213: -3445056068937272485
+    second: rau_138
+  - first:
+      213: -7514099296931269957
+    second: rau_139
+  - first:
+      213: -8204973676476092286
+    second: rau_140
+  - first:
+      213: 237318090594124442
+    second: rau_141
+  - first:
+      213: 3624504070677482278
+    second: rau_142
+  - first:
+      213: -8565695211223345495
+    second: rau_143
+  - first:
+      213: 3042491022629203231
+    second: rau_144
+  - first:
+      213: 5605373080341568488
+    second: rau_145
+  - first:
+      213: 8028335034756994844
+    second: rau_146
+  - first:
+      213: 1782428750133474755
+    second: rau_147
+  - first:
+      213: 4542878920759408151
+    second: rau_148
+  - first:
+      213: -8054262353190307638
+    second: rau_149
+  - first:
+      213: -1065147987924579159
+    second: rau_150
+  - first:
+      213: -492213246075817237
+    second: rau_151
+  - first:
+      213: 7244530736271793235
+    second: rau_152
+  - first:
+      213: -6532192688577124427
+    second: rau_153
+  - first:
+      213: 4986978174426895886
+    second: rau_154
+  - first:
+      213: -4822329994817830918
+    second: rau_155
+  - first:
+      213: 7387331369983132460
+    second: rau_156
+  - first:
+      213: -4087528080479376438
+    second: rau_157
+  - first:
+      213: 8100621816156676867
+    second: rau_158
+  - first:
+      213: 31270916610969440
+    second: rau_159
+  - first:
+      213: 1158910671717035496
+    second: rau_160
+  - first:
+      213: 1120212724894252731
+    second: rau_161
+  - first:
+      213: -3203493175423497520
+    second: rau_162
+  - first:
+      213: 703931292444220952
+    second: rau_163
+  - first:
+      213: 316796439057943088
+    second: rau_164
+  - first:
+      213: -1658207559000439841
+    second: rau_165
+  - first:
+      213: -7532786097619702862
+    second: rau_166
+  - first:
+      213: -3685323954109289951
+    second: rau_167
+  - first:
+      213: -6794230732677079782
+    second: rau_168
+  - first:
+      213: -8733931102706324169
+    second: rau_169
+  - first:
+      213: 2197762086351013824
+    second: rau_170
+  - first:
+      213: -1378363881151244299
+    second: rau_171
+  - first:
+      213: -5996211979823822715
+    second: rau_172
+  - first:
+      213: 1279399820675338507
+    second: rau_173
+  - first:
+      213: -780953084884063111
+    second: rau_174
+  - first:
+      213: 1540496298303503566
+    second: rau_175
+  - first:
+      213: -2202666301918111762
+    second: rau_176
+  - first:
+      213: -6982288241440261553
+    second: rau_177
+  - first:
+      213: 5723477479844277463
+    second: rau_178
+  - first:
+      213: 6909202452921911633
+    second: rau_179
+  - first:
+      213: -5898527542373205877
+    second: rau_180
+  - first:
+      213: 2600255585778288892
+    second: rau_181
+  - first:
+      213: 1944957452699948145
+    second: rau_182
+  - first:
+      213: 4956010646691829859
+    second: rau_183
+  - first:
+      213: 6430675930844033859
+    second: rau_184
+  - first:
+      213: -7234293661926053425
+    second: rau_185
+  - first:
+      213: -8149471317562231627
+    second: rau_186
+  - first:
+      213: 3937658563757394278
+    second: rau_187
+  - first:
+      213: 3177134691804299040
+    second: rau_188
+  - first:
+      213: -8232208139880623690
+    second: rau_189
+  - first:
+      213: -8716814949643962246
+    second: rau_190
+  - first:
+      213: 2684753464328344872
+    second: rau_191
+  - first:
+      213: 3543206905138743254
+    second: rau_192
+  - first:
+      213: -7206262460053735983
+    second: rau_193
+  - first:
+      213: 8175839422516043182
+    second: rau_194
+  - first:
+      213: 8634753190027658828
+    second: rau_195
+  - first:
+      213: -8322357201990393687
+    second: rau_196
+  - first:
+      213: -4562554273047290665
+    second: rau_197
+  - first:
+      213: -4328928875455060727
+    second: rau_198
+  - first:
+      213: 7597456884894289946
+    second: rau_199
+  - first:
+      213: 6444680417656106575
+    second: rau_200
+  - first:
+      213: 672311976901756345
+    second: rau_201
+  - first:
+      213: -7568859772925593413
+    second: rau_202
+  - first:
+      213: 6908491981746601519
+    second: rau_203
+  - first:
+      213: -7858180378474049041
+    second: rau_204
+  - first:
+      213: -3533780937993310415
+    second: rau_205
+  - first:
+      213: 6621421943038734046
+    second: rau_206
+  - first:
+      213: 488255857796747591
+    second: rau_207
+  - first:
+      213: 8467893606968405863
+    second: rau_208
+  - first:
+      213: -4060033079195879686
+    second: rau_209
+  - first:
+      213: 8505219107321810386
+    second: rau_210
+  - first:
+      213: 4109135185119322186
+    second: rau_211
+  - first:
+      213: -5613924485176547952
+    second: rau_212
+  - first:
+      213: 2676980658392638835
+    second: rau_213
+  - first:
+      213: -1403806330858304656
+    second: rau_214
+  - first:
+      213: 8094802367933099980
+    second: rau_215
+  - first:
+      213: 5014006391977731671
+    second: rau_216
+  - first:
+      213: 4573540427656944530
+    second: rau_217
+  - first:
+      213: -8504610881933160372
+    second: rau_218
+  - first:
+      213: -8459913669895688005
+    second: rau_219
+  - first:
+      213: 1154961187326259495
+    second: rau_220
+  - first:
+      213: 4012964544875460480
+    second: rau_221
+  - first:
+      213: -6160279726904361665
+    second: rau_222
+  - first:
+      213: 2971959425812059778
+    second: rau_223
+  - first:
+      213: -534221841130419813
+    second: rau_224
+  - first:
+      213: 832121397229958424
+    second: rau_225
+  - first:
+      213: -112011648500266196
+    second: rau_226
+  - first:
+      213: 5030188031045430300
+    second: rau_227
+  - first:
+      213: -2330863123679796644
+    second: rau_228
+  - first:
+      213: 3483035520191590891
+    second: rau_229
+  - first:
+      213: 1698126288260786402
+    second: rau_230
+  - first:
+      213: 6004634083298416809
+    second: rau_231
+  - first:
+      213: 7834177117501926864
+    second: rau_232
+  - first:
+      213: 1970116786336288678
+    second: rau_233
+  - first:
+      213: 4070101170623433613
+    second: rau_234
+  - first:
+      213: -3312077720194052195
+    second: rau_235
+  - first:
+      213: 4033567149895301234
+    second: rau_236
+  - first:
+      213: 8349328732518342721
+    second: rau_237
+  - first:
+      213: 6317387293033340892
+    second: rau_238
+  - first:
+      213: -325028615398378403
+    second: rau_239
+  - first:
+      213: 5787415427664382348
+    second: rau_240
+  - first:
+      213: -5269621479145868520
+    second: rau_241
+  - first:
+      213: -443731321261916538
+    second: rau_242
+  - first:
+      213: -234604893088189190
+    second: rau_243
+  - first:
+      213: -628037149772744757
+    second: rau_244
+  - first:
+      213: -6914414227442369574
+    second: rau_245
+  - first:
+      213: 8308968942406508108
+    second: rau_246
+  - first:
+      213: -4344824681429169447
+    second: rau_247
+  - first:
+      213: 2494171118619647354
+    second: rau_248
+  - first:
+      213: 5460854248787305871
+    second: rau_249
+  - first:
+      213: -2113311798853489960
+    second: rau_250
+  - first:
+      213: -5152536286873030235
+    second: rau_251
+  - first:
+      213: 4984120296797758203
+    second: rau_252
+  - first:
+      213: -4237160993802681106
+    second: rau_253
+  - first:
+      213: -6756162792747831291
+    second: rau_254
+  - first:
+      213: -8639683671277325530
+    second: rau_255
+  - first:
+      213: -2332492178539547940
+    second: rau_256
+  - first:
+      213: 6638459627728139266
+    second: rau_257
+  - first:
+      213: 2451122276716709566
+    second: rau_258
+  - first:
+      213: 1377951475086998292
+    second: rau_259
+  - first:
+      213: 1622499465794415894
+    second: rau_260
+  - first:
+      213: -5238027890541221633
+    second: rau_261
+  - first:
+      213: 1591618092364303455
+    second: rau_262
+  - first:
+      213: -8074609410679957201
+    second: rau_263
+  - first:
+      213: -890744623476898493
+    second: rau_264
+  - first:
+      213: -2229689252833483582
+    second: rau_265
+  - first:
+      213: -1975670282767717506
+    second: rau_266
+  - first:
+      213: -6043291262688590123
+    second: rau_267
+  - first:
+      213: 5161580570223449400
+    second: rau_268
+  - first:
+      213: -8974289216665661411
+    second: rau_269
+  - first:
+      213: -1997785743579016152
+    second: rau_270
+  - first:
+      213: 2317804062743631635
+    second: rau_271
+  - first:
+      213: 6559472196115456547
+    second: rau_272
+  - first:
+      213: 4659742391636377069
+    second: rau_273
+  - first:
+      213: 6111547216903327852
+    second: rau_274
+  - first:
+      213: 2303272879334111722
+    second: rau_275
+  - first:
+      213: -8473677254032458579
+    second: rau_276
+  - first:
+      213: -6033119734184674910
+    second: rau_277
+  - first:
+      213: 3645215924078169245
+    second: rau_278
+  - first:
+      213: 3248558265699676682
+    second: rau_279
+  - first:
+      213: -1958407391405668363
+    second: rau_280
+  - first:
+      213: -5836576044252367022
+    second: rau_281
+  - first:
+      213: 5885257005755295914
+    second: rau_282
+  - first:
+      213: -7940576844083133326
+    second: rau_283
+  - first:
+      213: -1825503423766778404
+    second: rau_284
+  - first:
+      213: 5728484451670927619
+    second: rau_285
+  - first:
+      213: -3365138495933024338
+    second: rau_286
+  - first:
+      213: 9186277448104151801
+    second: rau_287
+  - first:
+      213: -2030275163846792822
+    second: rau_288
+  - first:
+      213: 3761567913084502026
+    second: rau_289
+  - first:
+      213: -2424298646470013624
+    second: rau_290
+  - first:
+      213: 4635036985835857534
+    second: rau_291
+  - first:
+      213: 4548227024781270682
+    second: rau_292
+  - first:
+      213: 3964367448781236051
+    second: rau_293
+  - first:
+      213: -2003860176669464138
+    second: rau_294
+  - first:
+      213: 1625340747596497643
+    second: rau_295
+  - first:
+      213: 4219771175156394656
+    second: rau_296
+  - first:
+      213: 9008708385389891716
+    second: rau_297
+  - first:
+      213: 5986852155384907183
+    second: rau_298
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rau_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 139
+        width: 1976
+        height: 1643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c078f4bfa4fe926a0800000000000000
+      internalID: -6473379884045465844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_1
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 137
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940e943446c8d3880800000000000000
+      internalID: -8629586948718469047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_2
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 132
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ee2b85ab03e9240800000000000000
+      internalID: 4800327829733699152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_3
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 133
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09534cd831e453b0800000000000000
+      internalID: -5524543208546936566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_4
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 133
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aed12b8a461dd270800000000000000
+      internalID: 8276796199594483360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_5
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 138
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5e5a0bca5782950800000000000000
+      internalID: 6424514253002499522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_6
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 129
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf28fd20077b3ad0800000000000000
+      internalID: -2721450707160387622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_7
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 130
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a49268066af74d0800000000000000
+      internalID: -3134603882128651678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_8
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 123
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc55b04c075bcba0800000000000000
+      internalID: -6067660362814759690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_9
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 136
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13818fb66db35dc90800000000000000
+      internalID: -7145739441632962511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_10
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 137
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2e9cd41dc1656e0800000000000000
+      internalID: -1849258911710190892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_11
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 138
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5500ee185ed13c620800000000000000
+      internalID: 2793109065464414293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_12
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 131
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58e66b02d7e38550800000000000000
+      internalID: 6162023604493412446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_13
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 133
+        width: 17
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b06a5ba1b13f2640800000000000000
+      internalID: 5057315545714155702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_14
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 127
+        width: 12
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a28fedc85579a60800000000000000
+      internalID: 7680701753028258317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_15
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 139
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5affe07b992de5800800000000000000
+      internalID: 603150957757267877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_16
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 132
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e6a027c3f355050800000000000000
+      internalID: 5788602424898514525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_17
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 139
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d21ce0d265f39130800000000000000
+      internalID: 3572468734195667672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_18
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 137
+        width: 17
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8225ee4cad3d71320800000000000000
+      internalID: 2528722652352107048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_19
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 130
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e512fbbd4f89840800000000000000
+      internalID: 5231200191832481298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_20
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 126
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb1423aee3a09720800000000000000
+      internalID: 2850958809460120566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_21
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 124
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b2584032c34ee90800000000000000
+      internalID: -6997401799929549923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_22
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 134
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bae081682e861340800000000000000
+      internalID: 4834207554114480823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_23
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 120
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e4d4e6e78ba81d0800000000000000
+      internalID: -3347660519840592245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_24
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 116
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace9a3da4a55f2940800000000000000
+      internalID: 5273527854443437770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_25
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 139
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0ae3c531eb06a80800000000000000
+      internalID: -8475565508350009124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_26
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 138
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78af633dc7c845200800000000000000
+      internalID: 167913553866979975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_27
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 120
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef6cb3e1948d29f0800000000000000
+      internalID: -491591022187614239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_28
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 137
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbff4e0830235c2f0800000000000000
+      internalID: -953300755490209861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_29
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 117
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6a58ffc834dfb60800000000000000
+      internalID: 7781450004027516613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_30
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 134
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fb216c46b25ef50800000000000000
+      internalID: 6909976915089735519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_31
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 126
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f4f0a91b1402140800000000000000
+      internalID: 4692823042769768282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_32
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 137
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5087eb45a032bf0800000000000000
+      internalID: -350424986915699275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_33
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 133
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c74c4ee861002df0800000000000000
+      internalID: -207164032672839737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_34
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 123
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363c8b003c05c33c0800000000000000
+      internalID: -4378535939250011293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_35
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 117
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b73749b5638ebe40800000000000000
+      internalID: 5674117053456791479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_36
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 129
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e391c8ac3c34d2880800000000000000
+      internalID: -8634170402403509954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_37
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 119
+        width: 13
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aba80333c89f9020800000000000000
+      internalID: 2350765494652939175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_38
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 115
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667c2c34a0763e8f0800000000000000
+      internalID: -512452638805932186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_39
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 121
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07625e2cb84d2de0800000000000000
+      internalID: -1356347939700447476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_40
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 129
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d87aa191c979c00800000000000000
+      internalID: 907365481573748018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_41
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 120
+        width: 14
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad5998afe9c31d50800000000000000
+      internalID: 6706926301247790508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_42
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 135
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43631fb778b3e02a0800000000000000
+      internalID: -6769407736805247436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_43
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 135
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd34fc53d5deb0ca0800000000000000
+      internalID: -6049480689851612195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_44
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 139
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e3c170acfd3c3e0800000000000000
+      internalID: -2034536547845652839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_45
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 135
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ed4fd14103eda70800000000000000
+      internalID: 8853566780417039973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_46
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 137
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ca29d9de322d090800000000000000
+      internalID: -8011301283680834444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_47
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 137
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a4a2cd0fde3c540800000000000000
+      internalID: 5027123227817298562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_48
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 131
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dba8f71953a14b00800000000000000
+      internalID: 811109010952989650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_49
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 127
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bea099492f1ba40800000000000000
+      internalID: 5382349749721164555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_50
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 132
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c28501548bc4c860800000000000000
+      internalID: 7549382644535231172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_51
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 123
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27277c234f7fd590800000000000000
+      internalID: -7647253715766270163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_52
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 128
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87dd06ba047271ba0800000000000000
+      internalID: -6118378410052887176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_53
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 136
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16abda481280d8750800000000000000
+      internalID: 6308707593068853857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_54
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 133
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984a0e3201d52e670800000000000000
+      internalID: 8566511765114889353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_55
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 132
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913b6a5e5dcfa3950800000000000000
+      internalID: 6429729413635945241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_56
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 134
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38607fc37d21b3b0800000000000000
+      internalID: -5498563694617925571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_57
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 125
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09aa365c63d56dd0800000000000000
+      internalID: -2493354356423087858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_58
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 122
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce033ce2bbb901b0800000000000000
+      internalID: -5689810277064569148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_59
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 125
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46ee8048f18b5ca0800000000000000
+      internalID: -6027080773070297526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_60
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 122
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16db37dfe213fd5b0800000000000000
+      internalID: -5341496555147641503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_61
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 124
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd5a5ce6df274700800000000000000
+      internalID: 524440481746804161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_62
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 121
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe648b176325c3cf0800000000000000
+      internalID: -271251483759458577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_63
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 118
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2af451edda73490800000000000000
+      internalID: -7766547863025245487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_64
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 123
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a65f6ceb6899fb0800000000000000
+      internalID: -4640529787088704933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_65
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 125
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60770601291885c0800000000000000
+      internalID: -4213089821779333014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_66
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 123
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f1914769818d0d0800000000000000
+      internalID: -3397938884379074709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_67
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 121
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991f310f7169902a0800000000000000
+      internalID: -6770715535218576999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_68
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 124
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea56f4bb4283e280800000000000000
+      internalID: -9015218767395398930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_69
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 111
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435a2d645fe103e50800000000000000
+      internalID: 6786958677251368244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_70
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 123
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd19d58c5aab24bd0800000000000000
+      internalID: -2647348409746484771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_71
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 104
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48adfc066ae683bd0800000000000000
+      internalID: -2650246719839675772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_72
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 104
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b677ac3dc572c40800000000000000
+      internalID: 5487456735678917458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_73
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 127
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e46142d986b63d60800000000000000
+      internalID: 7869678101930796256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_74
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 117
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df7a49a9df4ddbf0800000000000000
+      internalID: -297994204069855276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_75
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 130
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f47350864b9412e0800000000000000
+      internalID: -2155927594500655883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_76
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 130
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1b2420115e947e0800000000000000
+      internalID: -1780640316433190478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_77
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 110
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610d9fd9305a859a0800000000000000
+      internalID: -6244059448395313130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_78
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 124
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf4a5681d472b3b0800000000000000
+      internalID: -5498203751814901846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_79
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 122
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a408af55fe561580800000000000000
+      internalID: -8856787209212656480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_80
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 122
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d41b31c9934740e0800000000000000
+      internalID: -2285783958216305456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_81
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 117
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594ce63a242953be0800000000000000
+      internalID: -1498130486123379563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_82
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 117
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b683d616cc95580800000000000000
+      internalID: -8837808074921579677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_83
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 127
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b921877d6cb1f0670800000000000000
+      internalID: 8507048761958601371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_84
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 127
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b682b2d8c31ff370800000000000000
+      internalID: 8358421186672232121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_85
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 123
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ea4e903f3268b30800000000000000
+      internalID: 4289155221866983024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_86
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 129
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba94ef36d88d6fd0800000000000000
+      internalID: -2347069377013835084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_87
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 125
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e1ee6be08b58ef0800000000000000
+      internalID: -106476642835227118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_88
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 119
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1feaf81d6cd932c0800000000000000
+      internalID: -4451284395550380262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_89
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 118
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb8c2ffde9d9e190800000000000000
+      internalID: -7932569652424832053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_90
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 113
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab2166787b9bc4d0800000000000000
+      internalID: -3113223775712105558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_91
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 118
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff131c0acc29d9660800000000000000
+      internalID: 7394227570780221951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_92
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 119
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8b7aa5963c6e750800000000000000
+      internalID: 6333964783203104939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_93
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 115
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1dcec4cd465f0c90800000000000000
+      internalID: -7201442387127775974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_94
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 117
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4263675924069b20800000000000000
+      internalID: 3140702365743800910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_95
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 108
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee5bbaf25114a410800000000000000
+      internalID: 1487332825030680301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_96
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 105
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfed25b48d3719730800000000000000
+      internalID: 4004108916522934011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_97
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 119
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359358a6fed17a480800000000000000
+      internalID: -8888102425470879405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_98
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 114
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179923a82eb959950800000000000000
+      internalID: 6455237038188960113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_99
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cc28713339bf1e0800000000000000
+      internalID: -2162973348374328300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_100
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 117
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcae0b79b664fba90800000000000000
+      internalID: -7296035443396515125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_101
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 113
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faae46fb6bc3c61d0800000000000000
+      internalID: -3356240866705085777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_102
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 102
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3276f449e92149900800000000000000
+      internalID: 690197115196892963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_103
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d32b356929859f0800000000000000
+      internalID: -479472185968018083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_104
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 109
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfafee4a1d59a660800000000000000
+      internalID: 7397546230507614167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_105
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 109
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524cbe569a0c9b690800000000000000
+      internalID: -7585820263536933851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_106
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 108
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df17c1fa03207370800000000000000
+      internalID: 8318187041666310103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_107
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 113
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6f257dc716c0ec0800000000000000
+      internalID: -3599394813359491397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_108
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 110
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4a41a281fa175d0800000000000000
+      internalID: -3066477352942525246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_109
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 119
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1cd643067731240800000000000000
+      internalID: 4761280486140920232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_110
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e615f2ddea88a8b70800000000000000
+      internalID: 8902077898067759470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_111
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 109
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e65bb62d88753a10800000000000000
+      internalID: 1888548166387324641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_112
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 110
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdcbb595162cd2f60800000000000000
+      internalID: 8011273035528781019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_113
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 112
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978d72c2ef120e6e0800000000000000
+      internalID: -1810409674656720775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_114
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 115
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd95b353c289bcf80800000000000000
+      internalID: -8085201390374528547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_115
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 116
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d96fb63cdabedf320800000000000000
+      internalID: 2593488091975775901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_116
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 106
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479eafacea8cf0ab0800000000000000
+      internalID: -5039588804948989580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_117
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 103
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa131c230ecbffd40800000000000000
+      internalID: 5620418531091886511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_118
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 101
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aebcc15a15ce36c0800000000000000
+      internalID: -4161672288811565405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_119
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 104
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7014c6a1650c050d0800000000000000
+      internalID: -3436035039640665849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_120
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 108
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c163b6dd8303a0950800000000000000
+      internalID: 6415993639933785628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_121
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 103
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4df5b2b7d0f6d830800000000000000
+      internalID: 4095725720346950989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_122
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 105
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b20529b0abae7c30800000000000000
+      internalID: 4359110196130546353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_123
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b64b498403a10120800000000000000
+      internalID: 2378361318106941110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_124
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 109
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9ac02411a6ab2b0800000000000000
+      internalID: -5568021366935082520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_125
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 97
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4be8659145ca4f0800000000000000
+      internalID: -816184964657793795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_126
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 98
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c828769305edb460800000000000000
+      internalID: 7259209977963227333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_127
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 94
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bd7f3f911eed4c0800000000000000
+      internalID: -4260720695862371531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_128
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 99
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3208ed6533f9c2f80800000000000000
+      internalID: -8129948184461017053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_129
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 98
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7727343011f9bd0800000000000000
+      internalID: -2621357752392189977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_130
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 90
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6038a12ee72a8940800000000000000
+      internalID: 5299091815275180139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_131
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 99
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35cd35005c1fdd60800000000000000
+      internalID: 7917077799951516991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_132
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 102
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada91179dc8ca21c0800000000000000
+      internalID: -4527585690039248166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_133
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 107
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64c97de8f02cba60800000000000000
+      internalID: 7691058517150123117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_134
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 97
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21c081fde2aff550800000000000000
+      internalID: 6196850755127787821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_135
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88629a8795d85ec50800000000000000
+      internalID: 6693911836572067464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_136
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 103
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f8e81e42c844520800000000000000
+      internalID: 2685425367850586010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_137
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 105
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7a18d17ed23cdf0800000000000000
+      internalID: -161234690999474241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_138
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 104
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53b0bb02c3b030d0800000000000000
+      internalID: -3445056068937272485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_139
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 104
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb23667308e88b790800000000000000
+      internalID: -7514099296931269957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_140
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 95
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280363eb9e3122e80800000000000000
+      internalID: -8204973676476092286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_141
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 100
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9203a8cb8f1b4300800000000000000
+      internalID: 237318090594124442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_142
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 101
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b40b3bf33dc4230800000000000000
+      internalID: 3624504070677482278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_143
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 94
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a694c0a699802980800000000000000
+      internalID: -8565695211223345495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_144
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 106
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1de02c1779193a20800000000000000
+      internalID: 3042491022629203231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_145
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 108
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ebdb473e194acd40800000000000000
+      internalID: 5605373080341568488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_146
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 102
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17938c9d206a6f60800000000000000
+      internalID: 8028335034756994844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_147
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 104
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5362921857cb810800000000000000
+      internalID: 1782428750133474755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_148
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 107
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71679792f4c8b0f30800000000000000
+      internalID: 4542878920759408151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_149
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac83a462013893090800000000000000
+      internalID: -8054262353190307638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_150
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac88826c85d731f0800000000000000
+      internalID: -1065147987924579159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_151
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 108
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2b8e919ae4b29f0800000000000000
+      internalID: -492213246075817237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_152
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 104
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c11eb425eb98460800000000000000
+      internalID: 7244530736271793235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_153
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 102
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7e4f8db5df855a0800000000000000
+      internalID: -6532192688577124427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_154
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 95
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06575d3a3e453540800000000000000
+      internalID: 4986978174426895886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_155
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 92
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afffb256b64a31db0800000000000000
+      internalID: -4822329994817830918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_156
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 97
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23c1f1cdb2158660800000000000000
+      internalID: 7387331369983132460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_157
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 94
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acba7911ede2647c0800000000000000
+      internalID: -4087528080479376438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_158
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 94
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3036cc37f903b6070800000000000000
+      internalID: 8100621816156676867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_159
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 91
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fc564abb81f6000800000000000000
+      internalID: 31270916610969440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_160
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 88
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed6a12ad17451010800000000000000
+      internalID: 1158910671717035496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_161
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 85
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbeb134c98bcb8f00800000000000000
+      internalID: 1120212724894252731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_162
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 93
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da8e760ee7ea83d0800000000000000
+      internalID: -3203493175423497520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_163
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 89
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e5b68e7cdd4c900800000000000000
+      internalID: 703931292444220952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_164
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 89
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a4820deac756400800000000000000
+      internalID: 316796439057943088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_165
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 90
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd349e9b20ddcf8e0800000000000000
+      internalID: -1658207559000439841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_166
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 91
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb606264fa267790800000000000000
+      internalID: -7532786097619702862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_167
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 96
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ae311b3691bdcc0800000000000000
+      internalID: -3685323954109289951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_168
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 95
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d9db0652b06b1a0800000000000000
+      internalID: -6794230732677079782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_169
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 102
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d247abfe7dac680800000000000000
+      internalID: -8733931102706324169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_170
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c706c929f4008e10800000000000000
+      internalID: 2197762086351013824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_171
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 90
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f750cc5a511fdce0800000000000000
+      internalID: -1378363881151244299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_172
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 93
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588c8a049fc29cca0800000000000000
+      internalID: -5996211979823822715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_173
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 87
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b015d0dbb5751c110800000000000000
+      internalID: 1279399820675338507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_174
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 87
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c6d359e4f7925f0800000000000000
+      internalID: -780953084884063111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_175
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc3f2ea831f06510800000000000000
+      internalID: 1540496298303503566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_176
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 90
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7927b2bae8e61e0800000000000000
+      internalID: -2202666301918111762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_177
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 84
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4af09196dde91f90800000000000000
+      internalID: -6982288241440261553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_178
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 84
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dce0129170ed6f40800000000000000
+      internalID: 5723477479844277463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_179
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 78
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1590baf360b62ef50800000000000000
+      internalID: 6909202452921911633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_180
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 83
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88bcf2b378342ea0800000000000000
+      internalID: -5898527542373205877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_181
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 86
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf84a83bda6f51420800000000000000
+      internalID: 2600255585778288892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_182
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 86
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174dd679f70edfa10800000000000000
+      internalID: 1944957452699948145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_183
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 84
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368de13dc6947c440800000000000000
+      internalID: 4956010646691829859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_184
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 85
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343fc9b10b95e3950800000000000000
+      internalID: 6430675930844033859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_185
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 86
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9a9005e30aa9b90800000000000000
+      internalID: -7234293661926053425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_186
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 87
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4f771b30347ee80800000000000000
+      internalID: -8149471317562231627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_187
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 85
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669c883e99f55a630800000000000000
+      internalID: 3937658563757394278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_188
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 87
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fb0944b23771c20800000000000000
+      internalID: 3177134691804299040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_189
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 88
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b11659105251cd80800000000000000
+      internalID: -8232208139880623690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_190
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 86
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7838a9acf6a70780800000000000000
+      internalID: -8716814949643962246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_191
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 88
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8255ac62d09224520800000000000000
+      internalID: 2684753464328344872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_192
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 88
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7818258effb2130800000000000000
+      internalID: 3543206905138743254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_193
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5b34619763efb90800000000000000
+      internalID: -7206262460053735983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_194
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 89
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead14b723aa667170800000000000000
+      internalID: 8175839422516043182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_195
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 79
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4605c6074ec4d770800000000000000
+      internalID: 8634753190027658828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_196
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 84
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0e271f73c018c80800000000000000
+      internalID: -8322357201990393687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_197
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 81
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc5396ef0d8ea0c0800000000000000
+      internalID: -4562554273047290665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_198
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 80
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905e1989f1e8ce3c0800000000000000
+      internalID: -4328928875455060727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_199
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 84
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a105874a8c69f6960800000000000000
+      internalID: 7597456884894289946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_200
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 79
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4eee49c1ba107950800000000000000
+      internalID: 6444680417656106575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_201
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 81
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b548715e28845900800000000000000
+      internalID: 672311976901756345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_202
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 81
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8b608532206f690800000000000000
+      internalID: -7568859772925593413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_203
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 75
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ef3a9cad4efdf50800000000000000
+      internalID: 6908491981746601519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_204
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 77
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe11c18849222f290800000000000000
+      internalID: -7858180378474049041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_205
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 79
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13facdca5fc75fec0800000000000000
+      internalID: -3533780937993310415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_206
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 85
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edeecc6ec2404eb50800000000000000
+      internalID: 6621421943038734046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_207
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 77
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7419a73ad12a6c600800000000000000
+      internalID: 488255857796747591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_208
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 79
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f2727ee50048570800000000000000
+      internalID: 8467893606968405863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_209
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 71
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6b13aec6dd7a7c0800000000000000
+      internalID: -4060033079195879686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_210
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 76
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd08cc27bb980670800000000000000
+      internalID: 8505219107321810386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_211
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 75
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40a8130ea4960930800000000000000
+      internalID: 4109135185119322186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_212
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 74
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0952f21bc655712b0800000000000000
+      internalID: -5613924485176547952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_213
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 73
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375a51eb9bb862520800000000000000
+      internalID: 2676980658392638835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_214
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 69
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b0fbb649da48ce0800000000000000
+      internalID: -1403806330858304656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_215
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 75
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfa4a39dd3865070800000000000000
+      internalID: 8094802367933099980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_216
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 70
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756ee578f34559540800000000000000
+      internalID: 5014006391977731671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_217
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 75
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b516c89ca787f30800000000000000
+      internalID: 4573540427656944530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_218
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 75
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40d375567d89f980800000000000000
+      internalID: -8504610881933160372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_219
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 73
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0756bf659589a80800000000000000
+      internalID: -8459913669895688005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_220
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721f1f3a41f370010800000000000000
+      internalID: 1154961187326259495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_221
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 77
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087f981fdf9e0b730800000000000000
+      internalID: 4012964544875460480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_222
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 74
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d33d81a3a428aa0800000000000000
+      internalID: -6160279726904361665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_223
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 77
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286d6660a558e3920800000000000000
+      internalID: 2971959425812059778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_224
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 69
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b998a20e0101698f0800000000000000
+      internalID: -534221841130419813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_225
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 77
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815b4e3800a4c8b00800000000000000
+      internalID: 832121397229958424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_226
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b8f68cffd027ef0800000000000000
+      internalID: -112011648500266196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_227
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 64
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c62e7fc51dec540800000000000000
+      internalID: 5030188031045430300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_228
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c522205a65c17afd0800000000000000
+      internalID: -2330863123679796644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_229
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 67
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be176190a5a365030800000000000000
+      internalID: 3483035520191590891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_230
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 66
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e86983bcd4f09710800000000000000
+      internalID: 1698126288260786402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_231
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 66
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8943582eeb45350800000000000000
+      internalID: 6004634083298416809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_232
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 66
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd2234c49698bc60800000000000000
+      internalID: 7834177117501926864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_233
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 63
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afcb9f67c2475b10800000000000000
+      internalID: 1970116786336288678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_234
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 65
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b49ea4377eb7830800000000000000
+      internalID: 4070101170623433613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_235
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 57
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f09539cd22902d0800000000000000
+      internalID: -3312077720194052195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_236
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 66
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278b13bb3fb1af730800000000000000
+      internalID: 4033567149895301234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_237
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 62
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140e7bede36ced370800000000000000
+      internalID: 8349328732518342721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_238
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 67
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf91d5a54edba750800000000000000
+      internalID: 6317387293033340892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_239
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 66
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54b75542344d7bf0800000000000000
+      internalID: -325028615398378403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_240
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 64
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c890d8d1ba7015050800000000000000
+      internalID: 5787415427664382348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_241
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 67
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813fdb23f2b8ed6b0800000000000000
+      internalID: -5269621479145868520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_242
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 66
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ef77cd6bc87d9f0800000000000000
+      internalID: -443731321261916538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_243
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 66
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4f8ecb7148ebcf0800000000000000
+      internalID: -234604893088189190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_244
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 64
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7fb0e2a83c847f0800000000000000
+      internalID: -628037149772744757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_245
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 64
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbf36fe4e01b00a0800000000000000
+      internalID: -6914414227442369574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_246
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 63
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e94e5fa336f4370800000000000000
+      internalID: 8308968942406508108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_247
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 61
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da801cd8f414b3c0800000000000000
+      internalID: -4344824681429169447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_248
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 64
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ddc5eea631d9220800000000000000
+      internalID: 2494171118619647354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_249
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 68
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f856625a10ad8cb40800000000000000
+      internalID: 5460854248787305871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_250
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 54
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da22b1ad120ca2e0800000000000000
+      internalID: -2113311798853489960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_251
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 58
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a17f90eb838e78b0800000000000000
+      internalID: -5152536286873030235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_252
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 56
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2e170c0072b2540800000000000000
+      internalID: 4984120296797758203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_253
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 57
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4004c86849235c0800000000000000
+      internalID: -4237160993802681106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_254
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 59
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500fd855cb94d32a0800000000000000
+      internalID: -6756162792747831291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_255
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 53
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623b5c9d97da91880800000000000000
+      internalID: -8639683671277325530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_256
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 52
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2f5c0c8b251afd0800000000000000
+      internalID: -2332492178539547940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_257
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 53
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204f18efbdb802c50800000000000000
+      internalID: 6638459627728139266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_258
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 57
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb60fbc59b2240220800000000000000
+      internalID: 2451122276716709566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_259
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 59
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b394ed0977f1310800000000000000
+      internalID: 1377951475086998292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_260
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 59
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61defe2faa6448610800000000000000
+      internalID: 1622499465794415894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_261
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 59
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8a3b4c269ce47b0800000000000000
+      internalID: -5238027890541221633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_262
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 47
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c8575e830961610800000000000000
+      internalID: 1591618092364303455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_263
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 45
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f291568a58931ff80800000000000000
+      internalID: -8074609410679957201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_264
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 46
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345021cfb7073a3f0800000000000000
+      internalID: -890744623476898493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_265
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 50
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4aa5d107d8e01e0800000000000000
+      internalID: -2229689252833483582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_266
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 48
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ba55a68520594e0800000000000000
+      internalID: -1975670282767717506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_267
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 44
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d689358d9ae12ca0800000000000000
+      internalID: -6043291262688590123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_268
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 42
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8351abf6e2e91a740800000000000000
+      internalID: 5161580570223449400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_269
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 44
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d105609518be47380800000000000000
+      internalID: -8974289216665661411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_270
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 42
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82412a073707644e0800000000000000
+      internalID: -1997785743579016152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_271
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 49
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3179acac38e7a2020800000000000000
+      internalID: 2317804062743631635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_272
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 46
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3226383753de70b50800000000000000
+      internalID: 6559472196115456547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_273
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 47
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedb05e440bbaa040800000000000000
+      internalID: 4659742391636377069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_274
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 46
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60dc8b30d390d450800000000000000
+      internalID: 6111547216903327852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_275
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 38
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae930810b7ed6ff10800000000000000
+      internalID: 2303272879334111722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_276
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 39
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac7614de63776a80800000000000000
+      internalID: -8473677254032458579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_277
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9f58c019d064ca0800000000000000
+      internalID: -6033119734184674910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_278
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cc64cd198669230800000000000000
+      internalID: 3645215924078169245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_279
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 38
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a023033f782351d20800000000000000
+      internalID: 3248558265699676682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_280
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 26
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f704c58ad652d4e0800000000000000
+      internalID: -1958407391405668363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_281
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 36
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25778c1e201500fa0800000000000000
+      internalID: -5836576044252367022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_282
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 34
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa86ce7b012aca150800000000000000
+      internalID: 5885257005755295914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_283
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 38
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2748bb86e676dc190800000000000000
+      internalID: -7940576844083133326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_284
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd2f1ade428aa6e0800000000000000
+      internalID: -1825503423766778404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_285
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309a13b024aaf7f40800000000000000
+      internalID: 5728484451670927619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_286
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 37
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea77be10e50ac41d0800000000000000
+      internalID: -3365138495933024338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_287
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa0e660ba63c7f70800000000000000
+      internalID: 9186277448104151801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_288
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 25
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a892d9ece7303d3e0800000000000000
+      internalID: -2030275163846792822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_289
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 26
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00c8e95616c33430800000000000000
+      internalID: 3761567913084502026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_290
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 29
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84dc1bbb9392b5ed0800000000000000
+      internalID: -2424298646470013624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_291
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 23
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e762b85c495f25040800000000000000
+      internalID: 4635036985835857534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_292
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 25
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e5be9a16c8e1f30800000000000000
+      internalID: 4548227024781270682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_293
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 25
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3572ab7c033440730800000000000000
+      internalID: 3964367448781236051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_294
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 25
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9a01649cbd034e0800000000000000
+      internalID: -2003860176669464138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_295
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 20
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2057b6cce5e8610800000000000000
+      internalID: 1625340747596497643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_296
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 13
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa21a8c683af8a30800000000000000
+      internalID: 4219771175156394656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_297
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4805f3cdb8c550d70800000000000000
+      internalID: 9008708385389891716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rau_298
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5cf7cc052951350800000000000000
+      internalID: 5986852155384907183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rau_0: -6473379884045465844
+      rau_1: -8629586948718469047
+      rau_10: -1849258911710190892
+      rau_100: -7296035443396515125
+      rau_101: -3356240866705085777
+      rau_102: 690197115196892963
+      rau_103: -479472185968018083
+      rau_104: 7397546230507614167
+      rau_105: -7585820263536933851
+      rau_106: 8318187041666310103
+      rau_107: -3599394813359491397
+      rau_108: -3066477352942525246
+      rau_109: 4761280486140920232
+      rau_11: 2793109065464414293
+      rau_110: 8902077898067759470
+      rau_111: 1888548166387324641
+      rau_112: 8011273035528781019
+      rau_113: -1810409674656720775
+      rau_114: -8085201390374528547
+      rau_115: 2593488091975775901
+      rau_116: -5039588804948989580
+      rau_117: 5620418531091886511
+      rau_118: -4161672288811565405
+      rau_119: -3436035039640665849
+      rau_12: 6162023604493412446
+      rau_120: 6415993639933785628
+      rau_121: 4095725720346950989
+      rau_122: 4359110196130546353
+      rau_123: 2378361318106941110
+      rau_124: -5568021366935082520
+      rau_125: -816184964657793795
+      rau_126: 7259209977963227333
+      rau_127: -4260720695862371531
+      rau_128: -8129948184461017053
+      rau_129: -2621357752392189977
+      rau_13: 5057315545714155702
+      rau_130: 5299091815275180139
+      rau_131: 7917077799951516991
+      rau_132: -4527585690039248166
+      rau_133: 7691058517150123117
+      rau_134: 6196850755127787821
+      rau_135: 6693911836572067464
+      rau_136: 2685425367850586010
+      rau_137: -161234690999474241
+      rau_138: -3445056068937272485
+      rau_139: -7514099296931269957
+      rau_14: 7680701753028258317
+      rau_140: -8204973676476092286
+      rau_141: 237318090594124442
+      rau_142: 3624504070677482278
+      rau_143: -8565695211223345495
+      rau_144: 3042491022629203231
+      rau_145: 5605373080341568488
+      rau_146: 8028335034756994844
+      rau_147: 1782428750133474755
+      rau_148: 4542878920759408151
+      rau_149: -8054262353190307638
+      rau_15: 603150957757267877
+      rau_150: -1065147987924579159
+      rau_151: -492213246075817237
+      rau_152: 7244530736271793235
+      rau_153: -6532192688577124427
+      rau_154: 4986978174426895886
+      rau_155: -4822329994817830918
+      rau_156: 7387331369983132460
+      rau_157: -4087528080479376438
+      rau_158: 8100621816156676867
+      rau_159: 31270916610969440
+      rau_16: 5788602424898514525
+      rau_160: 1158910671717035496
+      rau_161: 1120212724894252731
+      rau_162: -3203493175423497520
+      rau_163: 703931292444220952
+      rau_164: 316796439057943088
+      rau_165: -1658207559000439841
+      rau_166: -7532786097619702862
+      rau_167: -3685323954109289951
+      rau_168: -6794230732677079782
+      rau_169: -8733931102706324169
+      rau_17: 3572468734195667672
+      rau_170: 2197762086351013824
+      rau_171: -1378363881151244299
+      rau_172: -5996211979823822715
+      rau_173: 1279399820675338507
+      rau_174: -780953084884063111
+      rau_175: 1540496298303503566
+      rau_176: -2202666301918111762
+      rau_177: -6982288241440261553
+      rau_178: 5723477479844277463
+      rau_179: 6909202452921911633
+      rau_18: 2528722652352107048
+      rau_180: -5898527542373205877
+      rau_181: 2600255585778288892
+      rau_182: 1944957452699948145
+      rau_183: 4956010646691829859
+      rau_184: 6430675930844033859
+      rau_185: -7234293661926053425
+      rau_186: -8149471317562231627
+      rau_187: 3937658563757394278
+      rau_188: 3177134691804299040
+      rau_189: -8232208139880623690
+      rau_19: 5231200191832481298
+      rau_190: -8716814949643962246
+      rau_191: 2684753464328344872
+      rau_192: 3543206905138743254
+      rau_193: -7206262460053735983
+      rau_194: 8175839422516043182
+      rau_195: 8634753190027658828
+      rau_196: -8322357201990393687
+      rau_197: -4562554273047290665
+      rau_198: -4328928875455060727
+      rau_199: 7597456884894289946
+      rau_2: 4800327829733699152
+      rau_20: 2850958809460120566
+      rau_200: 6444680417656106575
+      rau_201: 672311976901756345
+      rau_202: -7568859772925593413
+      rau_203: 6908491981746601519
+      rau_204: -7858180378474049041
+      rau_205: -3533780937993310415
+      rau_206: 6621421943038734046
+      rau_207: 488255857796747591
+      rau_208: 8467893606968405863
+      rau_209: -4060033079195879686
+      rau_21: -6997401799929549923
+      rau_210: 8505219107321810386
+      rau_211: 4109135185119322186
+      rau_212: -5613924485176547952
+      rau_213: 2676980658392638835
+      rau_214: -1403806330858304656
+      rau_215: 8094802367933099980
+      rau_216: 5014006391977731671
+      rau_217: 4573540427656944530
+      rau_218: -8504610881933160372
+      rau_219: -8459913669895688005
+      rau_22: 4834207554114480823
+      rau_220: 1154961187326259495
+      rau_221: 4012964544875460480
+      rau_222: -6160279726904361665
+      rau_223: 2971959425812059778
+      rau_224: -534221841130419813
+      rau_225: 832121397229958424
+      rau_226: -112011648500266196
+      rau_227: 5030188031045430300
+      rau_228: -2330863123679796644
+      rau_229: 3483035520191590891
+      rau_23: -3347660519840592245
+      rau_230: 1698126288260786402
+      rau_231: 6004634083298416809
+      rau_232: 7834177117501926864
+      rau_233: 1970116786336288678
+      rau_234: 4070101170623433613
+      rau_235: -3312077720194052195
+      rau_236: 4033567149895301234
+      rau_237: 8349328732518342721
+      rau_238: 6317387293033340892
+      rau_239: -325028615398378403
+      rau_24: 5273527854443437770
+      rau_240: 5787415427664382348
+      rau_241: -5269621479145868520
+      rau_242: -443731321261916538
+      rau_243: -234604893088189190
+      rau_244: -628037149772744757
+      rau_245: -6914414227442369574
+      rau_246: 8308968942406508108
+      rau_247: -4344824681429169447
+      rau_248: 2494171118619647354
+      rau_249: 5460854248787305871
+      rau_25: -8475565508350009124
+      rau_250: -2113311798853489960
+      rau_251: -5152536286873030235
+      rau_252: 4984120296797758203
+      rau_253: -4237160993802681106
+      rau_254: -6756162792747831291
+      rau_255: -8639683671277325530
+      rau_256: -2332492178539547940
+      rau_257: 6638459627728139266
+      rau_258: 2451122276716709566
+      rau_259: 1377951475086998292
+      rau_26: 167913553866979975
+      rau_260: 1622499465794415894
+      rau_261: -5238027890541221633
+      rau_262: 1591618092364303455
+      rau_263: -8074609410679957201
+      rau_264: -890744623476898493
+      rau_265: -2229689252833483582
+      rau_266: -1975670282767717506
+      rau_267: -6043291262688590123
+      rau_268: 5161580570223449400
+      rau_269: -8974289216665661411
+      rau_27: -491591022187614239
+      rau_270: -1997785743579016152
+      rau_271: 2317804062743631635
+      rau_272: 6559472196115456547
+      rau_273: 4659742391636377069
+      rau_274: 6111547216903327852
+      rau_275: 2303272879334111722
+      rau_276: -8473677254032458579
+      rau_277: -6033119734184674910
+      rau_278: 3645215924078169245
+      rau_279: 3248558265699676682
+      rau_28: -953300755490209861
+      rau_280: -1958407391405668363
+      rau_281: -5836576044252367022
+      rau_282: 5885257005755295914
+      rau_283: -7940576844083133326
+      rau_284: -1825503423766778404
+      rau_285: 5728484451670927619
+      rau_286: -3365138495933024338
+      rau_287: 9186277448104151801
+      rau_288: -2030275163846792822
+      rau_289: 3761567913084502026
+      rau_29: 7781450004027516613
+      rau_290: -2424298646470013624
+      rau_291: 4635036985835857534
+      rau_292: 4548227024781270682
+      rau_293: 3964367448781236051
+      rau_294: -2003860176669464138
+      rau_295: 1625340747596497643
+      rau_296: 4219771175156394656
+      rau_297: 9008708385389891716
+      rau_298: 5986852155384907183
+      rau_3: -5524543208546936566
+      rau_30: 6909976915089735519
+      rau_31: 4692823042769768282
+      rau_32: -350424986915699275
+      rau_33: -207164032672839737
+      rau_34: -4378535939250011293
+      rau_35: 5674117053456791479
+      rau_36: -8634170402403509954
+      rau_37: 2350765494652939175
+      rau_38: -512452638805932186
+      rau_39: -1356347939700447476
+      rau_4: 8276796199594483360
+      rau_40: 907365481573748018
+      rau_41: 6706926301247790508
+      rau_42: -6769407736805247436
+      rau_43: -6049480689851612195
+      rau_44: -2034536547845652839
+      rau_45: 8853566780417039973
+      rau_46: -8011301283680834444
+      rau_47: 5027123227817298562
+      rau_48: 811109010952989650
+      rau_49: 5382349749721164555
+      rau_5: 6424514253002499522
+      rau_50: 7549382644535231172
+      rau_51: -7647253715766270163
+      rau_52: -6118378410052887176
+      rau_53: 6308707593068853857
+      rau_54: 8566511765114889353
+      rau_55: 6429729413635945241
+      rau_56: -5498563694617925571
+      rau_57: -2493354356423087858
+      rau_58: -5689810277064569148
+      rau_59: -6027080773070297526
+      rau_6: -2721450707160387622
+      rau_60: -5341496555147641503
+      rau_61: 524440481746804161
+      rau_62: -271251483759458577
+      rau_63: -7766547863025245487
+      rau_64: -4640529787088704933
+      rau_65: -4213089821779333014
+      rau_66: -3397938884379074709
+      rau_67: -6770715535218576999
+      rau_68: -9015218767395398930
+      rau_69: 6786958677251368244
+      rau_7: -3134603882128651678
+      rau_70: -2647348409746484771
+      rau_71: -2650246719839675772
+      rau_72: 5487456735678917458
+      rau_73: 7869678101930796256
+      rau_74: -297994204069855276
+      rau_75: -2155927594500655883
+      rau_76: -1780640316433190478
+      rau_77: -6244059448395313130
+      rau_78: -5498203751814901846
+      rau_79: -8856787209212656480
+      rau_8: -6067660362814759690
+      rau_80: -2285783958216305456
+      rau_81: -1498130486123379563
+      rau_82: -8837808074921579677
+      rau_83: 8507048761958601371
+      rau_84: 8358421186672232121
+      rau_85: 4289155221866983024
+      rau_86: -2347069377013835084
+      rau_87: -106476642835227118
+      rau_88: -4451284395550380262
+      rau_89: -7932569652424832053
+      rau_9: -7145739441632962511
+      rau_90: -3113223775712105558
+      rau_91: 7394227570780221951
+      rau_92: 6333964783203104939
+      rau_93: -7201442387127775974
+      rau_94: 3140702365743800910
+      rau_95: 1487332825030680301
+      rau_96: 4004108916522934011
+      rau_97: -8888102425470879405
+      rau_98: 6455237038188960113
+      rau_99: -2162973348374328300
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

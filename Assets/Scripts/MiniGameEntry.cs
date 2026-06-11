@@ -7,4 +7,7 @@ public class MiniGameEntry
     public ScriptableObject miniGameData;
     [Header("Chat")]
     public ChatSequenceData[] contactSequences;
+
+    [Header("Cutscene (played before this mini-game loads)")]
+    public CutsceneData cutscene;
 }

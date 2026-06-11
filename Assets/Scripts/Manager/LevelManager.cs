@@ -23,6 +23,8 @@ public class LevelManager : MonoBehaviour
     public ChatSequence[] chatSequences; // assign Detailed/Detailed2
     public LevelChatData[] levelChatDatas; // 1 per level
 
+    [Header("Cutscene")]
+    public CutscenePlayer cutscenePlayer;
     void Awake()
     {
         if (Instance == null) Instance = this;
@@ -40,6 +42,19 @@ public class LevelManager : MonoBehaviour
     void LoadMiniLevel()
     {
         MiniGameEntry miniLevel = levelData.miniGames[currentMiniLVLIndex];
+
+        if (cutscenePlayer != null)
+        {
+            cutscenePlayer.Play(miniLevel.cutscene, () => LoadMiniLevelContent(miniLevel));
+        }
+        else
+        {
+            LoadMiniLevelContent(miniLevel);
+        }
+    }
+
+    private void LoadMiniLevelContent(MiniGameEntry miniLevel)
+    {
         DisableAllManagers();
         switch (miniLevel.miniLevelType)
         {
@@ -64,6 +79,8 @@ public class LevelManager : MonoBehaviour
         LoadChatSequences(miniLevel.contactSequences);
 
         FindObjectOfType<VerifyButtonController>()?.ResetAll();
+        foreach (var seq in chatSequences)
+            seq.ResumeFromLevelBreak();
     }
     private void LoadChatSequences(ChatSequenceData[] sequenceDatas)
     {
@@ -94,8 +111,6 @@ public class LevelManager : MonoBehaviour
             return;
         }
         LoadMiniLevel();
-        foreach (var seq in chatSequences)
-            seq.ResumeFromLevelBreak();
     }
     public void OnVerifyClicked()
     {

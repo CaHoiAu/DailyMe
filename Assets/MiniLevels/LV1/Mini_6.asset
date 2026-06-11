@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5493dc2d47fc2aa4f9aaafb6fb6e784e, type: 3}
+  m_Name: Mini_6
+  m_EditorClassIdentifier: 
+  name: "H\u1ECDc h\u1ECDc h\u1ECDc"
+  boardWidth: 3
+  boardHeight: 2
+  cellSize: 1.91
+  boardOrigin: {x: -0.78, y: -2.42, z: 0}
+  objects:
+  - objectId: chuoi
+    prefab: {fileID: 6048981880002860135, guid: 6a0d330ab537cbd478390b75d634252f, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 21300000, guid: 8f0feeb60ec101349afcd10adfcb8045, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 3.5529, y: -4.4844, z: 0.1729532}
+    currentLayer: 0
+    scale: {x: 0.079713926, y: 0.084432475, z: 0.11397473}
+    requiresPlacement: 1
+    dropDuration: 2
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: thitga
+    prefab: {fileID: 6048981880002860135, guid: e8cafae98d5c4754a9e7a7ffb7a2f38c, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 21300000, guid: 12a220d9ab6314d40bd4d4840c6ef1a3, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      - {x: 0, y: 1}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 0.05, y: -3.65, z: 0.1729532}
+    currentLayer: 0
+    scale: {x: 0.08384247, y: 0.08384247, z: 0.08384247}
+    requiresPlacement: 1
+    dropDuration: 2
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: ca
+    prefab: {fileID: 6048981880002860135, guid: 371dc0e12bcfc7346bec42175daa4142, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 21300000, guid: 9c6a02f9355665249baf3aa0ac8d9e3a, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 2.47, y: -2.98, z: 0.1729532}
+    currentLayer: 0
+    scale: {x: 0.10421326, y: 0.10421326, z: 0.10421326}
+    requiresPlacement: 1
+    dropDuration: 2
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: canh
+    prefab: {fileID: 6048981880002860135, guid: 0ef9f816772c57c4b92a8fa266d32837, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 21300000, guid: 7f5d687b07dde344aa4699417f3574ea, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 1.34, y: -4.78, z: 0.1729532}
+    currentLayer: 0
+    scale: {x: 0.07652713, y: 0.07652713, z: 0.07652713}
+    requiresPlacement: 1
+    dropDuration: 2
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: salad
+    prefab: {fileID: 6048981880002860135, guid: fc0bbeea22617924cac53fc927c4ae02, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 21300000, guid: 787d3ea773234a447bf4358ff18806de, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 3.98, y: -3.42, z: 0.1729532}
+    currentLayer: 0
+    scale: {x: 0.0943404, y: 0.0943404, z: 0.0943404}
+    requiresPlacement: 1
+    dropDuration: 2
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  useBoundary: 1
+  useNonOverlap: 1
+  useFullCoverage: 0
+  useAllObjects: 0
+  useExactSlots: 0
+  useLayerOverlap: 0
+  exactSlotAssignments: []
+  adjacentConstraints: []
+  requireStateConstraints: []
+  relativePositionConstraints:
+  - objectIdA: ca
+    direction: 0
+    objectIdB: canh
+  - objectIdA: salad
+    direction: 3
+    objectIdB: ca
+  - objectIdA: chuoi
+    direction: 1
+    objectIdB: salad
+  - objectIdA: thitga
+    direction: 2
+    objectIdB: ca
+  - objectIdA: thitga
+    direction: 2
+    objectIdB: canh
+  - objectIdA: chuoi
+    direction: 3
+    objectIdB: canh
+  belowAdjacentConstraints: []
+  useDropTargets: 0
+  dropTargets: []
+  useLandingZones: 0
+  landingZones: []
+  backgroundSprite: {fileID: 21300000, guid: 74000c5f824b27c4aac1e2b85e994fd0, type: 3}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  backgroundScale: {x: 0.0790142, y: 0.0790142, z: 0.0790142}
+  backgroundPosition: {x: 0, y: 0, z: 0}

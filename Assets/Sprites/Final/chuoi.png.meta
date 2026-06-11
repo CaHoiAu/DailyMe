@@ -1,0 +1,5369 @@
+fileFormatVersion: 2
+guid: 8f0feeb60ec101349afcd10adfcb8045
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5572795220853567366
+    second: chuoi_0
+  - first:
+      213: -4223090438503188778
+    second: chuoi_1
+  - first:
+      213: 3529157374661420237
+    second: chuoi_2
+  - first:
+      213: 6350291622486978806
+    second: chuoi_3
+  - first:
+      213: -593415310123076544
+    second: chuoi_4
+  - first:
+      213: 4419986048168143125
+    second: chuoi_5
+  - first:
+      213: -3829300618199739210
+    second: chuoi_6
+  - first:
+      213: 4420911091130204634
+    second: chuoi_7
+  - first:
+      213: 6798979192524204558
+    second: chuoi_8
+  - first:
+      213: 1558621741300388344
+    second: chuoi_9
+  - first:
+      213: -7716601076432018490
+    second: chuoi_10
+  - first:
+      213: 8939183726653703205
+    second: chuoi_11
+  - first:
+      213: -4516799788063082038
+    second: chuoi_12
+  - first:
+      213: 8081424678308692930
+    second: chuoi_13
+  - first:
+      213: 5633434004226333473
+    second: chuoi_14
+  - first:
+      213: 7092237416125214196
+    second: chuoi_15
+  - first:
+      213: -8016641774208395605
+    second: chuoi_16
+  - first:
+      213: 4994323771051165629
+    second: chuoi_17
+  - first:
+      213: 5064209183417305705
+    second: chuoi_18
+  - first:
+      213: 6750926989503567718
+    second: chuoi_19
+  - first:
+      213: 437230786958244279
+    second: chuoi_20
+  - first:
+      213: 7898328450489781536
+    second: chuoi_21
+  - first:
+      213: 1224541637704946175
+    second: chuoi_22
+  - first:
+      213: 7047276975507662269
+    second: chuoi_23
+  - first:
+      213: -2087776712801763705
+    second: chuoi_24
+  - first:
+      213: 8046956146390582054
+    second: chuoi_25
+  - first:
+      213: -8141433935404330725
+    second: chuoi_26
+  - first:
+      213: 810708288272560338
+    second: chuoi_27
+  - first:
+      213: 386613094956051038
+    second: chuoi_28
+  - first:
+      213: 6240340912730441848
+    second: chuoi_29
+  - first:
+      213: 7453819918083895503
+    second: chuoi_30
+  - first:
+      213: -3847231481820557676
+    second: chuoi_31
+  - first:
+      213: 8527895365132357654
+    second: chuoi_32
+  - first:
+      213: -3888840896960972968
+    second: chuoi_33
+  - first:
+      213: -2645326757830553139
+    second: chuoi_34
+  - first:
+      213: -8838253128644687837
+    second: chuoi_35
+  - first:
+      213: -8518465820880683835
+    second: chuoi_36
+  - first:
+      213: -5710245599850650344
+    second: chuoi_37
+  - first:
+      213: 4309012376295694260
+    second: chuoi_38
+  - first:
+      213: -709892852629129173
+    second: chuoi_39
+  - first:
+      213: 3609522027396994532
+    second: chuoi_40
+  - first:
+      213: 8389467996362715170
+    second: chuoi_41
+  - first:
+      213: -2195453592669034109
+    second: chuoi_42
+  - first:
+      213: 7243889313893940504
+    second: chuoi_43
+  - first:
+      213: 8709402626947989203
+    second: chuoi_44
+  - first:
+      213: 9165896743296223913
+    second: chuoi_45
+  - first:
+      213: -1299129177895309956
+    second: chuoi_46
+  - first:
+      213: -8955762315952999500
+    second: chuoi_47
+  - first:
+      213: 220711367334580410
+    second: chuoi_48
+  - first:
+      213: 4288805975742086331
+    second: chuoi_49
+  - first:
+      213: -4402065144709539382
+    second: chuoi_50
+  - first:
+      213: 4651278863791604302
+    second: chuoi_51
+  - first:
+      213: -382968126312688903
+    second: chuoi_52
+  - first:
+      213: 1802314886843216873
+    second: chuoi_53
+  - first:
+      213: -5528689911961916418
+    second: chuoi_54
+  - first:
+      213: 5227275685554283413
+    second: chuoi_55
+  - first:
+      213: -538534620071712948
+    second: chuoi_56
+  - first:
+      213: 7707294977689522156
+    second: chuoi_57
+  - first:
+      213: -7443093019335205500
+    second: chuoi_58
+  - first:
+      213: 3012776562447313512
+    second: chuoi_59
+  - first:
+      213: 6215801192704600012
+    second: chuoi_60
+  - first:
+      213: 1069714140457398518
+    second: chuoi_61
+  - first:
+      213: 4881705275431679281
+    second: chuoi_62
+  - first:
+      213: 7595979137735878084
+    second: chuoi_63
+  - first:
+      213: -2686806748925357308
+    second: chuoi_64
+  - first:
+      213: -7845816997004289949
+    second: chuoi_65
+  - first:
+      213: -6974931384941572787
+    second: chuoi_66
+  - first:
+      213: 9153542528945512127
+    second: chuoi_67
+  - first:
+      213: -2502681086383375654
+    second: chuoi_68
+  - first:
+      213: -974004194414353909
+    second: chuoi_69
+  - first:
+      213: -7126736075422048544
+    second: chuoi_70
+  - first:
+      213: 2333678176512833285
+    second: chuoi_71
+  - first:
+      213: -8715812691915738102
+    second: chuoi_72
+  - first:
+      213: 7443293369283232284
+    second: chuoi_73
+  - first:
+      213: -1860848410532562887
+    second: chuoi_74
+  - first:
+      213: -6912608047236223727
+    second: chuoi_75
+  - first:
+      213: 8490546458298303355
+    second: chuoi_76
+  - first:
+      213: -8824513777861431661
+    second: chuoi_77
+  - first:
+      213: -4944404507830579018
+    second: chuoi_78
+  - first:
+      213: -7483174676335514262
+    second: chuoi_79
+  - first:
+      213: 2756175896033456174
+    second: chuoi_80
+  - first:
+      213: -8605403157524533124
+    second: chuoi_81
+  - first:
+      213: -7893315131512871451
+    second: chuoi_82
+  - first:
+      213: 6181247505194788191
+    second: chuoi_83
+  - first:
+      213: 9182796368892425608
+    second: chuoi_84
+  - first:
+      213: -203192656417165879
+    second: chuoi_85
+  - first:
+      213: -3196171134882533772
+    second: chuoi_86
+  - first:
+      213: 7559351972493384913
+    second: chuoi_87
+  - first:
+      213: 9026613319059254640
+    second: chuoi_88
+  - first:
+      213: 2133338414754111954
+    second: chuoi_89
+  - first:
+      213: -190398996245053291
+    second: chuoi_90
+  - first:
+      213: 7676241155132063945
+    second: chuoi_91
+  - first:
+      213: 9121578407947974153
+    second: chuoi_92
+  - first:
+      213: -6162722701196374642
+    second: chuoi_93
+  - first:
+      213: 592891025206988962
+    second: chuoi_94
+  - first:
+      213: 49534965929446791
+    second: chuoi_95
+  - first:
+      213: 2985299814087561126
+    second: chuoi_96
+  - first:
+      213: -2563202166683870330
+    second: chuoi_97
+  - first:
+      213: -5752304545925786876
+    second: chuoi_98
+  - first:
+      213: -8043207286011267274
+    second: chuoi_99
+  - first:
+      213: 3954627937874466407
+    second: chuoi_100
+  - first:
+      213: -480715669590628242
+    second: chuoi_101
+  - first:
+      213: -393825795341729621
+    second: chuoi_102
+  - first:
+      213: -4811692702548557028
+    second: chuoi_103
+  - first:
+      213: -1109093677159848330
+    second: chuoi_104
+  - first:
+      213: -7268231469634879954
+    second: chuoi_105
+  - first:
+      213: 590433346280896240
+    second: chuoi_106
+  - first:
+      213: -8515388539949360663
+    second: chuoi_107
+  - first:
+      213: 4270227383878380387
+    second: chuoi_108
+  - first:
+      213: 7550613038491590515
+    second: chuoi_109
+  - first:
+      213: -6145627546435843176
+    second: chuoi_110
+  - first:
+      213: 9066852717143010703
+    second: chuoi_111
+  - first:
+      213: -8233571189242709377
+    second: chuoi_112
+  - first:
+      213: 2965098932681632180
+    second: chuoi_113
+  - first:
+      213: 7404011696331315580
+    second: chuoi_114
+  - first:
+      213: 4883426034538812250
+    second: chuoi_115
+  - first:
+      213: -547839094313852196
+    second: chuoi_116
+  - first:
+      213: -1568858029582727040
+    second: chuoi_117
+  - first:
+      213: 3207593133628190590
+    second: chuoi_118
+  - first:
+      213: -1020631611293186973
+    second: chuoi_119
+  - first:
+      213: -2856026850726212540
+    second: chuoi_120
+  - first:
+      213: -7787097954357666381
+    second: chuoi_121
+  - first:
+      213: -398543252668470393
+    second: chuoi_122
+  - first:
+      213: 3795489021582998644
+    second: chuoi_123
+  - first:
+      213: -640856700911256079
+    second: chuoi_124
+  - first:
+      213: 7867008471255566192
+    second: chuoi_125
+  - first:
+      213: -2504056445042323170
+    second: chuoi_126
+  - first:
+      213: -712677559959458768
+    second: chuoi_127
+  - first:
+      213: 2318011504694599940
+    second: chuoi_128
+  - first:
+      213: 8076878432119816365
+    second: chuoi_129
+  - first:
+      213: 6143057352072568024
+    second: chuoi_130
+  - first:
+      213: -3012644300704765564
+    second: chuoi_131
+  - first:
+      213: 9087467037825179114
+    second: chuoi_132
+  - first:
+      213: -3863745465930914135
+    second: chuoi_133
+  - first:
+      213: -9060968790958931786
+    second: chuoi_134
+  - first:
+      213: 3349534318708970485
+    second: chuoi_135
+  - first:
+      213: 5896923543042947009
+    second: chuoi_136
+  - first:
+      213: 5709054960549638453
+    second: chuoi_137
+  - first:
+      213: 8711439859784225540
+    second: chuoi_138
+  - first:
+      213: -8795803897352106161
+    second: chuoi_139
+  - first:
+      213: -7398596965841926949
+    second: chuoi_140
+  - first:
+      213: -2433720675480338600
+    second: chuoi_141
+  - first:
+      213: 8832749589561969109
+    second: chuoi_142
+  - first:
+      213: -7187972923022450663
+    second: chuoi_143
+  - first:
+      213: 8837500555805986972
+    second: chuoi_144
+  - first:
+      213: 1955740669607537522
+    second: chuoi_145
+  - first:
+      213: -1786041551395157151
+    second: chuoi_146
+  - first:
+      213: -8876442732366093707
+    second: chuoi_147
+  - first:
+      213: -4859068091856314934
+    second: chuoi_148
+  - first:
+      213: 4460157836719760248
+    second: chuoi_149
+  - first:
+      213: -7341653964005067523
+    second: chuoi_150
+  - first:
+      213: -6718526582022680722
+    second: chuoi_151
+  - first:
+      213: -9218981204521697221
+    second: chuoi_152
+  - first:
+      213: -3236772518771025742
+    second: chuoi_153
+  - first:
+      213: 3289046368684341648
+    second: chuoi_154
+  - first:
+      213: 5029938554602325079
+    second: chuoi_155
+  - first:
+      213: 4305528772217235140
+    second: chuoi_156
+  - first:
+      213: 3171571642174705355
+    second: chuoi_157
+  - first:
+      213: 3131324783523097973
+    second: chuoi_158
+  - first:
+      213: -3196423612133857390
+    second: chuoi_159
+  - first:
+      213: -4646384121867110532
+    second: chuoi_160
+  - first:
+      213: -2490328858626298037
+    second: chuoi_161
+  - first:
+      213: 8103671956884646063
+    second: chuoi_162
+  - first:
+      213: 4243777956435373819
+    second: chuoi_163
+  - first:
+      213: 8998229240269765585
+    second: chuoi_164
+  - first:
+      213: 2711681064100298956
+    second: chuoi_165
+  - first:
+      213: 3757086153612908551
+    second: chuoi_166
+  - first:
+      213: 4631712548037985906
+    second: chuoi_167
+  - first:
+      213: 7332839407114048969
+    second: chuoi_168
+  - first:
+      213: -2480128663249014391
+    second: chuoi_169
+  - first:
+      213: 3127488272649732870
+    second: chuoi_170
+  - first:
+      213: -8808984933685059270
+    second: chuoi_171
+  - first:
+      213: 1214414714405995702
+    second: chuoi_172
+  - first:
+      213: -5313329725855917966
+    second: chuoi_173
+  - first:
+      213: -516665932054338901
+    second: chuoi_174
+  - first:
+      213: 3641712264392710381
+    second: chuoi_175
+  - first:
+      213: 3860367232975124152
+    second: chuoi_176
+  - first:
+      213: 5624655460231969509
+    second: chuoi_177
+  - first:
+      213: 6018894711351473412
+    second: chuoi_178
+  - first:
+      213: 4703308189670143966
+    second: chuoi_179
+  - first:
+      213: -5408094657541217430
+    second: chuoi_180
+  - first:
+      213: 5443798578824218139
+    second: chuoi_181
+  - first:
+      213: 4361181371989292648
+    second: chuoi_182
+  - first:
+      213: 4404094985025074952
+    second: chuoi_183
+  - first:
+      213: -8302834901448029031
+    second: chuoi_184
+  - first:
+      213: 7202863443053469882
+    second: chuoi_185
+  - first:
+      213: 3175417215738842335
+    second: chuoi_186
+  - first:
+      213: 8418678644073513991
+    second: chuoi_187
+  - first:
+      213: -3800468393730053879
+    second: chuoi_188
+  - first:
+      213: -4270119004392147535
+    second: chuoi_189
+  - first:
+      213: 5934502646831119342
+    second: chuoi_190
+  - first:
+      213: 7353019409012370815
+    second: chuoi_191
+  - first:
+      213: 5506866995219824437
+    second: chuoi_192
+  - first:
+      213: -6716853993094227254
+    second: chuoi_193
+  - first:
+      213: 3641990827041317422
+    second: chuoi_194
+  - first:
+      213: -547063070489255211
+    second: chuoi_195
+  - first:
+      213: -5713272657660402928
+    second: chuoi_196
+  - first:
+      213: -1472351334050813276
+    second: chuoi_197
+  - first:
+      213: -6230823968781803047
+    second: chuoi_198
+  - first:
+      213: -4426738587982376714
+    second: chuoi_199
+  - first:
+      213: 3614427805381042100
+    second: chuoi_200
+  - first:
+      213: -5285848784689905903
+    second: chuoi_201
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chuoi_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 1614
+        height: 1514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fa8f83abb865d40800000000000000
+      internalID: 5572795220853567366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_1
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 121
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d63baefe919465c0800000000000000
+      internalID: -4223090438503188778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_2
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 122
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4e4291fe51af030800000000000000
+      internalID: 3529157374661420237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_3
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 113
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0b97ad594c02850800000000000000
+      internalID: 6350291622486978806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_4
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 116
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044f5d36be3c3c7f0800000000000000
+      internalID: -593415310123076544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_5
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 111
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519ae3984e1f65d30800000000000000
+      internalID: 4419986048168143125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_6
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 122
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4550250679bdac0800000000000000
+      internalID: -3829300618199739210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_7
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 123
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad18662e63b3a5d30800000000000000
+      internalID: 4420911091130204634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_8
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 115
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a6da59d83da5e50800000000000000
+      internalID: 6798979192524204558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_9
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 111
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1196d373651a510800000000000000
+      internalID: 1558621741300388344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_10
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 122
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c36fdd843029e490800000000000000
+      internalID: -7716601076432018490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_11
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 116
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5248521dc3c5e0c70800000000000000
+      internalID: 8939183726653703205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_12
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 112
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9b0f6168a1151c0800000000000000
+      internalID: -4516799788063082038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_13
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 122
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c34aad7decf62070800000000000000
+      internalID: 8081424678308692930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_14
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 103
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b548f216afd2e40800000000000000
+      internalID: 5633434004226333473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_15
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 118
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fda0ea8a50bc6260800000000000000
+      internalID: 7092237416125214196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_16
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 115
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba650c4c7ca2fb090800000000000000
+      internalID: -8016641774208395605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_17
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 104
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db74bca32076f4540800000000000000
+      internalID: 4994323771051165629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_18
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 120
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a0cd5cb6fa74640800000000000000
+      internalID: 5064209183417305705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_19
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 117
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66715f9345c10bd50800000000000000
+      internalID: 6750926989503567718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_20
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 118
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9b28d851b511600800000000000000
+      internalID: 437230786958244279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_21
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 111
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d0ecae0ef7c9d60800000000000000
+      internalID: 7898328450489781536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_22
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 112
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff11410b1227ef010800000000000000
+      internalID: 1224541637704946175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_23
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 121
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db56ce63215fcc160800000000000000
+      internalID: 7047276975507662269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_24
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 118
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e3e17242ab603e0800000000000000
+      internalID: -2087776712801763705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_25
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 122
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623c1c40bf78caf60800000000000000
+      internalID: 8046956146390582054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_26
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 118
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b111aed88f0d30f80800000000000000
+      internalID: -8141433935404330725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_27
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 113
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d073f294e6304b00800000000000000
+      internalID: 810708288272560338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_28
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 121
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aae5ebf868d5500800000000000000
+      internalID: 386613094956051038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_29
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 123
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87882a45ff42a9650800000000000000
+      internalID: 6240340912730441848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_30
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 112
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc03f1539b9417760800000000000000
+      internalID: 7453819918083895503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_31
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 114
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ec26dc953eb9ac0800000000000000
+      internalID: -3847231481820557676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_32
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 123
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6101a60e6ab295670800000000000000
+      internalID: 8527895365132357654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_33
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 110
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85731a4eecf080ac0800000000000000
+      internalID: -3888840896960972968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_34
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 121
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc19cac4459e94bd0800000000000000
+      internalID: -2645326757830553139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_35
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 123
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32806284b97385580800000000000000
+      internalID: -8838253128644687837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_36
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccb91bf77458c980800000000000000
+      internalID: -8518465820880683835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_37
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 119
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8152aa091e121c0b0800000000000000
+      internalID: -5710245599850650344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_38
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 123
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfddd51defaccb30800000000000000
+      internalID: 4309012376295694260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_39
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 121
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28b3723634f526f0800000000000000
+      internalID: -709892852629129173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_40
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 114
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e512fbe829971230800000000000000
+      internalID: 3609522027396994532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_41
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 108
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22035b181b06d6470800000000000000
+      internalID: 8389467996362715170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_42
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 110
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3896b18e69e2881e0800000000000000
+      internalID: -2195453592669034109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_43
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 111
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d75e283f6778460800000000000000
+      internalID: 7243889313893940504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_44
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 100
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3deb6197b830ed870800000000000000
+      internalID: 8709402626947989203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_45
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 111
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aac418668ec33f70800000000000000
+      internalID: 9165896743296223913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_46
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 97
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d643255e098fde0800000000000000
+      internalID: -1299129177895309956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_47
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 109
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3bac09f9db6b380800000000000000
+      internalID: -8955762315952999500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_48
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 111
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab05ed7b1df101300800000000000000
+      internalID: 220711367334580410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_49
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 101
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcfda6df46e48b30800000000000000
+      internalID: 4288805975742086331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_50
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 108
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac99573f219b8e2c0800000000000000
+      internalID: -4402065144709539382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_51
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 112
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42c49bab79ac8040800000000000000
+      internalID: 4651278863791604302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_52
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2d5d6a48c6faaf0800000000000000
+      internalID: -382968126312688903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_53
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 106
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e330bb27db130910800000000000000
+      internalID: 1802314886843216873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_54
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 110
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb693c31d52643b0800000000000000
+      internalID: -5528689911961916418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_55
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 108
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593ef7c6a830b8840800000000000000
+      internalID: 5227275685554283413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_56
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 114
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c472067cd9db688f0800000000000000
+      internalID: -538534620071712948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_57
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 116
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef065c72ffc5fa60800000000000000
+      internalID: 7707294977689522156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_58
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 100
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dd5588552d4b890800000000000000
+      internalID: -7443093019335205500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_59
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 108
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a6b4832588fc920800000000000000
+      internalID: 3012776562447313512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_60
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 102
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc76b958046f24650800000000000000
+      internalID: 6215801192704600012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_61
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 102
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0fc29d75368de00800000000000000
+      internalID: 1069714140457398518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_62
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1357148651d4fb340800000000000000
+      internalID: 4881705275431679281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_63
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 106
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c56602d7c65a6960800000000000000
+      internalID: 7595979137735878084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_64
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 97
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4039e264f7b86bad0800000000000000
+      internalID: -2686806748925357308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_65
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 97
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36856d8920f0e1390800000000000000
+      internalID: -7845816997004289949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_66
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 93
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d85d33cd0143f90800000000000000
+      internalID: -6974931384941572787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_67
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 98
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe5a3abe6ae70f70800000000000000
+      internalID: 9153542528945512127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_68
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 90
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adab70ccfc0b44dd0800000000000000
+      internalID: -2502681086383375654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_69
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 99
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02213e7854ab72f0800000000000000
+      internalID: -974004194414353909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_70
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 103
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eed1886c4fb81d90800000000000000
+      internalID: -7126736075422048544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_71
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 92
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507f02befe3e26020800000000000000
+      internalID: 2333678176512833285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_72
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 94
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a047589f8863b0780800000000000000
+      internalID: -8715812691915738102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_73
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 106
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12c52312e3eb4760800000000000000
+      internalID: 7443293369283232284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_74
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 98
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9383b55da30fc26e0800000000000000
+      internalID: -1860848410532562887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_75
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 104
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d6af80b9b7110a0800000000000000
+      internalID: -6912608047236223727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_76
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 97
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7342dbd40b74d570800000000000000
+      internalID: 8490546458298303355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_77
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 100
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e670b2977098580800000000000000
+      internalID: -8824513777861431661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_78
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 103
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b01be4fb42f16bb0800000000000000
+      internalID: -4944404507830579018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_79
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 101
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6da2d8874c662890800000000000000
+      internalID: -7483174676335514262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_80
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 104
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e207195ef57ef3620800000000000000
+      internalID: 2756175896033456174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_81
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 97
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70b9beeb67739880800000000000000
+      internalID: -8605403157524533124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_82
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 97
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5a5fd55bf457290800000000000000
+      internalID: -7893315131512871451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_83
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 92
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55a7e73bd338c550800000000000000
+      internalID: 6181247505194788191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_84
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 97
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885749c15a8df6f70800000000000000
+      internalID: 9182796368892425608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_85
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 96
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd69450b5d1e2df0800000000000000
+      internalID: -203192656417165879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_86
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 92
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e28ff694be4a3d0800000000000000
+      internalID: -3196171134882533772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_87
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 90
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcdd9c519638e860800000000000000
+      internalID: 7559351972493384913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_88
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 86
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d26571df8f44d70800000000000000
+      internalID: 9026613319059254640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_89
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 84
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d12d1d3cf32b9d10800000000000000
+      internalID: 2133338414754111954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_90
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 87
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59009372f119b5df0800000000000000
+      internalID: -190398996245053291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_91
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 95
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c081edf8ac778a60800000000000000
+      internalID: 7676241155132063945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_92
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 92
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906bc9cdb3b569e70800000000000000
+      internalID: 9121578407947974153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_93
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 89
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d44f1da5c997aa0800000000000000
+      internalID: -6162722701196374642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_94
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 90
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0daf30f3f5a3800800000000000000
+      internalID: 592891025206988962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_95
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 94
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d8f200acbffa000800000000000000
+      internalID: 49534965929446791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_96
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 96
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af8ab63d5aed6920800000000000000
+      internalID: 2985299814087561126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_97
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 98
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bdb47b53dad6cd0800000000000000
+      internalID: -2563202166683870330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_98
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 91
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4039a341e75bb20b0800000000000000
+      internalID: -5752304545925786876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_99
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 92
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637f67e8699c06090800000000000000
+      internalID: -8043207286011267274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_100
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 94
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766d7df2829a1e630800000000000000
+      internalID: 3954627937874466407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_101
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 92
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68261c35a72459f0800000000000000
+      internalID: -480715669590628242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_102
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 85
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba045459689d88af0800000000000000
+      internalID: -393825795341729621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_103
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 84
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1301400bfe693db0800000000000000
+      internalID: -4811692702548557028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_104
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 88
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67661464d25bb90f0800000000000000
+      internalID: -1109093677159848330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_105
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 89
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ef813bcfd022b90800000000000000
+      internalID: -7268231469634879954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_106
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 83
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f63e9c0004a13800800000000000000
+      internalID: 590433346280896240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_107
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 85
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9d2e74d3343d980800000000000000
+      internalID: -8515388539949360663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_108
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 90
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b67365e25e24b30800000000000000
+      internalID: 4270227383878380387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_109
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 84
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f59bbbd8a29c860800000000000000
+      internalID: 7550613038491590515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_110
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 80
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b06d4be4856baa0800000000000000
+      internalID: -6145627546435843176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_111
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 83
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d281c028ee3dd70800000000000000
+      internalID: 9066852717143010703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_112
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 77
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a3c4070aa7cbd80800000000000000
+      internalID: -8233571189242709377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_113
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 82
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9e06ef4c5262920800000000000000
+      internalID: 2965098932681632180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_114
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 87
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c795aa0e86550c660800000000000000
+      internalID: 7404011696331315580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_115
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 81
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53949bda1a65c340800000000000000
+      internalID: 4883426034538812250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_116
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 87
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2e95d0f3fa568f0800000000000000
+      internalID: -547839094313852196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_117
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 83
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088c3bb2feb4a3ae0800000000000000
+      internalID: -1568858029582727040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_118
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 88
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7fe3e1e5f8a38c20800000000000000
+      internalID: 3207593133628190590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_119
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 86
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364c55205fcf5d1f0800000000000000
+      internalID: -1020631611293186973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_120
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 85
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c8c7d06ba5d58d0800000000000000
+      internalID: -2856026850726212540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_121
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 84
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd17571babaee390800000000000000
+      internalID: -7787097954357666381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_122
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 76
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b2115f507187af0800000000000000
+      internalID: -398543252668470393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_123
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 76
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c7950e7294ca430800000000000000
+      internalID: 3795489021582998644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_124
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 79
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd7146d9383b17f0800000000000000
+      internalID: -640856700911256079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_125
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 73
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0774d2ef58a3d2d60800000000000000
+      internalID: 7867008471255566192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_126
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 79
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1199b72eedcf3dd0800000000000000
+      internalID: -2504056445042323170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_127
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 74
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c693ff88f0c16f0800000000000000
+      internalID: -712677559959458768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_128
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 75
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4012792ae2b3b2020800000000000000
+      internalID: 2318011504694599940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_129
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 71
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da004801426d61070800000000000000
+      internalID: 8076878432119816365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_130
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 76
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc13294d16804550800000000000000
+      internalID: 6143057352072568024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_131
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 78
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48923ed58ffe036d0800000000000000
+      internalID: -3012644300704765564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_132
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 78
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed14a99f1b2d1e70800000000000000
+      internalID: 9087467037825179114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_133
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 73
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a669a048f7316ac0800000000000000
+      internalID: -3863745465930914135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_134
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 73
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b00ef544e8f04280800000000000000
+      internalID: -9060968790958931786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_135
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 75
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3d0ad57bfeb7e20800000000000000
+      internalID: 3349534318708970485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_136
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 76
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c776ba18b416d150800000000000000
+      internalID: 5896923543042947009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_137
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 71
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5313ebe1d33aa3f40800000000000000
+      internalID: 5709054960549638453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_138
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 78
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4031e94b56045e870800000000000000
+      internalID: 8711439859784225540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_139
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 73
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fc45025f60fe580800000000000000
+      internalID: -8795803897352106161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_140
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 78
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd485be4247e25990800000000000000
+      internalID: -7398596965841926949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_141
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 76
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f7877a0ffa93ed0800000000000000
+      internalID: -2433720675480338600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_142
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 79
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d981db24fa349a70800000000000000
+      internalID: 8832749589561969109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_143
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 64
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910ee14c5b03f3c90800000000000000
+      internalID: -7187972923022450663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_144
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 66
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c901223beeb15aa70800000000000000
+      internalID: 8837500555805986972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_145
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 64
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27bedbce6cf242b10800000000000000
+      internalID: 1955740669607537522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_146
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 70
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b010ffba4b637e0800000000000000
+      internalID: -1786041551395157151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_147
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 68
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572a8344d5a80d480800000000000000
+      internalID: -8876442732366093707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_148
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 66
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd187d905f119cb0800000000000000
+      internalID: -4859068091856314934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_149
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 68
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8732bdbebe9a5ed30800000000000000
+      internalID: 4460157836719760248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_150
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 63
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4b3a31e943d1a90800000000000000
+      internalID: -7341653964005067523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_151
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 65
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fc4808baff2c2a0800000000000000
+      internalID: -6718526582022680722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_152
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 61
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b304b7150799f0080800000000000000
+      internalID: -9218981204521697221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_153
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 67
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b818e71b8ca413d0800000000000000
+      internalID: -3236772518771025742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_154
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 68
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099f7370f3a05ad20800000000000000
+      internalID: 3289046368684341648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_155
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 68
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7540d15377eedc540800000000000000
+      internalID: 5029938554602325079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_156
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 69
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c66b3e4b9f40cb30800000000000000
+      internalID: 4305528772217235140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_157
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 42
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce8687da9fa30c20800000000000000
+      internalID: 3171571642174705355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_158
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 57
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d6546dc43b47b20800000000000000
+      internalID: 3131324783523097973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_159
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 58
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297271ff8a504a3d0800000000000000
+      internalID: -3196423612133857390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_160
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 62
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77781e324ab48fb0800000000000000
+      internalID: -4646384121867110532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_161
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 55
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4fecafe813907dd0800000000000000
+      internalID: -2490328858626298037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_162
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 56
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8676ea5b6067070800000000000000
+      internalID: 8103671956884646063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_163
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 62
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfea6fe119de4ea30800000000000000
+      internalID: 4243777956435373819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_164
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 56
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbffc1c1d120ec70800000000000000
+      internalID: 8998229240269765585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_165
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 54
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc00ad98f83d1a520800000000000000
+      internalID: 2711681064100298956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_166
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 59
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708d2a863f9d32430800000000000000
+      internalID: 3757086153612908551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_167
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 62
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2760687c506274040800000000000000
+      internalID: 4631712548037985906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_168
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 46
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5d408f69a73c560800000000000000
+      internalID: 7332839407114048969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_169
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 46
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98137cdfe10d49dd0800000000000000
+      internalID: -2480128663249014391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_170
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 46
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603cc7a8302176b20800000000000000
+      internalID: 3127488272649732870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_171
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 45
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a312fe3ffd230c580800000000000000
+      internalID: -8808984933685059270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_172
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 49
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b44d2e9fb77ad010800000000000000
+      internalID: 1214414714405995702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_173
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 47
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27895dbf3c24346b0800000000000000
+      internalID: -5313329725855917966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_174
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 53
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2ea5c721f64d8f0800000000000000
+      internalID: -516665932054338901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_175
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 53
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de89f458206f98230800000000000000
+      internalID: 3641712264392710381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_176
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 47
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b63a089b87c29530800000000000000
+      internalID: 3860367232975124152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_177
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 47
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea7613275ace0e40800000000000000
+      internalID: 5624655460231969509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_178
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 51
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405f49ab9d8678350800000000000000
+      internalID: 6018894711351473412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_179
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 53
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7797a11e1854140800000000000000
+      internalID: 4703308189670143966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_180
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 53
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a636191ff8692f4b0800000000000000
+      internalID: -5408094657541217430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_181
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 43
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16089707f14c8b40800000000000000
+      internalID: 5443798578824218139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_182
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 41
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866f87ee957068c30800000000000000
+      internalID: 4361181371989292648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_183
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 37
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807bf731e0d7e1d30800000000000000
+      internalID: 4404094985025074952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_184
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 27
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c897eb5a766cc80800000000000000
+      internalID: -8302834901448029031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_185
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 37
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab069d89326b5f360800000000000000
+      internalID: 7202863443053469882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_186
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 44
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc06c53229511c20800000000000000
+      internalID: 3175417215738842335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_187
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 38
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7044b2a6f9725d470800000000000000
+      internalID: 8418678644073513991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_188
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 31
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909ee93b126024bc0800000000000000
+      internalID: -3800468393730053879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_189
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 32
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5bf8ab36d7db4c0800000000000000
+      internalID: -4270119004392147535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_190
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 36
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebfbf607b69b5250800000000000000
+      internalID: 5934502646831119342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_191
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 29
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d2cbcc13c2b0660800000000000000
+      internalID: 7353019409012370815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_192
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 32
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f76630b525c6c40800000000000000
+      internalID: 5506866995219824437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_193
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca547571e0f8c2a0800000000000000
+      internalID: -6716853993094227254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_194
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 24
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2267017c53fa8230800000000000000
+      internalID: 3641990827041317422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_195
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 25
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2e0cd29017868f0800000000000000
+      internalID: -547063070489255211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_196
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 27
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013233fb9c066b0b0800000000000000
+      internalID: -5713272657660402928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_197
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 24
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa24553348219be0800000000000000
+      internalID: -1472351334050813276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_198
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 19
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d165cadc9aa789a0800000000000000
+      internalID: -6230823968781803047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_199
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 12
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0dbc545b01192c0800000000000000
+      internalID: -4426738587982376714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_200
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 15
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf180e50f6092230800000000000000
+      internalID: 3614427805381042100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chuoi_201
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 18
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fb0243984e4a6b0800000000000000
+      internalID: -5285848784689905903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chuoi_0: 5572795220853567366
+      chuoi_1: -4223090438503188778
+      chuoi_10: -7716601076432018490
+      chuoi_100: 3954627937874466407
+      chuoi_101: -480715669590628242
+      chuoi_102: -393825795341729621
+      chuoi_103: -4811692702548557028
+      chuoi_104: -1109093677159848330
+      chuoi_105: -7268231469634879954
+      chuoi_106: 590433346280896240
+      chuoi_107: -8515388539949360663
+      chuoi_108: 4270227383878380387
+      chuoi_109: 7550613038491590515
+      chuoi_11: 8939183726653703205
+      chuoi_110: -6145627546435843176
+      chuoi_111: 9066852717143010703
+      chuoi_112: -8233571189242709377
+      chuoi_113: 2965098932681632180
+      chuoi_114: 7404011696331315580
+      chuoi_115: 4883426034538812250
+      chuoi_116: -547839094313852196
+      chuoi_117: -1568858029582727040
+      chuoi_118: 3207593133628190590
+      chuoi_119: -1020631611293186973
+      chuoi_12: -4516799788063082038
+      chuoi_120: -2856026850726212540
+      chuoi_121: -7787097954357666381
+      chuoi_122: -398543252668470393
+      chuoi_123: 3795489021582998644
+      chuoi_124: -640856700911256079
+      chuoi_125: 7867008471255566192
+      chuoi_126: -2504056445042323170
+      chuoi_127: -712677559959458768
+      chuoi_128: 2318011504694599940
+      chuoi_129: 8076878432119816365
+      chuoi_13: 8081424678308692930
+      chuoi_130: 6143057352072568024
+      chuoi_131: -3012644300704765564
+      chuoi_132: 9087467037825179114
+      chuoi_133: -3863745465930914135
+      chuoi_134: -9060968790958931786
+      chuoi_135: 3349534318708970485
+      chuoi_136: 5896923543042947009
+      chuoi_137: 5709054960549638453
+      chuoi_138: 8711439859784225540
+      chuoi_139: -8795803897352106161
+      chuoi_14: 5633434004226333473
+      chuoi_140: -7398596965841926949
+      chuoi_141: -2433720675480338600
+      chuoi_142: 8832749589561969109
+      chuoi_143: -7187972923022450663
+      chuoi_144: 8837500555805986972
+      chuoi_145: 1955740669607537522
+      chuoi_146: -1786041551395157151
+      chuoi_147: -8876442732366093707
+      chuoi_148: -4859068091856314934
+      chuoi_149: 4460157836719760248
+      chuoi_15: 7092237416125214196
+      chuoi_150: -7341653964005067523
+      chuoi_151: -6718526582022680722
+      chuoi_152: -9218981204521697221
+      chuoi_153: -3236772518771025742
+      chuoi_154: 3289046368684341648
+      chuoi_155: 5029938554602325079
+      chuoi_156: 4305528772217235140
+      chuoi_157: 3171571642174705355
+      chuoi_158: 3131324783523097973
+      chuoi_159: -3196423612133857390
+      chuoi_16: -8016641774208395605
+      chuoi_160: -4646384121867110532
+      chuoi_161: -2490328858626298037
+      chuoi_162: 8103671956884646063
+      chuoi_163: 4243777956435373819
+      chuoi_164: 8998229240269765585
+      chuoi_165: 2711681064100298956
+      chuoi_166: 3757086153612908551
+      chuoi_167: 4631712548037985906
+      chuoi_168: 7332839407114048969
+      chuoi_169: -2480128663249014391
+      chuoi_17: 4994323771051165629
+      chuoi_170: 3127488272649732870
+      chuoi_171: -8808984933685059270
+      chuoi_172: 1214414714405995702
+      chuoi_173: -5313329725855917966
+      chuoi_174: -516665932054338901
+      chuoi_175: 3641712264392710381
+      chuoi_176: 3860367232975124152
+      chuoi_177: 5624655460231969509
+      chuoi_178: 6018894711351473412
+      chuoi_179: 4703308189670143966
+      chuoi_18: 5064209183417305705
+      chuoi_180: -5408094657541217430
+      chuoi_181: 5443798578824218139
+      chuoi_182: 4361181371989292648
+      chuoi_183: 4404094985025074952
+      chuoi_184: -8302834901448029031
+      chuoi_185: 7202863443053469882
+      chuoi_186: 3175417215738842335
+      chuoi_187: 8418678644073513991
+      chuoi_188: -3800468393730053879
+      chuoi_189: -4270119004392147535
+      chuoi_19: 6750926989503567718
+      chuoi_190: 5934502646831119342
+      chuoi_191: 7353019409012370815
+      chuoi_192: 5506866995219824437
+      chuoi_193: -6716853993094227254
+      chuoi_194: 3641990827041317422
+      chuoi_195: -547063070489255211
+      chuoi_196: -5713272657660402928
+      chuoi_197: -1472351334050813276
+      chuoi_198: -6230823968781803047
+      chuoi_199: -4426738587982376714
+      chuoi_2: 3529157374661420237
+      chuoi_20: 437230786958244279
+      chuoi_200: 3614427805381042100
+      chuoi_201: -5285848784689905903
+      chuoi_21: 7898328450489781536
+      chuoi_22: 1224541637704946175
+      chuoi_23: 7047276975507662269
+      chuoi_24: -2087776712801763705
+      chuoi_25: 8046956146390582054
+      chuoi_26: -8141433935404330725
+      chuoi_27: 810708288272560338
+      chuoi_28: 386613094956051038
+      chuoi_29: 6240340912730441848
+      chuoi_3: 6350291622486978806
+      chuoi_30: 7453819918083895503
+      chuoi_31: -3847231481820557676
+      chuoi_32: 8527895365132357654
+      chuoi_33: -3888840896960972968
+      chuoi_34: -2645326757830553139
+      chuoi_35: -8838253128644687837
+      chuoi_36: -8518465820880683835
+      chuoi_37: -5710245599850650344
+      chuoi_38: 4309012376295694260
+      chuoi_39: -709892852629129173
+      chuoi_4: -593415310123076544
+      chuoi_40: 3609522027396994532
+      chuoi_41: 8389467996362715170
+      chuoi_42: -2195453592669034109
+      chuoi_43: 7243889313893940504
+      chuoi_44: 8709402626947989203
+      chuoi_45: 9165896743296223913
+      chuoi_46: -1299129177895309956
+      chuoi_47: -8955762315952999500
+      chuoi_48: 220711367334580410
+      chuoi_49: 4288805975742086331
+      chuoi_5: 4419986048168143125
+      chuoi_50: -4402065144709539382
+      chuoi_51: 4651278863791604302
+      chuoi_52: -382968126312688903
+      chuoi_53: 1802314886843216873
+      chuoi_54: -5528689911961916418
+      chuoi_55: 5227275685554283413
+      chuoi_56: -538534620071712948
+      chuoi_57: 7707294977689522156
+      chuoi_58: -7443093019335205500
+      chuoi_59: 3012776562447313512
+      chuoi_6: -3829300618199739210
+      chuoi_60: 6215801192704600012
+      chuoi_61: 1069714140457398518
+      chuoi_62: 4881705275431679281
+      chuoi_63: 7595979137735878084
+      chuoi_64: -2686806748925357308
+      chuoi_65: -7845816997004289949
+      chuoi_66: -6974931384941572787
+      chuoi_67: 9153542528945512127
+      chuoi_68: -2502681086383375654
+      chuoi_69: -974004194414353909
+      chuoi_7: 4420911091130204634
+      chuoi_70: -7126736075422048544
+      chuoi_71: 2333678176512833285
+      chuoi_72: -8715812691915738102
+      chuoi_73: 7443293369283232284
+      chuoi_74: -1860848410532562887
+      chuoi_75: -6912608047236223727
+      chuoi_76: 8490546458298303355
+      chuoi_77: -8824513777861431661
+      chuoi_78: -4944404507830579018
+      chuoi_79: -7483174676335514262
+      chuoi_8: 6798979192524204558
+      chuoi_80: 2756175896033456174
+      chuoi_81: -8605403157524533124
+      chuoi_82: -7893315131512871451
+      chuoi_83: 6181247505194788191
+      chuoi_84: 9182796368892425608
+      chuoi_85: -203192656417165879
+      chuoi_86: -3196171134882533772
+      chuoi_87: 7559351972493384913
+      chuoi_88: 9026613319059254640
+      chuoi_89: 2133338414754111954
+      chuoi_9: 1558621741300388344
+      chuoi_90: -190398996245053291
+      chuoi_91: 7676241155132063945
+      chuoi_92: 9121578407947974153
+      chuoi_93: -6162722701196374642
+      chuoi_94: 592891025206988962
+      chuoi_95: 49534965929446791
+      chuoi_96: 2985299814087561126
+      chuoi_97: -2563202166683870330
+      chuoi_98: -5752304545925786876
+      chuoi_99: -8043207286011267274
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
