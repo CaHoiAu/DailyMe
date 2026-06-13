@@ -13,13 +13,6 @@ public class CutscenePlayer : MonoBehaviour
     public Image characterImage;
     public RectTransform characterContainer;
 
-    [Header("Common Transition (plays on every level switch)")]
-    public Image transitionImage;
-    public Vector2 transitionStartPosition;
-    public Vector2 transitionCoverPosition;
-    public Vector2 transitionEndPosition;
-    public float transitionDuration = 0.4f;
-
     [Header("Timing")]
     public float fadeDuration = 0.5f;
 
@@ -35,64 +28,40 @@ public class CutscenePlayer : MonoBehaviour
 
     public void Play(CutsceneData data, Action onComplete)
     {
+        if (data == null || data.background == null)
+        {
+            onComplete?.Invoke();
+            return;
+        }
+
         gameObject.SetActive(true);
         StartCoroutine(PlayRoutine(data, onComplete));
     }
 
     private IEnumerator PlayRoutine(CutsceneData data, Action onComplete)
     {
-        gameObject.SetActive(true);
         canvasGroup.alpha = 0f;
 
-        bool hasCutscene = data != null && data.background != null;
+        backgroundImage.sprite = data.background;
+        backgroundImage.enabled = true;
 
-        backgroundImage.enabled = false;
-        characterImage.enabled = false;
-        if (slidingBackgroundImage != null)
-            slidingBackgroundImage.enabled = false;
+        SetupCharacter(data);
+        SetupSlidingBackground(data);
 
-        // Common transition: slide in to cover the screen
-        yield return SlideTransition(transitionStartPosition, transitionCoverPosition);
+        yield return Fade(0f, 1f);
 
-        if (hasCutscene)
-        {
-            backgroundImage.sprite = data.background;
-            backgroundImage.enabled = true;
-            SetupCharacter(data);
-            SetupSlidingBackground(data);
+        if (data.slidingBackground != null)
+            yield return SlideBackground(data);
+        else
+            yield return new WaitForSeconds(data.duration);
 
-            yield return Fade(0f, 1f);
+        yield return Fade(1f, 0f);
 
-            if (data.slidingBackground != null)
-                yield return SlideBackground(data);
-            else
-                yield return new WaitForSeconds(data.duration);
-
-            yield return Fade(1f, 0f);
-        }
-
-        onComplete?.Invoke();
-
-        // Common transition: slide out to reveal the next mini-game
-        yield return SlideTransition(transitionCoverPosition, transitionEndPosition);
         CleanupCharacter();
         gameObject.SetActive(false);
+        onComplete?.Invoke();
     }
-    private IEnumerator SlideTransition(Vector2 from, Vector2 to)
-    {
-        if (transitionImage == null)
-            yield break;
 
-        transitionImage.rectTransform.anchoredPosition = from;
-        float t = 0f;
-        while (t < transitionDuration)
-        {
-            t += Time.deltaTime;
-            transitionImage.rectTransform.anchoredPosition = Vector2.Lerp(from, to, t / transitionDuration);
-            yield return null;
-        }
-        transitionImage.rectTransform.anchoredPosition = to;
-    }
     private void SetupCharacter(CutsceneData data)
     {
         characterImage.enabled = false;
@@ -119,6 +88,7 @@ public class CutscenePlayer : MonoBehaviour
             characterImage.rectTransform.anchoredPosition = data.characterPosition;
         }
     }
+
     private void SetupSlidingBackground(CutsceneData data)
     {
         if (slidingBackgroundImage == null)

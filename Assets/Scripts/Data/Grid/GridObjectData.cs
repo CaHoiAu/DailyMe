@@ -12,6 +12,9 @@ public class GridObjectData
 
     public bool requiresPlacement = true; //whether this object needs to be placed on the grid
 
+    [Header("Placement Restrictions")]
+    public Vector2Int[] forbiddenCells = new Vector2Int[0]; //cells this object can never be placed on
+
     [Header("Drop Effect")]
     public float dropDuration = 2f; //how long the drop effect lasts
     public float dropHeight = 2f; //how far the object drops from its original position

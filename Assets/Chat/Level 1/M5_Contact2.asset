@@ -20,5 +20,40 @@ MonoBehaviour:
     hoa qu\u1EA3 thay c\u01A1m??? \u0102n l\u1EA1 v\u1EADy tr\u1EDDi..."
   - "Th\u1ECBt g\xE0, th\u1ECBt g\xE0!!!! M\xECnh th\xEDch th\u1ECBt g\xE0 nh\u1EA5t!!!!"
   - "Canh \u0111\u1EC3 \u1EDF gi\u1EEFa cho m\u1ECDi ng\u01B0\u1EDDi d\u1EC5 chan"
-  conditions: []
+  conditions:
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 0
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 1
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 2
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 3
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 4
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
   miniLevelData: {fileID: 11400000, guid: 2ba5417d5840ad248ab7cd44d2f40f30, type: 2}

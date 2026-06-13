@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5493dc2d47fc2aa4f9aaafb6fb6e784e, type: 3}
   m_Name: Mini_5
   m_EditorClassIdentifier: 
-  name: "H\u1ECDc h\u1ECDc h\u1ECDc"
+  name: "\u0102n nh\u0103m nh\u0103m"
   boardWidth: 3
   boardHeight: 2
   cellSize: 1.91
@@ -75,7 +75,7 @@ MonoBehaviour:
       containedObjectDisplays: []
     startWorldPosition: {x: 0.05, y: -3.65, z: 0.1729532}
     currentLayer: 0
-    scale: {x: 0.08384247, y: 0.08384247, z: 0.08384247}
+    scale: {x: 0.08675876, y: 0.1100395, z: 0.08675876}
     requiresPlacement: 1
     dropDuration: 2
     dropHeight: 2
@@ -262,7 +262,7 @@ MonoBehaviour:
   dropTargets: []
   useLandingZones: 0
   landingZones: []
-  backgroundSprite: {fileID: 21300000, guid: 74000c5f824b27c4aac1e2b85e994fd0, type: 3}
+  backgroundSprite: {fileID: -4626526208539555849, guid: 86f65ad284c55014d881e5204c1a6788, type: 3}
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
   backgroundScale: {x: 0.0790142, y: 0.0790142, z: 0.0790142}
   backgroundPosition: {x: 0, y: 0, z: 0}

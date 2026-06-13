@@ -21,5 +21,26 @@ MonoBehaviour:
     v\u1EDBi s\u1EDF th\xEDch \u0103n u\u1ED1ng c\u1EE7a m\u1ED7i th\xE0nh vi\xEAn
     nh\xE9! M\xF3n th\xE0nh vi\xEAn n\xE0o c\xE0ng kh\xF4ng th\xEDch th\xEC c\xE0ng
     tr\xE1nh xa nh\xE1, c\xF2n th\xEDch th\xEC ng\u01B0\u1EE3c l\u1EA1i thui."
-  conditions: []
-  miniLevelData: {fileID: 11400000, guid: 2ba5417d5840ad248ab7cd44d2f40f30, type: 2}
+  conditions:
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 0
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 1
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 2
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
+  miniLevelData: {fileID: 11400000, guid: 3c1583a1ed9ea9b48bbb3fde527741bf, type: 2}

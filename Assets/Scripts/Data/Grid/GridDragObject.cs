@@ -83,6 +83,9 @@ public class GridDragObject : MonoBehaviour
 
     private bool isTopObject = false;
     public bool isLocked = false;
+
+    public Vector2Int[] forbiddenCells = new Vector2Int[0]; //cells this object can never be placed on
+
     public void ResetToDefaultState()
     {
         currentStateIndex = 0;

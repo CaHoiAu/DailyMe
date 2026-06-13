@@ -336,6 +336,7 @@ public class GridPuzzleManager : MonoBehaviour
 
             drag.objectId = objData.objectId;
             drag.startWorldPosition = objData.startWorldPosition;  // ✅ Keep original start position
+            drag.forbiddenCells = objData.forbiddenCells;
             drag.gridPuzzleManager = this;
             drag.SetLayer(objData.currentLayer);
             drag.SetDropEffectSettings(objData.dropDuration, objData.dropHeight, objData.dropCurve);
@@ -402,6 +403,8 @@ public class GridPuzzleManager : MonoBehaviour
             if (!noOverlap) return false;
         }
 
+        if (!GridConstraintChecker.CheckForbiddenCells(obj, gridPos)) return false;
+
         if (miniLevelData.useExactSlots)
         {
             // ✅ Pass the moving object and grid position
@@ -450,6 +453,12 @@ public class GridPuzzleManager : MonoBehaviour
                 Debug.Log("Non-overlap constraint failed");
                 return false;
             }
+        }
+
+        if (!GridConstraintChecker.CheckForbiddenCells(obj, gridPos))
+        {
+            Debug.Log("Forbidden cell constraint failed");
+            return false;
         }
 
         if (miniLevelData.useExactSlots)

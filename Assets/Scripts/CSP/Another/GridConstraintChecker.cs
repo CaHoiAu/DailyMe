@@ -87,6 +87,27 @@ public static class GridConstraintChecker
     }
 
     /// <summary>
+    /// /// Check that none of the object's occupied cells are in its forbidden cells list
+    /// </summary>
+    public static bool CheckForbiddenCells(GridDragObject obj, Vector2Int gridPos)
+    {
+        if (obj == null) return false;
+        if (obj.forbiddenCells == null || obj.forbiddenCells.Length == 0) return true;
+
+        Vector2Int[] occupied = obj.GetOccupiedCellsAt(gridPos);
+
+        foreach (var cell in occupied)
+        {
+            foreach (var forbiddenCell in obj.forbiddenCells)
+            {
+                if (cell == forbiddenCell)
+                    return false;
+            }
+        }
+        return true;
+    }
+
+    /// <summary>
     /// Check exact slots constraint
     /// </summary>
     public static bool CheckExactSlots(GridDragObject obj, Vector2Int gridPos, GridDragObject[] allObjects, SlotAssignment[] exactSlotAssignments)

@@ -558,6 +558,17 @@ public class LevelCSPVerifier : MonoBehaviour
                 obj.objectId, obj.states, miniLevelData.boardWidth, miniLevelData.boardHeight));
         }
 
+        // ✅ Forbidden cells constraint
+        foreach (GridDragObject obj in dragObjects)
+        {
+            if (obj == null || obj.states == null || obj.states.Length == 0)
+                continue;
+            if (obj.forbiddenCells == null || obj.forbiddenCells.Length == 0)
+                continue;
+            constraints.Add(new CSPForbiddenCellsConstraint(
+                obj.objectId, obj.states, obj.forbiddenCells));
+        }
+
         // ✅ Non-overlap constraint
         if (miniLevelData.useNonOverlap)
         {
