@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b39311fbfb4ea4698e105ca3d46e2d, type: 3}
+  m_Name: M7_Contact1
+  m_EditorClassIdentifier: 
+  messages:
+  - "H\xF4m nay l\xE0 m\u1ED9t ng\xE0y d\xE0i~~ Nhi\u1EC7m v\u1EE5 cu\u1ED1i c\xF9ng
+    \u0111\u1EC3 k\u1EBFt th\xFAc m\u1ED9t ng\xE0y th\xF4i!!!!"
+  - "C\xE1 h\u1ED3i \xE2u l\u1EA1i ng\u1EE7 qu\xEAn r\u1ED3i, gi\xFAp b\u1EA1n \xFD
+    ng\u1EE7 ngay ng\u1EAFn l\u1EA1i nh\xE1!"
+  - "B\xE2y gi\u1EDD C\xE1 h\u1ED3i \u0111\xE3 ng\u1EE7 m\u1EA5t ti\xEAu r\xF9i n\xEAn
+    kh\xF4ng c\xF3 g\u1EE3i \xFD s\u1EAFp x\u1EBFp n\xE0o cho b\u1EA1n c\u1EA3..."
+  - "Nh\u01B0ng \u0111\u1EEBng lo!"
+  - "C\xF3 baba t\u1ED1i n\xE0o c\u0169ng qua xem xem con g\xE1i nh\u01B0 th\u1EBF
+    n\xE0o n\xEAn l\xE0 tho\xE1t m\xE9t - xen - g\u01A1 c\u1EE7a tui ra \u0111\u1EC3
+    th\u1EA5y \u0111o\u1EA1n chat vs baba nha!"
+  conditions: []
+  miniLevelData: {fileID: 11400000, guid: da96b1297b907b841b8c99a9d6006535, type: 2}

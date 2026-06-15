@@ -1,0 +1,4095 @@
+fileFormatVersion: 2
+guid: 432cc045831509e43ae2ef3af8eaceb0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1502341533749827798
+    second: haicaudem_0
+  - first:
+      213: 2437118440523207869
+    second: haicaudem_1
+  - first:
+      213: 4208381258298255305
+    second: haicaudem_2
+  - first:
+      213: -2332980587542155191
+    second: haicaudem_3
+  - first:
+      213: -6905097665474677359
+    second: haicaudem_4
+  - first:
+      213: 3502322730725568877
+    second: haicaudem_5
+  - first:
+      213: 7902953189815416022
+    second: haicaudem_6
+  - first:
+      213: 5858392861135556935
+    second: haicaudem_7
+  - first:
+      213: 2724209813184694789
+    second: haicaudem_8
+  - first:
+      213: -4510284342662814219
+    second: haicaudem_9
+  - first:
+      213: -5115755535461435669
+    second: haicaudem_10
+  - first:
+      213: -3090951677904191487
+    second: haicaudem_11
+  - first:
+      213: -4468049645176562454
+    second: haicaudem_12
+  - first:
+      213: 5061457498469698730
+    second: haicaudem_13
+  - first:
+      213: 5534911555528623329
+    second: haicaudem_14
+  - first:
+      213: 7889722575827575015
+    second: haicaudem_15
+  - first:
+      213: -2823440127538445467
+    second: haicaudem_16
+  - first:
+      213: -6551875964355495532
+    second: haicaudem_17
+  - first:
+      213: 2660314896932308715
+    second: haicaudem_18
+  - first:
+      213: -5762872105913660172
+    second: haicaudem_19
+  - first:
+      213: 3736085472107183270
+    second: haicaudem_20
+  - first:
+      213: 3990827420388258452
+    second: haicaudem_21
+  - first:
+      213: 2345480316701525110
+    second: haicaudem_22
+  - first:
+      213: -469965456665060270
+    second: haicaudem_23
+  - first:
+      213: -8662862529901033849
+    second: haicaudem_24
+  - first:
+      213: 1439091682510295267
+    second: haicaudem_25
+  - first:
+      213: 3858050244228298916
+    second: haicaudem_26
+  - first:
+      213: -2986987021585969528
+    second: haicaudem_27
+  - first:
+      213: 1903910154012562072
+    second: haicaudem_28
+  - first:
+      213: 574957207516790203
+    second: haicaudem_29
+  - first:
+      213: 745631056093259774
+    second: haicaudem_30
+  - first:
+      213: 5284947943120458827
+    second: haicaudem_31
+  - first:
+      213: 1179636376948302635
+    second: haicaudem_32
+  - first:
+      213: -4141020384943576798
+    second: haicaudem_33
+  - first:
+      213: 5025878172800054335
+    second: haicaudem_34
+  - first:
+      213: 6273402108771895117
+    second: haicaudem_35
+  - first:
+      213: -1790543769733308087
+    second: haicaudem_36
+  - first:
+      213: 755576173643074234
+    second: haicaudem_37
+  - first:
+      213: 7693186914155165096
+    second: haicaudem_38
+  - first:
+      213: 5465400474306732831
+    second: haicaudem_39
+  - first:
+      213: 4065745420426044673
+    second: haicaudem_40
+  - first:
+      213: -3385410642567932992
+    second: haicaudem_41
+  - first:
+      213: -3423311350334301129
+    second: haicaudem_42
+  - first:
+      213: 721869226830024004
+    second: haicaudem_43
+  - first:
+      213: -1888623446359792711
+    second: haicaudem_44
+  - first:
+      213: -8329606030068693081
+    second: haicaudem_45
+  - first:
+      213: -5753469955562426253
+    second: haicaudem_46
+  - first:
+      213: -3597140192313037839
+    second: haicaudem_47
+  - first:
+      213: -3185994427366511205
+    second: haicaudem_48
+  - first:
+      213: 6365515054190492941
+    second: haicaudem_49
+  - first:
+      213: -2262720511135212975
+    second: haicaudem_50
+  - first:
+      213: -5949741536242150828
+    second: haicaudem_51
+  - first:
+      213: -2650143653455057283
+    second: haicaudem_52
+  - first:
+      213: 2961052335794211934
+    second: haicaudem_53
+  - first:
+      213: -7501840033466797679
+    second: haicaudem_54
+  - first:
+      213: -3649280933887136735
+    second: haicaudem_55
+  - first:
+      213: -2921481574377851780
+    second: haicaudem_56
+  - first:
+      213: -9202796540941878271
+    second: haicaudem_57
+  - first:
+      213: -6271805665651349209
+    second: haicaudem_58
+  - first:
+      213: -6664742359420383049
+    second: haicaudem_59
+  - first:
+      213: 2307810971098464202
+    second: haicaudem_60
+  - first:
+      213: -4065146108953772856
+    second: haicaudem_61
+  - first:
+      213: -2069573418775150771
+    second: haicaudem_62
+  - first:
+      213: -7683023610851202166
+    second: haicaudem_63
+  - first:
+      213: -8834473521534583148
+    second: haicaudem_64
+  - first:
+      213: -2677237406584070667
+    second: haicaudem_65
+  - first:
+      213: 8888550372109959983
+    second: haicaudem_66
+  - first:
+      213: 8681302613220537720
+    second: haicaudem_67
+  - first:
+      213: -2464068701806107272
+    second: haicaudem_68
+  - first:
+      213: -7660474191695480528
+    second: haicaudem_69
+  - first:
+      213: -269220454019408218
+    second: haicaudem_70
+  - first:
+      213: 1363417079950802854
+    second: haicaudem_71
+  - first:
+      213: 8665095800967287805
+    second: haicaudem_72
+  - first:
+      213: -4186649204135967032
+    second: haicaudem_73
+  - first:
+      213: -7744143423193895289
+    second: haicaudem_74
+  - first:
+      213: 3714142740067948774
+    second: haicaudem_75
+  - first:
+      213: -5321471138590026931
+    second: haicaudem_76
+  - first:
+      213: 4779952879158856421
+    second: haicaudem_77
+  - first:
+      213: 5352687319643671681
+    second: haicaudem_78
+  - first:
+      213: 8325783926366801463
+    second: haicaudem_79
+  - first:
+      213: -8651032309019660772
+    second: haicaudem_80
+  - first:
+      213: -8564498041024045849
+    second: haicaudem_81
+  - first:
+      213: 8323168609097184732
+    second: haicaudem_82
+  - first:
+      213: 8150118576140219325
+    second: haicaudem_83
+  - first:
+      213: 8324154318211443169
+    second: haicaudem_84
+  - first:
+      213: 9124421633965634933
+    second: haicaudem_85
+  - first:
+      213: -2040903181626644677
+    second: haicaudem_86
+  - first:
+      213: 5873213395328338400
+    second: haicaudem_87
+  - first:
+      213: -1069966693759369406
+    second: haicaudem_88
+  - first:
+      213: -7224578144558528169
+    second: haicaudem_89
+  - first:
+      213: 4605920391187911815
+    second: haicaudem_90
+  - first:
+      213: -900019821580083994
+    second: haicaudem_91
+  - first:
+      213: -7330002597519930266
+    second: haicaudem_92
+  - first:
+      213: -5590934626401766361
+    second: haicaudem_93
+  - first:
+      213: -838064545456245271
+    second: haicaudem_94
+  - first:
+      213: 5032080624128713451
+    second: haicaudem_95
+  - first:
+      213: 5155574946743927538
+    second: haicaudem_96
+  - first:
+      213: -7611407428936305119
+    second: haicaudem_97
+  - first:
+      213: -6765287300620506072
+    second: haicaudem_98
+  - first:
+      213: 9071477275804137697
+    second: haicaudem_99
+  - first:
+      213: 8203495590211813271
+    second: haicaudem_100
+  - first:
+      213: 5371051505210438744
+    second: haicaudem_101
+  - first:
+      213: -3147452135237225774
+    second: haicaudem_102
+  - first:
+      213: -944080307092498728
+    second: haicaudem_103
+  - first:
+      213: 6277858373969251096
+    second: haicaudem_104
+  - first:
+      213: 7987042496865439379
+    second: haicaudem_105
+  - first:
+      213: 8303976942265243385
+    second: haicaudem_106
+  - first:
+      213: 3052669402524654419
+    second: haicaudem_107
+  - first:
+      213: 7282062122093948359
+    second: haicaudem_108
+  - first:
+      213: 3623644714010139659
+    second: haicaudem_109
+  - first:
+      213: 3107921804569534768
+    second: haicaudem_110
+  - first:
+      213: -3963130768749151677
+    second: haicaudem_111
+  - first:
+      213: 4540705452996862626
+    second: haicaudem_112
+  - first:
+      213: 1541575949394720163
+    second: haicaudem_113
+  - first:
+      213: -3507560271511473564
+    second: haicaudem_114
+  - first:
+      213: -6078920769265315000
+    second: haicaudem_115
+  - first:
+      213: -2413067099499681130
+    second: haicaudem_116
+  - first:
+      213: -4204549128194961734
+    second: haicaudem_117
+  - first:
+      213: 2231217574952726282
+    second: haicaudem_118
+  - first:
+      213: 1243835938055940211
+    second: haicaudem_119
+  - first:
+      213: 8729933780449143493
+    second: haicaudem_120
+  - first:
+      213: -4371255583112863997
+    second: haicaudem_121
+  - first:
+      213: -2191334663607477234
+    second: haicaudem_122
+  - first:
+      213: 1432238115759546832
+    second: haicaudem_123
+  - first:
+      213: -6992095411989914693
+    second: haicaudem_124
+  - first:
+      213: -2281022239361699635
+    second: haicaudem_125
+  - first:
+      213: -5787405676364117807
+    second: haicaudem_126
+  - first:
+      213: -5319440503535426234
+    second: haicaudem_127
+  - first:
+      213: -8211319328828092694
+    second: haicaudem_128
+  - first:
+      213: 2659082191677199014
+    second: haicaudem_129
+  - first:
+      213: -427716334886582659
+    second: haicaudem_130
+  - first:
+      213: -688293154423492120
+    second: haicaudem_131
+  - first:
+      213: 4171438436940997077
+    second: haicaudem_132
+  - first:
+      213: 6118848790921206255
+    second: haicaudem_133
+  - first:
+      213: -5403970513306036202
+    second: haicaudem_134
+  - first:
+      213: 7168741635571163422
+    second: haicaudem_135
+  - first:
+      213: 4436797944370677128
+    second: haicaudem_136
+  - first:
+      213: -3835850777206867261
+    second: haicaudem_137
+  - first:
+      213: -7445378333027035183
+    second: haicaudem_138
+  - first:
+      213: 6661247578977687970
+    second: haicaudem_139
+  - first:
+      213: 7812692985910492913
+    second: haicaudem_140
+  - first:
+      213: -8393800310555555720
+    second: haicaudem_141
+  - first:
+      213: 8535532224750886345
+    second: haicaudem_142
+  - first:
+      213: -2026475330894528814
+    second: haicaudem_143
+  - first:
+      213: 5874784352786256795
+    second: haicaudem_144
+  - first:
+      213: -4118583571042139165
+    second: haicaudem_145
+  - first:
+      213: -409006343385302468
+    second: haicaudem_146
+  - first:
+      213: -8666057478806327680
+    second: haicaudem_147
+  - first:
+      213: 2959079528297078433
+    second: haicaudem_148
+  - first:
+      213: -1702641945359579889
+    second: haicaudem_149
+  - first:
+      213: -4153777476128449165
+    second: haicaudem_150
+  - first:
+      213: 3176862966316477429
+    second: haicaudem_151
+  - first:
+      213: 6067600106215530874
+    second: haicaudem_152
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: haicaudem_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 2003
+        height: 2206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8597a4aa369d410800000000000000
+      internalID: 1502341533749827798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_1
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1006
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db490fa2f4262d120800000000000000
+      internalID: 2437118440523207869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_2
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 979
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7674c157c276a30800000000000000
+      internalID: 4208381258298255305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_3
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 960
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940faab24869f9fd0800000000000000
+      internalID: -2332980587542155191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_4
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 940
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195b00e024a2c20a0800000000000000
+      internalID: -6905097665474677359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_5
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 922
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d617cada7ffba9030800000000000000
+      internalID: 3502322730725568877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_6
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 914
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4fc73fd0eecad60800000000000000
+      internalID: 7902953189815416022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_7
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 902
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7415ba2a4413d4150800000000000000
+      internalID: 5858392861135556935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_8
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 891
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ac18044665ec520800000000000000
+      internalID: 2724209813184694789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_9
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 878
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5a39f69404861c0800000000000000
+      internalID: -4510284342662814219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_10
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 875
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be63517e17f2109b0800000000000000
+      internalID: -5115755535461435669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_11
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 863
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1008f9453dbba15d0800000000000000
+      internalID: -3090951677904191487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_12
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 868
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecd07c358c4ef1c0800000000000000
+      internalID: -4468049645176562454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_13
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 847
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac060237c8ed3640800000000000000
+      internalID: 5061457498469698730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_14
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 849
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e40d7a0cb4ffcc40800000000000000
+      internalID: 5534911555528623329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_15
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 836
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0259491eced7d60800000000000000
+      internalID: 7889722575827575015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_16
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 832
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563cc79c92021d8d0800000000000000
+      internalID: -2823440127538445467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_17
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 832
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499bb24168f0315a0800000000000000
+      internalID: -6551875964355495532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_18
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 816
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be68456cd465be420800000000000000
+      internalID: 2660314896932308715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_19
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 809
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc42094a5a2600b0800000000000000
+      internalID: -5762872105913660172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_20
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 813
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac327731fd39d330800000000000000
+      internalID: 3736085472107183270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_21
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 792
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49271200564426730800000000000000
+      internalID: 3990827420388258452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_22
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 800
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6744aa0dbe1dc8020800000000000000
+      internalID: 2345480316701525110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_23
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 778
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c56ca38e85a79f0800000000000000
+      internalID: -469965456665060270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_24
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 784
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78605374d6457c780800000000000000
+      internalID: -8662862529901033849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_25
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 786
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0de37b24ea8f310800000000000000
+      internalID: 1439091682510295267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_26
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 765
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a836dc914c8a8530800000000000000
+      internalID: 3858050244228298916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_27
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 763
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e8aad21271c86d0800000000000000
+      internalID: -2986987021585969528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_28
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 767
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8929d2e923c0c6a10800000000000000
+      internalID: 1903910154012562072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_29
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 748
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdb613b888aaf700800000000000000
+      internalID: 574957207516790203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_30
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 756
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef720f7be73095a00800000000000000
+      internalID: 745631056093259774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_31
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 740
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4450264728e75940800000000000000
+      internalID: 5284947943120458827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_32
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 742
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23e12ce809ee5010800000000000000
+      internalID: 1179636376948302635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_33
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 738
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22969c366e32886c0800000000000000
+      internalID: -4141020384943576798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_34
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 728
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34f226e1918fb540800000000000000
+      internalID: 5025878172800054335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_35
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 731
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d470982eaf99f0750800000000000000
+      internalID: 6273402108771895117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_36
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 727
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941e14a9de5b627e0800000000000000
+      internalID: -1790543769733308087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_37
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 721
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba8eb6d6885c7a00800000000000000
+      internalID: 755576173643074234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_38
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 713
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5f6e8fcb0b3ca60800000000000000
+      internalID: 7693186914155165096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_39
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 706
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13ed4246c009db40800000000000000
+      internalID: 5465400474306732831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_40
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 710
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1056aab2bed6c6830800000000000000
+      internalID: 4065745420426044673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_41
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 706
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c359ee05fa9401d0800000000000000
+      internalID: -3385410642567932992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_42
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 690
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73cd2cfd674fd70d0800000000000000
+      internalID: -3423311350334301129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_43
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 696
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d4d77bc38940a00800000000000000
+      internalID: 721869226830024004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_44
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 689
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3204d5bf24ac5e0800000000000000
+      internalID: -1888623446359792711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_45
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 691
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7cdc2a27b476c80800000000000000
+      internalID: -8329606030068693081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_46
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 687
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370b1d00f819720b0800000000000000
+      internalID: -5753469955562426253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_47
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 673
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fba6e5bd04641ec0800000000000000
+      internalID: -3597140192313037839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_48
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 678
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9de17cc2f219c3d0800000000000000
+      internalID: -3185994427366511205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_49
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 679
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0dfc61473ad65850800000000000000
+      internalID: 6365515054190492941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_50
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 663
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a9bcbfea33990e0800000000000000
+      internalID: -2262720511135212975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_51
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 660
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45256ea88954e6da0800000000000000
+      internalID: -5949741536242150828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_52
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 661
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e2e04636cc83bd0800000000000000
+      internalID: -2650143653455057283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_53
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 665
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cca5c3965c71920800000000000000
+      internalID: 2961052335794211934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_54
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 665
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191386b6c3c14e790800000000000000
+      internalID: -7501840033466797679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_55
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 669
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c2d0a43562b5dc0800000000000000
+      internalID: -3649280933887136735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_56
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 647
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74fb5d9cffc477d0800000000000000
+      internalID: -2921481574377851780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_57
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 650
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c37f4fd49194080800000000000000
+      internalID: -9202796540941878271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_58
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 647
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729a19ef9f116f8a0800000000000000
+      internalID: -6271805665651349209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_59
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 650
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0df3ba2241283a0800000000000000
+      internalID: -6664742359420383049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_60
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 653
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfb215d9ddf60020800000000000000
+      internalID: 2307810971098464202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_61
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 637
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccbfb7e623b597c0800000000000000
+      internalID: -4065146108953772856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_62
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 644
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ff051d0f56743e0800000000000000
+      internalID: -2069573418775150771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_63
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 635
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b664a7bba606590800000000000000
+      internalID: -7683023610851202166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_64
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 625
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e3653a325a56580800000000000000
+      internalID: -8834473521534583148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_65
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 609
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd1b2963ca88dad0800000000000000
+      internalID: -2677237406584070667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_66
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 618
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23c7c948797a5b70800000000000000
+      internalID: 8888550372109959983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_67
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 620
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8753ea03bbe2a7870800000000000000
+      internalID: 8681302613220537720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_68
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 620
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87560b6229eddcdd0800000000000000
+      internalID: -2464068701806107272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_69
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 621
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03971f04f4780b590800000000000000
+      internalID: -7660474191695480528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_70
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 617
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae57e76c69834cf0800000000000000
+      internalID: -269220454019408218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_71
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 598
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6affa2b4c94dbe210800000000000000
+      internalID: 1363417079950802854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_72
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 597
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df35269a8ba904870800000000000000
+      internalID: 8665095800967287805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_73
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 601
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6cd4c0bb806e5c0800000000000000
+      internalID: -4186649204135967032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_74
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 598
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ea9da3696478490800000000000000
+      internalID: -7744143423193895289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_75
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 602
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e898dac4294b8330800000000000000
+      internalID: 3714142740067948774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_76
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 596
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4319dd91365626b0800000000000000
+      internalID: -5321471138590026931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_77
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 575
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea8e5d71ddc55240800000000000000
+      internalID: 4779952879158856421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_78
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 579
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c4919e1c0984a40800000000000000
+      internalID: 5352687319643671681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_79
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 582
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e00cf7e502b8370800000000000000
+      internalID: 8325783926366801463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_80
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 571
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ea47833fb51f780800000000000000
+      internalID: -8651032309019660772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_81
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 565
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec9b39886ac42980800000000000000
+      internalID: -8564498041024045849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_82
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 556
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd57bee70c5d18370800000000000000
+      internalID: 8323168609097184732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_83
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 557
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db37620f9a90b1170800000000000000
+      internalID: 8150118576140219325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_84
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 561
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9e688cf36558370800000000000000
+      internalID: 8324154318211443169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_85
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 560
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5753961022570ae70800000000000000
+      internalID: 9124421633965634933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_86
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 559
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37ed269e514da3e0800000000000000
+      internalID: -2040903181626644677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_87
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 537
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e98c962778d18150800000000000000
+      internalID: 5873213395328338400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_88
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 546
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f39f006f6b621f0800000000000000
+      internalID: -1069966693759369406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_89
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 537
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759c98974742dbb90800000000000000
+      internalID: -7224578144558528169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_90
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 546
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784db7c41348bef30800000000000000
+      internalID: 4605920391187911815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_91
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 542
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec98e3adbc7283f0800000000000000
+      internalID: -900019821580083994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_92
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 543
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c422c3979964a90800000000000000
+      internalID: -7330002597519930266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_93
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 527
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72434ee44920962b0800000000000000
+      internalID: -5590934626401766361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_94
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 527
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e53b357cb89e54f0800000000000000
+      internalID: -838064545456245271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_95
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 534
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be26152aaaa85d540800000000000000
+      internalID: 5032080624128713451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_96
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 517
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2439149184c8740800000000000000
+      internalID: 5155574946743927538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_97
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 516
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1267b753549de5690800000000000000
+      internalID: -7611407428936305119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_98
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 519
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cad0b4b0fdc12a0800000000000000
+      internalID: -6765287300620506072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_99
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 519
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e87554058c54ed70800000000000000
+      internalID: 9071477275804137697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_100
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 519
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ffe0b76cba8d170800000000000000
+      internalID: 8203495590211813271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_101
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 520
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854356e03eec98a40800000000000000
+      internalID: 5371051505210438744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_102
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 507
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2f3ab75f00254d0800000000000000
+      internalID: -3147452135237225774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_103
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 506
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d65f4076f3f5e2f0800000000000000
+      internalID: -944080307092498728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_104
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 503
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b06aafdee6f1750800000000000000
+      internalID: 6277858373969251096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_105
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 491
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e0d9f65dca7de60800000000000000
+      internalID: 7987042496865439379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_106
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 498
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f611ca5807ad3370800000000000000
+      internalID: 8303976942265243385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_107
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 489
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b9f2ad5a24d5a20800000000000000
+      internalID: 3052669402524654419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_108
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 496
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdacb30be41f0560800000000000000
+      internalID: 7282062122093948359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_109
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 494
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cdbc22ba5c94230800000000000000
+      internalID: 3623644714010139659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_110
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 481
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031ee0f2a6e812b20800000000000000
+      internalID: 3107921804569534768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_111
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 487
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a394a30912009c0800000000000000
+      internalID: -3963130768749151677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_112
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 479
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2ae834d83d30f30800000000000000
+      internalID: 4540705452996862626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_113
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 472
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a535f98827c46510800000000000000
+      internalID: 1541575949394720163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_114
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 463
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46239445484a25fc0800000000000000
+      internalID: -3507560271511473564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_115
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 473
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843523294c553aba0800000000000000
+      internalID: -6078920769265315000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_116
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 474
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69aa32b0240138ed0800000000000000
+      internalID: -2413067099499681130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_117
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 458
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abec24538d076a5c0800000000000000
+      internalID: -4204549128194961734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_118
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 457
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f6aab1090e6fe10800000000000000
+      internalID: 2231217574952726282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_119
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 443
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37860be023ef24110800000000000000
+      internalID: 1243835938055940211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_120
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 438
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5caaa582584f62970800000000000000
+      internalID: 8729933780449143493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_121
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 443
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f5d12053e2653c0800000000000000
+      internalID: -4371255583112863997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_122
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 422
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c1dafcbb0d691e0800000000000000
+      internalID: -2191334663607477234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_123
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 412
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d16f9b5af450e310800000000000000
+      internalID: 1432238115759546832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_124
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 422
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbd3bcb44617fe90800000000000000
+      internalID: -6992095411989914693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_125
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 412
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc07412db5e2850e0800000000000000
+      internalID: -2281022239361699635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_126
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 404
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8cc3943310fafa0800000000000000
+      internalID: -5787405676364117807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_127
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 406
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64522feab0d8d26b0800000000000000
+      internalID: -5319440503535426234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_128
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 392
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee07eb63988b0e80800000000000000
+      internalID: -8211319328828092694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_129
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 383
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a29c773a25f6e420800000000000000
+      internalID: 2659082191677199014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_130
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 392
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7604727242701af0800000000000000
+      internalID: -427716334886582659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_131
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 372
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e13145d501b276f0800000000000000
+      internalID: -688293154423492120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_132
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 367
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1674c382de3e930800000000000000
+      internalID: 4171438436940997077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_133
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 373
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9df296e848ae450800000000000000
+      internalID: 6118848790921206255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_134
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 347
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61855b9137d3105b0800000000000000
+      internalID: -5403970513306036202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_135
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 342
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11a5c2398c7c7360800000000000000
+      internalID: 7168741635571163422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_136
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 346
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885c566293ca29d30800000000000000
+      internalID: 4436797944370677128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_137
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 324
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cabd259a0254cac0800000000000000
+      internalID: -3835850777206867261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_138
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 324
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d798897ad3bca890800000000000000
+      internalID: -7445378333027035183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_139
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 308
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a955e95161817c50800000000000000
+      internalID: 6661247578977687970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_140
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 293
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe716490e24c6c60800000000000000
+      internalID: 7812692985910492913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_141
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 283
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878c5cdf61b338b80800000000000000
+      internalID: -8393800310555555720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_142
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 24
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd1d21d55d447670800000000000000
+      internalID: 8535532224750886345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_143
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 24
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de70fb5c6380e3e0800000000000000
+      internalID: -2026475330894528814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_144
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 24
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9319df2e3d678150800000000000000
+      internalID: 5874784352786256795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_145
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 21
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e30646301ad7d6c0800000000000000
+      internalID: -4118583571042139165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_146
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 13
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a33afc5eae25af0800000000000000
+      internalID: -409006343385302468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_147
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 16
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ea1a443aafbb780800000000000000
+      internalID: -8666057478806327680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_148
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 11
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae17423723c01920800000000000000
+      internalID: 2959079528297078433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_149
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 15
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f058923fb200f58e0800000000000000
+      internalID: -1702641945359579889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_150
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 9
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d5853a461da56c0800000000000000
+      internalID: -4153777476128449165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_151
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 3
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb236f390c761c20800000000000000
+      internalID: 3176862966316477429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haicaudem_152
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71691a2622743450800000000000000
+      internalID: 6067600106215530874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      haicaudem_0: 1502341533749827798
+      haicaudem_1: 2437118440523207869
+      haicaudem_10: -5115755535461435669
+      haicaudem_100: 8203495590211813271
+      haicaudem_101: 5371051505210438744
+      haicaudem_102: -3147452135237225774
+      haicaudem_103: -944080307092498728
+      haicaudem_104: 6277858373969251096
+      haicaudem_105: 7987042496865439379
+      haicaudem_106: 8303976942265243385
+      haicaudem_107: 3052669402524654419
+      haicaudem_108: 7282062122093948359
+      haicaudem_109: 3623644714010139659
+      haicaudem_11: -3090951677904191487
+      haicaudem_110: 3107921804569534768
+      haicaudem_111: -3963130768749151677
+      haicaudem_112: 4540705452996862626
+      haicaudem_113: 1541575949394720163
+      haicaudem_114: -3507560271511473564
+      haicaudem_115: -6078920769265315000
+      haicaudem_116: -2413067099499681130
+      haicaudem_117: -4204549128194961734
+      haicaudem_118: 2231217574952726282
+      haicaudem_119: 1243835938055940211
+      haicaudem_12: -4468049645176562454
+      haicaudem_120: 8729933780449143493
+      haicaudem_121: -4371255583112863997
+      haicaudem_122: -2191334663607477234
+      haicaudem_123: 1432238115759546832
+      haicaudem_124: -6992095411989914693
+      haicaudem_125: -2281022239361699635
+      haicaudem_126: -5787405676364117807
+      haicaudem_127: -5319440503535426234
+      haicaudem_128: -8211319328828092694
+      haicaudem_129: 2659082191677199014
+      haicaudem_13: 5061457498469698730
+      haicaudem_130: -427716334886582659
+      haicaudem_131: -688293154423492120
+      haicaudem_132: 4171438436940997077
+      haicaudem_133: 6118848790921206255
+      haicaudem_134: -5403970513306036202
+      haicaudem_135: 7168741635571163422
+      haicaudem_136: 4436797944370677128
+      haicaudem_137: -3835850777206867261
+      haicaudem_138: -7445378333027035183
+      haicaudem_139: 6661247578977687970
+      haicaudem_14: 5534911555528623329
+      haicaudem_140: 7812692985910492913
+      haicaudem_141: -8393800310555555720
+      haicaudem_142: 8535532224750886345
+      haicaudem_143: -2026475330894528814
+      haicaudem_144: 5874784352786256795
+      haicaudem_145: -4118583571042139165
+      haicaudem_146: -409006343385302468
+      haicaudem_147: -8666057478806327680
+      haicaudem_148: 2959079528297078433
+      haicaudem_149: -1702641945359579889
+      haicaudem_15: 7889722575827575015
+      haicaudem_150: -4153777476128449165
+      haicaudem_151: 3176862966316477429
+      haicaudem_152: 6067600106215530874
+      haicaudem_16: -2823440127538445467
+      haicaudem_17: -6551875964355495532
+      haicaudem_18: 2660314896932308715
+      haicaudem_19: -5762872105913660172
+      haicaudem_2: 4208381258298255305
+      haicaudem_20: 3736085472107183270
+      haicaudem_21: 3990827420388258452
+      haicaudem_22: 2345480316701525110
+      haicaudem_23: -469965456665060270
+      haicaudem_24: -8662862529901033849
+      haicaudem_25: 1439091682510295267
+      haicaudem_26: 3858050244228298916
+      haicaudem_27: -2986987021585969528
+      haicaudem_28: 1903910154012562072
+      haicaudem_29: 574957207516790203
+      haicaudem_3: -2332980587542155191
+      haicaudem_30: 745631056093259774
+      haicaudem_31: 5284947943120458827
+      haicaudem_32: 1179636376948302635
+      haicaudem_33: -4141020384943576798
+      haicaudem_34: 5025878172800054335
+      haicaudem_35: 6273402108771895117
+      haicaudem_36: -1790543769733308087
+      haicaudem_37: 755576173643074234
+      haicaudem_38: 7693186914155165096
+      haicaudem_39: 5465400474306732831
+      haicaudem_4: -6905097665474677359
+      haicaudem_40: 4065745420426044673
+      haicaudem_41: -3385410642567932992
+      haicaudem_42: -3423311350334301129
+      haicaudem_43: 721869226830024004
+      haicaudem_44: -1888623446359792711
+      haicaudem_45: -8329606030068693081
+      haicaudem_46: -5753469955562426253
+      haicaudem_47: -3597140192313037839
+      haicaudem_48: -3185994427366511205
+      haicaudem_49: 6365515054190492941
+      haicaudem_5: 3502322730725568877
+      haicaudem_50: -2262720511135212975
+      haicaudem_51: -5949741536242150828
+      haicaudem_52: -2650143653455057283
+      haicaudem_53: 2961052335794211934
+      haicaudem_54: -7501840033466797679
+      haicaudem_55: -3649280933887136735
+      haicaudem_56: -2921481574377851780
+      haicaudem_57: -9202796540941878271
+      haicaudem_58: -6271805665651349209
+      haicaudem_59: -6664742359420383049
+      haicaudem_6: 7902953189815416022
+      haicaudem_60: 2307810971098464202
+      haicaudem_61: -4065146108953772856
+      haicaudem_62: -2069573418775150771
+      haicaudem_63: -7683023610851202166
+      haicaudem_64: -8834473521534583148
+      haicaudem_65: -2677237406584070667
+      haicaudem_66: 8888550372109959983
+      haicaudem_67: 8681302613220537720
+      haicaudem_68: -2464068701806107272
+      haicaudem_69: -7660474191695480528
+      haicaudem_7: 5858392861135556935
+      haicaudem_70: -269220454019408218
+      haicaudem_71: 1363417079950802854
+      haicaudem_72: 8665095800967287805
+      haicaudem_73: -4186649204135967032
+      haicaudem_74: -7744143423193895289
+      haicaudem_75: 3714142740067948774
+      haicaudem_76: -5321471138590026931
+      haicaudem_77: 4779952879158856421
+      haicaudem_78: 5352687319643671681
+      haicaudem_79: 8325783926366801463
+      haicaudem_8: 2724209813184694789
+      haicaudem_80: -8651032309019660772
+      haicaudem_81: -8564498041024045849
+      haicaudem_82: 8323168609097184732
+      haicaudem_83: 8150118576140219325
+      haicaudem_84: 8324154318211443169
+      haicaudem_85: 9124421633965634933
+      haicaudem_86: -2040903181626644677
+      haicaudem_87: 5873213395328338400
+      haicaudem_88: -1069966693759369406
+      haicaudem_89: -7224578144558528169
+      haicaudem_9: -4510284342662814219
+      haicaudem_90: 4605920391187911815
+      haicaudem_91: -900019821580083994
+      haicaudem_92: -7330002597519930266
+      haicaudem_93: -5590934626401766361
+      haicaudem_94: -838064545456245271
+      haicaudem_95: 5032080624128713451
+      haicaudem_96: 5155574946743927538
+      haicaudem_97: -7611407428936305119
+      haicaudem_98: -6765287300620506072
+      haicaudem_99: 9071477275804137697
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

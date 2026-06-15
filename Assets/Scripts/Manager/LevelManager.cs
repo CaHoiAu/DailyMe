@@ -66,6 +66,9 @@ public class LevelManager : MonoBehaviour
                 currentManager = dressUpMNGameManager;
                 dressUpMNGameManager.gameObject.SetActive(true);
                 break;
+            case MiniLevelType.CutsceneOnly:
+                currentManager = null;
+                break;
             default:
                 Debug.LogError("Unsupported mini-game type: " + miniLevel.miniLevelType);
                 return;
@@ -81,6 +84,9 @@ public class LevelManager : MonoBehaviour
         FindObjectOfType<VerifyButtonController>()?.ResetAll();
         foreach (var seq in chatSequences)
             seq.ResumeFromLevelBreak();
+        // ✅ Mini level chỉ có cutscene → tự động chuyển tiếp, không có gameplay
+        if (miniLevel.miniLevelType == MiniLevelType.CutsceneOnly)
+            NextMiniGame();
     }
     private void LoadChatSequences(ChatSequenceData[] sequenceDatas)
     {

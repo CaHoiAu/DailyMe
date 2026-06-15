@@ -18,8 +18,8 @@ MonoBehaviour:
     ki\u1EC7m \u0111i\u1EC7n th\xF4i..."
   - "H\xF4m qua ng\u1EE7 ngon qu\xE1 gi\u01B0\u1EDDng nh\u01B0 b\xE3i chi\u1EBFn
     tr\u01B0\u1EDDng lu\xF4n... Gi\xFAp m\xECnh x\u1EBFp l\u1EA1i v\u1EDBi nha hehe"
-  - "B\u1EA1n g\u1EA5u to nh\u1EA5t \u0111\u1EC3 ch\u1ED7 n\xE0o m\xE0 d\u1EF1a v\xE0o
-    \u0111\u01B0\u1EE3c \u1EA5y"
+  - "D\u1EF1ng b\u1EA1n g\u1EA5u to l\xEAn r\u1ED3i \u0111\u1EC3 ch\u1ED7 n\xE0o
+    m\xE0 d\u1EF1a v\xE0o \u0111\u01B0\u1EE3c \u1EA5y"
   - "G\u1ED1i th\xEC ph\u1EA3i \u0111\u1EB7t \u1EDF gi\u1EEFa n\xE8."
   - "Con c\u1EE7a b\u1EA1n g\u1EA5u ph\u1EA3i \u1EDF c\xF9ng v\u1EDBi b\u1EA1n g\u1EA5u
     l\u1EDBn n\xE8."
@@ -97,6 +97,6 @@ MonoBehaviour:
     excludeFromUnlock:
     - bautroi
     - denngu
-    isLevelBreak: 1
-    levelBreakNote: /////
+    isLevelBreak: 0
+    levelBreakNote: 
   miniLevelData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}

@@ -317,6 +317,12 @@ MonoBehaviour:
   - objectIdA: aosomi
     direction: 3
     objectIdB: dobo
+  - objectIdA: aosomi
+    direction: 1
+    objectIdB: aophong
+  - objectIdA: balo
+    direction: 3
+    objectIdB: aosomi
   belowAdjacentConstraints: []
   useDropTargets: 0
   dropTargets: []

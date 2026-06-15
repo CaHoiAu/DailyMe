@@ -15,6 +15,7 @@ public enum MiniLevelType
 {
     Arrange,
     DressUp,
+    CutsceneOnly,
 }
 [System.Serializable]
 public class ObjectData

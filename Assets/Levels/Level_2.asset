@@ -16,8 +16,41 @@ MonoBehaviour:
   dayOfWeek: 2
   miniGames:
   - miniLevelType: 0
-    miniGameData: {fileID: 11400000, guid: fd7358daeba4fb44ea527712315e5c95, type: 2}
+    miniGameData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}
+    contactSequences: []
+    cutscene:
+      background: {fileID: 0}
+      character: {fileID: 0}
+      characterPrefab: {fileID: 0}
+      animationTrigger: 
+      characterPosition: {x: 0, y: 0}
+      duration: 2
+      slidingBackground: {fileID: 0}
+      slideStartPosition: {x: 0, y: 0}
+      slideEndPosition: {x: 0, y: 0}
   - miniLevelType: 0
     miniGameData: {fileID: 11400000, guid: 2ba5417d5840ad248ab7cd44d2f40f30, type: 2}
+    contactSequences: []
+    cutscene:
+      background: {fileID: 0}
+      character: {fileID: 0}
+      characterPrefab: {fileID: 0}
+      animationTrigger: 
+      characterPosition: {x: 0, y: 0}
+      duration: 2
+      slidingBackground: {fileID: 0}
+      slideStartPosition: {x: 0, y: 0}
+      slideEndPosition: {x: 0, y: 0}
   - miniLevelType: 1
     miniGameData: {fileID: 11400000, guid: 38a185949aa1d1a40b83b00d6f96784a, type: 2}
+    contactSequences: []
+    cutscene:
+      background: {fileID: 0}
+      character: {fileID: 0}
+      characterPrefab: {fileID: 0}
+      animationTrigger: 
+      characterPosition: {x: 0, y: 0}
+      duration: 2
+      slidingBackground: {fileID: 0}
+      slideStartPosition: {x: 0, y: 0}
+      slideEndPosition: {x: 0, y: 0}

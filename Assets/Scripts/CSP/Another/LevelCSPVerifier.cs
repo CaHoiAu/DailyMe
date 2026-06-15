@@ -440,6 +440,7 @@ public class LevelCSPVerifier : MonoBehaviour
 
             GridDragObject drag = tempObj.AddComponent<GridDragObject>();
             drag.objectId = objData.objectId;
+            drag.forbiddenCells = objData.forbiddenCells;
 
             // ✅ Copy toàn bộ states từ data
             if (objData.states != null && objData.states.Length > 0)

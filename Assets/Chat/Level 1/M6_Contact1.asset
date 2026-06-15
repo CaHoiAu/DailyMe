@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b39311fbfb4ea4698e105ca3d46e2d, type: 3}
+  m_Name: M6_Contact1
+  m_EditorClassIdentifier: 
+  messages:
+  - "Huhu gi\xFAp C\xE1 H\u1ED3i \xC2u \u0111\u1EEBng \u0111\u1EC3 b\u1ECB m\u1EB9
+    la n\u1EEFa nha T^T. N\u1EBFu ko r\xF5 ng\u0103n n\xE0o \u0111\u1EC3 c\xE1i g\xEC
+    th\xEC \"check\" \xE1o qu\u1EA7n c\u1EE7a ng\u0103n \u0111\xF3 l\xE0 lo\u1EA1i
+    g\xEC nha!"
+  conditions: []
+  miniLevelData: {fileID: 11400000, guid: da96b1297b907b841b8c99a9d6006535, type: 2}

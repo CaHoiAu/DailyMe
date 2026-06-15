@@ -1,0 +1,2535 @@
+fileFormatVersion: 2
+guid: 0530a760ded366843bf504042dfacbf1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3553176102989927269
+    second: chandem3_0
+  - first:
+      213: -5463830546683451812
+    second: chandem3_1
+  - first:
+      213: 8973450242590508663
+    second: chandem3_2
+  - first:
+      213: -8846655715317827318
+    second: chandem3_3
+  - first:
+      213: 8029418389167492570
+    second: chandem3_4
+  - first:
+      213: 1101641737232634343
+    second: chandem3_5
+  - first:
+      213: -5949039068237235723
+    second: chandem3_6
+  - first:
+      213: 2240017155207703116
+    second: chandem3_7
+  - first:
+      213: 4562879597654099640
+    second: chandem3_8
+  - first:
+      213: -721281203268504557
+    second: chandem3_9
+  - first:
+      213: -8785898791219747712
+    second: chandem3_10
+  - first:
+      213: 5333089947650862892
+    second: chandem3_11
+  - first:
+      213: 5417650074095960569
+    second: chandem3_12
+  - first:
+      213: 7722635810687186347
+    second: chandem3_13
+  - first:
+      213: 4560743996623957343
+    second: chandem3_14
+  - first:
+      213: 6854583856843412215
+    second: chandem3_15
+  - first:
+      213: 7496035386856726225
+    second: chandem3_16
+  - first:
+      213: 4009602451118753176
+    second: chandem3_17
+  - first:
+      213: 644353033022560278
+    second: chandem3_18
+  - first:
+      213: 8202577041576257291
+    second: chandem3_19
+  - first:
+      213: 5501705637504201281
+    second: chandem3_20
+  - first:
+      213: 3396822857491696292
+    second: chandem3_21
+  - first:
+      213: -3102167837099457531
+    second: chandem3_22
+  - first:
+      213: 899725699977669486
+    second: chandem3_23
+  - first:
+      213: -2878377689643146801
+    second: chandem3_24
+  - first:
+      213: -4148026272016726060
+    second: chandem3_25
+  - first:
+      213: 6518148005953611670
+    second: chandem3_26
+  - first:
+      213: 8104076473143062592
+    second: chandem3_27
+  - first:
+      213: 8072068407128786738
+    second: chandem3_28
+  - first:
+      213: 5763171089066970140
+    second: chandem3_29
+  - first:
+      213: 7355839661850338462
+    second: chandem3_30
+  - first:
+      213: -3909320975787171294
+    second: chandem3_31
+  - first:
+      213: -2750898526215466663
+    second: chandem3_32
+  - first:
+      213: 7675613697031831806
+    second: chandem3_33
+  - first:
+      213: -5273119642413420260
+    second: chandem3_34
+  - first:
+      213: 9153615411060824676
+    second: chandem3_35
+  - first:
+      213: -1730636018763109792
+    second: chandem3_36
+  - first:
+      213: 4374805837118717908
+    second: chandem3_37
+  - first:
+      213: -555843708649404643
+    second: chandem3_38
+  - first:
+      213: 6051696700005876397
+    second: chandem3_39
+  - first:
+      213: -9042318327988422376
+    second: chandem3_40
+  - first:
+      213: 1788715375091980902
+    second: chandem3_41
+  - first:
+      213: 4100385595031431969
+    second: chandem3_42
+  - first:
+      213: 8295396060005101152
+    second: chandem3_43
+  - first:
+      213: -2331613036093306283
+    second: chandem3_44
+  - first:
+      213: -4756035097497536293
+    second: chandem3_45
+  - first:
+      213: -3560683290182010064
+    second: chandem3_46
+  - first:
+      213: -8879335376598063150
+    second: chandem3_47
+  - first:
+      213: -2361589859933712800
+    second: chandem3_48
+  - first:
+      213: 7173682617137302732
+    second: chandem3_49
+  - first:
+      213: -2189145904784630508
+    second: chandem3_50
+  - first:
+      213: 8547299336658071907
+    second: chandem3_51
+  - first:
+      213: -7050051333116927238
+    second: chandem3_52
+  - first:
+      213: 8321796299350414692
+    second: chandem3_53
+  - first:
+      213: 7585287924156827349
+    second: chandem3_54
+  - first:
+      213: -4010881362296289578
+    second: chandem3_55
+  - first:
+      213: 1478559575929511926
+    second: chandem3_56
+  - first:
+      213: -8019888561939192325
+    second: chandem3_57
+  - first:
+      213: -2760977647649966045
+    second: chandem3_58
+  - first:
+      213: 1894852595481646599
+    second: chandem3_59
+  - first:
+      213: -8684124510975145663
+    second: chandem3_60
+  - first:
+      213: -4647301987284328186
+    second: chandem3_61
+  - first:
+      213: 3887606102455802789
+    second: chandem3_62
+  - first:
+      213: 86376808389716302
+    second: chandem3_63
+  - first:
+      213: 3451251188207304488
+    second: chandem3_64
+  - first:
+      213: -1800508639485075358
+    second: chandem3_65
+  - first:
+      213: -976347246708247717
+    second: chandem3_66
+  - first:
+      213: 4875667761134049324
+    second: chandem3_67
+  - first:
+      213: -4236365333787755064
+    second: chandem3_68
+  - first:
+      213: 1905072808153851689
+    second: chandem3_69
+  - first:
+      213: 7172858514763026894
+    second: chandem3_70
+  - first:
+      213: -2610542336202125237
+    second: chandem3_71
+  - first:
+      213: 5475708079984422092
+    second: chandem3_72
+  - first:
+      213: -3762888248812972976
+    second: chandem3_73
+  - first:
+      213: 2688593056675728365
+    second: chandem3_74
+  - first:
+      213: -8172117791511158030
+    second: chandem3_75
+  - first:
+      213: 953623841216717853
+    second: chandem3_76
+  - first:
+      213: 8256701076451164219
+    second: chandem3_77
+  - first:
+      213: 8185370155875892318
+    second: chandem3_78
+  - first:
+      213: -6943564859955190763
+    second: chandem3_79
+  - first:
+      213: 6607793723288295529
+    second: chandem3_80
+  - first:
+      213: -4726786642111608907
+    second: chandem3_81
+  - first:
+      213: 8384821113516010405
+    second: chandem3_82
+  - first:
+      213: -7759057779642469252
+    second: chandem3_83
+  - first:
+      213: 2738311825989011836
+    second: chandem3_84
+  - first:
+      213: -222586971759568366
+    second: chandem3_85
+  - first:
+      213: 9218684886035386712
+    second: chandem3_86
+  - first:
+      213: 2892150241683937019
+    second: chandem3_87
+  - first:
+      213: 1723956452178339332
+    second: chandem3_88
+  - first:
+      213: -2106448817935316898
+    second: chandem3_89
+  - first:
+      213: -283330140012884964
+    second: chandem3_90
+  - first:
+      213: -6173192803145127679
+    second: chandem3_91
+  - first:
+      213: 5627940265138397935
+    second: chandem3_92
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.50418264, y: 0.36335844}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chandem3_0
+      rect:
+        serializedVersion: 2
+        x: 4684
+        y: 9383
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5631f1317da6f4130800000000000000
+      internalID: 3553176102989927269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_1
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 9386
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56210001139c24b0800000000000000
+      internalID: -5463830546683451812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_2
+      rect:
+        serializedVersion: 2
+        x: 4679
+        y: 9367
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7760047c379188c70800000000000000
+      internalID: 8973450242590508663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_3
+      rect:
+        serializedVersion: 2
+        x: 4698
+        y: 9374
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a093d4e9f7d5a3580800000000000000
+      internalID: -8846655715317827318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_4
+      rect:
+        serializedVersion: 2
+        x: 4749
+        y: 9374
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add4157bb793e6f60800000000000000
+      internalID: 8029418389167492570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_5
+      rect:
+        serializedVersion: 2
+        x: 4695
+        y: 9361
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1de71c251d94f00800000000000000
+      internalID: 1101641737232634343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_6
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 9355
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f97cce9c74c07da0800000000000000
+      internalID: -5949039068237235723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_7
+      rect:
+        serializedVersion: 2
+        x: 4745
+        y: 9358
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4aafea0cb3261f10800000000000000
+      internalID: 2240017155207703116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_8
+      rect:
+        serializedVersion: 2
+        x: 4775
+        y: 9360
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6cc03a1da925f30800000000000000
+      internalID: 4562879597654099640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_9
+      rect:
+        serializedVersion: 2
+        x: 4806
+        y: 9359
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314b300319e7df5f0800000000000000
+      internalID: -721281203268504557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_10
+      rect:
+        serializedVersion: 2
+        x: 4823
+        y: 9356
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08420dc5997321680800000000000000
+      internalID: -8785898791219747712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_11
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 9356
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fafec2d01f20a40800000000000000
+      internalID: 5333089947650862892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_12
+      rect:
+        serializedVersion: 2
+        x: 4682
+        y: 9347
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1cbd7d90c5f2b40800000000000000
+      internalID: 5417650074095960569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_13
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 9340
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba578b18a505c2b60800000000000000
+      internalID: 7722635810687186347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_14
+      rect:
+        serializedVersion: 2
+        x: 4758
+        y: 9344
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d244640840b4f30800000000000000
+      internalID: 4560743996623957343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_15
+      rect:
+        serializedVersion: 2
+        x: 4786
+        y: 9337
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2574e53bf502f50800000000000000
+      internalID: 6854583856843412215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_16
+      rect:
+        serializedVersion: 2
+        x: 4841
+        y: 9346
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de5a59f774470860800000000000000
+      internalID: 7496035386856726225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_17
+      rect:
+        serializedVersion: 2
+        x: 4959
+        y: 9342
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895087d7f28f4a730800000000000000
+      internalID: 4009602451118753176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_18
+      rect:
+        serializedVersion: 2
+        x: 4669
+        y: 9334
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618514b6ba331f800800000000000000
+      internalID: 644353033022560278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_19
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 9329
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b076de53c5865d170800000000000000
+      internalID: 8202577041576257291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_20
+      rect:
+        serializedVersion: 2
+        x: 4857
+        y: 9329
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142b336c02cf95c40800000000000000
+      internalID: 5501705637504201281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_21
+      rect:
+        serializedVersion: 2
+        x: 4880
+        y: 9328
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa48b94460f32f20800000000000000
+      internalID: 3396822857491696292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_22
+      rect:
+        serializedVersion: 2
+        x: 4908
+        y: 9339
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5048b04c9c2e2f4d0800000000000000
+      internalID: -3102167837099457531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_23
+      rect:
+        serializedVersion: 2
+        x: 4926
+        y: 9335
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b6576d1c77c7c00800000000000000
+      internalID: 899725699977669486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_24
+      rect:
+        serializedVersion: 2
+        x: 4999
+        y: 9332
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc12967ddb2fd08d0800000000000000
+      internalID: -2878377689643146801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_25
+      rect:
+        serializedVersion: 2
+        x: 4682
+        y: 9319
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7847135104f66c0800000000000000
+      internalID: -4148026272016726060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_26
+      rect:
+        serializedVersion: 2
+        x: 4694
+        y: 9322
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6972948a31d157a50800000000000000
+      internalID: 6518148005953611670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_27
+      rect:
+        serializedVersion: 2
+        x: 4721
+        y: 9321
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040fa467d96777070800000000000000
+      internalID: 8104076473143062592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_28
+      rect:
+        serializedVersion: 2
+        x: 4737
+        y: 9321
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2378099d27fb50070800000000000000
+      internalID: 8072068407128786738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_29
+      rect:
+        serializedVersion: 2
+        x: 4745
+        y: 9306
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c43a72295eaff40800000000000000
+      internalID: 5763171089066970140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_30
+      rect:
+        serializedVersion: 2
+        x: 4769
+        y: 9321
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94a1551331351660800000000000000
+      internalID: 7355839661850338462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_31
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 9327
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222e835f84d4fb9c0800000000000000
+      internalID: -3909320975787171294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_32
+      rect:
+        serializedVersion: 2
+        x: 4974
+        y: 9322
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95118c38d58d2d9d0800000000000000
+      internalID: -2750898526215466663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_33
+      rect:
+        serializedVersion: 2
+        x: 5059
+        y: 9320
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef084b48df1458a60800000000000000
+      internalID: 7675613697031831806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_34
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 9310
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1130d79f9d12d6b0800000000000000
+      internalID: -5273119642413420260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_35
+      rect:
+        serializedVersion: 2
+        x: 4685
+        y: 9297
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a52dae7bc280f70800000000000000
+      internalID: 9153615411060824676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_36
+      rect:
+        serializedVersion: 2
+        x: 4701
+        y: 9309
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ae022d5bb8bf7e0800000000000000
+      internalID: -1730636018763109792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_37
+      rect:
+        serializedVersion: 2
+        x: 4784
+        y: 9311
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df34caeabe66bc30800000000000000
+      internalID: 4374805837118717908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_38
+      rect:
+        serializedVersion: 2
+        x: 4811
+        y: 9314
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17015b871f3948f0800000000000000
+      internalID: -555843708649404643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_39
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 9316
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2014cd512fbf350800000000000000
+      internalID: 6051696700005876397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_40
+      rect:
+        serializedVersion: 2
+        x: 4856
+        y: 9316
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819fe32936b338280800000000000000
+      internalID: -9042318327988422376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_41
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 9305
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a13a8182bc2d810800000000000000
+      internalID: 1788715375091980902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_42
+      rect:
+        serializedVersion: 2
+        x: 4902
+        y: 9315
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b2af159fe77e830800000000000000
+      internalID: 4100385595031431969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_43
+      rect:
+        serializedVersion: 2
+        x: 4923
+        y: 9307
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e67c304ca2f1370800000000000000
+      internalID: 8295396060005101152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_44
+      rect:
+        serializedVersion: 2
+        x: 4938
+        y: 9316
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a0dfd0c4274afd0800000000000000
+      internalID: -2331613036093306283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_45
+      rect:
+        serializedVersion: 2
+        x: 4995
+        y: 9307
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd87e52074b2ffdb0800000000000000
+      internalID: -4756035097497536293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_46
+      rect:
+        serializedVersion: 2
+        x: 5018
+        y: 9316
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b3803b969e59ec0800000000000000
+      internalID: -3560683290182010064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_47
+      rect:
+        serializedVersion: 2
+        x: 5032
+        y: 9307
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7205c058346c480800000000000000
+      internalID: -8879335376598063150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_48
+      rect:
+        serializedVersion: 2
+        x: 5083
+        y: 9308
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e8c7dd882f93fd0800000000000000
+      internalID: -2361589859933712800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_49
+      rect:
+        serializedVersion: 2
+        x: 4662
+        y: 9300
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc0ddd155a0e8360800000000000000
+      internalID: 7173682617137302732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_50
+      rect:
+        serializedVersion: 2
+        x: 4690
+        y: 9245
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d9fcfe5679e91e0800000000000000
+      internalID: -2189145904784630508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_51
+      rect:
+        serializedVersion: 2
+        x: 4736
+        y: 9285
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361bf6e067b1e9670800000000000000
+      internalID: 8547299336658071907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_52
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 9275
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2eb415aaf292e90800000000000000
+      internalID: -7050051333116927238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_53
+      rect:
+        serializedVersion: 2
+        x: 4795
+        y: 9289
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46511fbb4a5fc7370800000000000000
+      internalID: 8321796299350414692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_54
+      rect:
+        serializedVersion: 2
+        x: 4826
+        y: 9305
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d68d6ead2b544960800000000000000
+      internalID: 7585287924156827349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_55
+      rect:
+        serializedVersion: 2
+        x: 4855
+        y: 9300
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6481cc6ac7658c0800000000000000
+      internalID: -4010881362296289578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_56
+      rect:
+        serializedVersion: 2
+        x: 4888
+        y: 9295
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffd78eb916e48410800000000000000
+      internalID: 1478559575929511926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_57
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 9305
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5656718d1a3b090800000000000000
+      internalID: -8019888561939192325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_58
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 9298
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328b70f25790fa9d0800000000000000
+      internalID: -2760977647649966045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_59
+      rect:
+        serializedVersion: 2
+        x: 5013
+        y: 9300
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706196f656edb4a10800000000000000
+      internalID: 1894852595481646599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_60
+      rect:
+        serializedVersion: 2
+        x: 4660
+        y: 9284
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149401a84cacb7780800000000000000
+      internalID: -8684124510975145663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_61
+      rect:
+        serializedVersion: 2
+        x: 4675
+        y: 9285
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60163fb0777718fb0800000000000000
+      internalID: -4647301987284328186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_62
+      rect:
+        serializedVersion: 2
+        x: 4779
+        y: 9275
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abd48b172d83f530800000000000000
+      internalID: 3887606102455802789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_63
+      rect:
+        serializedVersion: 2
+        x: 4811
+        y: 9284
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49a6e4ef3fd23100800000000000000
+      internalID: 86376808389716302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_64
+      rect:
+        serializedVersion: 2
+        x: 4832
+        y: 9287
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82fbdbf8bae45ef20800000000000000
+      internalID: 3451251188207304488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_65
+      rect:
+        serializedVersion: 2
+        x: 4847
+        y: 9281
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26068709eee4307e0800000000000000
+      internalID: -1800508639485075358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_66
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 9292
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53368e1a515372f0800000000000000
+      internalID: -976347246708247717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_67
+      rect:
+        serializedVersion: 2
+        x: 4892
+        y: 9285
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2818311ff9d9a340800000000000000
+      internalID: 4875667761134049324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_68
+      rect:
+        serializedVersion: 2
+        x: 4911
+        y: 9289
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd3dc49c286535c0800000000000000
+      internalID: -4236365333787755064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_69
+      rect:
+        serializedVersion: 2
+        x: 4953
+        y: 9289
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927244120ad207a10800000000000000
+      internalID: 1905072808153851689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_70
+      rect:
+        serializedVersion: 2
+        x: 4991
+        y: 9284
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec11694d0dc1b8360800000000000000
+      internalID: 7172858514763026894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_71
+      rect:
+        serializedVersion: 2
+        x: 5029
+        y: 9294
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40dd83939d75cbd0800000000000000
+      internalID: -2610542336202125237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_72
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 9288
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc2539bc7f9dfb40800000000000000
+      internalID: 5475708079984422092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_73
+      rect:
+        serializedVersion: 2
+        x: 5080
+        y: 9292
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054d208031987cbc0800000000000000
+      internalID: -3762888248812972976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_74
+      rect:
+        serializedVersion: 2
+        x: 5109
+        y: 9294
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb0db8e32dcf4520800000000000000
+      internalID: 2688593056675728365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_75
+      rect:
+        serializedVersion: 2
+        x: 5141
+        y: 9293
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2e3569a2ec69e80800000000000000
+      internalID: -8172117791511158030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_76
+      rect:
+        serializedVersion: 2
+        x: 5160
+        y: 9291
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14e011c4d3fb3d00800000000000000
+      internalID: 953623841216717853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_77
+      rect:
+        serializedVersion: 2
+        x: 5201
+        y: 9291
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30057612e1b59270800000000000000
+      internalID: 8256701076451164219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_78
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 851
+        width: 12941
+        height: 8431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cf010f9c6489170800000000000000
+      internalID: 8185370155875892318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_79
+      rect:
+        serializedVersion: 2
+        x: 4743
+        y: 9268
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5146c776c8083af90800000000000000
+      internalID: -6943564859955190763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_80
+      rect:
+        serializedVersion: 2
+        x: 4828
+        y: 9266
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96897a9b16993bb50800000000000000
+      internalID: 6607793723288295529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_81
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 9280
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b740e3b794176eb0800000000000000
+      internalID: -4726786642111608907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_82
+      rect:
+        serializedVersion: 2
+        x: 4873
+        y: 9278
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab2158c06edc5470800000000000000
+      internalID: 8384821113516010405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_83
+      rect:
+        serializedVersion: 2
+        x: 4890
+        y: 9273
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74fda40f0a425490800000000000000
+      internalID: -7759057779642469252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_84
+      rect:
+        serializedVersion: 2
+        x: 4910
+        y: 9272
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c798358f810700620800000000000000
+      internalID: 2738311825989011836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_85
+      rect:
+        serializedVersion: 2
+        x: 4933
+        y: 9282
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a14a8145639ecf0800000000000000
+      internalID: -222586971759568366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_86
+      rect:
+        serializedVersion: 2
+        x: 4967
+        y: 9274
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851d668af095fef70800000000000000
+      internalID: 9218684886035386712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_87
+      rect:
+        serializedVersion: 2
+        x: 5017
+        y: 9279
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf691a0525bf22820800000000000000
+      internalID: 2892150241683937019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_88
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 9273
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40625546249bce710800000000000000
+      internalID: 1723956452178339332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_89
+      rect:
+        serializedVersion: 2
+        x: 5092
+        y: 9278
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e588c65e5f364c2e0800000000000000
+      internalID: -2106448817935316898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_90
+      rect:
+        serializedVersion: 2
+        x: 5121
+        y: 9271
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cce522db8611cf0800000000000000
+      internalID: -283330140012884964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_91
+      rect:
+        serializedVersion: 2
+        x: 5178
+        y: 9281
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109698e3ad9645aa0800000000000000
+      internalID: -6173192803145127679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chandem3_92
+      rect:
+        serializedVersion: 2
+        x: 5298
+        y: 9275
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe221b06ad57a1e40800000000000000
+      internalID: 5627940265138397935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chandem3_0: 3553176102989927269
+      chandem3_1: -5463830546683451812
+      chandem3_10: -8785898791219747712
+      chandem3_11: 5333089947650862892
+      chandem3_12: 5417650074095960569
+      chandem3_13: 7722635810687186347
+      chandem3_14: 4560743996623957343
+      chandem3_15: 6854583856843412215
+      chandem3_16: 7496035386856726225
+      chandem3_17: 4009602451118753176
+      chandem3_18: 644353033022560278
+      chandem3_19: 8202577041576257291
+      chandem3_2: 8973450242590508663
+      chandem3_20: 5501705637504201281
+      chandem3_21: 3396822857491696292
+      chandem3_22: -3102167837099457531
+      chandem3_23: 899725699977669486
+      chandem3_24: -2878377689643146801
+      chandem3_25: -4148026272016726060
+      chandem3_26: 6518148005953611670
+      chandem3_27: 8104076473143062592
+      chandem3_28: 8072068407128786738
+      chandem3_29: 5763171089066970140
+      chandem3_3: -8846655715317827318
+      chandem3_30: 7355839661850338462
+      chandem3_31: -3909320975787171294
+      chandem3_32: -2750898526215466663
+      chandem3_33: 7675613697031831806
+      chandem3_34: -5273119642413420260
+      chandem3_35: 9153615411060824676
+      chandem3_36: -1730636018763109792
+      chandem3_37: 4374805837118717908
+      chandem3_38: -555843708649404643
+      chandem3_39: 6051696700005876397
+      chandem3_4: 8029418389167492570
+      chandem3_40: -9042318327988422376
+      chandem3_41: 1788715375091980902
+      chandem3_42: 4100385595031431969
+      chandem3_43: 8295396060005101152
+      chandem3_44: -2331613036093306283
+      chandem3_45: -4756035097497536293
+      chandem3_46: -3560683290182010064
+      chandem3_47: -8879335376598063150
+      chandem3_48: -2361589859933712800
+      chandem3_49: 7173682617137302732
+      chandem3_5: 1101641737232634343
+      chandem3_50: -2189145904784630508
+      chandem3_51: 8547299336658071907
+      chandem3_52: -7050051333116927238
+      chandem3_53: 8321796299350414692
+      chandem3_54: 7585287924156827349
+      chandem3_55: -4010881362296289578
+      chandem3_56: 1478559575929511926
+      chandem3_57: -8019888561939192325
+      chandem3_58: -2760977647649966045
+      chandem3_59: 1894852595481646599
+      chandem3_6: -5949039068237235723
+      chandem3_60: -8684124510975145663
+      chandem3_61: -4647301987284328186
+      chandem3_62: 3887606102455802789
+      chandem3_63: 86376808389716302
+      chandem3_64: 3451251188207304488
+      chandem3_65: -1800508639485075358
+      chandem3_66: -976347246708247717
+      chandem3_67: 4875667761134049324
+      chandem3_68: -4236365333787755064
+      chandem3_69: 1905072808153851689
+      chandem3_7: 2240017155207703116
+      chandem3_70: 7172858514763026894
+      chandem3_71: -2610542336202125237
+      chandem3_72: 5475708079984422092
+      chandem3_73: -3762888248812972976
+      chandem3_74: 2688593056675728365
+      chandem3_75: -8172117791511158030
+      chandem3_76: 953623841216717853
+      chandem3_77: 8256701076451164219
+      chandem3_78: 8185370155875892318
+      chandem3_79: -6943564859955190763
+      chandem3_8: 4562879597654099640
+      chandem3_80: 6607793723288295529
+      chandem3_81: -4726786642111608907
+      chandem3_82: 8384821113516010405
+      chandem3_83: -7759057779642469252
+      chandem3_84: 2738311825989011836
+      chandem3_85: -222586971759568366
+      chandem3_86: 9218684886035386712
+      chandem3_87: 2892150241683937019
+      chandem3_88: 1723956452178339332
+      chandem3_89: -2106448817935316898
+      chandem3_9: -721281203268504557
+      chandem3_90: -283330140012884964
+      chandem3_91: -6173192803145127679
+      chandem3_92: 5627940265138397935
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

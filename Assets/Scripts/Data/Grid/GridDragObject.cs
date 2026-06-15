@@ -307,6 +307,7 @@ public class GridDragObject : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (PauseManager.Instance != null && PauseManager.Instance.isPaused) return;
         if (isLocked) return;
         if (!IsTopObjectAtMousePosition()) return;
         isTopObject = true;
@@ -328,6 +329,7 @@ public class GridDragObject : MonoBehaviour
 
     private void OnMouseDrag()
     {
+        if (PauseManager.Instance != null && PauseManager.Instance.isPaused) return;
         if (isLocked) return;
         if (!isTopObject) return;
         Vector3 mouseWorldPos = GetMouseWorldPosition();
