@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PhonePanelManager : MonoBehaviour
@@ -73,6 +74,10 @@ public class PhonePanelManager : MonoBehaviour
 
         currentTabIndex = index;
     }
+    public void ResetToDefaultTab()
+    {
+        ShowTabPage(defaultTabIndex, false);
+    }
 
     public void GoBack()
     {
@@ -112,4 +117,5 @@ public class PhonePanelManager : MonoBehaviour
     {
         return isTabsLocked;
     }
+    public void GoToMainMenu() => SceneManager.LoadScene(0);
 }

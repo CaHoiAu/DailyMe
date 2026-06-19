@@ -25,6 +25,9 @@ public class ChatSequence : MonoBehaviour
     private int currentMessageIndex = 0;
     private bool waitingForCondition = false;
 
+    public int RemainingMessages => messages != null ? Mathf.Max(0, messages.Count - currentMessageIndex) : 0;
+    public int CurrentMessageIndex => currentMessageIndex;
+
     private GridDragObject[] cachedObjects;
 
     [Header("Events")]
@@ -115,6 +118,31 @@ public class ChatSequence : MonoBehaviour
         }
 
         currentMessageIndex++;
+        LevelManager.Instance?.PersistChatProgress();
+        StartCoroutine(ScrollToBottomNextFrame());
+    }
+    public void RestoreMessageIndex(int index)
+    {
+        if (messages == null || index <= 0) return;
+        index = Mathf.Min(index, messages.Count);
+
+        foreach (Transform child in messageContent)
+            Destroy(child.gameObject);
+
+        for (int i = 0; i < index; i++)
+            SpawnBubble(messages[i]);
+
+        currentMessageIndex = index;
+        allMessagesShown = false;
+        waitingForCondition = false;
+
+        var cond = GetCondition(index - 1);
+        if (cond != null && !string.IsNullOrEmpty(cond.objectId) && cond.requiredStateId != -1 && !CheckObjectState(cond))
+        {
+            waitingForCondition = true;
+            onWaitingForConditon?.Invoke();
+        }
+
         StartCoroutine(ScrollToBottomNextFrame());
     }
     public void ResumeFromLevelBreak()

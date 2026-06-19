@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class LevelManager : MonoBehaviour
     private BaseMiniGameManager currentManager;
 
     private int currentLevelIndex = 0;
+    private int[] pendingChatRestoreIndices;
     public static LevelManager Instance { get; private set; }
 
     [Header("Task Timeline")]
@@ -25,19 +27,46 @@ public class LevelManager : MonoBehaviour
 
     [Header("Cutscene")]
     public CutscenePlayer cutscenePlayer;
+
+    [Header("Phone Panel")]
+    public PhonePanelManager phonePanelManager;
+
     void Awake()
     {
         if (Instance == null) Instance = this;
         else
             Destroy(gameObject);
-        currentLevelIndex = PlayerPrefs.GetInt("CurrentLevelIndex", 0);
-        currentLevelIndex = Mathf.Clamp(currentLevelIndex, 0, allLevels.Length - 1);
+        //currentLevelIndex = PlayerPrefs.GetInt("CurrentLevelIndex", 0);
+        //currentLevelIndex = Mathf.Clamp(currentLevelIndex, 0, allLevels.Length - 1);
+
+        SaveData saveData = SaveManager.Load();
+        currentLevelIndex = Mathf.Clamp(saveData.currentLevelIndex, 0, allLevels.Length - 1);
+        currentMiniLVLIndex = saveData.currentMiniLVLIndex;
+        pendingChatRestoreIndices = saveData.chatMessageIndices;
     }
     void Start()
     {
         levelData = allLevels[currentLevelIndex];
+        currentMiniLVLIndex = Mathf.Clamp(currentMiniLVLIndex, 0, levelData.miniGames.Length - 1);
         taskTimelineManager?.Initialize(levelData);
         LoadMiniLevel();
+    }
+    private void PersistProgress()
+    {
+        int[] chatIndices = new int[chatSequences != null ? chatSequences.Length : 0];
+        for (int i = 0; i < chatIndices.Length; i++)
+            chatIndices[i] = chatSequences[i] != null ? chatSequences[i].CurrentMessageIndex : 0;
+
+        SaveManager.Save(new SaveData
+        {
+            currentLevelIndex = currentLevelIndex,
+            currentMiniLVLIndex = currentMiniLVLIndex,
+            chatMessageIndices = chatIndices
+        });
+    }
+    public void PersistChatProgress()
+    {
+        PersistProgress();
     }
     void LoadMiniLevel()
     {
@@ -80,8 +109,19 @@ public class LevelManager : MonoBehaviour
         taskTimelineManager?.MoveNext();
         // ✅ Load chat sequences cho mini level này
         LoadChatSequences(miniLevel.contactSequences);
+        // ✅ Khôi phục tiến trình chat đã lưu(chỉ áp dụng 1 lần khi vừa mở app lại)
+        if (pendingChatRestoreIndices != null)
+        {
+            for (int i = 0; i < chatSequences.Length && i < pendingChatRestoreIndices.Length; i++)
+                chatSequences[i].RestoreMessageIndex(pendingChatRestoreIndices[i]);
+            pendingChatRestoreIndices = null;
+        }
 
         FindObjectOfType<VerifyButtonController>()?.ResetAll();
+
+        // ✅ Quay về danh sách contact, tránh để tab detail mess cũ đè lên khi mở lại tab Messages
+        FindObjectOfType<ChatManager>()?.ShowContactList();
+
         foreach (var seq in chatSequences)
             seq.ResumeFromLevelBreak();
         // ✅ Mini level chỉ có cutscene → tự động chuyển tiếp, không có gameplay
@@ -109,6 +149,7 @@ public class LevelManager : MonoBehaviour
     public void NextMiniGame()
     {
         currentMiniLVLIndex++;
+        phonePanelManager?.ResetToDefaultTab();
 
         if (currentMiniLVLIndex >= levelData.miniGames.Length)
         {
@@ -116,6 +157,7 @@ public class LevelManager : MonoBehaviour
             CompleteCurrentLevel();
             return;
         }
+        PersistProgress();
         LoadMiniLevel();
     }
     public void OnVerifyClicked()
@@ -185,10 +227,9 @@ public class LevelManager : MonoBehaviour
         if (currentLevelIndex < allLevels.Length - 1)
         {
             currentLevelIndex++;
-            PlayerPrefs.SetInt("CurrentLevelIndex", currentLevelIndex);
-            PlayerPrefs.Save();
-            levelData = allLevels[currentLevelIndex];
             currentMiniLVLIndex = 0;
+            levelData = allLevels[currentLevelIndex];
+            PersistProgress();
         }
         else
         {

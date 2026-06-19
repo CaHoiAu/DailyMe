@@ -16,6 +16,11 @@ public class ChatManager : MonoBehaviour
     public string[] contactNames;
     public Sprite[] contactImages;
 
+    [Header("Unread Badges")]
+    // Song song với contactNames/chatDetails — đặt badge số tin nhắn chưa đọc lên từng Contact row
+    public TMP_Text[] unreadBadges;
+    public UnityEngine.UI.Image[] unreadBadgesImg;
+
     private PhonePanelManager phonePanelManager; // ✅ Reference để lock/unlock tabs
 
     void Start()
@@ -37,6 +42,30 @@ public class ChatManager : MonoBehaviour
         // ✅ Mở khóa tabs khi quay lại danh sách
         if (phonePanelManager != null)
             phonePanelManager.UnlockAllTabs();
+
+        RefreshUnreadBadges();
+    }
+
+    private void RefreshUnreadBadges()
+    {
+        if (unreadBadges == null) return;
+
+        for (int i = 0; i < unreadBadges.Length; i++)
+        {
+            if (unreadBadges[i] == null) continue;
+
+            int remaining = 0;
+            if (i < chatDetails.Length && chatDetails[i] != null)
+            {
+                ChatSequence sequence = chatDetails[i].GetComponentInChildren<ChatSequence>(true);
+                remaining = sequence != null ? sequence.RemainingMessages : 0;
+            }
+
+            unreadBadges[i].gameObject.SetActive(remaining > 0);
+            unreadBadges[i].text = remaining.ToString();
+
+            unreadBadgesImg[i].gameObject.SetActive(remaining > 0);
+        }
     }
 
     public void OpenContact(int index)
@@ -54,10 +83,6 @@ public class ChatManager : MonoBehaviour
         headerImage.sprite = contactImages[index];
 
         chatButtonController.SetActiveChat(chatSequence);
-
-        // ✅ Khóa tất cả tabs khi mở chat
-        if (phonePanelManager != null)
-            phonePanelManager.LockAllTabs();
 
         var highlight = FindObjectOfType<UIHighlights>();
         highlight?.StopHighlight();

@@ -34,6 +34,7 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.06856169, y: 0.06856169, z: 0.06856169}
     requiresPlacement: 1
+    forbiddenCells: []
     dropDuration: 1
     dropHeight: 2
     dropCurve:
@@ -76,6 +77,7 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.07471035, y: 0.07471035, z: 0.07471035}
     requiresPlacement: 1
+    forbiddenCells: []
     dropDuration: 1
     dropHeight: 2
     dropCurve:
@@ -118,6 +120,7 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.06999614, y: 0.06999614, z: 0.06999613}
     requiresPlacement: 1
+    forbiddenCells: []
     dropDuration: 1
     dropHeight: 2
     dropCurve:
@@ -160,6 +163,7 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.09544374, y: 0.09544374, z: 0.09544374}
     requiresPlacement: 1
+    forbiddenCells: []
     dropDuration: 1
     dropHeight: 2
     dropCurve:
@@ -194,8 +198,6 @@ MonoBehaviour:
       sprite: {fileID: -5216094766760963717, guid: 16c30882f1b21104f8aa2112cf318cea, type: 3}
       cells:
       - {x: 0, y: 0}
-      - {x: 0, y: 1}
-      - {x: 0, y: 2}
       allowRotate: 0
       isContainer: 0
       containedObjectIds: []
@@ -204,6 +206,7 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.07008914, y: 0.07008914, z: 0.07008914}
     requiresPlacement: 1
+    forbiddenCells: []
     dropDuration: 1
     dropHeight: 2
     dropCurve:
@@ -246,6 +249,7 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.046215516, y: 0.046215516, z: 0.04621551}
     requiresPlacement: 1
+    forbiddenCells: []
     dropDuration: 1
     dropHeight: 2
     dropCurve:
@@ -288,6 +292,7 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.05951948, y: 0.05951948, z: 0.05951948}
     requiresPlacement: 1
+    forbiddenCells: []
     dropDuration: 1
     dropHeight: 2
     dropCurve:
@@ -330,6 +335,7 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.07032366, y: 0.07032366, z: 0.07032366}
     requiresPlacement: 0
+    forbiddenCells: []
     dropDuration: 1
     dropHeight: 2
     dropCurve:
