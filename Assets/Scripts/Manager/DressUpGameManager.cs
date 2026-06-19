@@ -78,6 +78,7 @@ public class DressUpGameManager : BaseMiniGameManager
         if (!IsMiniGameCompleted())
         {
             Debug.Log("[DressUpGameManager] ❌ Chưa chọn đúng trang phục!");
+            VerifyFailPopupManager.Instance?.Show();
             return;
         }
         Debug.Log("[DressUpGameManager] ✅ Trang phục đúng! Chuyển màn...");

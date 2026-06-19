@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GridMiniGameManager : BaseMiniGameManager
@@ -81,5 +82,15 @@ public class GridMiniGameManager : BaseMiniGameManager
     {
         miniGameCompleted = true;
         Debug.Log("Grid Mini-Game completed!");
+    }
+
+    public override Dictionary<string, GridObjectSnapshot> GetObjectStateSnapshot()
+    {
+        return puzzleManager != null ? puzzleManager.GetObjectStateSnapshot() : null;
+    }
+
+    public override void ApplyObjectStateSnapshot(Dictionary<string, GridObjectSnapshot> snapshot)
+    {
+        puzzleManager?.ApplyObjectStateSnapshot(snapshot);
     }
 }

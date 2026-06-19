@@ -123,8 +123,9 @@ public class ChatSequence : MonoBehaviour
     }
     public void RestoreMessageIndex(int index)
     {
-        if (messages == null || index <= 0) return;
-        index = Mathf.Min(index, messages.Count);
+        if (messages == null) return;
+        index = Mathf.Clamp(index, 0, messages.Count);
+        if (index <= 0) return;
 
         foreach (Transform child in messageContent)
             Destroy(child.gameObject);
@@ -142,7 +143,12 @@ public class ChatSequence : MonoBehaviour
             waitingForCondition = true;
             onWaitingForConditon?.Invoke();
         }
-
+        else if (currentMessageIndex >= messages.Count)
+        {
+            allMessagesShown = true;
+            onAllMessageShown?.Invoke();
+            NotifyCompleted();
+        }
         StartCoroutine(ScrollToBottomNextFrame());
     }
     public void ResumeFromLevelBreak()
@@ -355,5 +361,11 @@ public class ChatSequence : MonoBehaviour
         allMessagesShown = false; 
         foreach (Transform child in messageContent)
             Destroy(child.gameObject);
+    }
+    public void ClearChat()
+    {
+        messages = new List<string>();
+        conditions = new List<ObjectStateCondition>();
+        ResetChat();
     }
 }

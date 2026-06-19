@@ -253,7 +253,15 @@ public class GridDragObject : MonoBehaviour
 
         if (states == null || states.Length == 0) return;
 
-        currentStateIndex = (currentStateIndex + 1) % states.Length;
+        SetStateIndex((currentStateIndex + 1) % states.Length);
+    }
+
+    // Set trực tiếp state theo index (dùng khi khôi phục tiến trình đã lưu)
+    private void SetStateIndex(int index)
+    {
+        if (states == null || states.Length == 0) return;
+
+        currentStateIndex = index;
         currentRotationIndex = 0;
         ApplyCurrentVisual();
 
@@ -262,6 +270,14 @@ public class GridDragObject : MonoBehaviour
 
         UpdateContainedObjectsDisplayInternal();
         RegisterHomePositions();
+    }
+
+    public void RestoreStateIndex(int index)
+    {
+        if (states == null || states.Length == 0) return;
+        currentStateIndex = Mathf.Clamp(index, 0, states.Length - 1);
+        ApplyCurrentVisual();
+        UpdateContainedObjectsDisplayInternal();
     }
 
     private void SyncContainedObjectsWithState(GridObjectState state)

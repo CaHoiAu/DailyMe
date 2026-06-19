@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelManager : MonoBehaviour
@@ -16,6 +17,13 @@ public class LevelManager : MonoBehaviour
 
     private int currentLevelIndex = 0;
     private int[] pendingChatRestoreIndices;
+    private string[] pendingObjectIds;
+    private int[] pendingObjectStateIndices;
+    private bool[] pendingObjectIsPlaced;
+    private int[] pendingObjectGridX;
+    private int[] pendingObjectGridY;
+    private bool isTransitioningMiniLevel = false;
+
     public static LevelManager Instance { get; private set; }
 
     [Header("Task Timeline")]
@@ -43,6 +51,12 @@ public class LevelManager : MonoBehaviour
         currentLevelIndex = Mathf.Clamp(saveData.currentLevelIndex, 0, allLevels.Length - 1);
         currentMiniLVLIndex = saveData.currentMiniLVLIndex;
         pendingChatRestoreIndices = saveData.chatMessageIndices;
+        pendingObjectIds = saveData.objectIds;
+        pendingObjectStateIndices = saveData.objectStateIndices;
+        pendingObjectIsPlaced = saveData.objectIsPlaced;
+        pendingObjectGridX = saveData.objectGridX;
+        pendingObjectGridY = saveData.objectGridY;
+        Debug.Log($"[LevelManager][DEBUG] Awake loaded save: currentLevelIndex={saveData.currentLevelIndex}, currentMiniLevelIndex={saveData.currentMiniLVLIndex}, chatMessageIndices=[{string.Join(",", saveData.chatMessageIndices ?? new int[0])}]");
     }
     void Start()
     {
@@ -51,23 +65,71 @@ public class LevelManager : MonoBehaviour
         taskTimelineManager?.Initialize(levelData);
         LoadMiniLevel();
     }
-    private void PersistProgress()
+    private void PersistProgress(int[] chatIndices, string[] objectIds, int[] objectStateIndices, bool[] objectIsPlaced, int[] objectGridX, int[] objectGridY)
     {
-        int[] chatIndices = new int[chatSequences != null ? chatSequences.Length : 0];
-        for (int i = 0; i < chatIndices.Length; i++)
-            chatIndices[i] = chatSequences[i] != null ? chatSequences[i].CurrentMessageIndex : 0;
+        Debug.Log($"[LevelManager][DEBUG] PersistProgress: currentLevelIndex={currentLevelIndex}, currentMiniLevelIndex={currentMiniLVLIndex}, chatIndices=[{string.Join(",", chatIndices ?? new int[0])}]");
 
         SaveManager.Save(new SaveData
         {
             currentLevelIndex = currentLevelIndex,
             currentMiniLVLIndex = currentMiniLVLIndex,
-            chatMessageIndices = chatIndices
+            chatMessageIndices = chatIndices,
+            objectIds = objectIds,
+            objectStateIndices = objectStateIndices,
+            objectIsPlaced = objectIsPlaced,
+            objectGridX = objectGridX,
+            objectGridY = objectGridY
         });
+    }
+    private void PersistTransition()
+    {
+        PersistProgress(new int[chatSequences != null ? chatSequences.Length : 0], null, null, null, null, null);
+    }
+    private void PersistLiveProgress()
+    {
+        if (isTransitioningMiniLevel) return;
+
+        int[] chatIndices = new int[chatSequences != null ? chatSequences.Length : 0];
+        for (int i = 0; i < chatIndices.Length; i++)
+            chatIndices[i] = chatSequences[i] != null ? chatSequences[i].CurrentMessageIndex : 0;
+
+        Dictionary<string, GridObjectSnapshot> objectStates = currentManager?.GetObjectStateSnapshot();
+        string[] objectIds = null;
+        int[] objectStateIndices = null;
+        bool[] objectIsPlaced = null;
+        int[] objectGridX = null;
+        int[] objectGridY = null;
+        if (objectStates != null)
+        {
+            objectIds = new string[objectStates.Count];
+            objectStateIndices = new int[objectStates.Count];
+            objectIsPlaced = new bool[objectStates.Count];
+            objectGridX = new int[objectStates.Count];
+            objectGridY = new int[objectStates.Count];
+            int idx = 0;
+            foreach (var kvp in objectStates)
+            {
+                objectIds[idx] = kvp.Key;
+                objectStateIndices[idx] = kvp.Value.stateIndex;
+                objectIsPlaced[idx] = kvp.Value.isPlaced;
+                objectGridX[idx] = kvp.Value.gridPosition.x;
+                objectGridY[idx] = kvp.Value.gridPosition.y;
+                idx++;
+            }
+        }
+
+        PersistProgress(chatIndices, objectIds, objectStateIndices, objectIsPlaced, objectGridX, objectGridY);
     }
     public void PersistChatProgress()
     {
-        PersistProgress();
+        PersistLiveProgress();
     }
+
+    public void PersistObjectStateProgress()
+    {
+        PersistLiveProgress();
+    }
+
     void LoadMiniLevel()
     {
         MiniGameEntry miniLevel = levelData.miniGames[currentMiniLVLIndex];
@@ -84,6 +146,8 @@ public class LevelManager : MonoBehaviour
 
     private void LoadMiniLevelContent(MiniGameEntry miniLevel)
     {
+        Debug.Log($"[LevelManager][DEBUG] LoadMiniLevelContent: currentMiniLevelIndex={currentMiniLVLIndex}, miniLevelType={miniLevel.miniLevelType}");
+
         DisableAllManagers();
         switch (miniLevel.miniLevelType)
         {
@@ -105,18 +169,32 @@ public class LevelManager : MonoBehaviour
         if (currentManager != null)
         {
             currentManager.LoadMiniGame(miniLevel.miniGameData);
+            if (pendingObjectIds != null && pendingObjectStateIndices != null)
+            {
+                var snapshot = new Dictionary<string, GridObjectSnapshot>();
+                for (int i = 0; i < pendingObjectIds.Length && i < pendingObjectStateIndices.Length; i++)
+                {
+                    snapshot[pendingObjectIds[i]] = new GridObjectSnapshot
+                    {
+                        stateIndex = pendingObjectStateIndices[i],
+                        isPlaced = pendingObjectIsPlaced != null && i < pendingObjectIsPlaced.Length && pendingObjectIsPlaced[i],
+                        gridPosition = new Vector2Int(
+                            pendingObjectGridX != null && i < pendingObjectGridX.Length ? pendingObjectGridX[i] : 0,
+                            pendingObjectGridY != null && i < pendingObjectGridY.Length ? pendingObjectGridY[i] : 0)
+                    };
+                }
+                currentManager.ApplyObjectStateSnapshot(snapshot);
+            }
         }
-        taskTimelineManager?.MoveNext();
+        pendingObjectIds = null;
+        pendingObjectStateIndices = null;
+        pendingObjectIsPlaced = null;
+        pendingObjectGridX = null;
+        pendingObjectGridY = null;
+        taskTimelineManager?.MoveNext(currentMiniLVLIndex);
         // ✅ Load chat sequences cho mini level này
         LoadChatSequences(miniLevel.contactSequences);
-        // ✅ Khôi phục tiến trình chat đã lưu(chỉ áp dụng 1 lần khi vừa mở app lại)
-        if (pendingChatRestoreIndices != null)
-        {
-            for (int i = 0; i < chatSequences.Length && i < pendingChatRestoreIndices.Length; i++)
-                chatSequences[i].RestoreMessageIndex(pendingChatRestoreIndices[i]);
-            pendingChatRestoreIndices = null;
-        }
-
+       
         FindObjectOfType<VerifyButtonController>()?.ResetAll();
 
         // ✅ Quay về danh sách contact, tránh để tab detail mess cũ đè lên khi mở lại tab Messages
@@ -124,17 +202,25 @@ public class LevelManager : MonoBehaviour
 
         foreach (var seq in chatSequences)
             seq.ResumeFromLevelBreak();
+
+        if (pendingChatRestoreIndices != null)
+        {
+            for (int i = 0; i < chatSequences.Length && i < pendingChatRestoreIndices.Length; i++)
+                chatSequences[i].RestoreMessageIndex(pendingChatRestoreIndices[i]);
+            pendingChatRestoreIndices = null;
+        }
+        isTransitioningMiniLevel = false;
         // ✅ Mini level chỉ có cutscene → tự động chuyển tiếp, không có gameplay
         if (miniLevel.miniLevelType == MiniLevelType.CutsceneOnly)
             NextMiniGame();
     }
     private void LoadChatSequences(ChatSequenceData[] sequenceDatas)
     {
-        if (sequenceDatas == null || chatSequences == null) return;
+        if (chatSequences == null) return;
 
         for (int i = 0; i < chatSequences.Length; i++)
         {
-            if (i < sequenceDatas.Length && sequenceDatas[i] != null)
+            if (sequenceDatas != null && i < sequenceDatas.Length && sequenceDatas[i] != null)
             {
                 chatSequences[i].LoadData(sequenceDatas[i]);
                 Debug.Log($"[LevelManager] Loaded chat sequence {i}");
@@ -142,12 +228,15 @@ public class LevelManager : MonoBehaviour
             else
             {
                 // Không có data → reset chat trống
-                chatSequences[i].ResetChat();
+                chatSequences[i].ClearChat();
             }
         }
     }
     public void NextMiniGame()
     {
+        Debug.Log($"[LevelManager][DEBUG] NextMiniGame called, instanceId={GetInstanceID()}, currentMiniLevelIndex {currentMiniLVLIndex} -> {currentMiniLVLIndex + 1}");
+
+        isTransitioningMiniLevel = true;
         currentMiniLVLIndex++;
         phonePanelManager?.ResetToDefaultTab();
 
@@ -157,7 +246,7 @@ public class LevelManager : MonoBehaviour
             CompleteCurrentLevel();
             return;
         }
-        PersistProgress();
+        PersistTransition();
         LoadMiniLevel();
     }
     public void OnVerifyClicked()
@@ -229,7 +318,8 @@ public class LevelManager : MonoBehaviour
             currentLevelIndex++;
             currentMiniLVLIndex = 0;
             levelData = allLevels[currentLevelIndex];
-            PersistProgress();
+            PersistTransition();
+            isTransitioningMiniLevel = false;
         }
         else
         {

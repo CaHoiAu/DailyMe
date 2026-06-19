@@ -35,14 +35,16 @@ public class TaskTimelineManager : MonoBehaviour
         }
     }
 
-    public void MoveNext()
+    public void MoveNext(int targetIndex)
     {
+        Debug.Log($"[TaskTimelineManager][DEBUG] MoveNext called: currentIndex {currentIndex} -> {targetIndex}, taskRows.Count={taskRows.Count}");
+
         if (currentIndex >= 0 && currentIndex < taskRows.Count)
             taskRows[currentIndex].SetHighlight(false);
 
-        currentIndex++;
+        currentIndex = targetIndex;
 
-        if (currentIndex < taskRows.Count)
+        if (currentIndex >= 0 && currentIndex < taskRows.Count)
             taskRows[currentIndex].SetHighlight(true);
     }
 }

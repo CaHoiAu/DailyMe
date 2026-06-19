@@ -381,7 +381,7 @@ MonoBehaviour:
   messageRowPrefab: {fileID: 1382557849886023061, guid: 9542b8903dee85f43bce1c55f845d7ac, type: 3}
   messages: []
   conditions: []
-  miniLevelData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}
+  miniLevelData: {fileID: 0}
   onWaitingForConditon:
     m_PersistentCalls:
       m_Calls: []
@@ -403,4 +403,4 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  sequenceData: {fileID: 11400000, guid: 2408b698e764e024c9ac120267d80f5a, type: 2}
+  sequenceData: {fileID: 0}

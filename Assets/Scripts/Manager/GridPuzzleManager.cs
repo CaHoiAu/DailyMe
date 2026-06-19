@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Tiến trình lưu/khôi phục của 1 GridDragObject: state hiện tại + có đang đặt trên grid không + ở đâu.
+public struct GridObjectSnapshot
+{
+    public int stateIndex;
+    public bool isPlaced;
+    public Vector2Int gridPosition;
+}
 public class GridPuzzleManager : MonoBehaviour
 {
     public GridMiniLevelData miniLevelData;
@@ -487,9 +494,45 @@ public class GridPuzzleManager : MonoBehaviour
         if (obj == null) return;
         obj.isPlaced = false;
     }
+    // Lấy currentStateIndex hiện tại của tất cả object đang spawn, để LevelManager lưu vào SaveData
+    public Dictionary<string, GridObjectSnapshot> GetObjectStateSnapshot()
+    {
+        var snapshot = new Dictionary<string, GridObjectSnapshot>();
+        if (objects == null) return snapshot;
 
+        foreach (var obj in objects)
+        {
+            if (obj != null && !string.IsNullOrEmpty(obj.objectId))
+            {
+                snapshot[obj.objectId] = new GridObjectSnapshot
+                {
+                    stateIndex = obj.currentStateIndex,
+                    isPlaced = obj.isPlaced,
+                    gridPosition = obj.currentGridPosition
+                };
+            }
+        }
+        return snapshot;
+    }
+
+    public void ApplyObjectStateSnapshot(Dictionary<string, GridObjectSnapshot> snapshot)
+    {
+        if (snapshot == null || objects == null) return;
+
+        foreach (var obj in objects)
+        {
+            if (obj == null || !snapshot.TryGetValue(obj.objectId, out GridObjectSnapshot saved)) continue;
+
+            obj.RestoreStateIndex(saved.stateIndex);
+
+            if (saved.isPlaced)
+                obj.SnapToGrid(saved.gridPosition);
+        }
+    }
     public void OnObjectChanged()
     {
+        LevelManager.Instance?.PersistObjectStateProgress();
+
         //if (puzzleCompleted) return;
 
         //if (CheckAllConstraints())
@@ -710,6 +753,7 @@ public class GridPuzzleManager : MonoBehaviour
         if (!CheckAllConstraints())
         {
             Debug.Log("❌ Chưa thỏa mãn các constraint. Thử lại!");
+            VerifyFailPopupManager.Instance?.Show();
             return;
         }
 
@@ -720,6 +764,7 @@ public class GridPuzzleManager : MonoBehaviour
             if (!levelCSPVerifier.VerifyPlayerPlacement())
             {
                 Debug.Log("❌ Landing zones chưa đúng!");
+                VerifyFailPopupManager.Instance?.Show();
                 return;
             }
         }

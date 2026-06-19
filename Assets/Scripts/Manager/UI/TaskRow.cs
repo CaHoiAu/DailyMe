@@ -31,7 +31,9 @@ public class TaskRow : MonoBehaviour
     public void SetHighlight(bool highlight)
     {
         highlightFrame.SetActive(highlight);
-
+        Debug.Log($"[TaskRow][DEBUG] {name} SetHighlight({highlight}) -> highlightFrame.activeInHierarchy={highlightFrame.activeInHierarchy}, row.activeInHierarchy={gameObject.activeInHierarchy}");
+        if (string.IsNullOrEmpty(originalText))
+            originalText = taskNameText.text;
         if (highlight)
         {
             taskNameText.color = highlightColor;
