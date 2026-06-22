@@ -853,6 +853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Den Ngu dem
       objectReference: {fileID: 0}
+    - target: {fileID: 6048981880002860135, guid: d4fb8f9d5485c3c4da562eeb4dff31f2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2217,6 +2221,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Truyen
       objectReference: {fileID: 0}
+    - target: {fileID: 6048981880002860135, guid: 225e5e0042f645146b489bd95ca01dab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8583148208614509720, guid: 225e5e0042f645146b489bd95ca01dab, type: 3}
       propertyPath: m_Size.x
       value: 21.300415
@@ -3219,7 +3227,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -794994641689720010, guid: e910eaae260b57347a518921ead8f19f, type: 3}
+  m_Sprite: {fileID: -7869371822943396882, guid: ca44cb2217a790645afd06b172309930, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10546,6 +10554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NV ngu
       objectReference: {fileID: 0}
+    - target: {fileID: 6048981880002860135, guid: 577dc0e5f51930f4c8a1403c38a73166, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11407,6 +11419,10 @@ PrefabInstance:
     - target: {fileID: 6048981880002860135, guid: 4c9433a79605f5b44aaa44b8d6c4167d, type: 3}
       propertyPath: m_Name
       value: Hai Cau 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048981880002860135, guid: 4c9433a79605f5b44aaa44b8d6c4167d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12682,6 +12698,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chan dem
       objectReference: {fileID: 0}
+    - target: {fileID: 6048981880002860135, guid: 7f18eeba4ec2fe64aa477f1e5d6b31e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12768,7 +12788,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1955028917
 RectTransform:
   m_ObjectHideFlags: 0

@@ -434,9 +434,13 @@ public class GridDragObject : MonoBehaviour
     public void SnapToGrid(Vector2Int gridPos)
     {
         currentGridPosition = gridPos;
+        transform.position = GetPlacedWorldCenter(gridPos);
+        isPlaced = true;
+    }
+    public Vector3 GetPlacedWorldCenter(Vector2Int gridPos)
+    {
         Vector2Int[] shape = GetCurrentShape();
-
-        // ✅ Tính tâm của toàn bộ cells trong world space
+        if (shape.Length == 0) return gridPuzzleManager.boardManager.GridToWorld(gridPos);
         Vector3 worldCenter = Vector3.zero;
         foreach (var cell in shape)
         {
@@ -445,11 +449,8 @@ public class GridDragObject : MonoBehaviour
             );
             worldCenter += cellWorld;
         }
-        worldCenter /= shape.Length;
-
-        transform.position = worldCenter;
-        isPlaced = true;
-    }
+        return worldCenter / shape.Length;
+}
 
     public Vector2 GetShapeCenter(Vector2Int[] cells)
     {

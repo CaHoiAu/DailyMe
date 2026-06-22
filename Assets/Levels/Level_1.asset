@@ -111,6 +111,7 @@ MonoBehaviour:
     contactSequences:
     - {fileID: 11400000, guid: dd1c4cbd0e57dca4984cba0537cabd39, type: 2}
     - {fileID: 11400000, guid: 65c3c5951d624bb479ba33a699bd1b66, type: 2}
+    - {fileID: 11400000, guid: a7a7261e9ac75954bb68a600b37bf7e4, type: 2}
     - {fileID: 11400000, guid: dc89170e9edff524c9ff06ef469535b1, type: 2}
     cutscene:
       background: {fileID: -7869371822943396882, guid: ca44cb2217a790645afd06b172309930, type: 3}

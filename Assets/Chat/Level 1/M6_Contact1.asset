@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messages:
   - "Huhu gi\xFAp C\xE1 H\u1ED3i \xC2u \u0111\u1EEBng \u0111\u1EC3 b\u1ECB m\u1EB9
-    la n\u1EEFa nha T^T. N\u1EBFu ko r\xF5 ng\u0103n n\xE0o \u0111\u1EC3 c\xE1i g\xEC
-    th\xEC \"check\" \xE1o qu\u1EA7n c\u1EE7a ng\u0103n \u0111\xF3 l\xE0 lo\u1EA1i
-    g\xEC nha!"
+    la n\u1EEFa nha T^T."
+  - "L\xE0m sao \u0111\u1EC3 ph\xE2n bi\u1EC7t \u0111\xE2u l\xE0 ng\u0103n \xE1o
+    ph\xF4ng, \u0111\xE2u l\xE0 ng\u0103n \u0111\u1ED3 b\u1ED9 mang \u1EDF nh\xE0
+    h\u1EA3?"
+  - "Ch\u1EAFc l\xE0 h\u1ECFi m\u1EB9 th\u1EED nha... Tui h\xF4ng bi\u1EBFt ///3///"
   conditions: []
   miniLevelData: {fileID: 11400000, guid: da96b1297b907b841b8c99a9d6006535, type: 2}

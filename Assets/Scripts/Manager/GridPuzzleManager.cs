@@ -552,11 +552,7 @@ public class GridPuzzleManager : MonoBehaviour
     }
     private Vector3 GetDropTargetPosition(GridDragObject obj)
     {
-        // Get the grid position where the object was placed
-        Vector3 gridWorldPos = boardManager.GridToWorld(obj.currentGridPosition);
-
-        // ✅ GridToWorld đã trả về tâm cell, không cần cộng shape center thêm
-        Vector3 gridCenterPos = gridWorldPos;
+        Vector3 gridCenterPos = obj.GetPlacedWorldCenter(obj.currentGridPosition);
 
         // ✅ Use custom drop targets if enabled - only customize Y position
         if (miniLevelData.useDropTargets && miniLevelData.dropTargets != null)

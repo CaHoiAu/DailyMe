@@ -17,6 +17,8 @@ MonoBehaviour:
     v\u1EC1 ki\u1EC3m tra m\xE0 ch\u01B0a xong l\xE0 bi\u1EBFt m\u1EB7t!"
   - "X\u1EBFp cho g\u1ECDn ch\u1EE9 kh\xF4ng ph\u1EA3i qu\u0103ng v\xF4 l\xE0 xong
     \u0111\xE2u nha!"
+  - "Ch\u1ED7 \u0111\u1EC3 \u0111\u1ED3 b\u1ED9 l\xE0 c\xE1i ch\u1ED7 m\xE0 \xE1o
+    qu\u1EA7n s\u1EB7c s\u1EE1 h\xECnh th\xF9 d\u1EC5 th\u01B0\u01A1ng \u0111\xF3!"
   conditions:
   - objectId: 
     requiredStateId: 0
