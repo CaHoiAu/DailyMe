@@ -35,20 +35,11 @@ MonoBehaviour:
     scale: {x: 0.07439973, y: 0.07439973, z: 0.07439973}
     requiresPlacement: 1
     forbiddenCells: []
-    dropDuration: 2
-    dropHeight: 2
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1
@@ -88,20 +79,11 @@ MonoBehaviour:
     requiresPlacement: 1
     forbiddenCells:
     - {x: 2, y: 0}
-    dropDuration: 2
-    dropHeight: 2
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1
@@ -142,20 +124,11 @@ MonoBehaviour:
     scale: {x: 0.08250628, y: 0.08250628, z: 0.08250628}
     requiresPlacement: 1
     forbiddenCells: []
-    dropDuration: 2
-    dropHeight: 2
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1
@@ -201,20 +174,11 @@ MonoBehaviour:
     scale: {x: 0.077353634, y: 0.075870685, z: 0.075276}
     requiresPlacement: 0
     forbiddenCells: []
-    dropDuration: 2
-    dropHeight: 2
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1
@@ -253,20 +217,11 @@ MonoBehaviour:
     scale: {x: 0.0849645, y: 0.0849645, z: 0.0849645}
     requiresPlacement: 0
     forbiddenCells: []
-    dropDuration: 2
-    dropHeight: 2
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1

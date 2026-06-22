@@ -36,6 +36,9 @@ public class LevelManager : MonoBehaviour
     [Header("Cutscene")]
     public CutscenePlayer cutscenePlayer;
 
+    [Header("Loading Screen")]
+    public LoadingScreenManager loadingScreenManager;
+
     [Header("Phone Panel")]
     public PhonePanelManager phonePanelManager;
 
@@ -318,8 +321,13 @@ public class LevelManager : MonoBehaviour
             currentLevelIndex++;
             currentMiniLVLIndex = 0;
             levelData = allLevels[currentLevelIndex];
+            taskTimelineManager?.Initialize(levelData);
             PersistTransition();
-            isTransitioningMiniLevel = false;
+            LoadMiniLevel();
+            if (loadingScreenManager != null)
+                loadingScreenManager.Show(LoadMiniLevel);
+            else
+                LoadMiniLevel();
         }
         else
         {

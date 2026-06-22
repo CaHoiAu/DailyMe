@@ -19,7 +19,7 @@ MonoBehaviour:
     miniGameData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}
     contactSequences:
     - {fileID: 11400000, guid: 2408b698e764e024c9ac120267d80f5a, type: 2}
-    - {fileID: 11400000, guid: 2408b698e764e024c9ac120267d80f5a, type: 2}
+    - {fileID: 11400000, guid: 7c3ebe9890cbaec49a63cd748ab3ab37, type: 2}
     cutscene:
       background: {fileID: 0}
       character: {fileID: 0}

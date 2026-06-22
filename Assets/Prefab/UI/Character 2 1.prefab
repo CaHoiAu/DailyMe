@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6734546225143977827}
   - component: {fileID: 64869698271269378}
   m_Layer: 5
-  m_Name: Character 5
+  m_Name: Character 2 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7051618906258315749, guid: 26cf596d3c6ad6b4681593eeb50aec37, type: 3}
+  m_Sprite: {fileID: -6488243711746649929, guid: 12c021b66b059dd4989cd06c4b7c77d9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -86,7 +86,7 @@ Animator:
   m_GameObject: {fileID: 3552312898738429833}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a839a9efc3a9b034ea0232410ec5a822, type: 2}
+  m_Controller: {fileID: 9100000, guid: f819b67288a29a649988490f7431d9f4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

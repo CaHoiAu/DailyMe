@@ -15,9 +15,123 @@ MonoBehaviour:
   dayNumber: 3
   dayOfWeek: 3
   miniGames:
+  - miniLevelType: 2
+    miniGameData: {fileID: 11400000, guid: 38a185949aa1d1a40b83b00d6f96784a, type: 2}
+    contactSequences:
+    - {fileID: 11400000, guid: 2408b698e764e024c9ac120267d80f5a, type: 2}
+    - {fileID: 11400000, guid: 2408b698e764e024c9ac120267d80f5a, type: 2}
+    cutscene:
+      background: {fileID: -6488243711746649929, guid: 12c021b66b059dd4989cd06c4b7c77d9, type: 3}
+      character: {fileID: 0}
+      characterPrefab: {fileID: 3552312898738429833, guid: 8d493c97078bfc24bb44957e2602b7e7, type: 3}
+      animationTrigger: 
+      characterPosition: {x: 0, y: 0}
+      duration: 2
+      slidingBackground: {fileID: 0}
+      slideStartPosition: {x: 0, y: 0}
+      slideEndPosition: {x: 0, y: 0}
   - miniLevelType: 0
-    miniGameData: {fileID: 11400000, guid: fd7358daeba4fb44ea527712315e5c95, type: 2}
+    miniGameData: {fileID: 11400000, guid: 38a185949aa1d1a40b83b00d6f96784a, type: 2}
+    contactSequences:
+    - {fileID: 11400000, guid: 2f51f5a23ced9ab4fba9dc45a9c9c062, type: 2}
+    - {fileID: 11400000, guid: 4c1c964eb791f70408011ce905353293, type: 2}
+    cutscene:
+      background: {fileID: 0}
+      character: {fileID: 0}
+      characterPrefab: {fileID: 0}
+      animationTrigger: 
+      characterPosition: {x: 0, y: 0}
+      duration: 2
+      slidingBackground: {fileID: 0}
+      slideStartPosition: {x: 0, y: 0}
+      slideEndPosition: {x: 0, y: 0}
+  - miniLevelType: 1
+    miniGameData: {fileID: 11400000, guid: 087dfe3bc3e1d9c498d469aa588b0c19, type: 2}
+    contactSequences:
+    - {fileID: 11400000, guid: dff90a2b361a02347874d795267b7705, type: 2}
+    - {fileID: 11400000, guid: adc8d2f25cddfa145925514b5a5235dc, type: 2}
+    cutscene:
+      background: {fileID: 3048248602025310363, guid: 07322579c59314245a112c31d4732265, type: 3}
+      character: {fileID: 0}
+      characterPrefab: {fileID: 3552312898738429833, guid: 8b69d56ed2c7f2e42a779bc8d40057e8, type: 3}
+      animationTrigger: 
+      characterPosition: {x: -947, y: -216}
+      duration: 3
+      slidingBackground: {fileID: 0}
+      slideStartPosition: {x: 0, y: 0}
+      slideEndPosition: {x: 0, y: 0}
   - miniLevelType: 0
     miniGameData: {fileID: 11400000, guid: 2ba5417d5840ad248ab7cd44d2f40f30, type: 2}
-  - miniLevelType: 1
-    miniGameData: {fileID: 11400000, guid: 38a185949aa1d1a40b83b00d6f96784a, type: 2}
+    contactSequences:
+    - {fileID: 11400000, guid: 671fed1b32ebbcc48b943cdce352e9df, type: 2}
+    - {fileID: 11400000, guid: 3e29db0c884bc18488b29b85cb97cc95, type: 2}
+    cutscene:
+      background: {fileID: 21300000, guid: 50b8e032dfe5b6b47aba626610da205f, type: 3}
+      character: {fileID: 0}
+      characterPrefab: {fileID: 3552312898738429833, guid: 2472024c9f5805e42b2166f1767a8842, type: 3}
+      animationTrigger: 
+      characterPosition: {x: 0, y: 0}
+      duration: 1.07
+      slidingBackground: {fileID: 0}
+      slideStartPosition: {x: 0, y: 0}
+      slideEndPosition: {x: 0, y: 0}
+  - miniLevelType: 0
+    miniGameData: {fileID: 11400000, guid: 3c1583a1ed9ea9b48bbb3fde527741bf, type: 2}
+    contactSequences:
+    - {fileID: 11400000, guid: 6ec272457dcd7214a96d708e2dee4f07, type: 2}
+    - {fileID: 11400000, guid: c3b55082227cd6347affa96d1f05f8f9, type: 2}
+    cutscene:
+      background: {fileID: 4621959087322610887, guid: 1879ca835c3189748b33269fa976c47f, type: 3}
+      character: {fileID: 0}
+      characterPrefab: {fileID: 3552312898738429833, guid: 1661c6a030f31c04fb56e75fc6f3f8e1, type: 3}
+      animationTrigger: 
+      characterPosition: {x: 0, y: 0}
+      duration: 1.03
+      slidingBackground: {fileID: 0}
+      slideStartPosition: {x: 0, y: 0}
+      slideEndPosition: {x: 0, y: 0}
+  - miniLevelType: 0
+    miniGameData: {fileID: 11400000, guid: da96b1297b907b841b8c99a9d6006535, type: 2}
+    contactSequences:
+    - {fileID: 11400000, guid: de6ac58ac817c8d4a8766ea47af3972a, type: 2}
+    - {fileID: 11400000, guid: ce673a9cc4a90854092bab9e2915c185, type: 2}
+    - {fileID: 11400000, guid: 751d94ee74f0af8439a8b92d5edf29d6, type: 2}
+    cutscene:
+      background: {fileID: -4626526208539555849, guid: 86f65ad284c55014d881e5204c1a6788, type: 3}
+      character: {fileID: 0}
+      characterPrefab: {fileID: 3552312898738429833, guid: 0821fd053af8f8c45876400da9853b40, type: 3}
+      animationTrigger: 
+      characterPosition: {x: 0, y: 0}
+      duration: 1.03
+      slidingBackground: {fileID: 0}
+      slideStartPosition: {x: 0, y: 0}
+      slideEndPosition: {x: 0, y: 0}
+  - miniLevelType: 0
+    miniGameData: {fileID: 11400000, guid: 5a393e8a87937c84dbf3727da60c2872, type: 2}
+    contactSequences:
+    - {fileID: 11400000, guid: dd1c4cbd0e57dca4984cba0537cabd39, type: 2}
+    - {fileID: 11400000, guid: 65c3c5951d624bb479ba33a699bd1b66, type: 2}
+    - {fileID: 11400000, guid: dc89170e9edff524c9ff06ef469535b1, type: 2}
+    cutscene:
+      background: {fileID: -7869371822943396882, guid: ca44cb2217a790645afd06b172309930, type: 3}
+      character: {fileID: 0}
+      characterPrefab: {fileID: 3552312898738429833, guid: 623f30e948c570448a86af326222b94e, type: 3}
+      animationTrigger: 
+      characterPosition: {x: 0, y: 0}
+      duration: 1.05
+      slidingBackground: {fileID: 0}
+      slideStartPosition: {x: 0, y: 0}
+      slideEndPosition: {x: 0, y: 0}
+  - miniLevelType: 2
+    miniGameData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}
+    contactSequences: []
+    cutscene:
+      background: {fileID: -9149887132948830970, guid: 2b471e6401bb3114699c3396345bc4d8, type: 3}
+      character: {fileID: 0}
+      characterPrefab: {fileID: 3552312898738429833, guid: fe76420d66787b94d99127ee508ead34, type: 3}
+      animationTrigger: 
+      characterPosition: {x: 0, y: 0}
+      duration: 2.09
+      slidingBackground: {fileID: 0}
+      slideStartPosition: {x: 0, y: 0}
+      slideEndPosition: {x: 0, y: 0}

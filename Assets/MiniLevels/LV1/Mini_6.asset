@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5493dc2d47fc2aa4f9aaafb6fb6e784e, type: 3}
   m_Name: Mini_6
   m_EditorClassIdentifier: 
-  name: "D\u1ECDn t\u1EE7 \xE1o qu\u1EA7n"
+  name: "Vi\u1EC7c nh\xE0"
   boardWidth: 4
   boardHeight: 2
   cellSize: 2.52
@@ -50,20 +50,11 @@ MonoBehaviour:
     - {x: 2, y: 1}
     - {x: 3, y: 1}
     - {x: 3, y: 0}
-    dropDuration: 2
-    dropHeight: 2
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1
@@ -108,20 +99,11 @@ MonoBehaviour:
     - {x: 2, y: 1}
     - {x: 3, y: 0}
     - {x: 3, y: 1}
-    dropDuration: 2
-    dropHeight: 2
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1
@@ -165,20 +147,11 @@ MonoBehaviour:
     - {x: 1, y: 0}
     - {x: 2, y: 0}
     - {x: 3, y: 0}
-    dropDuration: 2
-    dropHeight: 2
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1
@@ -221,20 +194,11 @@ MonoBehaviour:
     - {x: 1, y: 0}
     - {x: 3, y: 0}
     - {x: 3, y: 1}
-    dropDuration: 2
-    dropHeight: 2
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1
@@ -267,20 +231,11 @@ MonoBehaviour:
     - {x: 3, y: 0}
     - {x: 0, y: 0}
     - {x: 0, y: 1}
-    dropDuration: 2
-    dropHeight: 2
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1

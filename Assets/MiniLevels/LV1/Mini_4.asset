@@ -34,28 +34,20 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.08301929, y: 0.08301929, z: 0.08301929}
     requiresPlacement: 1
-    dropDuration: 2
-    dropHeight: 2
+    forbiddenCells: []
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1
         inSlope: 0
         outSlope: 0
-        tangentMode: 0
+        tangentMode: 34
         weightedMode: 0
-        inWeight: 0
+        inWeight: 0.33333334
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -90,20 +82,12 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.08409973, y: 0.094149604, z: 0.106583215}
     requiresPlacement: 1
-    dropDuration: 2
-    dropHeight: 2
+    forbiddenCells: []
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1
@@ -142,20 +126,12 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.07232248, y: 0.07232248, z: 0.07232248}
     requiresPlacement: 1
-    dropDuration: 2
-    dropHeight: 2
+    forbiddenCells: []
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1
@@ -194,20 +170,12 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.07140759, y: 0.07140759, z: 0.07140759}
     requiresPlacement: 1
-    dropDuration: 2
-    dropHeight: 2
+    forbiddenCells: []
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1
@@ -236,20 +204,12 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.06893634, y: 0.06893634, z: 0.06893634}
     requiresPlacement: 0
-    dropDuration: 2
-    dropHeight: 2
+    forbiddenCells: []
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1
@@ -278,20 +238,12 @@ MonoBehaviour:
     currentLayer: 0
     scale: {x: 0.08270759, y: 0.08270759, z: 0.08270759}
     requiresPlacement: 0
-    dropDuration: 2
-    dropHeight: 2
+    forbiddenCells: []
+    dropDuration: 0
+    dropHeight: 0
     dropCurve:
       serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1

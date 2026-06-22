@@ -1,5 +1,4 @@
-﻿using UnityEditor.U2D.Aseprite;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
 public class DragObject : MonoBehaviour
