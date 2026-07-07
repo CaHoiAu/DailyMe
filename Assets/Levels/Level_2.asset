@@ -16,7 +16,7 @@ MonoBehaviour:
   dayOfWeek: 2
   miniGames:
   - miniLevelType: 2
-    miniGameData: {fileID: 11400000, guid: 38a185949aa1d1a40b83b00d6f96784a, type: 2}
+    miniGameData: {fileID: 11400000, guid: aaac786dd6723d24f9f527cf35f2b6f1, type: 2}
     contactSequences:
     - {fileID: 11400000, guid: 2408b698e764e024c9ac120267d80f5a, type: 2}
     - {fileID: 11400000, guid: 2408b698e764e024c9ac120267d80f5a, type: 2}
@@ -31,10 +31,10 @@ MonoBehaviour:
       slideStartPosition: {x: 0, y: 0}
       slideEndPosition: {x: 0, y: 0}
   - miniLevelType: 0
-    miniGameData: {fileID: 11400000, guid: 38a185949aa1d1a40b83b00d6f96784a, type: 2}
+    miniGameData: {fileID: 11400000, guid: d86beae4608d83d47aa766ee4ee468be, type: 2}
     contactSequences:
-    - {fileID: 11400000, guid: 2f51f5a23ced9ab4fba9dc45a9c9c062, type: 2}
-    - {fileID: 11400000, guid: 4c1c964eb791f70408011ce905353293, type: 2}
+    - {fileID: 11400000, guid: 2cc61c6811955834f97063caeef24b43, type: 2}
+    - {fileID: 11400000, guid: 506031b92dea5694c9b3f3757468357c, type: 2}
     cutscene:
       background: {fileID: 0}
       character: {fileID: 0}
@@ -46,10 +46,10 @@ MonoBehaviour:
       slideStartPosition: {x: 0, y: 0}
       slideEndPosition: {x: 0, y: 0}
   - miniLevelType: 1
-    miniGameData: {fileID: 11400000, guid: 087dfe3bc3e1d9c498d469aa588b0c19, type: 2}
+    miniGameData: {fileID: 11400000, guid: 46cefbea7a2f10d4e8ec56f126f62037, type: 2}
     contactSequences:
-    - {fileID: 11400000, guid: dff90a2b361a02347874d795267b7705, type: 2}
-    - {fileID: 11400000, guid: adc8d2f25cddfa145925514b5a5235dc, type: 2}
+    - {fileID: 11400000, guid: 64b5190ae55c8f54da285197dec41563, type: 2}
+    - {fileID: 11400000, guid: f80ae870b25109f4592c0bebc6adf680, type: 2}
     cutscene:
       background: {fileID: 3048248602025310363, guid: 07322579c59314245a112c31d4732265, type: 3}
       character: {fileID: 0}
@@ -61,14 +61,14 @@ MonoBehaviour:
       slideStartPosition: {x: 0, y: 0}
       slideEndPosition: {x: 0, y: 0}
   - miniLevelType: 0
-    miniGameData: {fileID: 11400000, guid: 2ba5417d5840ad248ab7cd44d2f40f30, type: 2}
+    miniGameData: {fileID: 11400000, guid: 8388333065983db488acb5aea82e0dcc, type: 2}
     contactSequences:
-    - {fileID: 11400000, guid: 671fed1b32ebbcc48b943cdce352e9df, type: 2}
-    - {fileID: 11400000, guid: 3e29db0c884bc18488b29b85cb97cc95, type: 2}
+    - {fileID: 11400000, guid: f34244eb20a169c46b6f3d9673e99cc0, type: 2}
+    - {fileID: 11400000, guid: 5a6bec927aa50814281d03add1d7b609, type: 2}
     cutscene:
       background: {fileID: 21300000, guid: 50b8e032dfe5b6b47aba626610da205f, type: 3}
       character: {fileID: 0}
-      characterPrefab: {fileID: 3552312898738429833, guid: 2472024c9f5805e42b2166f1767a8842, type: 3}
+      characterPrefab: {fileID: 3552312898738429833, guid: 0b9d4f2626278d84f939a6b501c2ecf1, type: 3}
       animationTrigger: 
       characterPosition: {x: 0, y: 0}
       duration: 1.07
@@ -78,8 +78,8 @@ MonoBehaviour:
   - miniLevelType: 0
     miniGameData: {fileID: 11400000, guid: 3c1583a1ed9ea9b48bbb3fde527741bf, type: 2}
     contactSequences:
-    - {fileID: 11400000, guid: 6ec272457dcd7214a96d708e2dee4f07, type: 2}
-    - {fileID: 11400000, guid: c3b55082227cd6347affa96d1f05f8f9, type: 2}
+    - {fileID: 11400000, guid: e3f9111b7e953e747964bf63c7d0869c, type: 2}
+    - {fileID: 11400000, guid: bd1adc5473f54834b88a92357391a055, type: 2}
     cutscene:
       background: {fileID: 4621959087322610887, guid: 1879ca835c3189748b33269fa976c47f, type: 3}
       character: {fileID: 0}
@@ -91,11 +91,11 @@ MonoBehaviour:
       slideStartPosition: {x: 0, y: 0}
       slideEndPosition: {x: 0, y: 0}
   - miniLevelType: 0
-    miniGameData: {fileID: 11400000, guid: da96b1297b907b841b8c99a9d6006535, type: 2}
+    miniGameData: {fileID: 11400000, guid: 8249eb8b8a059684f9b7a62807431447, type: 2}
     contactSequences:
-    - {fileID: 11400000, guid: de6ac58ac817c8d4a8766ea47af3972a, type: 2}
-    - {fileID: 11400000, guid: ce673a9cc4a90854092bab9e2915c185, type: 2}
-    - {fileID: 11400000, guid: 751d94ee74f0af8439a8b92d5edf29d6, type: 2}
+    - {fileID: 11400000, guid: d65615641063c15419c9427867643ab5, type: 2}
+    - {fileID: 11400000, guid: e42103a7abafb5442af877917cbf4d71, type: 2}
+    - {fileID: 11400000, guid: c2916816dfdee3b46b1b56a337d2e099, type: 2}
     cutscene:
       background: {fileID: -4626526208539555849, guid: 86f65ad284c55014d881e5204c1a6788, type: 3}
       character: {fileID: 0}
@@ -107,11 +107,12 @@ MonoBehaviour:
       slideStartPosition: {x: 0, y: 0}
       slideEndPosition: {x: 0, y: 0}
   - miniLevelType: 0
-    miniGameData: {fileID: 11400000, guid: 5a393e8a87937c84dbf3727da60c2872, type: 2}
+    miniGameData: {fileID: 11400000, guid: dd8845a4cd1b497458b49fb71316b1e2, type: 2}
     contactSequences:
-    - {fileID: 11400000, guid: dd1c4cbd0e57dca4984cba0537cabd39, type: 2}
-    - {fileID: 11400000, guid: 65c3c5951d624bb479ba33a699bd1b66, type: 2}
-    - {fileID: 11400000, guid: dc89170e9edff524c9ff06ef469535b1, type: 2}
+    - {fileID: 11400000, guid: d00675dc31b79c444bfbee76ca92d82a, type: 2}
+    - {fileID: 11400000, guid: c61c38c15322c4a4dabc73b94f7a19d4, type: 2}
+    - {fileID: 11400000, guid: bae0e8505425eb84f9da3c2f5214be18, type: 2}
+    - {fileID: 11400000, guid: 88af4334d61dca648a4a096635c88007, type: 2}
     cutscene:
       background: {fileID: -7869371822943396882, guid: ca44cb2217a790645afd06b172309930, type: 3}
       character: {fileID: 0}
@@ -123,7 +124,7 @@ MonoBehaviour:
       slideStartPosition: {x: 0, y: 0}
       slideEndPosition: {x: 0, y: 0}
   - miniLevelType: 2
-    miniGameData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}
+    miniGameData: {fileID: 11400000, guid: dd8845a4cd1b497458b49fb71316b1e2, type: 2}
     contactSequences: []
     cutscene:
       background: {fileID: -9149887132948830970, guid: 2b471e6401bb3114699c3396345bc4d8, type: 3}

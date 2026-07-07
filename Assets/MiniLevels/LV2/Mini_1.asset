@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5493dc2d47fc2aa4f9aaafb6fb6e784e, type: 3}
+  m_Name: Mini_1
+  m_EditorClassIdentifier: 
+  name: Wakey wakey
+  boardWidth: 5
+  boardHeight: 2
+  cellSize: 1.18
+  boardOrigin: {x: -1.86, y: -0.73, z: 0}
+  objects:
+  - objectId: teddylon
+    prefab: {fileID: 6048981880002860135, guid: 19ca1d0af5dd96e45b184404f447939a, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: -7986665168407556856, guid: 185037c95a894fa43890e06a53e9ddcb, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      - {x: 0, y: 1}
+      - {x: 1, y: 0}
+      - {x: 1, y: 1}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    - stateId: 1
+      stateName: 
+      sprite: {fileID: -1700561060568755287, guid: 8742810a7cb92ca48b8cd6780f438c7f, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      - {x: 0, y: 1}
+      - {x: 1, y: 0}
+      - {x: 1, y: 1}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: -0.54, y: -3.65, z: -1}
+    currentLayer: 0
+    scale: {x: 0.05811877, y: 0.05811877, z: 0.05811877}
+    requiresPlacement: 1
+    dropDuration: 0
+    dropHeight: 0
+    dropCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 4
+  - objectId: teddynho
+    prefab: {fileID: 6048981880002860135, guid: 2056b2daddb280f459d94e5fd7bd85ca, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 2983688320119581174, guid: 2155ec20e090c0145bc8529bb0e4acfc, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 3.2114, y: -1.6717, z: 0}
+    currentLayer: 1
+    scale: {x: 0.03485181, y: 0.03485181, z: 0.03485181}
+    requiresPlacement: 1
+    dropDuration: 0
+    dropHeight: 0
+    dropCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 4
+  - objectId: chan
+    prefab: {fileID: 6048981880002860135, guid: aacec380e7cf5c843908fd3f4b87c1ab, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 4616332809502876914, guid: eaaf4e07e5735eb4b97dcee223604d13, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      - {x: 1, y: 0}
+      - {x: 2, y: 0}
+      - {x: 0, y: 1}
+      - {x: 1, y: 1}
+      - {x: 2, y: 1}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    - stateId: 1
+      stateName: 
+      sprite: {fileID: 21300000, guid: 60295b809cc12a94896b5cebaca340b0, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      - {x: 1, y: 0}
+      - {x: 2, y: 0}
+      - {x: 3, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 0.63, y: -3.29, z: 0}
+    currentLayer: 0
+    scale: {x: 0.07498667, y: 0.07297262, z: 0.07297262}
+    requiresPlacement: 0
+    dropDuration: 0
+    dropHeight: 0
+    dropCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 4
+  - objectId: haicau
+    prefab: {fileID: 6048981880002860135, guid: 13726f727fe7e4d4c9746caa1844c929, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 21300000, guid: 6e1de505b36883e4f9d5d396c257e2c6, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 6.92, y: -3.67, z: 0}
+    currentLayer: 0
+    scale: {x: 0.07439973, y: 0.07439973, z: 0.07439973}
+    requiresPlacement: 1
+    dropDuration: 0
+    dropHeight: 0
+    dropCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+  - objectId: denngu
+    prefab: {fileID: 6048981880002860135, guid: db04669683596bf4daf629a7e99b5f10, type: 3}
+    states:
+    - stateId: 0
+      stateName: denbat
+      sprite: {fileID: 2599969905456701152, guid: a9d631c0af57f60498d40e6d5547990c, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    - stateId: 1
+      stateName: dentat
+      sprite: {fileID: -6161537908134182034, guid: c55e712623deff445aaeedb10fab0e3b, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 6.23, y: 1.22, z: 0}
+    currentLayer: 0
+    scale: {x: 0.07732242, y: 0.07732242, z: 0.07732242}
+    requiresPlacement: 0
+    dropDuration: 0
+    dropHeight: 0
+    dropCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 4
+  - objectId: bautroi
+    prefab: {fileID: 6048981880002860135, guid: fe1e80ad0085d1d49b2c2aff63e1d911, type: 3}
+    states:
+    - stateId: 0
+      stateName: troidem
+      sprite: {fileID: 4278519353054855953, guid: c0de44087b1229144aa5cc0fba988614, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      - {x: 0, y: 1}
+      - {x: 0, y: 2}
+      - {x: 0, y: 3}
+      - {x: 0, y: 4}
+      - {x: 0, y: 5}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    - stateId: 1
+      stateName: troisang
+      sprite: {fileID: 3700070239424627759, guid: 2b26c898f08a40547bbd3b4255a8ff00, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      - {x: 0, y: 1}
+      - {x: 0, y: 2}
+      - {x: 0, y: 3}
+      - {x: 0, y: 4}
+      - {x: 0, y: 5}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 8.686, y: 3.7871, z: 0}
+    currentLayer: 0
+    scale: {x: 0.05126779, y: 0.05126779, z: 0.05126779}
+    requiresPlacement: 0
+    dropDuration: 0
+    dropHeight: 0
+    dropCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 4
+  - objectId: goi2
+    prefab: {fileID: 6048981880002860135, guid: d5e7ed51a6b711e40b7f178b865584e8, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 7534724299474037611, guid: 4284b34d4c385244da1900b1f5654301, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      - {x: 0, y: 1}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 5.89, y: -5.19, z: 0}
+    currentLayer: 0
+    scale: {x: 0.09454246, y: 0.09454246, z: 0.09454246}
+    requiresPlacement: 1
+    dropDuration: 0
+    dropHeight: 0
+    dropCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 4
+  useBoundary: 1
+  useNonOverlap: 1
+  useFullCoverage: 0
+  useAllObjects: 0
+  useExactSlots: 0
+  useLayerOverlap: 0
+  exactSlotAssignments: []
+  adjacentConstraints:
+  - objIdA: teddylon
+    objIdB: teddynho
+  - objIdA: goi2
+    objIdB: haicau
+  requireStateConstraints:
+  - objectId: teddylon
+    requiredStateIndex: 1
+  relativePositionConstraints:
+  - objectIdA: teddylon
+    direction: 2
+    objectIdB: goi2
+  - objectIdA: teddylon
+    direction: 2
+    objectIdB: haicau
+  - objectIdA: teddylon
+    direction: 2
+    objectIdB: teddynho
+  - objectIdA: haicau
+    direction: 3
+    objectIdB: goi2
+  belowAdjacentConstraints:
+  - objectIdA: teddylon
+    objectIdB: teddynho
+  - objectIdA: goi2
+    objectIdB: haicau
+  useDropTargets: 0
+  dropTargets: []
+  useLandingZones: 0
+  landingZones: []
+  backgroundSprite: {fileID: -794994641689720010, guid: e910eaae260b57347a518921ead8f19f, type: 3}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  backgroundScale: {x: 0.07859181, y: 0.07859181, z: 0.07859181}
+  backgroundPosition: {x: 0.03656328, y: -0.05303097, z: 124.38}

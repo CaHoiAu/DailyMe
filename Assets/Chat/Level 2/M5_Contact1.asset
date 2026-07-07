@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b39311fbfb4ea4698e105ca3d46e2d, type: 3}
+  m_Name: M5_Contact1
+  m_EditorClassIdentifier: 
+  messages:
+  - "\u0110\u1EBFn gi\u1EDD c\u01A1m tr\u01B0a r\u1ED3i! V\u1EC1 nh\xE0 \u0103n c\u01A1m
+    v\u1EDBi gia \u0111\xECnh thui!!!"
+  - "Nh\u01B0ng m\xE0 b\u1EA1n ph\u1EA3i ho\xE0n th\xE0nh nhi\u1EC7m v\u1EE5 \u0111\xE3
+    r\u1ED3i m\u1EDBi \u0103n u\u1ED1ng sau nh\xE1!!!"
+  - "H\xE3y x\u1EBFp c\xE1c m\xF3n \u0103n l\xEAn b\xE0n sao cho ph\xF9 h\u1EE3p
+    v\u1EDBi s\u1EDF th\xEDch \u0103n u\u1ED1ng c\u1EE7a m\u1ED7i th\xE0nh vi\xEAn
+    nh\xE9! M\xF3n th\xE0nh vi\xEAn n\xE0o c\xE0ng kh\xF4ng th\xEDch th\xEC c\xE0ng
+    tr\xE1nh xa nh\xE1, c\xF2n th\xEDch th\xEC ng\u01B0\u1EE3c l\u1EA1i thui."
+  conditions:
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 0
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 1
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 2
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
+  miniLevelData: {fileID: 11400000, guid: f21948eafbe0cec46bbbde7e662f7787, type: 2}

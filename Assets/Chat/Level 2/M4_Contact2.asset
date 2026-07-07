@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b39311fbfb4ea4698e105ca3d46e2d, type: 3}
+  m_Name: M4_Contact2
+  m_EditorClassIdentifier: 
+  messages:
+  - "\xD4i v\xE3i gh\xE9t H\xF3a thi\u1EC7t \xE1 ch\u1EE9uuuuu"
+  - "V\u1EDF \u0111\u1EB7t l\xE0m sao \u0111\u1EC3 ti\u1EC7n cho vi\u1EC7c ghi ch\xE9p.
+    S\xE1ch \u0111\u1EB7t \u1EDF ph\xEDa tr\xEAn \u0111\u1EC3 theo d\xF5i d\u1EC5
+    h\u01A1n."
+  - "Hmm... b\xFAt vi\u1EBFt c\xE1c th\u1EE9 h\xECnh nh\u01B0 \u1EDF trong h\u1ED9p
+    b\xFAt th\xEC ph\u1EA3i? H\u1ED9p b\xFAt h\u01A1i to n\xEAn \u0111\u1EC3 \u1EDF
+    ph\xEDa tr\xEAn \u0111i!"
+  - "M\xECnh thu\u1EADn tay ph\u1EA3i n\xEAn \u0111\u1EC3 b\xFAt, com-pa, ... c\xE1c
+    th\u1EE9 \u1EDF b\xEAn ph\u1EA3i l\xE0 oke."
+  conditions: []
+  miniLevelData: {fileID: 11400000, guid: 8388333065983db488acb5aea82e0dcc, type: 2}

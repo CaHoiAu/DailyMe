@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b39311fbfb4ea4698e105ca3d46e2d, type: 3}
+  m_Name: M5_Contact2
+  m_EditorClassIdentifier: 
+  messages:
+  - "M\xF3n c\xE1 n\xE0y l\xE0 m\xF3n kho\xE1i kh\u1EA9u c\u1EE7a ba v\u1EDBi m\u1EB9
+    n\xE8"
+  - "M\xECnh v\u1EDBi anh gh\xE9t \u0103n rau nh\u1EA5t lu\xF4n \xE1..."
+  - "D\u1EA1o n\xE0y ch\u1ECB b\u1EA3o l\xE0 ch\u1ECB gi\u1EA3m c\xE2n n\xEAn \u0103n
+    hoa qu\u1EA3 thay c\u01A1m??? \u0102n l\u1EA1 v\u1EADy tr\u1EDDi..."
+  - "Th\u1ECBt g\xE0, th\u1ECBt g\xE0!!!! M\xECnh th\xEDch th\u1ECBt g\xE0 nh\u1EA5t!!!!"
+  - "Canh \u0111\u1EC3 \u1EDF gi\u1EEFa cho m\u1ECDi ng\u01B0\u1EDDi d\u1EC5 chan"
+  conditions:
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 0
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 1
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 2
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 3
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: 0
+    messageIndex: 4
+    excludeFromUnlock:
+    - mam
+    isLevelBreak: 0
+    levelBreakNote: 
+  miniLevelData: {fileID: 11400000, guid: f21948eafbe0cec46bbbde7e662f7787, type: 2}

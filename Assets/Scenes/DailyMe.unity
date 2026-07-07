@@ -1053,7 +1053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da347b9c29ed08a42b61efe2cc1093f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  miniLevelData: {fileID: 11400000, guid: 38a185949aa1d1a40b83b00d6f96784a, type: 2}
+  miniLevelData: {fileID: 11400000, guid: 5a393e8a87937c84dbf3727da60c2872, type: 2}
   boardManager: {fileID: 2000704147}
   dragObjects: []
 --- !u!114 &152545889
@@ -1200,7 +1200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1232092556393363293, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 73
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1232092556393363293, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1280,7 +1280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2847748300414854858, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2847748300414854858, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -4743,7 +4743,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1232092556393363293, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 73
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1232092556393363293, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -4823,7 +4823,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2847748300414854858, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2847748300414854858, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -5198,7 +5198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1232092556393363293, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 73
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1232092556393363293, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -5278,7 +5278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2847748300414854858, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2847748300414854858, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -5858,7 +5858,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7619182124059064404, guid: 14506bd8f10a7234ca82c357cf621aa1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 264.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7619182124059064404, guid: 14506bd8f10a7234ca82c357cf621aa1, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -7146,6 +7146,7 @@ MonoBehaviour:
   cutscenePlayer: {fileID: 21059050}
   loadingScreenManager: {fileID: 0}
   phonePanelManager: {fileID: 1687391824}
+  headerPlan: {fileID: 25734267}
 --- !u!1 &1010739414
 GameObject:
   m_ObjectHideFlags: 0
@@ -7425,7 +7426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7619182124059064404, guid: 14506bd8f10a7234ca82c357cf621aa1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 264.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8760960119771457148, guid: 14506bd8f10a7234ca82c357cf621aa1, type: 3}
       propertyPath: onAllMessageShown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -11349,7 +11350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7619182124059064404, guid: 14506bd8f10a7234ca82c357cf621aa1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 264.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8760960119771457148, guid: 14506bd8f10a7234ca82c357cf621aa1, type: 3}
       propertyPath: sequenceData
@@ -12788,7 +12789,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1955028917
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13210,8 +13211,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boardWidth: 3
   boardHeight: 2
-  cellSize: 1.88
-  origin: {x: 0.88, y: -2.66, z: 0}
+  cellSize: 1.9
+  origin: {x: -0.45, y: -2.72, z: 0}
   showGrid: 1
   gridColor: {r: 1, g: 1, b: 1, a: 1}
   gridLineWidth: 0.05
@@ -14331,7 +14332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7619182124059064404, guid: 14506bd8f10a7234ca82c357cf621aa1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 264.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8760960119771457148, guid: 14506bd8f10a7234ca82c357cf621aa1, type: 3}
       propertyPath: sequenceData
@@ -14998,7 +14999,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1232092556393363293, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 73
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1232092556393363293, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -15074,7 +15075,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2847748300414854858, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2847748300414854858, guid: 0c55b5fcbe5a3664aafcc8c2e35ce464, type: 3}
       propertyPath: m_AnchoredPosition.x

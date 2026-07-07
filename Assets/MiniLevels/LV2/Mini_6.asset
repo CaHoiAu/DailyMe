@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5493dc2d47fc2aa4f9aaafb6fb6e784e, type: 3}
+  m_Name: Mini_6
+  m_EditorClassIdentifier: 
+  name: "Vi\u1EC7c nh\xE0"
+  boardWidth: 4
+  boardHeight: 2
+  cellSize: 2.52
+  boardOrigin: {x: -2.38, y: -2.74, z: 0}
+  objects:
+  - objectId: aophong
+    prefab: {fileID: 6048981880002860135, guid: dd941d74fe6ebfb438d0fb170b4629f6, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: -8719820824820725750, guid: adf679b1600dbb044bdef6be0fb48e17, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    - stateId: 1
+      stateName: 
+      sprite: {fileID: 21300000, guid: c67678a44ae38a74f97ecf1ab2477147, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 2.38, y: -3.64, z: 0.1729532}
+    currentLayer: 0
+    scale: {x: 0.07960447, y: 0.07960447, z: 0.07960447}
+    requiresPlacement: 1
+    forbiddenCells:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 2, y: 0}
+    - {x: 2, y: 1}
+    - {x: 3, y: 1}
+    - {x: 3, y: 0}
+    dropDuration: 0
+    dropHeight: 0
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: dobo
+    prefab: {fileID: 6048981880002860135, guid: a88e74ea3e5ee0440bfec32fd2ce6821, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 984970314588246013, guid: 637344cadf4b4824cbf8e5adb4498126, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    - stateId: 1
+      stateName: 
+      sprite: {fileID: -5370866936248137303, guid: 869fa65857e53e5489d8ab6c7749e51f, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 1.09, y: -3.9, z: 0.1729532}
+    currentLayer: 0
+    scale: {x: 0.08358211, y: 0.08358211, z: 0.08358211}
+    requiresPlacement: 1
+    forbiddenCells:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 2, y: 0}
+    - {x: 2, y: 1}
+    - {x: 3, y: 0}
+    - {x: 3, y: 1}
+    dropDuration: 0
+    dropHeight: 0
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: aodai
+    prefab: {fileID: 6048981880002860135, guid: ca142bbc60c796941b9d0079514ef0db, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: -146211676314662202, guid: 3466bde46e791e342b53b7fc81046ee6, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      - {x: 0, y: 1}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    - stateId: 1
+      stateName: 
+      sprite: {fileID: 1339831405407600010, guid: e53b083981dc43741a252fdab8a184aa, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      - {x: 0, y: 1}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 3.8, y: -3.49, z: 0.1729532}
+    currentLayer: 0
+    scale: {x: 0.07236143, y: 0.070916705, z: 0.06566969}
+    requiresPlacement: 1
+    forbiddenCells:
+    - {x: 1, y: 0}
+    - {x: 2, y: 0}
+    - {x: 3, y: 0}
+    dropDuration: 0
+    dropHeight: 0
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: aosomi
+    prefab: {fileID: 6048981880002860135, guid: 4327f0e58fe04da4da5272ce70187135, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 7316288533961087166, guid: b2bbfa0dd3f723e4e847853d2a38ecb3, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    - stateId: 1
+      stateName: 
+      sprite: {fileID: -4806362011757619283, guid: 467c6dffa44e8f64e9fd49186301ea8c, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: -0.1, y: -3.84, z: 0.1729532}
+    currentLayer: 0
+    scale: {x: 0.08281239, y: 0.08281239, z: 0.08281239}
+    requiresPlacement: 1
+    forbiddenCells:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 3, y: 0}
+    - {x: 3, y: 1}
+    dropDuration: 0
+    dropHeight: 0
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: balo
+    prefab: {fileID: 6048981880002860135, guid: 6a7f18f475a122643a88e5eedbe866e0, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 3210619555420610821, guid: 4c9239baa941e754fa970b08d8b19a97, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: -2.1, y: -4.09, z: 0.1729532}
+    currentLayer: 0
+    scale: {x: 0.036733516, y: 0.040828627, z: 0.040828627}
+    requiresPlacement: 1
+    forbiddenCells:
+    - {x: 3, y: 0}
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    dropDuration: 0
+    dropHeight: 0
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  useBoundary: 1
+  useNonOverlap: 1
+  useFullCoverage: 0
+  useAllObjects: 0
+  useExactSlots: 0
+  useLayerOverlap: 0
+  exactSlotAssignments: []
+  adjacentConstraints: []
+  requireStateConstraints:
+  - objectId: aophong
+    requiredStateIndex: 1
+  - objectId: aosomi
+    requiredStateIndex: 1
+  - objectId: dobo
+    requiredStateIndex: 1
+  - objectId: aodai
+    requiredStateIndex: 1
+  relativePositionConstraints:
+  - objectIdA: aophong
+    direction: 0
+    objectIdB: dobo
+  - objectIdA: aosomi
+    direction: 3
+    objectIdB: dobo
+  - objectIdA: aosomi
+    direction: 1
+    objectIdB: aophong
+  - objectIdA: balo
+    direction: 3
+    objectIdB: aosomi
+  belowAdjacentConstraints: []
+  useDropTargets: 0
+  dropTargets: []
+  useLandingZones: 0
+  landingZones: []
+  backgroundSprite: {fileID: -7869371822943396882, guid: ca44cb2217a790645afd06b172309930, type: 3}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  backgroundScale: {x: 0.0790142, y: 0.0790142, z: 0.0790142}
+  backgroundPosition: {x: 0, y: 0, z: 0}

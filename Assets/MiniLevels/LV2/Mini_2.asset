@@ -1,0 +1,610 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5493dc2d47fc2aa4f9aaafb6fb6e784e, type: 3}
+  m_Name: Mini_2
+  m_EditorClassIdentifier: 
+  name: "Chu\u1EA9n b\u1ECB"
+  boardWidth: 3
+  boardHeight: 4
+  cellSize: 1.9
+  boardOrigin: {x: -0.45, y: -2.72, z: 0}
+  objects:
+  - objectId: hoa
+    prefab: {fileID: 6048981880002860135, guid: e0e9bff41bfba02458ce8692f37f8048, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: -6394062647049328701, guid: 39832c98096279e49950b7194e6acd5f, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: -2.02, y: -1.25, z: 0}
+    currentLayer: 0
+    scale: {x: 0.07471035, y: 0.07471035, z: 0.07471035}
+    requiresPlacement: 1
+    forbiddenCells: []
+    dropDuration: 1
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: dia
+    prefab: {fileID: 6048981880002860135, guid: 0d0f91a0c318d4f48a99c3417d9a1c8d, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 1521871150160910210, guid: a5fd62c68f5fc304db0664b0b995136a, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: -1.51, y: -2.89, z: 0}
+    currentLayer: 0
+    scale: {x: 0.06999614, y: 0.06999614, z: 0.06999613}
+    requiresPlacement: 1
+    forbiddenCells: []
+    dropDuration: 1
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: su
+    prefab: {fileID: 6048981880002860135, guid: c3fa92a73dc32e140b0e45b850bee35c, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: -6236479798556559760, guid: be6154c13f48bf549a55d715792a2c63, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 7.113, y: -0.48, z: 0}
+    currentLayer: 0
+    scale: {x: 0.07032366, y: 0.07032366, z: 0.07032366}
+    requiresPlacement: 1
+    forbiddenCells: []
+    dropDuration: 1
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: van
+    prefab: {fileID: 6048981880002860135, guid: a40fdac104f6c1b4ca06b37cdc4caea4, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 21300000, guid: 75d42713b2c564742abaa8e70656bb1b, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: -3.1, y: -2.3, z: 0}
+    currentLayer: 0
+    scale: {x: 0.06856169, y: 0.06856169, z: 0.06856169}
+    requiresPlacement: 1
+    forbiddenCells: []
+    dropDuration: 1
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: compass
+    prefab: {fileID: 6048981880002860135, guid: 97f32d7cb22281f4cbcede4b9a905397, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: -8942117458661244898, guid: ebdd6ffd170f79346942b658eababb78, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: -2.8, y: -3.9299998, z: 0}
+    currentLayer: 0
+    scale: {x: 0.09544374, y: 0.09544374, z: 0.09544374}
+    requiresPlacement: 1
+    forbiddenCells: []
+    dropDuration: 1
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: sinhto
+    prefab: {fileID: 6048981880002860135, guid: c319fb3660733194794c8dd5d26a4f98, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 3227836656438952182, guid: ec5880213687d824abd3ca7c3d352ab1, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 7.44, y: -2.49, z: 0}
+    currentLayer: 0
+    scale: {x: 0.07008914, y: 0.07008914, z: 0.07008914}
+    requiresPlacement: 1
+    forbiddenCells: []
+    dropDuration: 1
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: thuocke
+    prefab: {fileID: 6048981880002860135, guid: 0dddae78e77374340a770f1042caf58d, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: -6020106967182665873, guid: 074abfc69a91b9148b02ab654813f02b, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: -1.5114, y: -3.9394, z: 1.0872638}
+    currentLayer: 0
+    scale: {x: 0.046215516, y: 0.046215516, z: 0.04621551}
+    requiresPlacement: 1
+    forbiddenCells: []
+    dropDuration: 1
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: maytinhcasio
+    prefab: {fileID: 6048981880002860135, guid: 608dddecc8c7082409ef43d60e1fb5d4, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: -8976067204339898489, guid: 888ff9d8713bf9b4db0e36eea3a0f70a, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 5.98, y: -2.41, z: 1.2602171}
+    currentLayer: 0
+    scale: {x: 0.05951948, y: 0.05951948, z: 0.05951948}
+    requiresPlacement: 1
+    forbiddenCells: []
+    dropDuration: 1
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: tkb
+    prefab: {fileID: 6048981880002860135, guid: bb27d5009fc85664a8c06d8be3275b3e, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: 21300000, guid: 87132584afe147545821ec3211961580, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 7.113, y: 3.563, z: 0}
+    currentLayer: 0
+    scale: {x: 0.07032366, y: 0.07032366, z: 0.07032366}
+    requiresPlacement: 0
+    forbiddenCells: []
+    dropDuration: 1
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - objectId: but
+    prefab: {fileID: 6048981880002860135, guid: d59dcc6b066d4cb49af783672b87db8f, type: 3}
+    states:
+    - stateId: 0
+      stateName: 
+      sprite: {fileID: -4105977719016360991, guid: 4265b6ee720ace947a83f28266d46a30, type: 3}
+      cells:
+      - {x: 0, y: 0}
+      allowRotate: 0
+      isContainer: 0
+      containedObjectIds: []
+      containedObjectDisplays: []
+    startWorldPosition: {x: 6.3, y: -3.9, z: 0}
+    currentLayer: 0
+    scale: {x: 0.07032366, y: 0.07032366, z: 0.07032366}
+    requiresPlacement: 1
+    forbiddenCells: []
+    dropDuration: 1
+    dropHeight: 2
+    dropCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  useBoundary: 1
+  useNonOverlap: 1
+  useFullCoverage: 0
+  useAllObjects: 0
+  useExactSlots: 0
+  useLayerOverlap: 0
+  exactSlotAssignments: []
+  adjacentConstraints: []
+  requireStateConstraints: []
+  relativePositionConstraints:
+  - objectIdA: hoa
+    direction: 0
+    objectIdB: dia
+  - objectIdA: dia
+    direction: 0
+    objectIdB: su
+  - objectIdA: su
+    direction: 0
+    objectIdB: van
+  - objectIdA: but
+    direction: 2
+    objectIdB: van
+  - objectIdA: thuocke
+    direction: 2
+    objectIdB: van
+  - objectIdA: maytinhcasio
+    direction: 2
+    objectIdB: van
+  - objectIdA: compass
+    direction: 2
+    objectIdB: van
+  - objectIdA: but
+    direction: 2
+    objectIdB: hoa
+  - objectIdA: thuocke
+    direction: 2
+    objectIdB: hoa
+  - objectIdA: maytinhcasio
+    direction: 2
+    objectIdB: hoa
+  - objectIdA: compass
+    direction: 2
+    objectIdB: hoa
+  - objectIdA: compass
+    direction: 2
+    objectIdB: su
+  - objectIdA: thuocke
+    direction: 2
+    objectIdB: su
+  - objectIdA: maytinhcasio
+    direction: 2
+    objectIdB: su
+  - objectIdA: but
+    direction: 2
+    objectIdB: su
+  - objectIdA: compass
+    direction: 2
+    objectIdB: dia
+  - objectIdA: maytinhcasio
+    direction: 2
+    objectIdB: dia
+  - objectIdA: thuocke
+    direction: 2
+    objectIdB: dia
+  - objectIdA: but
+    direction: 2
+    objectIdB: dia
+  - objectIdA: sinhto
+    direction: 3
+    objectIdB: hoa
+  - objectIdA: sinhto
+    direction: 3
+    objectIdB: van
+  - objectIdA: sinhto
+    direction: 3
+    objectIdB: su
+  - objectIdA: sinhto
+    direction: 3
+    objectIdB: van
+  belowAdjacentConstraints: []
+  useDropTargets: 1
+  dropTargets:
+  - objectId: su
+    dropTargetPosition: -2.87
+  - objectId: dia
+    dropTargetPosition: -2.87
+  - objectId: van
+    dropTargetPosition: -2.87
+  - objectId: hoa
+    dropTargetPosition: -2.87
+  - objectId: thuocke
+    dropTargetPosition: -2.65
+  - objectId: maytinhcasio
+    dropTargetPosition: -2.65
+  - objectId: sinhto
+    dropTargetPosition: -2.74
+  - objectId: compass
+    dropTargetPosition: -2.65
+  - objectId: but
+    dropTargetPosition: -2.65
+  useLandingZones: 1
+  landingZones:
+  - zoneId: vobinhnuoc
+    objectId:
+    - sinhto
+    prefab: {fileID: 3354308684381599923, guid: 0a77f472a103a924b8803cd7056d54ad, type: 3}
+    position: {x: 4.7, y: -3.74, z: 0}
+    scale: {x: 0.07096381, y: 0.07096381, z: 0.07096381}
+    spriteVisual: {fileID: 9206055702975899430, guid: efd4bfbe5ce423c4fb78f9d8cb29feec, type: 3}
+    colorVisual: {r: 1, g: 1, b: 1, a: 1}
+    sortingOrder: 1
+    isVisualOnly: 0
+  - zoneId: balomo
+    objectId:
+    - hoa
+    - van
+    - dia
+    - su
+    prefab: {fileID: 3354308684381599923, guid: 0a77f472a103a924b8803cd7056d54ad, type: 3}
+    position: {x: 2.59, y: -3.48, z: 0}
+    scale: {x: 0.07658819, y: 0.07658819, z: 0.07658819}
+    spriteVisual: {fileID: -3325653621151780474, guid: 43455560c2e88d642890ede3e200839f, type: 3}
+    colorVisual: {r: 1, g: 1, b: 1, a: 1}
+    sortingOrder: -1
+    isVisualOnly: 0
+  - zoneId: balomo1
+    objectId: []
+    prefab: {fileID: 3354308684381599923, guid: 0a77f472a103a924b8803cd7056d54ad, type: 3}
+    position: {x: 2.55, y: -4.37, z: 0}
+    scale: {x: 0.07658819, y: 0.07658819, z: 0.07658819}
+    spriteVisual: {fileID: 21300000, guid: 41a996f41728af547a1a94d516ac3ac0, type: 3}
+    colorVisual: {r: 1, g: 1, b: 1, a: 1}
+    sortingOrder: 2
+    isVisualOnly: 1
+  - zoneId: hopbutmo
+    objectId:
+    - compass
+    - thuocke
+    - maytinhcasio
+    - but
+    prefab: {fileID: 3354308684381599923, guid: 0a77f472a103a924b8803cd7056d54ad, type: 3}
+    position: {x: 0.23000002, y: -3.669, z: 0}
+    scale: {x: 0.0829372, y: 0.0829372, z: 0.0829372}
+    spriteVisual: {fileID: 7812124001770133602, guid: cc426829c7e6c5948a686882e5983f3b, type: 3}
+    colorVisual: {r: 1, g: 1, b: 1, a: 1}
+    sortingOrder: 0
+    isVisualOnly: 0
+  - zoneId: hopbutmo1
+    objectId: []
+    prefab: {fileID: 3354308684381599923, guid: 0a77f472a103a924b8803cd7056d54ad, type: 3}
+    position: {x: 0.236, y: -3.73, z: 0}
+    scale: {x: 0.0829372, y: 0.0829372, z: 0.0829372}
+    spriteVisual: {fileID: 2246910840728626751, guid: 3c20d3547d8291749aed1c7fc4d1e6e4, type: 3}
+    colorVisual: {r: 1, g: 1, b: 1, a: 1}
+    sortingOrder: 3
+    isVisualOnly: 1
+  backgroundSprite: {fileID: -6674854144122220092, guid: 9410a19a1bdc1e647b0a9adef78bd594, type: 3}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  backgroundScale: {x: 0.07879645, y: 0.07879645, z: 0.07879645}
+  backgroundPosition: {x: 0, y: 0, z: 0}

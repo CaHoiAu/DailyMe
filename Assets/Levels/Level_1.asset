@@ -124,7 +124,7 @@ MonoBehaviour:
       slideStartPosition: {x: 0, y: 0}
       slideEndPosition: {x: 0, y: 0}
   - miniLevelType: 2
-    miniGameData: {fileID: 11400000, guid: 6dfdb70d8684c3d43a3f7cb9f0a97252, type: 2}
+    miniGameData: {fileID: 11400000, guid: 5a393e8a87937c84dbf3727da60c2872, type: 2}
     contactSequences: []
     cutscene:
       background: {fileID: -9149887132948830970, guid: 2b471e6401bb3114699c3396345bc4d8, type: 3}

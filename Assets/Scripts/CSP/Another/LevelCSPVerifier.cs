@@ -149,7 +149,7 @@ public class LevelCSPVerifier : MonoBehaviour
             DebugPrintConstraints(constraints);
 
             CSPSolver solver = new CSPSolver(variables, constraints);
-            List<Dictionary<string, PlacementValue>> solutions = solver.SolveUpTo(7);
+            List<Dictionary<string, PlacementValue>> solutions = solver.SolveUpTo(30);
 
             Debug.Log("==== Grid Level Validation ====");
             Debug.Log($"Board Size: {miniLevelData.boardWidth}x{miniLevelData.boardHeight}");

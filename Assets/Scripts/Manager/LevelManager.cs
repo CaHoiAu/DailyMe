@@ -42,6 +42,9 @@ public class LevelManager : MonoBehaviour
     [Header("Phone Panel")]
     public PhonePanelManager phonePanelManager;
 
+    [Header("Header")]
+    public HeaderPlan headerPlan;
+
     void Awake()
     {
         if (Instance == null) Instance = this;
@@ -66,6 +69,7 @@ public class LevelManager : MonoBehaviour
         levelData = allLevels[currentLevelIndex];
         currentMiniLVLIndex = Mathf.Clamp(currentMiniLVLIndex, 0, levelData.miniGames.Length - 1);
         taskTimelineManager?.Initialize(levelData);
+        headerPlan?.Refresh();
         LoadMiniLevel();
     }
     private void PersistProgress(int[] chatIndices, string[] objectIds, int[] objectStateIndices, bool[] objectIsPlaced, int[] objectGridX, int[] objectGridY)
@@ -322,6 +326,7 @@ public class LevelManager : MonoBehaviour
             currentMiniLVLIndex = 0;
             levelData = allLevels[currentLevelIndex];
             taskTimelineManager?.Initialize(levelData);
+            headerPlan?.Refresh();
             PersistTransition();
             LoadMiniLevel();
             if (loadingScreenManager != null)

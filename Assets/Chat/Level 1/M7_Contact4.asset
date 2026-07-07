@@ -33,12 +33,6 @@ MonoBehaviour:
     levelBreakNote: 
   - objectId: 
     requiredStateId: -1
-    messageIndex: 1
-    excludeFromUnlock: []
-    isLevelBreak: 0
-    levelBreakNote: 
-  - objectId: 
-    requiredStateId: -1
     messageIndex: 2
     excludeFromUnlock: []
     isLevelBreak: 0
@@ -51,6 +45,12 @@ MonoBehaviour:
     levelBreakNote: 
   - objectId: denngu
     requiredStateId: 1
+    messageIndex: 4
+    excludeFromUnlock: []
+    isLevelBreak: 0
+    levelBreakNote: 
+  - objectId: 
+    requiredStateId: -1
     messageIndex: 4
     excludeFromUnlock: []
     isLevelBreak: 0
